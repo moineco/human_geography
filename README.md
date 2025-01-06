@@ -1,2 +1,2 @@
-# Lecture Notes on Human Geography with R
+# Lecture Notes on Human Geography
 
