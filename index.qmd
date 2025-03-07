@@ -1,16 +1,46 @@
 # Preface {.unnumbered}
 
-We have entered the age of geoeconomics, in which the global economy has become fused with geopolitical strategy. Geoeconomics have impact not only on the public policy, but also on the management of private sector companies that do business globally. Hundreds of thousands of organizations are using geographic information system (GIS) to make maps that communicate, perform analysis, share information, and solve complex problems around the world. This geoeconomics course basically deals with GIS, a spatial system that creates, manages, analyzes, and maps all types of data. Every day, GIS powers millions of decisions around the world. It makes a big impact on our lives and you might not even realize it.
+We have entered the age of human geography, in which the global economy has become fused with geopolitical strategy. Human geography have impact not only on the public policy, but also on the management of private sector companies that do business globally. Hundreds of thousands of organizations are using geographic information system (GIS) to make maps that communicate, perform analysis, share information, and solve complex problems around the world. This geoeconomics course basically deals with GIS, a spatial system that creates, manages, analyzes, and maps all types of data. Every day, GIS powers millions of decisions around the world. It makes a big impact on our lives and you might not even realize it.
 
-![](cover.png){fig-align="center" width="500"}
+This lecture is for the readers who want to analyze, visualize and model geographic data with open source software. It is based on **R** that has powerful data processing, visualization and geospatial capabilities. The lecture is divided into three parts:
 
-This lecture is for the readers who want to analyze, visualize and model geographic data with open source software. It is based on **R** and **Python** that has powerful data processing, visualization and geospatial capabilities. The lecture is divided into three parts:
+-   Part I: Foundations of human geography
+-   Part II: Foundations of geographic plots in R
+-   Part III: Elegant geographic plots in R
 
--   Part I: Foundations, aimed at getting you up-to-speed with geographic data in R
--   Part II: Extensions, which covers intermediate techniques
--   Part III: Applications, to real-world problems
+Geo-computation with **R** will equip you with knowledge and skills to tackle a wide range of issues, including those with scientific, societal and environmental implications, manifested in geographic data.
 
-Geo-computation with **R** and **Python** will equip you with knowledge and skills to tackle a wide range of issues, including those with scientific, societal and environmental implications, manifested in geographic data.
+### Lectures
+
+Section 1: Foundations of human geography
+
+  - Lecture 1: Introduction to human geography
+  - Lecture 2: Population
+  - Lecture 3: Migration
+  - Lecture 4: Local culture, popular culture, and cultural landscapes
+  - Lecture 5: Identity: Race, ethnicity, gender and sexuality
+  - Lecture 6: Political geography
+  - Lecture 7: Urban geography
+  - Lecture 8: The humanized environment
+
+Section 2: Foundations of geographic plots in R
+
+  - Lecture 9: Processing shapefiles in R
+  - Lecture 10: Basic maps with R
+
+Section 3: Elegant geographic plots in R and Python
+
+  - Lecture 11: Human geography of Africa
+  - Lecture 12: Human geography of Asia
+  - Lecture 13: Human geography of Australia
+  - Lecture 14: Human geography of Europe
+  - Lecture 15: Human geography of North America
+
+Textbooks:
+
+  - Fouberg, E., Murphy, A., and De Blij, H. (2020). Human geography: People, place, and culture. 12th edition. Wiley.
+  - Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.
+  - Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
 ### Class schedule in 1Q:
 
