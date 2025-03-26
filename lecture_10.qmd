@@ -1,1 +1,158 @@
 # Lecture 10: Basic maps with R
+
+The following packages will be required for this chapter:
+
+```{r}
+#| warning: false
+#| message: false
+#| code-fold: false
+pacman::p_load(tidyverse, maps, countrycode, rnaturalearth, sf)
+```
+
+### World map
+
+-   The `maps` package contains data for the world, USA, France, Italy and New Zealand. It contains information such as latitude, longitude, group, region, etc. like this.
+
+-   First call the world map data
+
+-   You can see the data structure by using `head` command.
+
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+world_map <- map_data("world")
+head(world_map)
+```
+
+-   By using the `ggplot2` boundaries can be drawn with `geom_polygon()` with latitude and longitude as shown in @fig-mymap-12.1
+
+```{r fig-mymap-12.1, message=FALSE, warning=FALSE}
+#| code-fold: false
+#| fig.cap: "World countries"
+#| fig.height: 4
+world_map %>% 
+  ggplot(aes(x = long, y = lat, group = group)) +
+  geom_polygon(fill = "lightgray", colour = "black", size = 0.1) 
+```
+
+### Japan map
+
+-   If we limit the data with `filter()`, we can also draw a map of specific countries.
+
+-   For instance, we will filter the data for Japan and draw a map as shown in @fig-mymap-12.2
+
+```{r fig-mymap-12.2, message=FALSE, warning=FALSE}
+#| code-fold: false
+#| fig.cap: "Japan"
+#| fig.height: 4
+world_map %>% 
+  filter(region == "Japan") %>% 
+  ggplot(aes(x = long, y = lat, group = group)) +
+  geom_polygon(fill = "lightgray", colour = "black", size = 0.1)
+```
+
+
+-   We use free data on world map: Natural Earth
+
+-   Using `rnaturalearth` package, we get the data necessary to draw a world map
+
+-   Name the data world_map
+
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+global_map <- ne_countries(scale = "small", returnclass = "sf")
+```
+
+-   Show the list of variables included global_map
+
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+names(global_map)
+```
+
+-   We see 169 variables
+-   Check the class of global_map
+-   If you want to see the data of GDP for each country, use following code:
+
+```{r}
+#| code-fold: false
+global_map %>% 
+select(sovereignt, gdp_md, gdp_year) %>% 
+DT::datatable()
+```
+
+-   World is a GeoDataFrame with the following columns:
+
+`pop_est`: Contains a population estimate for the country
+
+`continent`: The country's continent
+
+`name_en`: The country's name in English
+
+`iso_a3`: The country's 3 letter abbreviation (we made this the index)
+
+`gdp_md`: A country's GDP in million dollar
+
+`geometry`: A POLYGON for each country (we will learn more about these soon)
+
+```{r}
+#| code-fold: false
+class(global_map)
+```
+
+-   global_map has two classes: sf & data.frame
+
+## Global GDP map
+
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+global_map %>% 
+  ggplot() +
+  geom_sf(aes(fill = gdp_md)) +
+  scale_fill_gradient(low = "white", high = "green") +
+  labs(fill = "GDP") +
+  theme_minimal(base_family = "HiraKakuProN-W3") +
+  theme(legend.position = "bottom")
+```
+
+-   Let's change the color and the position of legend.
+
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+global_map %>% 
+  ggplot() +
+  geom_sf(aes(fill = gdp_md)) +
+  scale_fill_gradient(low = "gray", high = "blue") +
+  labs(fill = "GDP_2019") +
+  theme_minimal(base_family = "HiraKakuProN-W3") +
+  theme(legend.position = "left")
+```
+
+## Regional GDP map
+
+-   GDP of European countries in 2019
+
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+global_map %>% 
+  ggplot() +
+  geom_sf(aes(fill = gdp_md)) +
+  scale_fill_gradient(low = "white", high = "green") +
+  labs(fill = "GDP_Europe") +
+  coord_sf(xlim = c(-10, 45), ylim = c(35, 60)) +
+  theme_minimal(base_family = "HiraKakuProN-W3") +
+  theme(legend.position = "left")
+```
+
+-   GDP of African countries in 2019
+
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+global_map %>% 
+  ggplot() +
+  geom_sf(aes(fill = gdp_md)) +
+  scale_fill_gradient(low = "white", high = "green") +
+  labs(fill = "GDP_Africa") +
+  coord_sf(xlim = c(-30, 60), ylim = c(-40, 40)) +
+  theme_minimal(base_family = "HiraKakuProN-W3") +
+  theme(legend.position = "left")
+```

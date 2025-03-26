@@ -1,17 +1,17 @@
-# Lecture 3: Global Inequality and Development
+# Lecture 3: Global inequality and development
 
 Definition:
 
 -   Global inequality refers to the economic, social, and political disparities between countries and regions.
 -   Development is the process of improving economic conditions, health, education, and overall well-being.
 
-Why It Matters:
+Why It matters:
 
 -   Over 700 million people live in extreme poverty (World Bank, 2023).
 -   Wealth concentration: The richest 1% own more wealth than the bottom 50% combined.
 -   Disparities in health, education, and access to resources shape global migration and economic policies.
 
-## Key Questions in Global Inequality and Development
+### Key Questions in global inequality and development
 
 -   Why do some countries develop faster than others?
 -   What are the causes and consequences of global economic disparities?
