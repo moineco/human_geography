@@ -1,1 +1,160 @@
-# Urban geography
+# Lecture 7: Economic Geography – Industry, Trade, and Globalization
+
+Definition:
+
+-   Economic geography examines how economic activities are distributed across space, including industries, trade, and globalization.
+
+Why It Matters:
+
+-   Economic geography helps explain why some regions are wealthy while others remain poor.
+-   Globalization has reshaped trade, labor markets, and industry locations.
+-   Technology and transportation advancements have changed the economic landscape.
+
+### Key Questions in Economic Geography
+
+-   Why are industries and businesses located in certain places?
+-   How do global trade and economic policies shape economies?
+-   What are the impacts of globalization on industry, labor, and development?
+-   How do economic activities affect environmental sustainability?
+
+## Industrial Geography: The Location of Industries
+
+### Industrial Revolution and Economic Development
+
+-   The Industrial Revolution (1750–1850) transformed economies from agriculture to industry.
+-   Factories and mass production replaced manual labor → rapid urbanization.
+-   New transportation networks (railways, ships) boosted trade.
+
+### Factors Influencing Industrial Location
+
+Alfred Weber’s Least Cost Theory (1909):
+
+-   Industries locate based on minimizing transportation, labor, and agglomeration costs.
+-   Example: Car manufacturing in Detroit due to skilled labor and access to steel.
+
+| Factor | Description | Example |
+|------------------------|------------------------|------------------------|
+| Raw Materials | Proximity to resources reduces transport costs | Coal mines in Pennsylvania |
+| Labor Supply | Skilled/unskilled workers influence location | Tech companies in Silicon Valley |
+| Market Access | Industries locate near customers | Fashion industry in Paris |
+| Infrastructure | Roads, ports, airports affect distribution | Singapore as a global shipping hub |
+| Government Policies | Tax incentives, trade zones attract businesses | Special Economic Zones in China |
+
+#### Case Study: Silicon Valley – A Global Tech Hub
+
+Why in California?
+
+-   Proximity to universities (Stanford, Berkeley).
+-   Investment from venture capitalists.
+-   Climate and lifestyle attract talent.
+
+## Global Trade and Economic Systems
+
+### Types of Economic Systems
+
+| Economic System | Characteristics | Example Countries |
+|------------------------|------------------------|------------------------|
+| Capitalist (Market Economy) | Private ownership, free trade | USA, UK, Canada |
+| Socialist (Planned Economy) | Government controls resources, limited private ownership | China, Cuba |
+| Mixed Economy | Combination of private and public sectors | Germany, Sweden |
+
+### Global Trade Networks
+
+-   International trade connects producers and consumers across countries.
+
+-   Key Trade Agreements and Organizations:
+
+    -   World Trade Organization (WTO): Regulates global trade.
+    -   North American Free Trade Agreement (NAFTA → USMCA): Trade between USA, Canada, Mexico.
+    -   European Union (EU): Economic and trade integration among member states.
+    -   Belt and Road Initiative (China): Massive infrastructure and trade project.
+
+Case Study: China’s Role in Global Trade
+
+-   "The World’s Factory": Largest exporter of goods.
+-   Relies on cheap labor, strong infrastructure, and manufacturing expertise.
+-   US-China trade tensions impact global markets.
+
+## Globalization and Economic Change
+
+### What is Globalization?
+
+-   Globalization is the increasing interconnectedness of economies, cultures, and politics worldwide.
+-   Driven by:
+
+    -   Technology advancements (Internet, digital banking).
+    -   Trade liberalization (lower tariffs, free trade).
+    -   Multinational corporations (MNCs) (e.g., Apple, Amazon).
+
+### Impacts of Globalization
+
+Positive Effects:
+
+✅ Increased global trade and economic growth.
+
+✅ Access to new markets and job opportunities.
+
+✅ Faster technology diffusion.
+
+Negative Effects:
+
+❌ Job losses in some industries due to outsourcing.
+
+❌ Exploitation of workers in developing nations.
+
+❌ Environmental damage (deforestation, pollution).
+
+Case Study: Outsourcing and Job Shifts
+
+-   Nike and Apple manufacture in Asia due to low labor costs.
+-   Pros: Low-cost products for consumers.
+-   Cons: Worker exploitation (low wages, poor conditions).
+
+## Economic Development and Inequality
+
+### Measuring Economic Development
+
+| Indicator | Description | Example |
+|----|----|----|
+| GDP per capita | Total economic output per person | USA: \$75,000 vs. India: \$6,000 |
+| Human Development Index (HDI) | Combines income, education, life expectancy | Norway: 0.957 vs. Chad: 0.394 |
+| Gini Coefficient | Measures income inequality (0 = equal, 1 = extreme inequality) | South Africa: 0.63 vs. Sweden: 0.25 |
+
+#### Case Study: The Global North vs. Global South Divide
+
+Global North (Developed Nations)
+
+- High incomes, industrialized economies (USA, Germany, Japan).
+
+Global South (Developing Nations)
+
+- Lower incomes, reliance on agriculture (Bangladesh, Nigeria).
+
+Efforts to bridge the gap: UN Sustainable Development Goals (SDGs), microfinance, fair trade.
+
+## Sustainable Economic Growth and the Future
+### Sustainable Development Strategies
+
+- Renewable Energy Investment: Solar, wind power to reduce carbon footprint.
+- Fair Trade Policies: Ensuring workers receive fair wages.
+- Green Supply Chains: Reducing pollution in global manufacturing.
+- Circular Economy: Recycling and waste reduction.
+
+Case Study: Green Economy in Germany
+
+- Germany leads in renewable energy (solar, wind).
+- Government incentives for sustainable industries.
+
+## Takeaway
+
+- Economic geography helps explain how industries, trade, and globalization shape economies.
+- Industries are strategically located based on resources, labor, and markets.
+- Globalization has benefits but also challenges (inequality, job shifts).
+- Sustainable economic strategies are crucial for future growth.
+
+## Quizzes
+
+- Why are certain industries located in specific regions?
+- How does globalization impact local economies and labor markets?
+- Should governments regulate multinational corporations for ethical practices?
+- Can economic growth and environmental sustainability coexist?

@@ -3,13 +3,12 @@ project:
   output-dir: docs
    
 book:
-  cover-image: cover.jpg
   title: "Human Geography"
   author: "Moinul Islam"
   search: true
-  repo-url: https://github.com/moineco
+  # repo-url: https://github.com/moineco
+  # downloads: [epub]
   date: today
-  downloads: [epub]
   chapters:
     - index.qmd
     - lecture_1.qmd
@@ -35,8 +34,9 @@ highlight-style: pygments
 format:
   html:
     theme: 
-       light: cosmo
        dark: darkly
+       light: cosmo
+
   epub:
     cover-image: cover.png
 

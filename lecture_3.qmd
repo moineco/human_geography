@@ -1,1 +1,115 @@
-# Migration
+# Lecture 3: Global Inequality and Development
+
+Definition:
+
+-   Global inequality refers to the economic, social, and political disparities between countries and regions.
+-   Development is the process of improving economic conditions, health, education, and overall well-being.
+
+Why It Matters:
+
+-   Over 700 million people live in extreme poverty (World Bank, 2023).
+-   Wealth concentration: The richest 1% own more wealth than the bottom 50% combined.
+-   Disparities in health, education, and access to resources shape global migration and economic policies.
+
+## Key Questions in Global Inequality and Development
+
+-   Why do some countries develop faster than others?
+-   What are the causes and consequences of global economic disparities?
+-   How can international policies reduce inequality?
+-   How does globalization affect development?
+
+## Understanding Global Inequality
+
+### Measuring Economic Inequality
+
+#### Gross Domestic Product (GDP) per capita:
+
+Measures economic output per person.
+
+-   High-income countries (HICs): USA, Germany, Japan.
+-   Middle-income countries (MICs): Mexico, India, Brazil.
+-   Low-income countries (LICs): Chad, Afghanistan, Haiti.
+
+#### Human Development Index (HDI):
+
+Measures overall well-being using:
+
+-   Life expectancy (health).
+-   Education (years of schooling).
+-   Income per capita (economic status).
+
+#### Gini Coefficient:
+
+Measures income inequality within a country (0 = perfect equality, 1 = extreme inequality).
+
+Example: Comparing HDI Levels
+
+| Country | HDI (2022) | Life Expectancy | Education (Years) | Income (USD) |
+|---------|------------|-----------------|-------------------|--------------|
+| Norway  | 0.957      | 83 years        | 13.5 years        | 89,000       |
+| USA     | 0.921      | 79 years        | 13.3 years        | 75,000       |
+| India   | 0.633      | 69 years        | 6.7 years         | 6,000        |
+| Chad    | 0.394      | 54 years        | 3.5 years         | 2,000        |
+
+## Causes of Global Economic Disparities
+
+### Historical Factors
+
+- Colonialism: European powers exploited Africa, Asia, and Latin America, leaving economic dependency.
+- Slave Trade: Destroyed labor forces and disrupted economic growth in Africa.
+- Unequal Trade Agreements: Richer nations set rules that benefit their economies (e.g., WTO policies).
+
+### Political and Economic Factors
+
+- Corruption and Poor Governance: Weak institutions reduce foreign investment and development.
+- Debt Burden: LICs struggle to repay international loans, limiting infrastructure development.
+- Resource Curse: Countries rich in natural resources (e.g., oil in Venezuela) often suffer economic instability.
+
+### Social and Environmental Factors
+
+- Education Gap: Poor access to schools limits economic mobility.
+- Gender Inequality: Women earn 20% less than men globally.
+- Climate Change: Rising sea levels, droughts, and disasters worsen poverty (e.g., Bangladesh’s floods).
+
+## Consequences of Global Inequality
+### Economic Consequences
+
+- Brain Drain: Skilled workers migrate from LICs to HICs (e.g., African doctors moving to Europe).
+- Slum Growth: Rapid urbanization without infrastructure leads to informal settlements (e.g., Mumbai’s Dharavi slum).
+
+### Social Consequences
+
+Health Disparities:
+
+- LICs have higher infant mortality rates (Chad = 68/1,000 vs. Canada = 4/1,000).
+- Limited vaccine access leads to preventable diseases.
+
+### Political Consequences
+
+- Political Instability: Economic inequality fuels protests and revolutions (e.g., Arab Spring).
+- Conflict Over Resources: Nations compete for oil, water, and minerals (e.g., South China Sea disputes).
+
+## Solutions to Global Inequality
+### Sustainable Development Goals (SDGs)
+
+UN’s 17 goals to reduce poverty and promote equality by 2030.
+
+Key targets:
+
+- No poverty: Reduce extreme poverty below 3%.
+- Quality education: Universal primary and secondary schooling.
+- Gender equality: Equal pay and leadership roles for women.
+- Climate action: Reduce carbon emissions and deforestation.
+
+### Economic and Political Solutions
+
+- Fair Trade Initiatives: Ensures farmers get fair wages for crops.
+- Debt Forgiveness: Canceling debt for LICs to allow investment in development.
+- Foreign Aid vs. Investment:
+  - Aid (short-term relief) vs. investment (long-term growth).
+  - Example: China’s Belt and Road Initiative (infrastructure investment in Africa).
+
+## Takeaway
+
+- Global inequality is shaped by history, economy, politics, and social factors.
+- Policies like SDGs, fair trade, and debt relief can reduce inequalities.

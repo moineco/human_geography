@@ -1,1 +1,1 @@
-# Basic maps with R
+# Lecture 10: Basic maps with R
