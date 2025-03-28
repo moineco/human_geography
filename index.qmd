@@ -14,15 +14,15 @@ Geo-computation with **R** will equip you with knowledge and skills to tackle a 
 Section 1: Foundations of human geography
 
   - Lecture 1: Introduction to human geography
-  - Lecture 2: Population
-  - Lecture 3: Migration
-  - Lecture 4: Local culture, popular culture, and cultural landscapes
-  - Lecture 5: Identity: Race, ethnicity, gender and sexuality
-  - Lecture 6: Political geography
-  - Lecture 7: Urban geography
-  - Lecture 8: The humanized environment
-  - Lecture 9: Processing shapefiles in R
-  - Lecture 10: Basic maps with R
+  - Lecture 2: Population and health geography
+  - Lecture 3: Global inequality and development
+  - Lecture 4: Cultural geography – language, religion, and identity
+  - Lecture 5: Political geography – borders, states, and geopolitics
+  - Lecture 6: Urban geography – cities, infrastructure, and planning
+  - Lecture 7: Economic geography – industry, trade, and globalization
+  - Lecture 8: Environmental geography – resources, sustainability, and climate change
+  - Lecture 9: Agricultural geography – food production, land use, and rural development
+  - Lecture 10: Industrial geography – industry, trade, and globalization
 
 Section 2: Elegant geographic plots in R
 
