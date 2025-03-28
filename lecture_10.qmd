@@ -1,158 +1,175 @@
-# Lecture 10: Basic maps with R
+# Lecture 10: Industrial geography – industry, trade, and globalization
 
-The following packages will be required for this chapter:
+### What is Industrial Geography?
 
-```{r}
-#| warning: false
-#| message: false
-#| code-fold: false
-pacman::p_load(tidyverse, maps, countrycode, rnaturalearth, sf)
-```
+-   Definition: Industrial geography examines the location, distribution, and spatial organization of industries.
+-   Focus Areas:
+    -   Why industries develop in certain regions.
+    -   How trade and globalization shape industrial patterns.
+    -   The impact of industrialization on societies and environments.
 
-### World map
+### Why is Industrial Geography Important?
 
--   The `maps` package contains data for the world, USA, France, Italy and New Zealand. It contains information such as latitude, longitude, group, region, etc. like this.
+-   Industries drive economic growth and employment.
+-   Industrialization transforms cities and rural areas.
+-   Global trade networks shape national economies.
+-   Environmental concerns arise from industrial production.
 
--   First call the world map data
+### Key Questions in Industrial Geography
 
--   You can see the data structure by using `head` command.
+-   Why do industries locate in specific areas?
+-   How has industrialization changed over time?
+-   What is the role of globalization in shaping industries?
+-   How do trade policies and multinational corporations (MNCs) influence industrial geography?
 
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-world_map <- map_data("world")
-head(world_map)
-```
+## The Industrial Revolution and Its Impacts
 
--   By using the `ggplot2` boundaries can be drawn with `geom_polygon()` with latitude and longitude as shown in @fig-mymap-12.1
+### The First Industrial Revolution (1750–1850)
 
-```{r fig-mymap-12.1, message=FALSE, warning=FALSE}
-#| code-fold: false
-#| fig.cap: "World countries"
-#| fig.height: 4
-world_map %>% 
-  ggplot(aes(x = long, y = lat, group = group)) +
-  geom_polygon(fill = "lightgray", colour = "black", size = 0.1) 
-```
+-   Started in Britain with steam engines, coal mining, and textile mills.
 
-### Japan map
+-   Spread to Europe and North America, leading to urbanization and factory-based production.
 
--   If we limit the data with `filter()`, we can also draw a map of specific countries.
+-   Key Impacts:
 
--   For instance, we will filter the data for Japan and draw a map as shown in @fig-mymap-12.2
+    -   Increased mechanization and efficiency.
+    -   Shift from agrarian to industrial economies.
+    -   Growth of industrial cities (e.g., Manchester, Pittsburgh).
 
-```{r fig-mymap-12.2, message=FALSE, warning=FALSE}
-#| code-fold: false
-#| fig.cap: "Japan"
-#| fig.height: 4
-world_map %>% 
-  filter(region == "Japan") %>% 
-  ggplot(aes(x = long, y = lat, group = group)) +
-  geom_polygon(fill = "lightgray", colour = "black", size = 0.1)
-```
+### The Second Industrial Revolution (1870–1914)
 
+-   Electricity, steel production, and mass production.
+-   Expansion of railroads, telegraphs, and international trade.
+-   Key Centers: U.S. (Detroit, Chicago), Germany (Ruhr Valley), Japan (Tokyo).
 
--   We use free data on world map: Natural Earth
+### The Third Industrial Revolution (1950s–Present)
 
--   Using `rnaturalearth` package, we get the data necessary to draw a world map
+-   Technological advancements in automation, robotics, and computing.
+-   Globalization and outsourcing led to industry relocation (e.g., China, India).
+-   Key Industries: Automotive, electronics, pharmaceuticals, digital tech.
 
--   Name the data world_map
+### The Fourth Industrial Revolution (Present & Future)
 
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-global_map <- ne_countries(scale = "small", returnclass = "sf")
-```
+-   AI, machine learning, IoT, and renewable energy.
+-   Smart factories and automation replacing human labor.
+-   Impact on job markets and supply chains.
 
--   Show the list of variables included global_map
+## Location of Industries – Key Theories
 
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-names(global_map)
-```
+### Alfred Weber’s Least Cost Theory (1909)
 
--   We see 169 variables
--   Check the class of global_map
--   If you want to see the data of GDP for each country, use following code:
+-   Industries locate where costs are minimized.
 
-```{r}
-#| code-fold: false
-global_map %>% 
-select(sovereignt, gdp_md, gdp_year) %>% 
-DT::datatable()
-```
+-   Factors:
 
--   World is a GeoDataFrame with the following columns:
+    -   Transportation Costs: Industries locate near raw materials or markets.
+    -   Labor Costs: Availability of cheap, skilled workers influences location.
+    -   Agglomeration: Businesses cluster for shared benefits (e.g., Silicon Valley).
 
-`pop_est`: Contains a population estimate for the country
+### The Core-Periphery Model
 
-`continent`: The country's continent
+-   Developed countries (core) dominate global industry (e.g., USA, Germany, Japan).
+-   Developing countries (periphery) supply raw materials and cheap labor (e.g., Bangladesh, Vietnam).
+-   Semi-periphery countries are transitioning (e.g., China, Brazil, India).
 
-`name_en`: The country's name in English
+## Global Trade and Industrial Networks
 
-`iso_a3`: The country's 3 letter abbreviation (we made this the index)
+### What is Global Trade?
 
-`gdp_md`: A country's GDP in million dollar
+-   Exchange of goods and services across borders.
+-   Driven by comparative advantage – nations specialize in what they produce best.
 
-`geometry`: A POLYGON for each country (we will learn more about these soon)
+### Major Trade Blocs and Agreements
 
-```{r}
-#| code-fold: false
-class(global_map)
-```
+| Trade Bloc | Member Countries | Purpose |
+|------------------------|------------------------|------------------------|
+| NAFTA/USMCA | USA, Canada, Mexico | Free trade across North America |
+| EU (European Union) | 27 European nations | Common market, free movement of goods |
+| ASEAN | 10 Southeast Asian nations | Economic integration in Asia |
+| BRICS | Brazil, Russia, India, China, South Africa | Emerging economies, trade cooperation |
 
--   global_map has two classes: sf & data.frame
+### Global Supply Chains and Outsourcing
 
-## Global GDP map
+-   Multinational corporations (MNCs) relocate production to low-cost regions.
 
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-global_map %>% 
-  ggplot() +
-  geom_sf(aes(fill = gdp_md)) +
-  scale_fill_gradient(low = "white", high = "green") +
-  labs(fill = "GDP") +
-  theme_minimal(base_family = "HiraKakuProN-W3") +
-  theme(legend.position = "bottom")
-```
+-   Outsourcing and offshoring shift industrial jobs to developing nations.
 
--   Let's change the color and the position of legend.
+-   Examples:
 
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-global_map %>% 
-  ggplot() +
-  geom_sf(aes(fill = gdp_md)) +
-  scale_fill_gradient(low = "gray", high = "blue") +
-  labs(fill = "GDP_2019") +
-  theme_minimal(base_family = "HiraKakuProN-W3") +
-  theme(legend.position = "left")
-```
+    -   Apple designs in the U.S., manufactures in China.
+    -   Fast fashion brands source clothing from Bangladesh.
+    -   Automotive factories in Mexico serve the U.S. market.
 
-## Regional GDP map
+## Industrialization in Developing Countries
 
--   GDP of European countries in 2019
+### The Rise of Asian Manufacturing
 
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-global_map %>% 
-  ggplot() +
-  geom_sf(aes(fill = gdp_md)) +
-  scale_fill_gradient(low = "white", high = "green") +
-  labs(fill = "GDP_Europe") +
-  coord_sf(xlim = c(-10, 45), ylim = c(35, 60)) +
-  theme_minimal(base_family = "HiraKakuProN-W3") +
-  theme(legend.position = "left")
-```
+-   China: The "Factory of the World" due to cheap labor, infrastructure, and government support.
+-   India: IT and service-based industrialization (e.g., Bangalore’s tech sector).
+-   Vietnam & Bangladesh: Textile and electronics industries are growing.
 
--   GDP of African countries in 2019
+### Africa’s Industrial Challenges
 
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-global_map %>% 
-  ggplot() +
-  geom_sf(aes(fill = gdp_md)) +
-  scale_fill_gradient(low = "white", high = "green") +
-  labs(fill = "GDP_Africa") +
-  coord_sf(xlim = c(-30, 60), ylim = c(-40, 40)) +
-  theme_minimal(base_family = "HiraKakuProN-W3") +
-  theme(legend.position = "left")
-```
+-   Dependence on raw material exports (e.g., oil, minerals).
+
+-   Infrastructure and political instability hinder industrial growth.
+
+-   Potential for growth in manufacturing and technology.
+
+-   Case Study: Industrial Growth in Ethiopia
+
+    -   Government invested in industrial parks for textiles and manufacturing.
+    -   Attracting foreign investment from China and the EU.
+    -   Challenges: Political instability and infrastructure gaps.
+
+## Industrialization and Environmental Concerns
+
+### Environmental Impacts of Industry
+
+| Impact          | Cause                       | Example                      |
+|-----------------|-----------------------------|------------------------------|
+| Air Pollution   | Factories, vehicles         | Smog in Beijing, Los Angeles |
+| Water Pollution | Industrial waste            | Chemical spills in rivers    |
+| Deforestation   | Land clearing for factories | Amazon rainforest loss       |
+| Climate Change  | Greenhouse gas emissions    | Industrial carbon footprint  |
+
+### Sustainable Industrial Practices
+
+- Green manufacturing: Reducing waste and energy use.
+- Renewable energy in factories: Solar and wind power.
+- Circular economy: Recycling and sustainable resource use.
+
+- Case Study: Germany’s Green Industry Policy
+
+  - Transitioning to renewable energy (Energiewende).
+  - Eco-friendly production policies in automotives and electronics.
+  
+## Future Trends in Industrial Geography
+### The Role of Artificial Intelligence and Automation
+
+- AI and robotics replacing factory workers.
+- Self-driving logistics and warehouse automation (e.g., Amazon).
+- Challenge: Potential job losses due to automation.
+
+### Reshoring and Nearshoring Trends
+
+- Some companies moving production back to developed countries.
+- Reasons: Rising wages in China, supply chain disruptions (COVID-19 impact).
+
+### Space Industry and New Frontiers
+
+- Growth of private space industries (SpaceX, Blue Origin).
+- Space mining and off-Earth industrialization in the future.
+
+## Takeaway
+
+- Industrial geography explains the location, development, and global connections of industries.
+- Trade, technology, and globalization drive industrial change.
+- Challenges include environmental damage, economic inequality, and automation.
+
+## Quizzes
+
+- What factors determine where industries locate?
+- How has globalization changed industrial geography?
+- What are the pros and cons of outsourcing jobs to developing countries?
+- Can industrial growth be sustainable?

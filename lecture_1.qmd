@@ -9,6 +9,13 @@ Human geographers ask two questions:
 
 To introduce human geography, we concentrate on two main features of society: culture and economy. The lectures explain why the most important cultural features, such as languages, religions, and ethnicities, are arranged as they are across Earth. The lecture also looks at the distribution of the most important economic activities, including agriculture, manufacturing, and services.
 
+-  Why Where Matters
+
+We tend to focus on two big decisions: who we choose as our life partner and what we do for work. But there is a third big decision—where you choose to live. The decision about where may be the most important, because it has a huge bearing on the others.
+
+Where you choose to live affects every aspect of your being. It influences the income you can potentially earn, and how far you can develop your skills. It has a bearing on the friends and romantic partners you can potentially meet, the networks you can build, and the options
+that will be available to your children. It shapes your values and your politics. It plays a role in how happy and healthy you are, and in your overall quality of life.
+
 -   Why is every place unique?
 
 Humans possess a strong sense of place—that is, a feeling for the features that contribute to the distinctiveness of a particular spot on Earth—perhaps a hometown, vacation destination, or college. Describing the features of a place is an essential building block for geographers to explain similarities, differences, and changes across Earth.
@@ -27,7 +34,7 @@ Studies natural processes and features such as:
 -   Landforms (mountains, rivers, valleys)
 -   Natural disasters (earthquakes, tsunamis)
 -   Ecosystems and biodiversity
--   Example: Studying how hurricanes affect coastal regions
+    -   Example: Studying how hurricanes affect coastal regions
 
 ### Human Geography
 
@@ -37,7 +44,7 @@ Examines human activities, cultures, economies, and social interactions, includi
 -   Urbanization and development
 -   Economic and political systems
 -   Cultural landscapes
--   Example: Analyzing the impact of globalization on local economies
+    -   Example: Analyzing the impact of globalization on local economies
 
 ### Human Geography vs. Physical Geography:
 

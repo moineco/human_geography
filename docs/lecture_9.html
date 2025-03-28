@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>9&nbsp; Lecture 9: Processing shapefiles in R – Human Geography</title>
+<title>9&nbsp; Lecture 9: Agricultural geography – food production, land use, and rural development – Human Geography</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -72,11 +38,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-6312b7a0dd1da570a6ee9537839adad1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-ec53a46af21f9afdac39c8515e146b26.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark-ec53a46af21f9afdac39c8515e146b26.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -117,7 +83,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lecture_9.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Lecture 9: Processing shapefiles in R</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lecture_9.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Lecture 9: Agricultural geography – food production, land use, and rural development</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -202,43 +168,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lecture_9.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Lecture 9: Processing shapefiles in R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Lecture 9: Agricultural geography – food production, land use, and rural development</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lecture_10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Lecture 10: Basic maps with R</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Lecture 10: Industrial geography – industry, trade, and globalization</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lecture_11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Lecture 11: Human geography of Africa</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Lecture 11: Human geography lab 1</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lecture_12.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Lecture 12: Human geography of Asia</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Lecture 12: Human geography lab 2</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lecture_13.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Lecture 13: Human geography of Australia</span></span></a>
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Lecture 13: Human geography lab 3</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lecture_14.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Lecture 14: Human geography of Europe</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Lecture 14: Human geography lab 4</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lecture_15.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Lecture 15: Human geography of North America</span></span></a>
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Lecture 15: Human geography lab 5</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -257,10 +223,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#shapefile-in-gis" id="toc-shapefile-in-gis" class="nav-link active" data-scroll-target="#shapefile-in-gis"><span class="header-section-number">9.1</span> Shapefile in GIS</a></li>
-  <li><a href="#shapefile-and-r" id="toc-shapefile-and-r" class="nav-link" data-scroll-target="#shapefile-and-r"><span class="header-section-number">9.2</span> Shapefile and R</a></li>
-  <li><a href="#using-sf-package-to-make-map" id="toc-using-sf-package-to-make-map" class="nav-link" data-scroll-target="#using-sf-package-to-make-map"><span class="header-section-number">9.3</span> Using <code>sf</code> package to make map</a></li>
-  <li><a href="#using-shapefile-to-make-map" id="toc-using-shapefile-to-make-map" class="nav-link" data-scroll-target="#using-shapefile-to-make-map"><span class="header-section-number">9.4</span> Using <code>Shapefile</code> to make map</a></li>
+  <li><a href="#key-questions-in-agricultural-geography" id="toc-key-questions-in-agricultural-geography" class="nav-link active" data-scroll-target="#key-questions-in-agricultural-geography"><span class="header-section-number">9.0.1</span> Key Questions in Agricultural Geography</a></li>
+  <li><a href="#agricultural-systems-and-land-use-patterns" id="toc-agricultural-systems-and-land-use-patterns" class="nav-link" data-scroll-target="#agricultural-systems-and-land-use-patterns"><span class="header-section-number">9.1</span> Agricultural Systems and Land Use Patterns</a></li>
+  <li><a href="#agricultural-revolutions-and-their-impact" id="toc-agricultural-revolutions-and-their-impact" class="nav-link" data-scroll-target="#agricultural-revolutions-and-their-impact"><span class="header-section-number">9.2</span> Agricultural Revolutions and Their Impact</a>
+  <ul class="collapse">
+  <li><a href="#the-first-agricultural-revolution-10000-bce" id="toc-the-first-agricultural-revolution-10000-bce" class="nav-link" data-scroll-target="#the-first-agricultural-revolution-10000-bce"><span class="header-section-number">9.2.1</span> The First Agricultural Revolution (~10,000 BCE)</a></li>
+  <li><a href="#the-second-agricultural-revolution-17th-19th-century" id="toc-the-second-agricultural-revolution-17th-19th-century" class="nav-link" data-scroll-target="#the-second-agricultural-revolution-17th-19th-century"><span class="header-section-number">9.2.2</span> The Second Agricultural Revolution (17th-19th Century)</a></li>
+  <li><a href="#the-green-revolution-1950s-1970s" id="toc-the-green-revolution-1950s-1970s" class="nav-link" data-scroll-target="#the-green-revolution-1950s-1970s"><span class="header-section-number">9.2.3</span> The Green Revolution (1950s-1970s)</a></li>
+  </ul></li>
+  <li><a href="#food-security-and-challenges-in-agriculture" id="toc-food-security-and-challenges-in-agriculture" class="nav-link" data-scroll-target="#food-security-and-challenges-in-agriculture"><span class="header-section-number">9.3</span> Food Security and Challenges in Agriculture</a>
+  <ul class="collapse">
+  <li><a href="#what-is-food-security" id="toc-what-is-food-security" class="nav-link" data-scroll-target="#what-is-food-security"><span class="header-section-number">9.3.1</span> What is Food Security?</a></li>
+  <li><a href="#challenges-to-global-food-security" id="toc-challenges-to-global-food-security" class="nav-link" data-scroll-target="#challenges-to-global-food-security"><span class="header-section-number">9.3.2</span> Challenges to Global Food Security</a></li>
+  </ul></li>
+  <li><a href="#rural-development-and-sustainable-agriculture" id="toc-rural-development-and-sustainable-agriculture" class="nav-link" data-scroll-target="#rural-development-and-sustainable-agriculture"><span class="header-section-number">9.4</span> Rural Development and Sustainable Agriculture</a>
+  <ul class="collapse">
+  <li><a href="#what-is-rural-development" id="toc-what-is-rural-development" class="nav-link" data-scroll-target="#what-is-rural-development"><span class="header-section-number">9.4.1</span> What is Rural Development?</a></li>
+  <li><a href="#strategies-for-sustainable-agriculture" id="toc-strategies-for-sustainable-agriculture" class="nav-link" data-scroll-target="#strategies-for-sustainable-agriculture"><span class="header-section-number">9.4.2</span> Strategies for Sustainable Agriculture</a></li>
+  </ul></li>
+  <li><a href="#agricultural-trade-and-globalization" id="toc-agricultural-trade-and-globalization" class="nav-link" data-scroll-target="#agricultural-trade-and-globalization"><span class="header-section-number">9.5</span> Agricultural Trade and Globalization</a></li>
+  <li><a href="#future-of-agriculture-innovations-and-policies" id="toc-future-of-agriculture-innovations-and-policies" class="nav-link" data-scroll-target="#future-of-agriculture-innovations-and-policies"><span class="header-section-number">9.6</span> Future of Agriculture – Innovations and Policies</a>
+  <ul class="collapse">
+  <li><a href="#technological-innovations-in-agriculture" id="toc-technological-innovations-in-agriculture" class="nav-link" data-scroll-target="#technological-innovations-in-agriculture"><span class="header-section-number">9.6.1</span> Technological Innovations in Agriculture</a></li>
+  <li><a href="#agricultural-policies-and-global-governance" id="toc-agricultural-policies-and-global-governance" class="nav-link" data-scroll-target="#agricultural-policies-and-global-governance"><span class="header-section-number">9.6.2</span> Agricultural Policies and Global Governance</a></li>
+  </ul></li>
+  <li><a href="#takeaway" id="toc-takeaway" class="nav-link" data-scroll-target="#takeaway"><span class="header-section-number">9.7</span> Takeaway</a></li>
+  <li><a href="#quizzes" id="toc-quizzes" class="nav-link" data-scroll-target="#quizzes"><span class="header-section-number">9.8</span> Quizzes</a></li>
   </ul>
 </nav>
     </div>
@@ -269,7 +257,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Lecture 9: Processing shapefiles in R</span></h1>
+<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Lecture 9: Agricultural geography – food production, land use, and rural development</span></h1>
 </div>
 
 
@@ -286,105 +274,298 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="shapefile-in-gis" class="level2" data-number="9.1">
-<h2 data-number="9.1" class="anchored" data-anchor-id="shapefile-in-gis"><span class="header-section-number">9.1</span> Shapefile in GIS</h2>
-<p>Shapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications. Here are a few key reasons:</p>
-<p><strong>Data Representation:</strong> Shapefile is a popular file format for storing and sharing geospatial data. It allows the representation of complex geographic features such as points, lines, and polygons, along with their attributes.</p>
-<p><strong>Interoperability:</strong> Shapefile is supported by a wide range of GIS software, making it highly inter-operable. It enables data exchange between different systems and facilitates collaboration among users who may be using different GIS platforms.</p>
-<p><strong>Attribute Management:</strong> Shapefile supports the storage of attribute data associated with geographic features. This allows for the integration of non-spatial information, such as population, land use, or temperature, with spatial data, enabling comprehensive analysis and visualization.</p>
-<p><strong>Compact and Efficient:</strong> Shapefiles are relatively small in size compared to other data formats, making them efficient for storing and transferring geospatial data. They are also capable of handling large data-sets without compromising performance.</p>
-<p><strong>Historical Significance:</strong> Shapefile has been in use for several decades and has become a standard in the GIS community. Many legacy datasets and applications are based on shapefiles, making them crucial for historical data preservation and compatibility.</p>
+<p>Definition:</p>
+<ul>
+<li>Agricultural geography examines the spatial patterns of agriculture, food production, land use, and rural development.</li>
+<li>It explores how, where, and why agriculture takes place, and its role in shaping economies and societies.</li>
+</ul>
+<p>Why It Matters:</p>
+<ul>
+<li>Agriculture feeds the world’s population and drives economies.</li>
+<li>Climate change, resource depletion, and land use changes impact food security.</li>
+<li>Rural development influences migration, urbanization, and sustainability.</li>
+</ul>
+<section id="key-questions-in-agricultural-geography" class="level3" data-number="9.0.1">
+<h3 data-number="9.0.1" class="anchored" data-anchor-id="key-questions-in-agricultural-geography"><span class="header-section-number">9.0.1</span> Key Questions in Agricultural Geography</h3>
+<ul>
+<li>What are the major agricultural systems and their distribution?</li>
+<li>How has agriculture changed over time with technology and globalization?</li>
+<li>What are the impacts of land use changes on food production and the environment?</li>
+<li>How can rural areas develop sustainably while maintaining agricultural production?</li>
+</ul>
 </section>
-<section id="shapefile-and-r" class="level2" data-number="9.2">
-<h2 data-number="9.2" class="anchored" data-anchor-id="shapefile-and-r"><span class="header-section-number">9.2</span> Shapefile and R</h2>
-<p>Shapefile is commonly used with R, a powerful programming language and software environment for statistical computing and graphics. Here’s why shapefile is often preferred for use with R:</p>
-<p><strong>Native Support:</strong> R has built-in support for reading, writing, and manipulating shapefiles. The “sf” package in R provides functions specifically designed for working with spatial data, including shapefiles. This native support simplifies the process of loading shapefiles into R and performing various spatial analyses.</p>
-<p><strong>Visualization Capabilities:</strong> R offers extensive visualization capabilities for geospatial data. Packages like “ggplot2” and “leaflet” enable you to create high-quality maps and interactive visualizations using shapefiles as the data source. R’s flexibility in customizing plots allows for advanced geospatial visualizations and exploration.</p>
-<blockquote class="blockquote">
-<p>While shapefile is a common choice for working with spatial data in R, it’s important to note that R also supports other geospatial file formats, such as GeoJSON and Geopackage. These formats may offer advantages like improved data compression, support for more advanced spatial features, and better inter-operability with certain software ecosystems.</p>
-</blockquote>
-<ul>
-<li><p>Use <code>pacman</code> to manage the R packages</p></li>
-<li><p>Using <code>packman</code> package enables us to install and load a package without typing <code>install.packges()</code> at Console on your RStudio</p></li>
-<li><p>You need to type the following command at Console on your RStudio</p></li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>install.packages("pacman")</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>The installation of necessary R packages:</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(sf, tidyverse, rnaturalearth)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="agricultural-systems-and-land-use-patterns" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="agricultural-systems-and-land-use-patterns"><span class="header-section-number">9.1</span> Agricultural Systems and Land Use Patterns</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Characteristics</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Subsistence Agriculture</td>
+<td>Small-scale, for local consumption, minimal technology</td>
+<td>Slash-and-burn farming in Amazon, rice farming in Bangladesh</td>
+</tr>
+<tr class="even">
+<td>Commercial Agriculture</td>
+<td>Large-scale, profit-driven, high technology</td>
+<td>Industrial grain farming in the U.S., palm oil plantations in Indonesia</td>
+</tr>
+<tr class="odd">
+<td>Pastoralism</td>
+<td>Herding animals for food and trade</td>
+<td>Nomadic herding in Mongolia, cattle ranching in Brazil</td>
+</tr>
+<tr class="even">
+<td>Plantation Agriculture</td>
+<td>Monoculture farming, export-oriented</td>
+<td>Tea plantations in India, coffee farms in Colombia</td>
+</tr>
+<tr class="odd">
+<td>Urban Agriculture</td>
+<td>Food production in cities</td>
+<td>Rooftop gardens in New York, hydroponics in Singapore</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="using-sf-package-to-make-map" class="level2" data-number="9.3">
-<h2 data-number="9.3" class="anchored" data-anchor-id="using-sf-package-to-make-map"><span class="header-section-number">9.3</span> Using <code>sf</code> package to make map</h2>
+<section id="agricultural-revolutions-and-their-impact" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="agricultural-revolutions-and-their-impact"><span class="header-section-number">9.2</span> Agricultural Revolutions and Their Impact</h2>
+<section id="the-first-agricultural-revolution-10000-bce" class="level3" data-number="9.2.1">
+<h3 data-number="9.2.1" class="anchored" data-anchor-id="the-first-agricultural-revolution-10000-bce"><span class="header-section-number">9.2.1</span> The First Agricultural Revolution (~10,000 BCE)</h3>
 <ul>
-<li>Create data for world</li>
+<li>Domestication of plants and animals → shift from hunting-gathering to farming.</li>
+<li>Impact: Population growth, permanent settlements, early civilizations.</li>
 </ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>world <span class="ot">&lt;-</span> <span class="fu">ne_countries</span>(<span class="at">scale =</span> <span class="st">"small"</span>, <span class="at">returnclass =</span> <span class="st">"sf"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>First we use the familiar ggplot2 syntax. Like in any other ggplot, we have an x and a y axis, though in this case the correspond to longitude and latitude. Knowing this, we can use other ggplot2 commands to make our map more complex. Below we draw a horizontal line where the <code>yintercept</code> is at the equator.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>world <span class="sc">%&gt;%</span> </span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>() <span class="sc">+</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="lecture_9_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<ul>
-<li>World map with income groups</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>world <span class="sc">%&gt;%</span> </span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">income_grp =</span> <span class="fu">factor</span>(income_grp, <span class="at">ordered =</span> T)) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="fu">aes</span>(<span class="at">fill =</span> income_grp)) <span class="sc">+</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_void</span>() <span class="sc">+</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"top"</span>) <span class="sc">+</span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">fill =</span> <span class="st">"Income Group:"</span>) <span class="sc">+</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(<span class="at">fill=</span><span class="fu">guide_legend</span>(<span class="at">nrow=</span><span class="dv">2</span>, <span class="at">byrow=</span><span class="cn">TRUE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="lecture_9_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
 </section>
-<section id="using-shapefile-to-make-map" class="level2" data-number="9.4">
-<h2 data-number="9.4" class="anchored" data-anchor-id="using-shapefile-to-make-map"><span class="header-section-number">9.4</span> Using <code>Shapefile</code> to make map</h2>
+<section id="the-second-agricultural-revolution-17th-19th-century" class="level3" data-number="9.2.2">
+<h3 data-number="9.2.2" class="anchored" data-anchor-id="the-second-agricultural-revolution-17th-19th-century"><span class="header-section-number">9.2.2</span> The Second Agricultural Revolution (17th-19th Century)</h3>
 <ul>
-<li>First we will download the available shapefile of Japan from following website:</li>
+<li>New farming techniques (crop rotation, plowing).</li>
+<li>Mechanization (seed drill, fertilizers) → higher productivity.</li>
+<li>Impact: Rural-urban migration, industrialization, food surplus.</li>
 </ul>
-<p>https://data.humdata.org/dataset/cod-ab-jpn?</p>
+</section>
+<section id="the-green-revolution-1950s-1970s" class="level3" data-number="9.2.3">
+<h3 data-number="9.2.3" class="anchored" data-anchor-id="the-green-revolution-1950s-1970s"><span class="header-section-number">9.2.3</span> The Green Revolution (1950s-1970s)</h3>
 <ul>
-<li><p>Save the downloaded data into your GIS project inside a folder name <code>data</code>.</p></li>
-<li><p>We will read the shapefile and provide a name <code>shapefile_jpn</code>.</p></li>
-<li><p>We will plot the shapefile named <code>shapefile_jpn</code>.</p></li>
+<li><p>Introduction of high-yield crops, chemical fertilizers, pesticides, and irrigation.</p></li>
+<li><p>Led to global increases in food production, but also environmental concerns.</p>
+<p>Case Study: Green Revolution in India</p>
+<ul>
+<li>Success: Increased wheat and rice production, reducing famine.</li>
+<li>Challenges: Soil degradation, water depletion, farmer debt.</li>
+</ul></li>
 </ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>shapefile_jpn <span class="ot">&lt;-</span> <span class="fu">read_sf</span>(<span class="st">"data/jpn_shp_adm/jpn_admbnda_adm1_2019.shp"</span>)</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(shapefile_jpn)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="lecture_9_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
+</section>
+</section>
+<section id="food-security-and-challenges-in-agriculture" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="food-security-and-challenges-in-agriculture"><span class="header-section-number">9.3</span> Food Security and Challenges in Agriculture</h2>
+<section id="what-is-food-security" class="level3" data-number="9.3.1">
+<h3 data-number="9.3.1" class="anchored" data-anchor-id="what-is-food-security"><span class="header-section-number">9.3.1</span> What is Food Security?</h3>
+<ul>
+<li><p>Food security = People have access to sufficient, safe, and nutritious food.</p></li>
+<li><p>FAO’s Four Pillars of Food Security:</p>
+<ul>
+<li>Availability – Enough food supply.</li>
+<li>Access – People can afford food.</li>
+<li>Utilization – Nutritional quality matters.</li>
+<li>Stability – Food supply is consistent over time.</li>
+</ul></li>
+</ul>
+</section>
+<section id="challenges-to-global-food-security" class="level3" data-number="9.3.2">
+<h3 data-number="9.3.2" class="anchored" data-anchor-id="challenges-to-global-food-security"><span class="header-section-number">9.3.2</span> Challenges to Global Food Security</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Challenge</th>
+<th>Causes</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Climate Change</td>
+<td>Droughts, floods, temperature rise</td>
+<td>Desertification in Sub-Saharan Africa</td>
+</tr>
+<tr class="even">
+<td>Soil Degradation</td>
+<td>Overuse of fertilizers, deforestation</td>
+<td>Salinization in the Middle East</td>
+</tr>
+<tr class="odd">
+<td>Water Scarcity</td>
+<td>Over-irrigation, pollution</td>
+<td>Water crisis in California agriculture</td>
+</tr>
+<tr class="even">
+<td>Land Use Change</td>
+<td>Urbanization, deforestation</td>
+<td>Loss of farmland in China</td>
+</tr>
+<tr class="odd">
+<td>Food Waste</td>
+<td>Poor storage, consumer habits</td>
+<td>30% of global food wasted annually</td>
+</tr>
+</tbody>
+</table>
+<p>Case Study: Famine in the Horn of Africa</p>
+<ul>
+<li>Drought, conflict, and poor infrastructure have led to food crises.</li>
+<li>Solutions: Food aid, drought-resistant crops, irrigation improvements.</li>
+</ul>
+</section>
+</section>
+<section id="rural-development-and-sustainable-agriculture" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="rural-development-and-sustainable-agriculture"><span class="header-section-number">9.4</span> Rural Development and Sustainable Agriculture</h2>
+<section id="what-is-rural-development" class="level3" data-number="9.4.1">
+<h3 data-number="9.4.1" class="anchored" data-anchor-id="what-is-rural-development"><span class="header-section-number">9.4.1</span> What is Rural Development?</h3>
+<ul>
+<li>Improving livelihoods, infrastructure, and economic opportunities in rural areas.</li>
+<li>Focus on education, healthcare, market access, and technology.</li>
+</ul>
+</section>
+<section id="strategies-for-sustainable-agriculture" class="level3" data-number="9.4.2">
+<h3 data-number="9.4.2" class="anchored" data-anchor-id="strategies-for-sustainable-agriculture"><span class="header-section-number">9.4.2</span> Strategies for Sustainable Agriculture</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Strategy</th>
+<th>Benefits</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Agroforestry</td>
+<td>Combines trees and crops for better soil conservation</td>
+<td>Cocoa farming in Ghana</td>
+</tr>
+<tr class="even">
+<td>Organic Farming</td>
+<td>No synthetic pesticides, promotes biodiversity</td>
+<td>Organic vegetable farms in France</td>
+</tr>
+<tr class="odd">
+<td>Permaculture</td>
+<td>Self-sustaining ecosystems for food production</td>
+<td>Regenerative farms in Australia</td>
+</tr>
+<tr class="even">
+<td>Precision Agriculture</td>
+<td>Uses AI, GPS, and drones for efficient farming</td>
+<td>Smart farming in the Netherlands</td>
+</tr>
+</tbody>
+</table>
+<p>Case Study: Cuba’s Urban Agriculture Model</p>
+<ul>
+<li>Following the Soviet collapse, Cuba faced food shortages.</li>
+<li>Developed urban organic farming (rooftop gardens, local markets).</li>
+<li>Result: Sustainable food supply in cities.</li>
+</ul>
+</section>
+</section>
+<section id="agricultural-trade-and-globalization" class="level2" data-number="9.5">
+<h2 data-number="9.5" class="anchored" data-anchor-id="agricultural-trade-and-globalization"><span class="header-section-number">9.5</span> Agricultural Trade and Globalization</h2>
+<ul>
+<li><p>Global food trade connects regions but creates inequalities.</p></li>
+<li><p>Major trends:</p>
+<ul>
+<li>Export-oriented agriculture: Latin America supplies soybeans, Africa exports cocoa.</li>
+<li>Dependency on imports: Middle Eastern countries import grains.</li>
+<li>Trade policies impact farmers: Subsidies in the U.S. and EU create imbalances.</li>
+</ul></li>
+</ul>
+<p>Case Study: Fair Trade Coffee Movement</p>
+<ul>
+<li>Goal: Ensure small farmers receive fair prices and better working conditions.</li>
+<li>Impact: Improves farmer income in Latin America, Africa, and Asia.</li>
+</ul>
+</section>
+<section id="future-of-agriculture-innovations-and-policies" class="level2" data-number="9.6">
+<h2 data-number="9.6" class="anchored" data-anchor-id="future-of-agriculture-innovations-and-policies"><span class="header-section-number">9.6</span> Future of Agriculture – Innovations and Policies</h2>
+<section id="technological-innovations-in-agriculture" class="level3" data-number="9.6.1">
+<h3 data-number="9.6.1" class="anchored" data-anchor-id="technological-innovations-in-agriculture"><span class="header-section-number">9.6.1</span> Technological Innovations in Agriculture</h3>
+<ul>
+<li>Vertical farming: Hydroponic skyscrapers for urban food production.</li>
+<li>Lab-grown meat: Reducing environmental impact of livestock farming.</li>
+<li>AI in farming: Drones and sensors optimize crop health and irrigation.</li>
+</ul>
+</section>
+<section id="agricultural-policies-and-global-governance" class="level3" data-number="9.6.2">
+<h3 data-number="9.6.2" class="anchored" data-anchor-id="agricultural-policies-and-global-governance"><span class="header-section-number">9.6.2</span> Agricultural Policies and Global Governance</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Policy</th>
+<th>Goal</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Common Agricultural Policy (EU)</td>
+<td>Supports farmers, stabilizes prices</td>
+<td>EU subsidies for sustainable farming</td>
+</tr>
+<tr class="even">
+<td>U.S. Farm Bill</td>
+<td>Regulates agriculture, provides subsidies</td>
+<td>Crop insurance, food aid programs</td>
+</tr>
+<tr class="odd">
+<td>UN Food Security Programs</td>
+<td>Reduces hunger, promotes sustainability</td>
+<td>World Food Programme (WFP)</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="takeaway" class="level2" data-number="9.7">
+<h2 data-number="9.7" class="anchored" data-anchor-id="takeaway"><span class="header-section-number">9.7</span> Takeaway</h2>
+<ul>
+<li>Agriculture is central to food security, economic growth, and rural life.</li>
+<li>Challenges include climate change, resource depletion, and market inequalities.</li>
+<li>Sustainable solutions and technological innovations are key to future food systems</li>
+</ul>
+</section>
+<section id="quizzes" class="level2" data-number="9.8">
+<h2 data-number="9.8" class="anchored" data-anchor-id="quizzes"><span class="header-section-number">9.8</span> Quizzes</h2>
+<ul>
+<li>How has technology transformed agriculture?</li>
+<li>Should governments regulate food production more strictly for sustainability?</li>
+<li>How does globalization impact small farmers?</li>
+<li>Can organic farming feed the growing global population?</li>
+</ul>
 
 
 </section>
@@ -526,7 +707,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  const darkModeDefault = true;
+  const darkModeDefault = false;
   let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
@@ -958,8 +1139,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./lecture_10.html" class="pagination-link" aria-label="Lecture 10: Basic maps with R">
-        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Lecture 10: Basic maps with R</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./lecture_10.html" class="pagination-link" aria-label="Lecture 10: Industrial geography – industry, trade, and globalization">
+        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Lecture 10: Industrial geography – industry, trade, and globalization</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

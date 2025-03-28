@@ -22,28 +22,25 @@ Section 1: Foundations of human geography
   - Lecture 6: Political geography
   - Lecture 7: Urban geography
   - Lecture 8: The humanized environment
-
-Section 2: Foundations of geographic plots in R
-
   - Lecture 9: Processing shapefiles in R
   - Lecture 10: Basic maps with R
 
-Section 3: Elegant geographic plots in R
+Section 2: Elegant geographic plots in R
 
-  - Lecture 11: Human geography of Africa
-  - Lecture 12: Human geography of Asia
-  - Lecture 13: Human geography of Australia
-  - Lecture 14: Human geography of Europe
-  - Lecture 15: Human geography of North America
+  - Lecture 11: Human geography lab 1
+  - Lecture 12: Human geography lab 2
+  - Lecture 13: Human geography lab 3
+  - Lecture 14: Human geography lab 4
+  - Lecture 15: Human geography lab 5
 
 Textbooks:
 
-For lectures 1 - 8:
+For lectures 1 - 10:
 
   - Rubenstein, J. M. (2010). Contemporary human geography. 5th edition. Pearson 
   - Fouberg, E., Murphy, A., and De Blij, H. (2020). Human geography: People, place, and culture. 12th edition. Wiley.
   
-For lectures 9 - 15:
+For lectures 11 - 15:
 
   - Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.
   - Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
@@ -55,8 +52,8 @@ For lectures 9 - 15:
 
 Class room: A201 & A204 (Computer Lab), Eikokuji Campus, Kochi University of Technology
 
-- Lectures 1 - 8 will take place in room A201
-- Lectures 9 - 15 will take place in room A204
+- Lectures 1 - 10 will take place in room A201
+- Lectures 11 - 15 will take place in room A204
 
 ### Grading
 

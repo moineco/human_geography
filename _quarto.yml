@@ -34,11 +34,11 @@ highlight-style: pygments
 format:
   html:
     theme: 
-       dark: darkly
        light: cosmo
+       dark: darkly
 
-  epub:
-    cover-image: cover.png
+  # epub:
+  #   cover-image: cover.png
 
 editor: visual
 

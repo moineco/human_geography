@@ -1,93 +1,147 @@
-# Lecture 9: Processing shapefiles in R
+# Lecture 9: Agricultural geography – food production, land use, and rural development
 
-## Shapefile in GIS
+Definition:
 
-Shapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications. Here are a few key reasons:
+-   Agricultural geography examines the spatial patterns of agriculture, food production, land use, and rural development.
+-   It explores how, where, and why agriculture takes place, and its role in shaping economies and societies.
 
-**Data Representation:** Shapefile is a popular file format for storing and sharing geospatial data. It allows the representation of complex geographic features such as points, lines, and polygons, along with their attributes.
+Why It Matters:
 
-**Interoperability:** Shapefile is supported by a wide range of GIS software, making it highly inter-operable. It enables data exchange between different systems and facilitates collaboration among users who may be using different GIS platforms.
+-   Agriculture feeds the world’s population and drives economies.
+-   Climate change, resource depletion, and land use changes impact food security.
+-   Rural development influences migration, urbanization, and sustainability.
 
-**Attribute Management:** Shapefile supports the storage of attribute data associated with geographic features. This allows for the integration of non-spatial information, such as population, land use, or temperature, with spatial data, enabling comprehensive analysis and visualization.
+### Key Questions in Agricultural Geography
 
-**Compact and Efficient:** Shapefiles are relatively small in size compared to other data formats, making them efficient for storing and transferring geospatial data. They are also capable of handling large data-sets without compromising performance.
+-   What are the major agricultural systems and their distribution?
+-   How has agriculture changed over time with technology and globalization?
+-   What are the impacts of land use changes on food production and the environment?
+-   How can rural areas develop sustainably while maintaining agricultural production?
 
-**Historical Significance:** Shapefile has been in use for several decades and has become a standard in the GIS community. Many legacy datasets and applications are based on shapefiles, making them crucial for historical data preservation and compatibility.
+## Agricultural Systems and Land Use Patterns
 
-## Shapefile and R
+| Type | Characteristics | Examples |
+|------------------------|------------------------|------------------------|
+| Subsistence Agriculture | Small-scale, for local consumption, minimal technology | Slash-and-burn farming in Amazon, rice farming in Bangladesh |
+| Commercial Agriculture | Large-scale, profit-driven, high technology | Industrial grain farming in the U.S., palm oil plantations in Indonesia |
+| Pastoralism | Herding animals for food and trade | Nomadic herding in Mongolia, cattle ranching in Brazil |
+| Plantation Agriculture | Monoculture farming, export-oriented | Tea plantations in India, coffee farms in Colombia |
+| Urban Agriculture | Food production in cities | Rooftop gardens in New York, hydroponics in Singapore |
 
-Shapefile is commonly used with R, a powerful programming language and software environment for statistical computing and graphics. Here's why shapefile is often preferred for use with R:
+## Agricultural Revolutions and Their Impact
 
-**Native Support:** R has built-in support for reading, writing, and manipulating shapefiles. The "sf" package in R provides functions specifically designed for working with spatial data, including shapefiles. This native support simplifies the process of loading shapefiles into R and performing various spatial analyses.
+### The First Agricultural Revolution (\~10,000 BCE)
 
-**Visualization Capabilities:** R offers extensive visualization capabilities for geospatial data. Packages like "ggplot2" and "leaflet" enable you to create high-quality maps and interactive visualizations using shapefiles as the data source. R's flexibility in customizing plots allows for advanced geospatial visualizations and exploration.
+-   Domestication of plants and animals → shift from hunting-gathering to farming.
+-   Impact: Population growth, permanent settlements, early civilizations.
 
-> While shapefile is a common choice for working with spatial data in R, it's important to note that R also supports other geospatial file formats, such as GeoJSON and Geopackage. These formats may offer advantages like improved data compression, support for more advanced spatial features, and better inter-operability with certain software ecosystems.
+### The Second Agricultural Revolution (17th-19th Century)
 
--   Use `pacman` to manage the R packages
+-   New farming techniques (crop rotation, plowing).
+-   Mechanization (seed drill, fertilizers) → higher productivity.
+-   Impact: Rural-urban migration, industrialization, food surplus.
 
--   Using `packman` package enables us to install and load a package without typing `install.packges()` at Console on your RStudio
+### The Green Revolution (1950s-1970s)
 
--   You need to type the following command at Console on your RStudio
+-   Introduction of high-yield crops, chemical fertilizers, pesticides, and irrigation.
 
-```{txt}
-install.packages("pacman")
-```
+-   Led to global increases in food production, but also environmental concerns.
 
--   The installation of necessary R packages:
+    Case Study: Green Revolution in India
 
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-pacman::p_load(sf, tidyverse, rnaturalearth)
-```
+    -   Success: Increased wheat and rice production, reducing famine.
+    -   Challenges: Soil degradation, water depletion, farmer debt.
 
-## Using `sf` package to make map
+## Food Security and Challenges in Agriculture
 
--   Create data for world
+### What is Food Security?
 
-```{r}
-#| code-fold: false
-world <- ne_countries(scale = "small", returnclass = "sf")
-```
+-   Food security = People have access to sufficient, safe, and nutritious food.
 
--   First we use the familiar ggplot2 syntax. Like in any other ggplot, we have an x and a y axis, though in this case the correspond to longitude and latitude. Knowing this, we can use other ggplot2 commands to make our map more complex. Below we draw a horizontal line where the `yintercept` is at the equator.
+-   FAO’s Four Pillars of Food Security:
 
-```{r}
-#| code-fold: false
-world %>% 
-  ggplot() + 
-  geom_sf() +
-  geom_hline(yintercept = 0, linetype = "dashed") 
-```
+    -   Availability – Enough food supply.
+    -   Access – People can afford food.
+    -   Utilization – Nutritional quality matters.
+    -   Stability – Food supply is consistent over time.
 
--   World map with income groups
+### Challenges to Global Food Security
 
-```{r}
-#| code-fold: false
-world %>% 
-  mutate(income_grp = factor(income_grp, ordered = T)) %>% 
-  ggplot() + 
-  geom_sf(aes(fill = income_grp)) +
-  theme_void() +
-  theme(legend.position = "top") +
-  labs(fill = "Income Group:") +
-  guides(fill=guide_legend(nrow=2, byrow=TRUE))
-```
+| Challenge | Causes | Example |
+|------------------------|------------------------|------------------------|
+| Climate Change | Droughts, floods, temperature rise | Desertification in Sub-Saharan Africa |
+| Soil Degradation | Overuse of fertilizers, deforestation | Salinization in the Middle East |
+| Water Scarcity | Over-irrigation, pollution | Water crisis in California agriculture |
+| Land Use Change | Urbanization, deforestation | Loss of farmland in China |
+| Food Waste | Poor storage, consumer habits | 30% of global food wasted annually |
 
-## Using `Shapefile` to make map
+Case Study: Famine in the Horn of Africa
 
--   First we will download the available shapefile of Japan from following website:
+-   Drought, conflict, and poor infrastructure have led to food crises.
+-   Solutions: Food aid, drought-resistant crops, irrigation improvements.
 
-https://data.humdata.org/dataset/cod-ab-jpn?
+## Rural Development and Sustainable Agriculture
 
--   Save the downloaded data into your GIS project inside a folder name `data`.
+### What is Rural Development?
 
--   We will read the shapefile and provide a name `shapefile_jpn`.
+-   Improving livelihoods, infrastructure, and economic opportunities in rural areas.
+-   Focus on education, healthcare, market access, and technology.
 
--   We will plot the shapefile named `shapefile_jpn`.
+### Strategies for Sustainable Agriculture
 
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-shapefile_jpn <- read_sf("data/jpn_shp_adm/jpn_admbnda_adm1_2019.shp")
-plot(shapefile_jpn)
-```
+| Strategy | Benefits | Example |
+|------------------------|------------------------|------------------------|
+| Agroforestry | Combines trees and crops for better soil conservation | Cocoa farming in Ghana |
+| Organic Farming | No synthetic pesticides, promotes biodiversity | Organic vegetable farms in France |
+| Permaculture | Self-sustaining ecosystems for food production | Regenerative farms in Australia |
+| Precision Agriculture | Uses AI, GPS, and drones for efficient farming | Smart farming in the Netherlands |
+
+Case Study: Cuba’s Urban Agriculture Model
+
+-   Following the Soviet collapse, Cuba faced food shortages.
+-   Developed urban organic farming (rooftop gardens, local markets).
+-   Result: Sustainable food supply in cities.
+
+## Agricultural Trade and Globalization
+
+-   Global food trade connects regions but creates inequalities.
+
+-   Major trends:
+
+    -   Export-oriented agriculture: Latin America supplies soybeans, Africa exports cocoa.
+    -   Dependency on imports: Middle Eastern countries import grains.
+    -   Trade policies impact farmers: Subsidies in the U.S. and EU create imbalances.
+
+Case Study: Fair Trade Coffee Movement
+
+-   Goal: Ensure small farmers receive fair prices and better working conditions.
+-   Impact: Improves farmer income in Latin America, Africa, and Asia.
+
+## Future of Agriculture – Innovations and Policies
+
+### Technological Innovations in Agriculture
+
+-   Vertical farming: Hydroponic skyscrapers for urban food production.
+-   Lab-grown meat: Reducing environmental impact of livestock farming.
+-   AI in farming: Drones and sensors optimize crop health and irrigation.
+
+### Agricultural Policies and Global Governance
+
+| Policy | Goal | Example |
+|----|----|----|
+| Common Agricultural Policy (EU) | Supports farmers, stabilizes prices | EU subsidies for sustainable farming |
+| U.S. Farm Bill | Regulates agriculture, provides subsidies | Crop insurance, food aid programs |
+| UN Food Security Programs | Reduces hunger, promotes sustainability | World Food Programme (WFP) |
+
+## Takeaway
+
+- Agriculture is central to food security, economic growth, and rural life.
+- Challenges include climate change, resource depletion, and market inequalities.
+- Sustainable solutions and technological innovations are key to future food systems
+
+## Quizzes
+
+- How has technology transformed agriculture?
+- Should governments regulate food production more strictly for sustainability?
+- How does globalization impact small farmers?
+- Can organic farming feed the growing global population?

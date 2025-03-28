@@ -1,4 +1,4 @@
-# Lecture 14: Human geography of Europe
+# Lecture 14: Human geography lab 4
 
 ## Europian regions with `naturalearth` data
 
