@@ -16,21 +16,21 @@ Section 1: Foundations of human geography
   - Lecture 1: Introduction to human geography
   - Lecture 2: Population and health geography
   - Lecture 3: Global inequality and development
-  - Lecture 4: Cultural geography – language, religion, and identity
-  - Lecture 5: Political geography – borders, states, and geopolitics
-  - Lecture 6: Urban geography – cities, infrastructure, and planning
-  - Lecture 7: Economic geography – industry, trade, and globalization
-  - Lecture 8: Environmental geography – resources, sustainability, and climate change
-  - Lecture 9: Agricultural geography – food production, land use, and rural development
-  - Lecture 10: Industrial geography – industry, trade, and globalization
+  - Lecture 4: Cultural geography: Language, religion, and identity
+  - Lecture 5: Political geography: Borders, states, and geopolitics
+  - Lecture 6: Urban geography: Cities, infrastructure, and planning
+  - Lecture 7: Economic geography: Industry, trade, and globalization
+  - Lecture 8: Environmental geography: Resources, sustainability, and climate change
+  - Lecture 9: Agricultural geography: Food production, land use, and rural development
+  - Lecture 10: Industrial geography: Industry, trade, and globalization
 
 Section 2: Elegant geographic plots in R
 
-  - Lecture 11: Human geography lab 1
-  - Lecture 12: Human geography lab 2
-  - Lecture 13: Human geography lab 3
-  - Lecture 14: Human geography lab 4
-  - Lecture 15: Human geography lab 5
+  - Lecture 11: Human geography lab_1
+  - Lecture 12: Human geography lab_2
+  - Lecture 13: Human geography lab_3
+  - Lecture 14: Human geography lab_4
+  - Lecture 15: Human geography lab_5
 
 Textbooks:
 

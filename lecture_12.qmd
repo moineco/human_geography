@@ -1,4 +1,4 @@
-# Lecture 12: Human geography lab 2
+# Human geography lab_2
 
 The following packages will be required for this chapter:
 

@@ -1,8 +1,8 @@
-# Lecture 15: Human geography lab 5
+# Human geography lab_5
 
 ## US states and regions
 
--   We will explore different packages that could help with mapping geographical data, specifically for the USA. At first we need to load necessary packages to execute the maps for this lecture.
+I will explore different packages that could help with mapping geographical data, specifically for the USA. At first we need to load necessary packages to execute the maps for this lecture.
 
 ```{r}
 #| message: false
