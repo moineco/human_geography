@@ -2,11 +2,10 @@
 
 We have entered the age of human geography, in which the global economy has become fused with geopolitical strategy. Human geography have impact not only on the public policy, but also on the management of private sector companies that do business globally. Hundreds of thousands of organizations are using geographic information system (GIS) to make maps that communicate, perform analysis, share information, and solve complex problems around the world. This human geography course basically deals with GIS, a spatial system that creates, manages, analyzes, and maps all types of data. Every day, GIS powers millions of decisions around the world. It makes a big impact on our lives and you might not even realize it.
 
-This lecture is for the readers who want to analyze, visualize and model geographic data with open source software. It is based on **R** that has powerful data processing, visualization and geospatial capabilities. The lecture is divided into three parts:
+This lecture is for the readers who want to analyze, visualize and model geographic data with open source software. It is based on **R** that has powerful data processing, visualization and geospatial capabilities. The lecture is divided into two sections:
 
--   Part I: Foundations of human geography
--   Part II: Foundations of geographic plots in R
--   Part III: Elegant geographic plots in R
+-   Section 1: Foundations of human geography
+-   Section 2: Elegant geographic plots in R
 
 Geo-computation with **R** will equip you with knowledge and skills to tackle a wide range of issues, including those with scientific, societal and environmental implications, manifested in geographic data.
 
