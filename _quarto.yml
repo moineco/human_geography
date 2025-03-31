@@ -35,12 +35,10 @@ highlight-style: pygments
 format:
   html:
     theme: 
-       light: cosmo
        dark: darkly
+       light: cosmo
     prefer-html: true
-
   # epub:
   #  cover-image: cover.png
-
 editor: visual
 
