@@ -11,6 +11,7 @@ book:
   date: today
   chapters:
     - index.qmd
+    - syllabus.qmd
     - lecture_1.qmd
     - lecture_2.qmd
     - lecture_3.qmd
@@ -36,9 +37,10 @@ format:
     theme: 
        light: cosmo
        dark: darkly
+    prefer-html: true
 
   # epub:
-  #   cover-image: cover.png
+  #  cover-image: cover.png
 
 editor: visual
 

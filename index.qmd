@@ -23,12 +23,12 @@ Section 1: Foundations of human geography
   - Lecture 2: Population and health geography
   - Lecture 3: Global inequality and development
   - Lecture 4: Cultural geography: Language, religion, and identity
-  - Lecture 5: Political geography: Borders, states, and geopolitics
+  - Lecture 5: Political geography: States and geopolitics
   - Lecture 6: Urban geography: Cities, infrastructure, and planning
-  - Lecture 7: Economic geography: Industry, trade, and globalization
-  - Lecture 8: Environmental geography: Resources, sustainability, and climate change
-  - Lecture 9: Agricultural geography: Food production, land use, and rural development
-  - Lecture 10: Industrial geography: Industry, trade, and globalization
+  - Lecture 7: Economic geography: Trade and globalization
+  - Lecture 8: Environmental geography: Resources and sustainability
+  - Lecture 9: Agricultural geography: Food production and land use
+  - Lecture 10: Industrial geography: Industry and trade
 
 Section 2: Elegant geographic plots in R
 

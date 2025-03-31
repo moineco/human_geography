@@ -1,0 +1,141 @@
+# 人文地理学 {.unnumbered}
+
+時間割番号: 1163017001
+
+## 授業の目的 
+### 授業の目的の説明
+
+This course is designed to provide students with a foundational understanding of human geography and the skills to analyze geographic data using R. Each lesson has specific objectives that contribute to the overall learning goals:
+
+Section 1: Know the foundations of human geography
+
+Section 2: Use the elegant geographic plots in R
+
+Note: All lecture notes, assignments and quizzes will be available through KUTLMS Moodle. 
+
+
+## 授業の概要  
+### 授業の概要の説明
+
+This course provides a comprehensive introduction to human geography, focusing on key themes such as population dynamics, migration, cultural landscapes, and urban development. Additionally, students will learn fundamental techniques for processing and visualizing geographic data using R, applying these skills to real-world geographic analyses across different regions of the world.
+
+Section 1: Know the foundations of human geography
+
+The first section establishes the core principles of human geography, exploring how human societies interact with their environments. Topics include:
+
+- The basics of human geography, including spatial patterns and human-environment interactions.
+    
+- Population trends, migration patterns, and their effects on societies.
+
+- Cultural geography, identity formation, and political structures.
+    
+- The organization of cities and urban spaces, as well as environmental impacts of human activities.
+
+Section 2: Use the elegant geographic plots in R
+
+This section introduces essential geographic data processing techniques, with a focus on:
+
+- Handling and analyzing shapefiles using R.
+
+- Creating basic maps to visualize geographic data effectively.
+
+- Explore human geography case studies from Africa, Asia, Australia, Europe, and North America.
+    
+- Develop advanced mapping techniques to represent human geographic trends in each region.
+
+## 到達目標 
+### 到達目標の説明
+
+The primary goal of this course is to provide students with a comprehensive understanding of human geography while equipping them with practical skills in geographic data visualization using R. By integrating theoretical knowledge with hands-on data analysis, the course aims to acquire:
+
+- Develop a strong foundation in human geography: Students will be able to understand key themes such as population dynamics, migration, cultural landscapes, political geography, and urban development. Understanding these topics will help them analyze how human societies interact with their environments and shape the world.
+
+- Enhance analytical and critical thinking skills: Through the study of real-world geographic issues, students will develop the ability to assess spatial patterns, interpret demographic trends, and evaluate the impact of human activities on different regions.
+
+- Introduce geographic data processing and visualization: By learning to work with spatial data in R, students will gain essential technical skills, including processing shapefiles, creating maps, and visualizing geographic trends.
+
+- Apply knowledge to regional case studies: The course will provide opportunities to apply geographic analysis techniques to different world regions, helping students understand diverse cultural, political, and environmental contexts.
+
+## 授業の方法 
+### 授業の方法の説明
+
+- Lectures are organized as a combination of theories and practices to evaluate the inclusive understanding
+
+- Quizzes and assignments are regularly assigned
+
+## 授業計画  
+### 授業計画の説明
+
+- 第１回   Introduction to human geography
+- 第２回   Population and health geography
+- 第３回   Global inequality and development
+- 第４回   Cultural geography: Language, religion, and identity
+- 第５回   Political geography: States and geopolitics
+- 第６回   Urban geography: Cities, infrastructure, and planning
+- 第７回   Economic geography: Trade and globalization
+- 第８回   Environmental geography: Resources and sustainability
+- 第９回   Agricultural geography: Food production and land use
+- 第１０回 Industrial geography: Industry and trade
+- 第１１回 Human geography lab 1
+- 第１２回 Human geography lab 2
+- 第１３回 Human geography lab 3
+- 第１４回 Human geography lab 4
+- 第１５回 Human geography lab 5
+- 第１６回 Final examination
+
+## 成績評価の方法・基準 
+### 成績評価の方法・基準の説明
+
+Attendance, quizzes and assignments account for 50%, and the rest of 50% shall be attributed to the final exam.
+
+AA (Outstanding): Students can effectively operationalize the concepts of human geography, applying them in complex analyses and real-world scenarios.
+
+A (Excellent): Students demonstrate a strong understanding of the concepts of human geography and can draw meaningful implications and interpretations.
+
+B (Good): Students grasp the fundamental concepts of human geography and can apply them to some degree in analysis and interpretation.
+
+C (Fair): Students have a basic understanding of the concepts of human geography and can use them to draw simple conclusions.
+
+F (Failure): Students do not demonstrate an understanding of the fundamental concepts human geography which are necessary for drawing conclusions.
+
+## 授業時間外学習（予習・復習等）
+### 授業時間外学習（予習・復習等）の説明
+
+Quizzes and assignments will be assigned regularly to understand the course contents.
+
+## キーワード
+### キーワードの説明
+
+Human geography, geographic information system (GIS), R, spatial data, applications
+
+## 他の科目との関連 
+### 他の科目との関連の説明
+
+R
+
+## 備考 
+### 備考の説明
+
+- The medium of instruction is English.
+
+## 教科書
+
+### 教科書1
+
+ISBN	9781526428509
+
+書名	An Introduction to R for Spatial Analysis and Mapping
+
+著者名	Chris Brunsdon and Lex Comber	出版社	Sage	出版年	2015
+
+### 教科書2
+
+SBN	9781138304512
+
+書名	Geocomputation with R
+
+著者名	Robin Lovelace,Lovelace, Robin,Nowosad, Jakub,Munchow, Jannes	出版社	CRC Press	出版年
+
+## 参考書
+
+

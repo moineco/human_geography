@@ -1,105 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Human Geography",
-    "section": "",
-    "text": "Preface\nWe have entered the age of human geography. It is a dynamic and ever-evolving discipline that explores the complex relationship between people, places, and the environment. It seeks to understand how human societies develop, organize space, interact with nature, and shape the world around them. This lecture series aims to provide a comprehensive introduction to the fundamental themes of human geography, equipping students with the analytical tools needed to examine global patterns, regional differences, and the challenges of an interconnected world.\nThis course covers a broad range of topics, beginning with an introduction to the core principles of human geography before delving into key areas such as population dynamics, cultural landscapes, economic development, urbanization, political structures, and environmental sustainability. We will explore the forces driving globalization, the impacts of climate change, and the role of human decision-making in shaping landscapes and societies.\nThroughout this lecture series, students will engage with real-world case studies, interactive discussions, and critical thinking exercises to connect theory with practice. The goal is to foster a deeper understanding of the spatial organization of human activities and their consequences at local, national, and global scales.\nAs we embark on this academic journey, I encourage students to approach each topic with curiosity and a critical mindset. Human geography is not just a subject of study—it is a lens through which we can better understand the challenges and opportunities of our world today.\nThis lecture is for the readers who want to analyze, visualize and model geographic data with open source software. It is based on R that has powerful data processing, visualization and geospatial capabilities. The lecture is divided into two sections:\n\nSection 1: Foundations of human geography\nSection 2: Elegant geographic plots in R\n\nGeo-computation with R will equip you with knowledge and skills to tackle a wide range of issues, including those with scientific, societal and environmental implications, manifested in geographic data.\n\nLectures\nSection 1: Foundations of human geography\n\nLecture 1: Introduction to human geography\nLecture 2: Population and health geography\nLecture 3: Global inequality and development\nLecture 4: Cultural geography: Language, religion, and identity\nLecture 5: Political geography: Borders, states, and geopolitics\nLecture 6: Urban geography: Cities, infrastructure, and planning\nLecture 7: Economic geography: Industry, trade, and globalization\nLecture 8: Environmental geography: Resources, sustainability, and climate change\nLecture 9: Agricultural geography: Food production, land use, and rural development\nLecture 10: Industrial geography: Industry, trade, and globalization\n\nSection 2: Elegant geographic plots in R\n\nLecture 11: Human geography lab_1\nLecture 12: Human geography lab_2\nLecture 13: Human geography lab_3\nLecture 14: Human geography lab_4\nLecture 15: Human geography lab_5\n\nTextbooks:\nFor lectures 1 - 10:\n\nRubenstein, J. M. (2010). Contemporary human geography. 5th edition. Pearson\nFouberg, E., Murphy, A., and De Blij, H. (2020). Human geography: People, place, and culture. 12th edition. Wiley.\n\nFor lectures 11 - 15:\n\nLovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.\nComber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.\n\n\n\nClass schedule in the first quarter (1Q):\n\nMonday from 10:30 AM to 12:00 PM\nThursday from 10:30 AM to 12:00 PM\n\nClass room: A201 & A204 (Computer Lab), Eikokuji Campus, Kochi University of Technology\n\nLectures 1 - 10 will take place in room A201\nLectures 11 - 15 will take place in room A204\n\n\n\nGrading\nYour grade evaluation will depend on following three factors:\n\n\n\nPerformance\nWeight\n\n\n\n\na. Attendance\n10%\n\n\nb. Answering the quizzes and assignments.\n40%\n\n\nc. Final examination (TBA)\n50%\n\n\n\n\n\nQuizzes and assignment submission\nRegarding the quizzes and assignments, you have to write 10 - 200 words in English to get evaluated. Writing with logical explanation and examples are the main criteria of evaluation. If you can create exceptional arguments to support your discussion, I will provide bonus points for that assignment.\n\n\nInstructor\nMoinul Islam, Associate Professor, Research Institute for Future Design & School of Economics and Management, Kochi University of Technology, Japan.\nOffice hours: By appointment, please email:\n\ngeoinformatics.moinul@gmail.com",
-    "crumbs": [
-      "Preface"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.\nComber, L., and Brunsdon, C. (2020). Geographical Data Science and Spatial Data Analysis: An Introduction in R. Sage.\nKopczewska, K. (2020). Applied Spatial Statistics and Econometrics: Data Analysis in R. Routledge.",
-    "crumbs": [
-      "References"
-    ]
-  },
-  {
-    "objectID": "lecture_1.html",
-    "href": "lecture_1.html",
-    "title": "1  Introduction to human geography",
-    "section": "",
-    "text": "1.1 Branches of Geography\nThe word geography, invented by the ancient Greek scholar Eratosthenes, is based on two Greek words, “Geo” means “Earth,” and “Graphy” means “to write.” Geography is the study of where things are found on Earth’s surface and the reasons for their locations.\nHuman geographers ask two questions:\nTo introduce human geography, we concentrate on two main features of society: culture and economy. The lectures explain why the most important cultural features, such as languages, religions, and ethnicities, are arranged as they are across Earth. The lecture also looks at the distribution of the most important economic activities, including agriculture, manufacturing, and services.\nWe tend to focus on two big decisions: who we choose as our life partner and what we do for work. But there is a third big decision—where you choose to live. The decision about where may be the most important, because it has a huge bearing on the others.\nWhere you choose to live affects every aspect of your being. It influences the income you can potentially earn, and how far you can develop your skills. It has a bearing on the friends and romantic partners you can potentially meet, the networks you can build, and the options that will be available to your children. It shapes your values and your politics. It plays a role in how happy and healthy you are, and in your overall quality of life.\nHumans possess a strong sense of place—that is, a feeling for the features that contribute to the distinctiveness of a particular spot on Earth—perhaps a hometown, vacation destination, or college. Describing the features of a place is an essential building block for geographers to explain similarities, differences, and changes across Earth.\nGeographers describe a feature’s place on Earth by identifying its location, which is the position that something occupies on Earth’s surface. In doing so, they consider three ways to identify location: place name, site, and situation. Geographers analyze where particular places are located and the combination of features that make each place on Earth distinct. Because all inhabited places on Earth’s surface—and many uninhabited places—have been named, the most straightforward way to describe a particular location is often by referring to its place name.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to human geography</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_1.html#branches-of-geography",
-    "href": "lecture_1.html#branches-of-geography",
-    "title": "1  Introduction to human geography",
-    "section": "",
-    "text": "1.1.1 Physical Geography\nStudies natural processes and features such as:\n\nClimate and weather patterns\nLandforms (mountains, rivers, valleys)\nNatural disasters (earthquakes, tsunamis)\nEcosystems and biodiversity\n\nExample: Studying how hurricanes affect coastal regions\n\n\n\n\n1.1.2 Human Geography\nExamines human activities, cultures, economies, and social interactions, including:\n\nPopulation growth and migration\nUrbanization and development\nEconomic and political systems\nCultural landscapes\n\nExample: Analyzing the impact of globalization on local economies\n\n\n\n\n1.1.3 Human Geography vs. Physical Geography:\n\nPhysical geography focuses on natural processes (e.g., how rivers form).\nHuman geography focuses on human interactions with the environment (e.g., how cities develop near rivers).",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to human geography</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_1.html#the-scope-of-human-geography",
-    "href": "lecture_1.html#the-scope-of-human-geography",
-    "title": "1  Introduction to human geography",
-    "section": "1.2 The Scope of Human Geography",
-    "text": "1.2 The Scope of Human Geography\nHuman geographers explore where human activities occur, why they occur there, and their impacts. The field covers:\n\nPopulation and Health Geography: Studies birth rates, migration patterns, and public health issues.\nCultural Geography: Examines language, religion, and ethnicity.\nPolitical Geography: Investigates state boundaries, conflicts, and international relations.\nEconomic Geography: Analyzes industries, trade, and globalization.\nUrban Geography: Studies city growth, transportation, and infrastructure.\nEnvironmental Geography: Explores human impacts on ecosystems, sustainability, and climate change.\n\n\n1.2.1 Fundamental Questions in Human Geography\nAmerican geographer Charles Gritzner proposed three essential questions:\n\nWhat is where? – Identifies the location of people and activities.\nWhy there? – Explains why things are located in certain places.\nWhy care? – Examines the impact and significance of spatial patterns.\n\nExample: Global Manufacturing Shift\n\nWhat is where? – Clothing manufacturing has moved from North America and Europe to Asia.\nWhy there? – Labor is cheaper, trade policies favor outsourcing, and there is industrial infrastructure.\nWhy care? – Loss of jobs in developed countries, worker exploitation in developing countries, and environmental concerns.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to human geography</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_1.html#the-importance-of-human-geography",
-    "href": "lecture_1.html#the-importance-of-human-geography",
-    "title": "1  Introduction to human geography",
-    "section": "1.3 The Importance of Human Geography",
-    "text": "1.3 The Importance of Human Geography\n\nHelps explain urbanization, migration, globalization, and climate change.\nProvides insights into economic development, cultural diversity, and political conflicts.\n\nExample:\nCalifornia’s drought (2011-2017):\n\nReduced water availability for farming.\nIncreased food prices worldwide.\nGlobal impact on agriculture and trade.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to human geography</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_1.html#geographic-tools",
-    "href": "lecture_1.html#geographic-tools",
-    "title": "1  Introduction to human geography",
-    "section": "1.4 Geographic Tools",
-    "text": "1.4 Geographic Tools\n\nMaps: Thematic, political, and topographic maps help visualize spatial relationships.\nGIS (Geographic Information Systems): Computer-based mapping for analysis.\nRemote Sensing: Satellites track deforestation, urban sprawl, and climate change.\nGPS (Global Positioning System): Navigation and location tracking.\nFieldwork & Surveys: Collecting firsthand data through interviews, observations, and censuses.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to human geography</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_1.html#key-takeaway",
-    "href": "lecture_1.html#key-takeaway",
-    "title": "1  Introduction to human geography",
-    "section": "1.5 Key Takeaway",
-    "text": "1.5 Key Takeaway\n\nHuman geography examines where people live, how they interact, and why spatial patterns matter.\nIt bridges social sciences, economics, politics, and environmental studies.\nGeography is not just about maps—it helps us understand global challenges and shape solutions.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to human geography</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_1.html#quizes",
-    "href": "lecture_1.html#quizes",
-    "title": "1  Lecture 1: Introduction to Human Geography",
-    "section": "1.6 Quizes",
-    "text": "1.6 Quizes\n\n\nHow does globalization influence human geography?\n\n\nWhy do some regions experience rapid economic development while others remain poor?\n\n\nHow do geography and climate affect population distribution?",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Lecture 1: Introduction to Human Geography</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_1.html#quizzes",
-    "href": "lecture_1.html#quizzes",
-    "title": "1  Introduction to human geography",
-    "section": "1.6 Quizzes",
-    "text": "1.6 Quizzes\n\nHow does globalization influence human geography?\nWhy do some regions experience rapid economic development while others remain poor?\nHow do geography and climate affect population distribution?",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to human geography</span>"
-    ]
-  },
-  {
     "objectID": "lecture_2.html",
     "href": "lecture_2.html",
     "title": "2  Population and health geography",
@@ -107,16 +7,6 @@
     "text": "2.0.1 Fundamental Questions in Population Geography\nDefinition:\nWhy It Matters:",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Population and health geography</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_2.html#introduction-to-population-and-health-geography",
-    "href": "lecture_2.html#introduction-to-population-and-health-geography",
-    "title": "2  Lecture 2: Population and Health Geography",
-    "section": "",
-    "text": "Population geography studies the spatial distribution, density, and dynamics of human populations.\nHealth geography examines the spatial patterns of health, disease, and healthcare access.\n\n\n\nWorld population surpassed 8 billion in 2023 (UN estimate).\nUneven distribution of population and healthcare creates social and economic challenges.\nPopulation change influences urbanization, economic growth, and environmental sustainability.\n\n\n2.1.1 Fundamental Questions in Population Geography\n\nWhere do people live? (Population distribution & density)\nHow is the population changing? (Growth, decline, migration)\nWhy do these changes happen? (Fertility, mortality, economic & social factors)\nHow do population changes affect resources and policies?",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Lecture 2: Population and Health Geography</span>"
     ]
   },
   {
@@ -180,883 +70,133 @@
     ]
   },
   {
-    "objectID": "lecture_3.html",
-    "href": "lecture_3.html",
-    "title": "3  Global inequality and development",
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "人文地理学",
     "section": "",
-    "text": "3.0.1 Key Questions in global inequality and development\nDefinition:\nWhy It matters:",
+    "text": "授業の目的\n時間割番号: 1163017001",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Global inequality and development</span>"
+      "人文地理学"
     ]
   },
   {
-    "objectID": "lecture_3.html#key-questions-in-global-inequality-and-development",
-    "href": "lecture_3.html#key-questions-in-global-inequality-and-development",
-    "title": "3  Lecture 3: Global inequality and development",
+    "objectID": "syllabus.html#授業の目的",
+    "href": "syllabus.html#授業の目的",
+    "title": "人文地理学",
     "section": "",
-    "text": "Why do some countries develop faster than others?\nWhat are the causes and consequences of global economic disparities?\nHow can international policies reduce inequality?\nHow does globalization affect development?",
+    "text": "授業の目的の説明\nThis course is designed to provide students with a foundational understanding of human geography and the skills to analyze geographic data using R. Each lesson has specific objectives that contribute to the overall learning goals:\nSection 1: Know the foundations of human geography\nSection 2: Use the elegant geographic plots in R\nNote: All lecture notes, assignments and quizzes will be available through KUTLMS Moodle.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Lecture 3: Global inequality and development</span>"
+      "人文地理学"
     ]
   },
   {
-    "objectID": "lecture_3.html#understanding-global-inequality",
-    "href": "lecture_3.html#understanding-global-inequality",
-    "title": "3  Global inequality and development",
-    "section": "3.1 Understanding Global Inequality",
-    "text": "3.1 Understanding Global Inequality\n\n3.1.1 Measuring Economic Inequality\n\n3.1.1.1 Gross Domestic Product (GDP) per capita:\nMeasures economic output per person.\n\nHigh-income countries (HICs): USA, Germany, Japan.\nMiddle-income countries (MICs): Mexico, India, Brazil.\nLow-income countries (LICs): Chad, Afghanistan, Haiti.\n\n\n\n3.1.1.2 Human Development Index (HDI):\nMeasures overall well-being using:\n\nLife expectancy (health).\nEducation (years of schooling).\nIncome per capita (economic status).\n\n\n\n3.1.1.3 Gini Coefficient:\nMeasures income inequality within a country (0 = perfect equality, 1 = extreme inequality).\nExample: Comparing HDI Levels\n\n\n\n\n\n\n\n\n\n\nCountry\nHDI (2022)\nLife Expectancy\nEducation (Years)\nIncome (USD)\n\n\n\n\nNorway\n0.957\n83 years\n13.5 years\n89,000\n\n\nUSA\n0.921\n79 years\n13.3 years\n75,000\n\n\nIndia\n0.633\n69 years\n6.7 years\n6,000\n\n\nChad\n0.394\n54 years\n3.5 years\n2,000",
+    "objectID": "syllabus.html#授業の概要",
+    "href": "syllabus.html#授業の概要",
+    "title": "人文地理学",
+    "section": "授業の概要",
+    "text": "授業の概要\n\n授業の概要の説明\nThis course provides a comprehensive introduction to human geography, focusing on key themes such as population dynamics, migration, cultural landscapes, and urban development. Additionally, students will learn fundamental techniques for processing and visualizing geographic data using R, applying these skills to real-world geographic analyses across different regions of the world.\nSection 1: Know the foundations of human geography\nThe first section establishes the core principles of human geography, exploring how human societies interact with their environments. Topics include:\n\nThe basics of human geography, including spatial patterns and human-environment interactions.\nPopulation trends, migration patterns, and their effects on societies.\nCultural geography, identity formation, and political structures.\nThe organization of cities and urban spaces, as well as environmental impacts of human activities.\n\nSection 2: Use the elegant geographic plots in R\nThis section introduces essential geographic data processing techniques, with a focus on:\n\nHandling and analyzing shapefiles using R.\nCreating basic maps to visualize geographic data effectively.\nExplore human geography case studies from Africa, Asia, Australia, Europe, and North America.\nDevelop advanced mapping techniques to represent human geographic trends in each region.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Global inequality and development</span>"
+      "人文地理学"
     ]
   },
   {
-    "objectID": "lecture_3.html#causes-of-global-economic-disparities",
-    "href": "lecture_3.html#causes-of-global-economic-disparities",
-    "title": "3  Global inequality and development",
-    "section": "3.2 Causes of Global Economic Disparities",
-    "text": "3.2 Causes of Global Economic Disparities\n\n3.2.1 Historical Factors\n\nColonialism: European powers exploited Africa, Asia, and Latin America, leaving economic dependency.\nSlave Trade: Destroyed labor forces and disrupted economic growth in Africa.\nUnequal Trade Agreements: Richer nations set rules that benefit their economies (e.g., WTO policies).\n\n\n\n3.2.2 Political and Economic Factors\n\nCorruption and Poor Governance: Weak institutions reduce foreign investment and development.\nDebt Burden: LICs struggle to repay international loans, limiting infrastructure development.\nResource Curse: Countries rich in natural resources (e.g., oil in Venezuela) often suffer economic instability.\n\n\n\n3.2.3 Social and Environmental Factors\n\nEducation Gap: Poor access to schools limits economic mobility.\nGender Inequality: Women earn 20% less than men globally.\nClimate Change: Rising sea levels, droughts, and disasters worsen poverty (e.g., Bangladesh’s floods).",
+    "objectID": "syllabus.html#到達目標",
+    "href": "syllabus.html#到達目標",
+    "title": "人文地理学",
+    "section": "到達目標",
+    "text": "到達目標\n\n到達目標の説明\nThe primary goal of this course is to provide students with a comprehensive understanding of human geography while equipping them with practical skills in geographic data visualization using R. By integrating theoretical knowledge with hands-on data analysis, the course aims to acquire:\n\nDevelop a strong foundation in human geography: Students will be able to understand key themes such as population dynamics, migration, cultural landscapes, political geography, and urban development. Understanding these topics will help them analyze how human societies interact with their environments and shape the world.\nEnhance analytical and critical thinking skills: Through the study of real-world geographic issues, students will develop the ability to assess spatial patterns, interpret demographic trends, and evaluate the impact of human activities on different regions.\nIntroduce geographic data processing and visualization: By learning to work with spatial data in R, students will gain essential technical skills, including processing shapefiles, creating maps, and visualizing geographic trends.\nApply knowledge to regional case studies: The course will provide opportunities to apply geographic analysis techniques to different world regions, helping students understand diverse cultural, political, and environmental contexts.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Global inequality and development</span>"
+      "人文地理学"
     ]
   },
   {
-    "objectID": "lecture_3.html#consequences-of-global-inequality",
-    "href": "lecture_3.html#consequences-of-global-inequality",
-    "title": "3  Global inequality and development",
-    "section": "3.3 Consequences of Global Inequality",
-    "text": "3.3 Consequences of Global Inequality\n\n3.3.1 Economic Consequences\n\nBrain Drain: Skilled workers migrate from LICs to HICs (e.g., African doctors moving to Europe).\nSlum Growth: Rapid urbanization without infrastructure leads to informal settlements (e.g., Mumbai’s Dharavi slum).\n\n\n\n3.3.2 Social Consequences\nHealth Disparities:\n\nLICs have higher infant mortality rates (Chad = 68/1,000 vs. Canada = 4/1,000).\nLimited vaccine access leads to preventable diseases.\n\n\n\n3.3.3 Political Consequences\n\nPolitical Instability: Economic inequality fuels protests and revolutions (e.g., Arab Spring).\nConflict Over Resources: Nations compete for oil, water, and minerals (e.g., South China Sea disputes).",
+    "objectID": "syllabus.html#授業の方法",
+    "href": "syllabus.html#授業の方法",
+    "title": "人文地理学",
+    "section": "授業の方法",
+    "text": "授業の方法\n\n授業の方法の説明\n\nLectures are organized as a combination of theories and practices to evaluate the inclusive understanding\nQuizzes and assignments are regularly assigned",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Global inequality and development</span>"
+      "人文地理学"
     ]
   },
   {
-    "objectID": "lecture_3.html#solutions-to-global-inequality",
-    "href": "lecture_3.html#solutions-to-global-inequality",
-    "title": "3  Global inequality and development",
-    "section": "3.4 Solutions to Global Inequality",
-    "text": "3.4 Solutions to Global Inequality\n\n3.4.1 Sustainable Development Goals (SDGs)\nUN’s 17 goals to reduce poverty and promote equality by 2030.\nKey targets:\n\nNo poverty: Reduce extreme poverty below 3%.\nQuality education: Universal primary and secondary schooling.\nGender equality: Equal pay and leadership roles for women.\nClimate action: Reduce carbon emissions and deforestation.\n\n\n\n3.4.2 Economic and Political Solutions\n\nFair Trade Initiatives: Ensures farmers get fair wages for crops.\nDebt Forgiveness: Canceling debt for LICs to allow investment in development.\nForeign Aid vs. Investment:\n\nAid (short-term relief) vs. investment (long-term growth).\nExample: China’s Belt and Road Initiative (infrastructure investment in Africa).",
+    "objectID": "syllabus.html#授業計画",
+    "href": "syllabus.html#授業計画",
+    "title": "人文地理学",
+    "section": "授業計画",
+    "text": "授業計画\n\n授業計画の説明\n\n第１回 Introduction to human geography\n第２回 Population and health geography\n第３回 Global inequality and development\n第４回 Cultural geography: Language, religion, and identity\n第５回 Political geography: States and geopolitics\n第６回 Urban geography: Cities, infrastructure, and planning\n第７回 Economic geography: Trade and globalization\n第８回 Environmental geography: Resources and sustainability\n第９回 Agricultural geography: Food production and land use\n第１０回 Industrial geography: Industry and trade\n第１１回 Human geography lab 1\n第１２回 Human geography lab 2\n第１３回 Human geography lab 3\n第１４回 Human geography lab 4\n第１５回 Human geography lab 5\n第１６回 Final examination",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Global inequality and development</span>"
+      "人文地理学"
     ]
   },
   {
-    "objectID": "lecture_3.html#takeaway",
-    "href": "lecture_3.html#takeaway",
-    "title": "3  Global inequality and development",
-    "section": "3.5 Takeaway",
-    "text": "3.5 Takeaway\n\nGlobal inequality is shaped by history, economy, politics, and social factors.\nPolicies like SDGs, fair trade, and debt relief can reduce inequalities.",
+    "objectID": "syllabus.html#成績評価の方法基準",
+    "href": "syllabus.html#成績評価の方法基準",
+    "title": "人文地理学",
+    "section": "成績評価の方法・基準",
+    "text": "成績評価の方法・基準\n\n成績評価の方法・基準の説明\nAttendance, quizzes and assignments account for 50%, and the rest of 50% shall be attributed to the final exam.\nAA (Outstanding): Students can effectively operationalize the concepts of human geography, applying them in complex analyses and real-world scenarios.\nA (Excellent): Students demonstrate a strong understanding of the concepts of human geography and can draw meaningful implications and interpretations.\nB (Good): Students grasp the fundamental concepts of human geography and can apply them to some degree in analysis and interpretation.\nC (Fair): Students have a basic understanding of the concepts of human geography and can use them to draw simple conclusions.\nF (Failure): Students do not demonstrate an understanding of the fundamental concepts human geography which are necessary for drawing conclusions.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Global inequality and development</span>"
+      "人文地理学"
     ]
   },
   {
-    "objectID": "lecture_4.html",
-    "href": "lecture_4.html",
-    "title": "4  Cultural geography: Language, religion, and identity",
-    "section": "",
-    "text": "4.1 Key Questions in Cultural Geography\nDefinition:\nWhy It Matters:",
+    "objectID": "syllabus.html#授業時間外学習予習復習等",
+    "href": "syllabus.html#授業時間外学習予習復習等",
+    "title": "人文地理学",
+    "section": "授業時間外学習（予習・復習等）",
+    "text": "授業時間外学習（予習・復習等）\n\n授業時間外学習（予習・復習等）の説明\nQuizzes and assignments will be assigned regularly to understand the course contents.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cultural geography: Language, religion, and identity</span>"
+      "人文地理学"
     ]
   },
   {
-    "objectID": "lecture_4.html#key-questions-in-cultural-geography",
-    "href": "lecture_4.html#key-questions-in-cultural-geography",
-    "title": "4  Cultural geography: Language, religion, and identity",
-    "section": "",
-    "text": "How does geography shape culture and identity?\nWhy are some languages and religions dominant while others decline?\nWhat role does globalization play in cultural diffusion and conflict?\nHow does language and religion shape political and social structures?",
+    "objectID": "syllabus.html#キーワード",
+    "href": "syllabus.html#キーワード",
+    "title": "人文地理学",
+    "section": "キーワード",
+    "text": "キーワード\n\nキーワードの説明\nHuman geography, geographic information system (GIS), R, spatial data, applications",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cultural geography: Language, religion, and identity</span>"
+      "人文地理学"
     ]
   },
   {
-    "objectID": "lecture_4.html#language-and-geography",
-    "href": "lecture_4.html#language-and-geography",
-    "title": "4  Cultural geography: Language, religion, and identity",
-    "section": "4.2 Language and Geography",
-    "text": "4.2 Language and Geography\n\n4.2.1 The Role of Language in Culture\n\nLanguage defines cultural identity, history, and communication.\nLinguistic Geography: Studies the spatial distribution of languages.\nLanguage families: Groups of related languages evolving from a common ancestor.\n\nMajor Language Families (World Distribution)\n\n\n\n\n\n\n\n\nLanguage Family\nExamples\nRegions\n\n\n\n\nIndo-European\nEnglish, Spanish, Hindi, Russian\nEurope, Americas, South Asia\n\n\nSino-Tibetan\nMandarin, Cantonese\nEast Asia\n\n\nAfro-Asiatic\nArabic, Hebrew\nMiddle East, North Africa\n\n\nNiger-Congo\nSwahili, Yoruba\nSub-Saharan Africa\n\n\nDravidian\nTamil, Telugu\nSouth India\n\n\nAustroasiatic\nKhmer, Vietnamese\nSoutheast Asia\n\n\n\n\n\n4.2.2 Language Diffusion and Extinction\nLanguage Spread:\n\nColonialism and trade spread Indo-European languages (e.g., English, Spanish).\nReligious influence (e.g., Arabic spread with Islam).\n\nEndangered Languages:\n\nHalf of world languages may disappear by 2100 (UNESCO).\nCauses: Urbanization, globalization, national language policies.\nExample: Welsh and Māori being revived through education and policy.\n\nCase Study: The Decline of Indigenous Languages in Canada\n\nOver 70 Indigenous languages exist in Canada, but most are endangered.\nPolicies like Indian Residential Schools suppressed Indigenous languages.\nGovernment-funded language programs aim for revitalization.",
+    "objectID": "syllabus.html#他の科目との関連",
+    "href": "syllabus.html#他の科目との関連",
+    "title": "人文地理学",
+    "section": "他の科目との関連",
+    "text": "他の科目との関連\n\n他の科目との関連の説明\nR",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cultural geography: Language, religion, and identity</span>"
+      "人文地理学"
     ]
   },
   {
-    "objectID": "lecture_4.html#religion-and-geography",
-    "href": "lecture_4.html#religion-and-geography",
-    "title": "4  Cultural geography: Language, religion, and identity",
-    "section": "4.3 Religion and Geography",
-    "text": "4.3 Religion and Geography\n\n4.3.1 The Spatial Distribution of Religions\nReligion influences settlement patterns, traditions, and political systems.\nTwo Major Types:\n\nUniversalizing Religions (seek converts, global presence): Christianity, Islam, Buddhism.\nEthnic Religions (linked to ethnicity, localized): Hinduism, Judaism, Shintoism.\n\n\n\n\nReligion\nMajor Regions\nUniversalizing/Ethnic\n\n\n\n\nChristianity\nAmericas, Europe, Africa\nUniversalizing\n\n\nIslam\nMiddle East, North Africa, Southeast Asia\nUniversalizing\n\n\nHinduism\nIndia, Nepal\nEthnic\n\n\nBuddhism\nEast Asia, Southeast Asia\nUniversalizing\n\n\nJudaism\nIsrael, North America\nEthnic\n\n\n\nReligious Landscapes\n\nSacred sites: Mecca (Islam), Jerusalem (Christianity, Islam, Judaism), Varanasi (Hinduism).\nReligious structures: Mosques, churches, temples.\n\nReligion and Cultural Conflict\nReligious conflicts often arise due to territorial disputes or differing ideologies.\nExamples:\n\nIsrael-Palestine conflict (Judaism vs. Islam).\nIndia-Pakistan tensions over Kashmir (Hinduism vs. Islam).\nNorthern Ireland conflict (Catholics vs. Protestants).\n\nCase Study: Secularism in France\n\nFrance has strict secularism policies banning religious symbols in public schools.\nDebate: Are such policies protecting neutrality or restricting religious freedom?",
+    "objectID": "syllabus.html#備考",
+    "href": "syllabus.html#備考",
+    "title": "人文地理学",
+    "section": "備考",
+    "text": "備考\n\n備考の説明\n\nThe medium of instruction is English.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cultural geography: Language, religion, and identity</span>"
+      "人文地理学"
     ]
   },
   {
-    "objectID": "lecture_4.html#identity-ethnicity-and-cultural-landscapes",
-    "href": "lecture_4.html#identity-ethnicity-and-cultural-landscapes",
-    "title": "4  Cultural geography: Language, religion, and identity",
-    "section": "4.4 Identity, Ethnicity, and Cultural Landscapes",
-    "text": "4.4 Identity, Ethnicity, and Cultural Landscapes\n\n4.4.1 What is Identity?\n\nIdentity is shaped by language, religion, ethnicity, and history.\nCultural landscapes: How human activities shape the physical environment.\n\n\n\n4.4.2 Ethnicity and Geography\n\nEthnic enclaves: Communities preserving cultural identity (e.g., Chinatowns).\nDiasporas: Ethnic groups spread globally (e.g., Jewish and Indian diasporas).\nMulticulturalism: The coexistence of multiple cultures in one place.\n\nExample: Canada’s multicultural policies vs. France’s assimilation policies.\n\n\nCase Study: Rohingya Crisis in Myanmar\n\nRohingya Muslims face persecution in Myanmar due to ethnic and religious differences.\nMass displacement to Bangladesh (1 million refugees).\nGlobal debate over human rights and national identity.",
+    "objectID": "syllabus.html#教科書",
+    "href": "syllabus.html#教科書",
+    "title": "人文地理学",
+    "section": "教科書",
+    "text": "教科書\n\n教科書1\nISBN 9781526428509\n書名 An Introduction to R for Spatial Analysis and Mapping\n著者名 Chris Brunsdon and Lex Comber 出版社 Sage 出版年 2015\n\n\n教科書2\nSBN 9781138304512\n書名 Geocomputation with R\n著者名 Robin Lovelace,Lovelace, Robin,Nowosad, Jakub,Munchow, Jannes 出版社 CRC Press 出版年",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cultural geography: Language, religion, and identity</span>"
+      "人文地理学"
     ]
   },
   {
-    "objectID": "lecture_4.html#cultural-diffusion-and-globalization",
-    "href": "lecture_4.html#cultural-diffusion-and-globalization",
-    "title": "4  Cultural geography: Language, religion, and identity",
-    "section": "4.5 Cultural Diffusion and Globalization",
-    "text": "4.5 Cultural Diffusion and Globalization\n\n4.5.1 Types of Cultural Diffusion\n\nRelocation Diffusion: Migration spreads culture (e.g., Spanish in Latin America).\nHierarchical Diffusion: Ideas spread from elites (e.g., fashion, technology).\nContagious Diffusion: Rapid spread (e.g., social media trends).\n\n\n\n4.5.2 Globalization and Cultural Change\nPros of Globalization:\n\nCultural exchange (e.g., McDonald’s, Bollywood).\nEconomic growth and diversity.\n\nCons of Globalization:\n\nCultural homogenization (e.g., loss of Indigenous traditions).\nWesternization overpowering local customs.\n\nCase Study: Americanization vs. Cultural Resistance\n\nHollywood movies dominate global media, but some countries resist.\nFrance promotes French films to protect its cultural identity.",
+    "objectID": "syllabus.html#参考書",
+    "href": "syllabus.html#参考書",
+    "title": "人文地理学",
+    "section": "参考書",
+    "text": "参考書",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cultural geography: Language, religion, and identity</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_4.html#takeaway",
-    "href": "lecture_4.html#takeaway",
-    "title": "4  Cultural geography: Language, religion, and identity",
-    "section": "4.6 Takeaway",
-    "text": "4.6 Takeaway\n\nLanguage, religion, and identity are central to cultural geography.\nGlobalization is reshaping cultural landscapes, but local traditions persist.\nConflicts arise when cultural identities clash over land, politics, and beliefs.",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cultural geography: Language, religion, and identity</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_4.html#quizzes",
-    "href": "lecture_4.html#quizzes",
-    "title": "4  Cultural geography: Language, religion, and identity",
-    "section": "4.7 Quizzes",
-    "text": "4.7 Quizzes\n\nShould governments protect endangered languages, or is language change inevitable?\nHow does religion shape political conflicts? Provide examples.\nDoes globalization strengthen or weaken cultural diversity?\nHow can multicultural societies balance diversity and national unity?",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Cultural geography: Language, religion, and identity</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_5.html",
-    "href": "lecture_5.html",
-    "title": "5  Political geography: Borders, states, and geopolitics",
-    "section": "",
-    "text": "5.0.1 Key Questions in Political Geography\nDefinition:\nWhy It Matters:",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Political geography: Borders, states, and geopolitics</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_5.html#the-concept-of-the-state-and-sovereignty",
-    "href": "lecture_5.html#the-concept-of-the-state-and-sovereignty",
-    "title": "5  Political geography: Borders, states, and geopolitics",
-    "section": "5.1 The Concept of the State and Sovereignty",
-    "text": "5.1 The Concept of the State and Sovereignty\n\n5.1.1 What is a State?\nA state (country) is a politically organized territory with:\n\nDefined boundaries.\nPermanent population.\nA government with sovereignty (full control over internal/external affairs).\nRecognition by other states.\n\nExamples:\n\nSovereign States: France, Japan, Canada.\nDisputed Territories: Palestine, Taiwan, Western Sahara (partially recognized).\n\n\n\n5.1.2 Nation vs. State vs. Nation-State\n\n\n\n\n\n\n\n\nTerm\nDefinition\nExample\n\n\n\n\nNation\nA group of people with shared culture, language, history, and identity\nKurds, Basques, Palestinians\n\n\nState\nA politically defined territory with sovereignty\nUSA, Brazil, Germany\n\n\nNation-State\nA country where the population is culturally homogeneous\nJapan, Iceland, Denmark\n\n\nMultinational State\nA state with multiple ethnic groups with political autonomy\nCanada, India, Russia\n\n\nStateless Nation\nA nation without an official state\nKurds, Palestinians, Rohingya\n\n\n\nCase Study: The Kurdish Stateless Nation\n\n30 million Kurds live across Turkey, Iraq, Iran, and Syria.\nSeeking independence but face resistance from existing states.",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Political geography: Borders, states, and geopolitics</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_5.html#borders-and-boundaries",
-    "href": "lecture_5.html#borders-and-boundaries",
-    "title": "5  Political geography: Borders, states, and geopolitics",
-    "section": "5.2 Borders and Boundaries",
-    "text": "5.2 Borders and Boundaries\n\n5.2.1 Types of Political Boundaries\nNatural Boundaries – Based on physical features (rivers, mountains).\n\nExample: The Rio Grande River separates the USA and Mexico.\n\nGeometric Boundaries – Straight-line borders often drawn by colonial powers.\n\nExample: Borders of African nations (e.g., Algeria-Libya-Niger).\n\nCultural Boundaries – Based on language, religion, or ethnicity.\n\nExample: India-Pakistan border (Hindu-Muslim divide).\n\nSuperimposed Boundaries – Imposed by external forces, often without regard for cultural divisions.\n\nExample: Berlin Conference (1884) divided Africa among European powers.\n\nCase Study: The Partition of India (1947)\n\nBritish-drawn borders split India and Pakistan, leading to mass migration and violence.\nOver 15 million people displaced due to religious divisions.\n\n\n\n5.2.2 Border Disputes\nTerritorial Disputes – Conflicts over land ownership.\n\nExample: Israel-Palestine conflict over West Bank and Gaza.\n\nResource Disputes – Conflicts over natural resources.\n\nExample: South China Sea (oil, fisheries).\n\nFunctional Disputes – Disagreements over border management.\n\nExample: USA-Mexico border (immigration, security).",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Political geography: Borders, states, and geopolitics</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_5.html#geopolitics-and-power-struggles",
-    "href": "lecture_5.html#geopolitics-and-power-struggles",
-    "title": "5  Political geography: Borders, states, and geopolitics",
-    "section": "5.3 Geopolitics and Power Struggles",
-    "text": "5.3 Geopolitics and Power Struggles\n\n5.3.1 Geopolitical Theories\nHeartland Theory (Mackinder, 1904)\n\n“Who controls Eastern Europe controls the world.”\nSuggested Russia’s dominance due to its central location and land power.\nInfluence: Soviet Union’s Cold War strategy.\n\nRimland Theory (Spykman, 1942)\n\n“Control of coastal areas is key to global power.”\nJustified USA’s military presence in Asia and the Middle East.\n\nWorld-Systems Theory (Wallerstein, 1970s)\nCore-Periphery Model:\n\nCore nations (USA, UK, Japan) dominate trade and industry.\nPeriphery nations (Africa, Latin America) supply raw materials.\nSemi-periphery nations (China, India, Brazil) industrializing but still dependent.\n\nCase Study: The Cold War and Geopolitical Rivalry\n\nUSA (capitalism) vs. USSR (communism).\nProxy wars in Korea, Vietnam, Afghanistan.\nFormation of military alliances: NATO vs. Warsaw Pact.",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Political geography: Borders, states, and geopolitics</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_5.html#political-organizations-and-international-relations",
-    "href": "lecture_5.html#political-organizations-and-international-relations",
-    "title": "5  Political geography: Borders, states, and geopolitics",
-    "section": "5.4 Political Organizations and International Relations",
-    "text": "5.4 Political Organizations and International Relations\n\n5.4.1 International Organizations\n\n\n\n\n\n\n\n\nOrganization\nPurpose\nExample\n\n\n\n\nUnited Nations (UN)\nPeacekeeping, diplomacy\nResolutions on Ukraine-Russia war\n\n\nEuropean Union (EU)\nEconomic and political cooperation\nEuro currency, open borders\n\n\nNorth Atlantic Treaty Organization (NATO)\nMilitary alliance for collective defense\nSupport for Ukraine\n\n\nWorld Trade Organization (WTO)\nRegulates global trade\nTrade dispute resolutions\n\n\nAfrican Union (AU)\nAfrican unity and development\nPeace missions in Sudan\n\n\n\nCase Study: Brexit and the European Union\n\nUK left the EU in 2020 over concerns of sovereignty and immigration.\nEconomic and political impacts still ongoing.",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Political geography: Borders, states, and geopolitics</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_5.html#takeaway",
-    "href": "lecture_5.html#takeaway",
-    "title": "5  Political geography: Borders, states, and geopolitics",
-    "section": "5.5 Takeaway",
-    "text": "5.5 Takeaway\n\nPolitical geography examines how borders, states, and power shape global relations.\nGeopolitical theories explain conflicts and strategies.\nInternational organizations play key roles in diplomacy and stability.",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Political geography: Borders, states, and geopolitics</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_5.html#quizzes",
-    "href": "lecture_5.html#quizzes",
-    "title": "5  Political geography: Borders, states, and geopolitics",
-    "section": "5.6 Quizzes",
-    "text": "5.6 Quizzes\n\nWhat makes a state legitimate? Can unrecognized states function?\nHow do political boundaries create ethnic tensions?\nIs globalization weakening national borders?\nShould nations intervene in conflicts beyond their borders?",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Political geography: Borders, states, and geopolitics</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_6.html",
-    "href": "lecture_6.html",
-    "title": "6  Urban geography: Cities, infrastructure, and planning",
-    "section": "",
-    "text": "6.0.1 Key Questions in Urban Geography\nDefinition:\nWhy It Matters:",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_6.html#the-process-of-urbanization",
-    "href": "lecture_6.html#the-process-of-urbanization",
-    "title": "6  Urban geography: Cities, infrastructure, and planning",
-    "section": "6.1 The Process of Urbanization",
-    "text": "6.1 The Process of Urbanization\n\n6.1.1 What is Urbanization?\nUrbanization: The increasing percentage of a population living in urban areas.\nCauses of Urbanization:\n\nIndustrialization (factories, jobs).\nEconomic Opportunities (trade, services).\nMigration (rural-to-urban movement).\nInfrastructure Development (roads, electricity).\nGovernment Policies (urban housing, smart cities).\n\n\n\n6.1.2 Urbanization Trends\n\n\n\n\n\n\n\n\n\nRegion\nUrban Population (%) 1990\nUrban Population (%) 2022\nProjected (%) 2050\n\n\n\n\nNorth America\n75%\n82%\n89%\n\n\nEurope\n70%\n74%\n83%\n\n\nLatin America\n65%\n79%\n86%\n\n\nAsia\n32%\n51%\n64%\n\n\nAfrica\n27%\n43%\n59%\n\n\n\nCase Study: China’s Rapid Urbanization\n\nMore than 300 million rural people migrated to cities in 30 years.\nGrowth of megacities like Shanghai, Beijing, and Shenzhen.\nImpact: Increased economic growth but also environmental pollution and housing crises.",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_6.html#the-structure-of-cities",
-    "href": "lecture_6.html#the-structure-of-cities",
-    "title": "6  Urban geography: Cities, infrastructure, and planning",
-    "section": "6.2 The Structure of Cities",
-    "text": "6.2 The Structure of Cities\n\n6.2.1 Urban Models: How Cities Are Organized\nConcentric Zone Model (Burgess, 1925)\n\nCity grows outward in rings.\nCBD (Central Business District) at the core.\nExample: Chicago, USA.\n\nSector Model (Hoyt, 1939)\n\nCities develop in wedges based on transportation and industry.\nExample: Calgary, Canada (wealthier neighborhoods along transit lines).\n\nMultiple Nuclei Model (Harris & Ullman, 1945)\n\nCities have multiple centers for different activities.\nExample: Los Angeles, USA (downtown, industrial zones, suburban malls).\n\nLatin American City Model\n\nWealthy live near the central business district.\nPoorer populations in peripheral slums (favelas, barrios).\nExample: São Paulo, Brazil.",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_6.html#infrastructure-and-urban-services",
-    "href": "lecture_6.html#infrastructure-and-urban-services",
-    "title": "6  Urban geography: Cities, infrastructure, and planning",
-    "section": "6.3 Infrastructure and Urban Services",
-    "text": "6.3 Infrastructure and Urban Services\n\n6.3.1 Essential Urban Infrastructure\n\nTransportation: Roads, public transit, airports.\nUtilities: Water, electricity, sewage, internet.\nHousing: Affordable housing, high-rise apartments, suburban homes.\nPublic Spaces: Parks, libraries, cultural centers.\n\nCase Study: Smart Cities in Singapore\n\nSingapore uses AI, sensors, and automation to improve traffic, energy use, and waste management.\nGoal: Reduce pollution and create an efficient, livable city.\n\n\n\n6.3.2 Transportation and Urban Mobility\nPublic Transport vs. Private Vehicles\n\nEfficient metro and bus systems reduce congestion.\nExample: Tokyo’s extensive subway system reduces car dependence.\n\nUrban Sprawl:\n\nLow-density suburbs lead to increased car usage and long commutes.\nExample: Los Angeles, USA suffers from extreme traffic congestion.",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_6.html#urban-challenges-and-solutions",
-    "href": "lecture_6.html#urban-challenges-and-solutions",
-    "title": "6  Urban geography: Cities, infrastructure, and planning",
-    "section": "6.4 Urban Challenges and Solutions",
-    "text": "6.4 Urban Challenges and Solutions\n\n6.4.1 Challenges of Rapid Urbanization\nOvercrowding and Housing Shortages\n\nSlums and informal settlements (e.g., Dharavi in Mumbai).\nRising property prices force people out of city centers.\nTraffic Congestion and Pollution\n\nAir pollution from vehicles and industries.\nExample: New Delhi’s air pollution crisis.\n\n\nUrban Inequality and Poverty\n\nGentrification displaces low-income residents.\nExample: San Francisco’s rising housing costs due to tech industry growth.\n\nWaste Management and Sanitation\n\nCities generate massive waste, overwhelming landfill capacity.\nExample: Jakarta, Indonesia struggles with flooding due to plastic waste clogging drainage.",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_6.html#urban-planning-and-sustainable-cities",
-    "href": "lecture_6.html#urban-planning-and-sustainable-cities",
-    "title": "6  Urban geography: Cities, infrastructure, and planning",
-    "section": "6.5 Urban Planning and Sustainable Cities",
-    "text": "6.5 Urban Planning and Sustainable Cities\n\n6.5.1 What is Urban Planning?\n\nUrban planning designs cities to be more efficient, sustainable, and livable.\nGoals: Reduce congestion, improve green spaces, manage growth.\n\n\n\n6.5.2 Smart Growth Strategies\n\nMixed-Use Development: Combines housing, business, and recreation in the same area.\nPublic Transport Investment: Expanding metros, buses, bike lanes.\nGreen Spaces: More parks and trees for better air quality.\nRenewable Energy Use: Solar, wind power to reduce carbon footprint.\n\nCase Study: Curitiba, Brazil – A Model Sustainable City\n\nImplemented Bus Rapid Transit (BRT) system to reduce car dependency.\nGreen spaces and flood management to improve urban resilience.",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_6.html#the-future-of-cities",
-    "href": "lecture_6.html#the-future-of-cities",
-    "title": "6  Urban geography: Cities, infrastructure, and planning",
-    "section": "6.6 The Future of Cities",
-    "text": "6.6 The Future of Cities\n\n6.6.1 Trends in Urban Development\n\nRise of Megacities: More cities with 10+ million people (e.g., Lagos, Dhaka).\nTechnology-Driven Cities: Smart grids, automated traffic control, AI-based services.\nClimate-Resilient Cities: Managing floods, heat waves, and sea-level rise.\nDecentralization: Smaller cities growing to balance development (e.g., China’s secondary cities).",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_6.html#takeaway",
-    "href": "lecture_6.html#takeaway",
-    "title": "6  Urban geography: Cities, infrastructure, and planning",
-    "section": "6.7 Takeaway",
-    "text": "6.7 Takeaway\n\nUrban geography helps us understand how cities grow and function.\nInfrastructure and planning shape livability and sustainability.\nSmart growth strategies and sustainable planning are key for the future.",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_6.html#quizzes",
-    "href": "lecture_6.html#quizzes",
-    "title": "6  Urban geography: Cities, infrastructure, and planning",
-    "section": "6.8 Quizzes",
-    "text": "6.8 Quizzes\n\nWhat are the advantages and disadvantages of urbanization?\nHow does urban planning affect social and economic inequality?\nShould cities prioritize public transportation over car-friendly policies?\nCan slums be upgraded, or should governments relocate informal settlers?",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_7.html",
-    "href": "lecture_7.html",
-    "title": "7  Economic geography: Industry, trade, and globalization",
-    "section": "",
-    "text": "7.0.1 Key Questions in Economic Geography\nDefinition:\nWhy It Matters:",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Economic geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_7.html#industrial-geography-the-location-of-industries",
-    "href": "lecture_7.html#industrial-geography-the-location-of-industries",
-    "title": "7  Economic geography: Industry, trade, and globalization",
-    "section": "7.1 Industrial Geography: The Location of Industries",
-    "text": "7.1 Industrial Geography: The Location of Industries\n\n7.1.1 Industrial Revolution and Economic Development\n\nThe Industrial Revolution (1750–1850) transformed economies from agriculture to industry.\nFactories and mass production replaced manual labor → rapid urbanization.\nNew transportation networks (railways, ships) boosted trade.\n\n\n\n7.1.2 Factors Influencing Industrial Location\nAlfred Weber’s Least Cost Theory (1909):\n\nIndustries locate based on minimizing transportation, labor, and agglomeration costs.\nExample: Car manufacturing in Detroit due to skilled labor and access to steel.\n\n\n\n\n\n\n\n\n\nFactor\nDescription\nExample\n\n\n\n\nRaw Materials\nProximity to resources reduces transport costs\nCoal mines in Pennsylvania\n\n\nLabor Supply\nSkilled/unskilled workers influence location\nTech companies in Silicon Valley\n\n\nMarket Access\nIndustries locate near customers\nFashion industry in Paris\n\n\nInfrastructure\nRoads, ports, airports affect distribution\nSingapore as a global shipping hub\n\n\nGovernment Policies\nTax incentives, trade zones attract businesses\nSpecial Economic Zones in China\n\n\n\n\n7.1.2.1 Case Study: Silicon Valley – A Global Tech Hub\nWhy in California?\n\nProximity to universities (Stanford, Berkeley).\nInvestment from venture capitalists.\nClimate and lifestyle attract talent.",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Economic geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_7.html#global-trade-and-economic-systems",
-    "href": "lecture_7.html#global-trade-and-economic-systems",
-    "title": "7  Economic geography: Industry, trade, and globalization",
-    "section": "7.2 Global Trade and Economic Systems",
-    "text": "7.2 Global Trade and Economic Systems\n\n7.2.1 Types of Economic Systems\n\n\n\n\n\n\n\n\nEconomic System\nCharacteristics\nExample Countries\n\n\n\n\nCapitalist (Market Economy)\nPrivate ownership, free trade\nUSA, UK, Canada\n\n\nSocialist (Planned Economy)\nGovernment controls resources, limited private ownership\nChina, Cuba\n\n\nMixed Economy\nCombination of private and public sectors\nGermany, Sweden\n\n\n\n\n\n7.2.2 Global Trade Networks\n\nInternational trade connects producers and consumers across countries.\nKey Trade Agreements and Organizations:\n\nWorld Trade Organization (WTO): Regulates global trade.\nNorth American Free Trade Agreement (NAFTA → USMCA): Trade between USA, Canada, Mexico.\nEuropean Union (EU): Economic and trade integration among member states.\nBelt and Road Initiative (China): Massive infrastructure and trade project.\n\n\nCase Study: China’s Role in Global Trade\n\n“The World’s Factory”: Largest exporter of goods.\nRelies on cheap labor, strong infrastructure, and manufacturing expertise.\nUS-China trade tensions impact global markets.",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Economic geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_7.html#globalization-and-economic-change",
-    "href": "lecture_7.html#globalization-and-economic-change",
-    "title": "7  Economic geography: Industry, trade, and globalization",
-    "section": "7.3 Globalization and Economic Change",
-    "text": "7.3 Globalization and Economic Change\n\n7.3.1 What is Globalization?\n\nGlobalization is the increasing interconnectedness of economies, cultures, and politics worldwide.\nDriven by:\n\nTechnology advancements (Internet, digital banking).\nTrade liberalization (lower tariffs, free trade).\nMultinational corporations (MNCs) (e.g., Apple, Amazon).\n\n\n\n\n7.3.2 Impacts of Globalization\nPositive Effects:\n✅ Increased global trade and economic growth.\n✅ Access to new markets and job opportunities.\n✅ Faster technology diffusion.\nNegative Effects:\n❌ Job losses in some industries due to outsourcing.\n❌ Exploitation of workers in developing nations.\n❌ Environmental damage (deforestation, pollution).\nCase Study: Outsourcing and Job Shifts\n\nNike and Apple manufacture in Asia due to low labor costs.\nPros: Low-cost products for consumers.\nCons: Worker exploitation (low wages, poor conditions).",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Economic geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_7.html#economic-development-and-inequality",
-    "href": "lecture_7.html#economic-development-and-inequality",
-    "title": "7  Economic geography: Industry, trade, and globalization",
-    "section": "7.4 Economic Development and Inequality",
-    "text": "7.4 Economic Development and Inequality\n\n7.4.1 Measuring Economic Development\n\n\n\n\n\n\n\n\nIndicator\nDescription\nExample\n\n\n\n\nGDP per capita\nTotal economic output per person\nUSA: $75,000 vs. India: $6,000\n\n\nHuman Development Index (HDI)\nCombines income, education, life expectancy\nNorway: 0.957 vs. Chad: 0.394\n\n\nGini Coefficient\nMeasures income inequality (0 = equal, 1 = extreme inequality)\nSouth Africa: 0.63 vs. Sweden: 0.25\n\n\n\n\n7.4.1.1 Case Study: The Global North vs. Global South Divide\nGlobal North (Developed Nations)\n\nHigh incomes, industrialized economies (USA, Germany, Japan).\n\nGlobal South (Developing Nations)\n\nLower incomes, reliance on agriculture (Bangladesh, Nigeria).\n\nEfforts to bridge the gap: UN Sustainable Development Goals (SDGs), microfinance, fair trade.",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Economic geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_7.html#sustainable-economic-growth-and-the-future",
-    "href": "lecture_7.html#sustainable-economic-growth-and-the-future",
-    "title": "7  Economic geography: Industry, trade, and globalization",
-    "section": "7.5 Sustainable Economic Growth and the Future",
-    "text": "7.5 Sustainable Economic Growth and the Future\n\n7.5.1 Sustainable Development Strategies\n\nRenewable Energy Investment: Solar, wind power to reduce carbon footprint.\nFair Trade Policies: Ensuring workers receive fair wages.\nGreen Supply Chains: Reducing pollution in global manufacturing.\nCircular Economy: Recycling and waste reduction.\n\nCase Study: Green Economy in Germany\n\nGermany leads in renewable energy (solar, wind).\nGovernment incentives for sustainable industries.",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Economic geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_7.html#takeaway",
-    "href": "lecture_7.html#takeaway",
-    "title": "7  Economic geography: Industry, trade, and globalization",
-    "section": "7.6 Takeaway",
-    "text": "7.6 Takeaway\n\nEconomic geography helps explain how industries, trade, and globalization shape economies.\nIndustries are strategically located based on resources, labor, and markets.\nGlobalization has benefits but also challenges (inequality, job shifts).\nSustainable economic strategies are crucial for future growth.",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Economic geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_7.html#quizzes",
-    "href": "lecture_7.html#quizzes",
-    "title": "7  Economic geography: Industry, trade, and globalization",
-    "section": "7.7 Quizzes",
-    "text": "7.7 Quizzes\n\nWhy are certain industries located in specific regions?\nHow does globalization impact local economies and labor markets?\nShould governments regulate multinational corporations for ethical practices?\nCan economic growth and environmental sustainability coexist?",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Economic geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_8.html",
-    "href": "lecture_8.html",
-    "title": "8  Environmental geography: Resources, sustainability, and climate change",
-    "section": "",
-    "text": "8.0.1 Key Questions in Environmental Geography\nDefinition:\nWhy It Matters:",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Environmental geography: Resources, sustainability, and climate change</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_8.html#natural-resources-and-their-management",
-    "href": "lecture_8.html#natural-resources-and-their-management",
-    "title": "8  Environmental geography: Resources, sustainability, and climate change",
-    "section": "8.1 Natural Resources and Their Management",
-    "text": "8.1 Natural Resources and Their Management\n\n8.1.1 Types of Natural Resources\n\n\n\n\n\n\n\n\nType\nDescription\nExamples\n\n\n\n\nRenewable Resources\nCan be replenished naturally over time\nSolar, wind, forests, water\n\n\nNon-Renewable Resources\nFinite supply, takes millions of years to form\nCoal, oil, natural gas, minerals\n\n\nPerpetual Resources\nAlways available, not affected by human use\nSunlight, wind, ocean waves\n\n\n\nCase Study: The Amazon Rainforest and Resource Exploitation\n\nDeforestation for agriculture (soy, cattle ranching) and logging.\nLoss of biodiversity and carbon storage capacity.\nEfforts to manage: Brazil’s reforestation programs, Indigenous land rights.\n\n\n\n8.1.2 The Tragedy of the Commons (Garrett Hardin, 1968)\n\nShared resources (oceans, forests, atmosphere) are often overused and degraded.\nExample: Over-fishing in international waters leads to fish population collapse.\nSolutions: Regulation, conservation policies, sustainable resource management.",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Environmental geography: Resources, sustainability, and climate change</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_8.html#sustainability-and-development",
-    "href": "lecture_8.html#sustainability-and-development",
-    "title": "8  Environmental geography: Resources, sustainability, and climate change",
-    "section": "8.2 Sustainability and Development",
-    "text": "8.2 Sustainability and Development\n\n8.2.1 What is Sustainability?\n\nSustainability means meeting current needs without compromising future generations.\nThe Three Pillars of Sustainability:\n\nEnvironmental: Protecting ecosystems and biodiversity.\nEconomic: Sustainable business practices and green technologies.\nSocial: Reducing inequality and improving living standards.\n\n\n\n\n8.2.2 Sustainable Development Goals (SDGs)\n\nThe UN’s 17 SDGs aim to balance economic growth with environmental protection.\nKey SDGs related to environmental geography:\n\nGoal 7: Affordable and clean energy.\nGoal 12: Responsible consumption and production.\nGoal 13: Climate action.\n\n\nCase Study: Denmark – A Leader in Renewable Energy\n\nInvested heavily in wind energy, now generating 50% of electricity from renewables.\nGreen building designs and sustainable urban planning.",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Environmental geography: Resources, sustainability, and climate change</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_8.html#climate-change-and-its-impact",
-    "href": "lecture_8.html#climate-change-and-its-impact",
-    "title": "8  Environmental geography: Resources, sustainability, and climate change",
-    "section": "8.3 Climate Change and Its Impact",
-    "text": "8.3 Climate Change and Its Impact\n\n8.3.1 What is Climate Change?\n\nLong-term shifts in temperature, precipitation, and extreme weather patterns.\nCauses:\n\nNatural Factors (volcanic eruptions, solar radiation).\nHuman Activities (burning fossil fuels, deforestation).\n\n\n\n\n8.3.2 Greenhouse Effect and Global Warming\n\nGreenhouse gases (GHGs) trap heat in Earth’s atmosphere.\nMain GHGs:\n\nCarbon dioxide (CO₂) – Burning fossil fuels.\nMethane (CH₄) – Agriculture, livestock.\nNitrous oxide (N₂O) – Fertilizers, industrial processes.\n\nGlobal temperature has risen by ~1.2°C since pre-industrial times (IPCC, 2023).\n\nCase Study: Rising Sea Levels and Coastal Cities\n\nMaldives, Bangladesh, and Florida face flooding due to rising oceans.\nSolutions: Sea walls, climate migration planning, carbon reduction.",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Environmental geography: Resources, sustainability, and climate change</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_8.html#environmental-challenges-and-policies",
-    "href": "lecture_8.html#environmental-challenges-and-policies",
-    "title": "8  Environmental geography: Resources, sustainability, and climate change",
-    "section": "8.4 Environmental Challenges and Policies",
-    "text": "8.4 Environmental Challenges and Policies\n\n8.4.1 Deforestation and Land Degradation\n\nCauses: Agriculture, logging, infrastructure expansion.\nImpacts: Loss of biodiversity, increased CO₂ emissions.\nSolution: Reforestation, agroforestry, sustainable land management.\n\n\n\n8.4.2 Air and Water Pollution\n\nCauses: Industrial waste, vehicle emissions, plastics in oceans.\nImpacts: Health issues (lung diseases, waterborne illnesses). = Solution: Green technology, emissions regulations, waste recycling.\n\nCase Study: China’s Air Pollution Crisis\n\nRapid industrialization led to smog-filled cities.\nGovernment action: Air quality monitoring, coal reduction, electric vehicles.\n\n\n\n8.4.3 Global Environmental Policies and Agreements\n\n\n\n\n\n\n\n\nAgreement\nPurpose\nExample of Action\n\n\n\n\nKyoto Protocol (1997)\nReduce greenhouse gas emissions\nFirst international climate treaty\n\n\nParis Agreement (2015)\nLimit global warming to below 2°C\nCountries set emission reduction goals\n\n\nMontreal Protocol (1987)\nProtect ozone layer\nBanned CFCs in aerosol sprays",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Environmental geography: Resources, sustainability, and climate change</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_8.html#solutions-for-a-sustainable-future",
-    "href": "lecture_8.html#solutions-for-a-sustainable-future",
-    "title": "8  Environmental geography: Resources, sustainability, and climate change",
-    "section": "8.5 Solutions for a Sustainable Future",
-    "text": "8.5 Solutions for a Sustainable Future\n\n8.5.1 Renewable Energy Transition\n\nSolar, wind, hydro, and geothermal energy replacing fossil fuels.\nExample: Germany’s “Energiewende” policy promotes renewable electricity.\n\n\n\n8.5.2 Circular Economy and Waste Management\n\nRecycling and reusing materials to minimize waste.\nPlastic bans and biodegradable packaging.\nExample: Sweden recycles 99% of household waste.\n\n\n\n8.5.3 Green Urban Planning\n\nSustainable cities with efficient public transport and green spaces.\nVertical farming and smart water management.\nExample: Singapore’s eco-friendly city design.**",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Environmental geography: Resources, sustainability, and climate change</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_8.html#takeaway",
-    "href": "lecture_8.html#takeaway",
-    "title": "8  Environmental geography: Resources, sustainability, and climate change",
-    "section": "8.6 Takeaway",
-    "text": "8.6 Takeaway\n\nEnvironmental geography helps us understand human impact on natural systems.\nSustainability requires balancing environmental, economic, and social goals.\nClimate change is a major challenge, requiring global cooperation.",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Environmental geography: Resources, sustainability, and climate change</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_8.html#quizzes",
-    "href": "lecture_8.html#quizzes",
-    "title": "8  Environmental geography: Resources, sustainability, and climate change",
-    "section": "8.7 Quizzes",
-    "text": "8.7 Quizzes\n\nWhat are the biggest environmental challenges facing the world today?\nHow can economic growth and sustainability coexist?\nShould governments enforce stricter environmental policies?\nWhat role do individuals play in combating climate change?",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Environmental geography: Resources, sustainability, and climate change</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_9.html",
-    "href": "lecture_9.html",
-    "title": "9  Agricultural geography: Food production, land use, and rural development",
-    "section": "",
-    "text": "9.0.1 Key Questions in Agricultural Geography\nDefinition:\nWhy It Matters:",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Agricultural geography: Food production, land use, and rural development</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_9.html#shapefile-and-r",
-    "href": "lecture_9.html#shapefile-and-r",
-    "title": "9  Lecture 9: Processing shapefiles in R",
-    "section": "9.2 Shapefile and R",
-    "text": "9.2 Shapefile and R\nShapefile is commonly used with R, a powerful programming language and software environment for statistical computing and graphics. Here’s why shapefile is often preferred for use with R:\nNative Support: R has built-in support for reading, writing, and manipulating shapefiles. The “sf” package in R provides functions specifically designed for working with spatial data, including shapefiles. This native support simplifies the process of loading shapefiles into R and performing various spatial analyses.\nVisualization Capabilities: R offers extensive visualization capabilities for geospatial data. Packages like “ggplot2” and “leaflet” enable you to create high-quality maps and interactive visualizations using shapefiles as the data source. R’s flexibility in customizing plots allows for advanced geospatial visualizations and exploration.\n\nWhile shapefile is a common choice for working with spatial data in R, it’s important to note that R also supports other geospatial file formats, such as GeoJSON and Geopackage. These formats may offer advantages like improved data compression, support for more advanced spatial features, and better inter-operability with certain software ecosystems.\n\n\nUse pacman to manage the R packages\nUsing packman package enables us to install and load a package without typing install.packges() at Console on your RStudio\nYou need to type the following command at Console on your RStudio\n\n\ninstall.packages(\"pacman\")\n\n\nThe installation of necessary R packages:\n\n\npacman::p_load(sf, tidyverse, rnaturalearth)",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lecture 9: Processing shapefiles in R</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_9.html#using-sf-package-to-make-map",
-    "href": "lecture_9.html#using-sf-package-to-make-map",
-    "title": "9  Lecture 9: Processing shapefiles in R",
-    "section": "9.3 Using sf package to make map",
-    "text": "9.3 Using sf package to make map\n\nCreate data for world\n\n\nworld &lt;- ne_countries(scale = \"small\", returnclass = \"sf\")\n\n\nFirst we use the familiar ggplot2 syntax. Like in any other ggplot, we have an x and a y axis, though in this case the correspond to longitude and latitude. Knowing this, we can use other ggplot2 commands to make our map more complex. Below we draw a horizontal line where the yintercept is at the equator.\n\n\nworld %&gt;% \n  ggplot() + \n  geom_sf() +\n  geom_hline(yintercept = 0, linetype = \"dashed\") \n\n\n\n\n\n\n\n\n\nWorld map with income groups\n\n\nworld %&gt;% \n  mutate(income_grp = factor(income_grp, ordered = T)) %&gt;% \n  ggplot() + \n  geom_sf(aes(fill = income_grp)) +\n  theme_void() +\n  theme(legend.position = \"top\") +\n  labs(fill = \"Income Group:\") +\n  guides(fill=guide_legend(nrow=2, byrow=TRUE))",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lecture 9: Processing shapefiles in R</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_9.html#using-shapefile-to-make-map",
-    "href": "lecture_9.html#using-shapefile-to-make-map",
-    "title": "9  Lecture 9: Processing shapefiles in R",
-    "section": "9.4 Using Shapefile to make map",
-    "text": "9.4 Using Shapefile to make map\n\nFirst we will download the available shapefile of Japan from following website:\n\nhttps://data.humdata.org/dataset/cod-ab-jpn?\n\nSave the downloaded data into your GIS project inside a folder name data.\nWe will read the shapefile and provide a name shapefile_jpn.\nWe will plot the shapefile named shapefile_jpn.\n\n\nshapefile_jpn &lt;- read_sf(\"data/jpn_shp_adm/jpn_admbnda_adm1_2019.shp\")\nplot(shapefile_jpn)",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Lecture 9: Processing shapefiles in R</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_10.html",
-    "href": "lecture_10.html",
-    "title": "10  Industrial geography: Industry, trade, and globalization",
-    "section": "",
-    "text": "10.0.1 What is Industrial Geography?",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Industrial geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_10.html#global-gdp-map",
-    "href": "lecture_10.html#global-gdp-map",
-    "title": "10  Lecture 10: Basic maps with R",
-    "section": "10.1 Global GDP map",
-    "text": "10.1 Global GDP map\n\nglobal_map %&gt;% \n  ggplot() +\n  geom_sf(aes(fill = gdp_md)) +\n  scale_fill_gradient(low = \"white\", high = \"green\") +\n  labs(fill = \"GDP\") +\n  theme_minimal(base_family = \"HiraKakuProN-W3\") +\n  theme(legend.position = \"bottom\")\n\n\n\n\n\n\n\n\n\nLet’s change the color and the position of legend.\n\n\nglobal_map %&gt;% \n  ggplot() +\n  geom_sf(aes(fill = gdp_md)) +\n  scale_fill_gradient(low = \"gray\", high = \"blue\") +\n  labs(fill = \"GDP_2019\") +\n  theme_minimal(base_family = \"HiraKakuProN-W3\") +\n  theme(legend.position = \"left\")",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lecture 10: Basic maps with R</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_10.html#regional-gdp-map",
-    "href": "lecture_10.html#regional-gdp-map",
-    "title": "10  Lecture 10: Basic maps with R",
-    "section": "10.2 Regional GDP map",
-    "text": "10.2 Regional GDP map\n\nGDP of European countries in 2019\n\n\nglobal_map %&gt;% \n  ggplot() +\n  geom_sf(aes(fill = gdp_md)) +\n  scale_fill_gradient(low = \"white\", high = \"green\") +\n  labs(fill = \"GDP_Europe\") +\n  coord_sf(xlim = c(-10, 45), ylim = c(35, 60)) +\n  theme_minimal(base_family = \"HiraKakuProN-W3\") +\n  theme(legend.position = \"left\")\n\n\n\n\n\n\n\n\n\nGDP of African countries in 2019\n\n\nglobal_map %&gt;% \n  ggplot() +\n  geom_sf(aes(fill = gdp_md)) +\n  scale_fill_gradient(low = \"white\", high = \"green\") +\n  labs(fill = \"GDP_Africa\") +\n  coord_sf(xlim = c(-30, 60), ylim = c(-40, 40)) +\n  theme_minimal(base_family = \"HiraKakuProN-W3\") +\n  theme(legend.position = \"left\")",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Lecture 10: Basic maps with R</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_11.html",
-    "href": "lecture_11.html",
-    "title": "11  Human geography lab_1",
-    "section": "",
-    "text": "11.1 Shapefile in GIS\nShapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications. Here are a few key reasons:\nData Representation: Shapefile is a popular file format for storing and sharing geospatial data. It allows the representation of complex geographic features such as points, lines, and polygons, along with their attributes.\nInteroperability: Shapefile is supported by a wide range of GIS software, making it highly inter-operable. It enables data exchange between different systems and facilitates collaboration among users who may be using different GIS platforms.\nAttribute Management: Shapefile supports the storage of attribute data associated with geographic features. This allows for the integration of non-spatial information, such as population, land use, or temperature, with spatial data, enabling comprehensive analysis and visualization.\nCompact and Efficient: Shapefiles are relatively small in size compared to other data formats, making them efficient for storing and transferring geospatial data. They are also capable of handling large data-sets without compromising performance.\nHistorical Significance: Shapefile has been in use for several decades and has become a standard in the GIS community. Many legacy datasets and applications are based on shapefiles, making them crucial for historical data preservation and compatibility.",
-    "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Human geography lab_1</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_11.html#world-and-continents-with-sf",
-    "href": "lecture_11.html#world-and-continents-with-sf",
-    "title": "11  Lecture 11: Human geography of Africa",
-    "section": "",
-    "text": "Alternatively, you can use the pacman package manager to load necessary R packages from below:\n\n\n\n\nUse the package sf\nWe will use the world dataset provided by spData, to show what sf objects are and how they work. world is an ‘sf data frame’ containing spatial and attribute columns, the names of which are returned by the function names() (the last column in this example contains the geographic information):\n\n\n\nMake sophistocated and professional looking map of World\n\n\n\nWe will begin to get to know the basics of geographic data in R by using the “world” dataset in the package.\nFirst let’s see what information is in the “world” dataset. Get the names of the variables in the world dataset.\nFilter the population and GDP data from World map for better understanding the data structure.\nPlot the GDP percapita map of the world:\nPrepare Africa map by highlighting Zambia\n\n\n\nCheck the type of data\n\n\n\nMake professional looking map of Asia\n\n\n\nMake professional looking map of Africa\n\n\n\nMake professional looking map of Europe\n\n\n\nMake professional looking map of Oceania\n\n\n\nMake professional looking map of North America",
-    "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Lecture 11: Human geography of Africa</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_15.html",
-    "href": "lecture_15.html",
-    "title": "15  Human geography lab_5",
-    "section": "",
-    "text": "15.1 US states and regions\nI will explore different packages that could help with mapping geographical data, specifically for the USA. At first we need to load necessary packages to execute the maps for this lecture.\nlibrary(usmap)\nlibrary(tidyverse)\npacman::p_load(usmap, maps, mapdata, sf, plotly, tidyverse, mapview, leaflet, tmap, tmaptools, tigris)",
-    "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Human geography lab_5</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_15.html#using-usmap-package",
-    "href": "lecture_15.html#using-usmap-package",
-    "title": "15  Human geography lab_5",
-    "section": "15.2 Using usmap package",
-    "text": "15.2 Using usmap package\n\nThis is probably the most continent package to plot a USA. map along with some data. Plot all states of the USA to create an empty map.\n\n\nplot_usmap(regions = \"states\") + \n  labs(title = \"United States\",\n       subtitle = \"This is a map of the United States.\") + \n  theme(panel.background=element_blank())\n\n\n\n\n\n\n\n\n\nBesides states, we could also plot all counties of the USA.\n\n\nplot_usmap(regions = \"counties\") + \n  labs(title = \"U.S.A. counties\",\n       subtitle = \"This is a map of the United States.\") + \n  theme(panel.background=element_blank())\n\n\n\n\n\n\n\n\n\nusmap also provides many different regions to select\n\n\nplot_usmap(include = .south_region, exclude = c(\"VA\"), labels = TRUE)\n\n\n\n\n\n\n\n\n\nusmap also provides north regions map\n\n\nplot_usmap(include = .south_region, exclude = c(\"VA\"), labels = TRUE)\n\n\n\n\n\n\n\n\n\nWe can also select certain states by using state abbreviations\n\n\nplot_usmap(include = c(\"CT\", \"ME\", \"MA\", \"NH\", \"VT\")) +\n  labs(title = \"New England Region\") +\n  theme(panel.background = element_rect(color = \"black\"))",
-    "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Human geography lab_5</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_15.html#using-ggplot2-package",
-    "href": "lecture_15.html#using-ggplot2-package",
-    "title": "15  Human geography lab_5",
-    "section": "15.3 Using ggplot2 package",
-    "text": "15.3 Using ggplot2 package\n\nusa &lt;- map_data('usa')\n\n\nNext, we use geom_ploygon function to plot USA map.\n\n\nggplot(data=usa, aes(x=long, y=lat, group=group)) + \n  geom_polygon(fill='lightblue') + \n  theme(axis.title.x=element_blank(), axis.text.x=element_blank(), axis.ticks.x=element_blank(),\n        axis.title.y=element_blank(), axis.text.y=element_blank(), axis.ticks.y=element_blank()) + \n  ggtitle('U.S.A. Map') + \n  coord_fixed(1.3)\n\n\n\n\n\n\n\n\n\nIn order to get more information about USA, now we can add state data to the map. Like above, we obtain data from maps and mapdata packages, and use ggplot2 to plot.\n\n\nstate &lt;- map_data(\"state\")\n\n\nPlot the states with ggplot2\n\n\nggplot(data=state, aes(x=long, y=lat, fill=region, group=group)) + \n  geom_polygon(color = \"white\") + \n  guides(fill=FALSE) + \n  theme(axis.title.x=element_blank(), axis.text.x=element_blank(), axis.ticks.x=element_blank(),\n        axis.title.y=element_blank(), axis.text.y=element_blank(), axis.ticks.y=element_blank()) + \n  ggtitle('U.S.A. Map with States') + \n  coord_fixed(1.3)\n\n\n\n\n\n\n\n\n\nWhat if we only care about one state? Definitely, we can draw one state map using ggplot2. Firstly we need to filter data.\n\n\nwashington &lt;- subset(state, region==\"washington\")\ncounties &lt;- map_data(\"county\")\nwashington_county &lt;- subset(counties, region==\"washington\")\n\n\nPlot Washington\n\n\nca_map &lt;- ggplot(data=washington, mapping=aes(x=long, y=lat, group=group)) + \n  coord_fixed(1.3) + \n  geom_polygon(color=\"black\", fill=\"gray\") + \n  geom_polygon(data=washington_county, fill=NA, color=\"white\") + \n  geom_polygon(color=\"black\", fill=NA) + \n  ggtitle('Washington Map with Counties') + \n  theme(axis.title.x=element_blank(), axis.text.x=element_blank(), axis.ticks.x=element_blank(),\n        axis.title.y=element_blank(), axis.text.y=element_blank(), axis.ticks.y=element_blank())\nca_map",
-    "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Human geography lab_5</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_15.html#us-states-and-regions",
-    "href": "lecture_15.html#us-states-and-regions",
-    "title": "15  Human geography lab_5",
-    "section": "",
-    "text": "Alternatively you can use the pacman package manager for loading the necessary packages for this lecture.",
-    "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Human geography lab_5</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_12.html",
-    "href": "lecture_12.html",
-    "title": "12  Human geography lab_2",
-    "section": "",
-    "text": "12.0.1 World map\nThe following packages will be required for this chapter:\nworld_map &lt;- map_data(\"world\")\nhead(world_map)\n\n       long      lat group order region subregion\n1 -69.89912 12.45200     1     1  Aruba      &lt;NA&gt;\n2 -69.89571 12.42300     1     2  Aruba      &lt;NA&gt;\n3 -69.94219 12.43853     1     3  Aruba      &lt;NA&gt;\n4 -70.00415 12.50049     1     4  Aruba      &lt;NA&gt;\n5 -70.06612 12.54697     1     5  Aruba      &lt;NA&gt;\n6 -70.05088 12.59707     1     6  Aruba      &lt;NA&gt;\nworld_map %&gt;% \n  ggplot(aes(x = long, y = lat, group = group)) +\n  geom_polygon(fill = \"lightgray\", colour = \"black\", size = 0.1) \n\n\n\n\n\n\n\nFigure 12.1: World countries",
-    "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Human geography lab_2</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_12.html#administrative-regions-of-japan",
-    "href": "lecture_12.html#administrative-regions-of-japan",
-    "title": "12  Lecture 12: Human geography of Asia",
-    "section": "",
-    "text": "Load all necessary packages\n\n\n\nLoad the shapefile of Japan’s administrative divisions\n\n\n\nObserve the data inside the shape file of adm0\n\n\n\nCheck the geographic coordinate system of your adm0 shapefile\n\n\n\nPlot the map of Japan admin 0\n\n\n\nChange the boundary color and fill it with white color.\n\n\n\nWe can try the aes() function to improve the visual of the ADM0. Aesthetics are used to bind plotting parameters to your data. The aes() function defines which variables you want to plot, and which plot parameters to map them to.\n\n\n\nPlot the map of Japan admin 1\n\n\n\nLets change the color of boundary and fill.\n\n\n\nWe can try the aes() function to improve the visual of the ADM1.\n\n\n\nPlot the map of Japan admin 2\n\n\n\nLets change the color of boundary and fill\n\n\n\n\nWe can try the aes() function to improve the visual of the ADM2.",
-    "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Lecture 12: Human geography of Asia</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_14.html",
-    "href": "lecture_14.html",
-    "title": "14  Human geography lab_4",
-    "section": "",
-    "text": "14.1 Europian regions with naturalearth data\nlibrary(tidyverse)\nlibrary(sf)\nlibrary(knitr)\nmap_data &lt;- st_read(\"data/shapefile/ne_10m_admin_0_countries\")\nfeatures_map_data &lt;- map_data %&gt;%\n    as_tibble() %&gt;%\n    select(-geometry) %&gt;%\n    head(10)\n\nkable(features_map_data)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfeaturecla\nscalerank\nLABELRANK\nSOVEREIGNT\nSOV_A3\nADM0_DIF\nLEVEL\nTYPE\nTLC\nADMIN\nADM0_A3\nGEOU_DIF\nGEOUNIT\nGU_A3\nSU_DIF\nSUBUNIT\nSU_A3\nBRK_DIFF\nNAME\nNAME_LONG\nBRK_A3\nBRK_NAME\nBRK_GROUP\nABBREV\nPOSTAL\nFORMAL_EN\nFORMAL_FR\nNAME_CIAWF\nNOTE_ADM0\nNOTE_BRK\nNAME_SORT\nNAME_ALT\nMAPCOLOR7\nMAPCOLOR8\nMAPCOLOR9\nMAPCOLOR13\nPOP_EST\nPOP_RANK\nPOP_YEAR\nGDP_MD\nGDP_YEAR\nECONOMY\nINCOME_GRP\nFIPS_10\nISO_A2\nISO_A2_EH\nISO_A3\nISO_A3_EH\nISO_N3\nISO_N3_EH\nUN_A3\nWB_A2\nWB_A3\nWOE_ID\nWOE_ID_EH\nWOE_NOTE\nADM0_ISO\nADM0_DIFF\nADM0_TLC\nADM0_A3_US\nADM0_A3_FR\nADM0_A3_RU\nADM0_A3_ES\nADM0_A3_CN\nADM0_A3_TW\nADM0_A3_IN\nADM0_A3_NP\nADM0_A3_PK\nADM0_A3_DE\nADM0_A3_GB\nADM0_A3_BR\nADM0_A3_IL\nADM0_A3_PS\nADM0_A3_SA\nADM0_A3_EG\nADM0_A3_MA\nADM0_A3_PT\nADM0_A3_AR\nADM0_A3_JP\nADM0_A3_KO\nADM0_A3_VN\nADM0_A3_TR\nADM0_A3_ID\nADM0_A3_PL\nADM0_A3_GR\nADM0_A3_IT\nADM0_A3_NL\nADM0_A3_SE\nADM0_A3_BD\nADM0_A3_UA\nADM0_A3_UN\nADM0_A3_WB\nCONTINENT\nREGION_UN\nSUBREGION\nREGION_WB\nNAME_LEN\nLONG_LEN\nABBREV_LEN\nTINY\nHOMEPART\nMIN_ZOOM\nMIN_LABEL\nMAX_LABEL\nLABEL_X\nLABEL_Y\nNE_ID\nWIKIDATAID\nNAME_AR\nNAME_BN\nNAME_DE\nNAME_EN\nNAME_ES\nNAME_FA\nNAME_FR\nNAME_EL\nNAME_HE\nNAME_HI\nNAME_HU\nNAME_ID\nNAME_IT\nNAME_JA\nNAME_KO\nNAME_NL\nNAME_PL\nNAME_PT\nNAME_RU\nNAME_SV\nNAME_TR\nNAME_UK\nNAME_UR\nNAME_VI\nNAME_ZH\nNAME_ZHT\nFCLASS_ISO\nTLC_DIFF\nFCLASS_TLC\nFCLASS_US\nFCLASS_FR\nFCLASS_RU\nFCLASS_ES\nFCLASS_CN\nFCLASS_TW\nFCLASS_IN\nFCLASS_NP\nFCLASS_PK\nFCLASS_DE\nFCLASS_GB\nFCLASS_BR\nFCLASS_IL\nFCLASS_PS\nFCLASS_SA\nFCLASS_EG\nFCLASS_MA\nFCLASS_PT\nFCLASS_AR\nFCLASS_JP\nFCLASS_KO\nFCLASS_VN\nFCLASS_TR\nFCLASS_ID\nFCLASS_PL\nFCLASS_GR\nFCLASS_IT\nFCLASS_NL\nFCLASS_SE\nFCLASS_BD\nFCLASS_UA\n\n\n\n\nAdmin-0 country\n0\n2\nIndonesia\nIDN\n0\n2\nSovereign country\n1\nIndonesia\nIDN\n0\nIndonesia\nIDN\n0\nIndonesia\nIDN\n0\nIndonesia\nIndonesia\nIDN\nIndonesia\nNA\nIndo.\nINDO\nRepublic of Indonesia\nNA\nIndonesia\nNA\nNA\nIndonesia\nNA\n6\n6\n6\n11\n270625568\n17\n2019\n1119190\n2019\n4. Emerging region: MIKT\n4. Lower middle income\nID\nID\nID\nIDN\nIDN\n360\n360\n360\nID\nIDN\n23424846\n23424846\nExact WOE match as country\nIDN\nNA\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\nIDN\n-99\n-99\nAsia\nAsia\nSouth-Eastern Asia\nEast Asia & Pacific\n9\n9\n5\n-99\n1\n0\n1.7\n6.7\n101.89295\n-0.954404\n1159320845\nQ252\nإندونيسيا\nইন্দোনেশিয়া\nIndonesien\nIndonesia\nIndonesia\nاندونزی\nIndonésie\nΙνδονησία\nאינדונזיה\nइंडोनेशिया\nIndonézia\nIndonesia\nIndonesia\nインドネシア\n인도네시아\nIndonesië\nIndonezja\nIndonésia\nИндонезия\nIndonesien\nEndonezya\nІндонезія\nانڈونیشیا\nIndonesia\n印度尼西亚\n印度尼西亞\nAdmin-0 country\nNA\nAdmin-0 country\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nAdmin-0 country\n0\n3\nMalaysia\nMYS\n0\n2\nSovereign country\n1\nMalaysia\nMYS\n0\nMalaysia\nMYS\n0\nMalaysia\nMYS\n0\nMalaysia\nMalaysia\nMYS\nMalaysia\nNA\nMalay.\nMY\nMalaysia\nNA\nMalaysia\nNA\nNA\nMalaysia\nNA\n2\n4\n3\n6\n31949777\n15\n2019\n364681\n2019\n6. Developing region\n3. Upper middle income\nMY\nMY\nMY\nMYS\nMYS\n458\n458\n458\nMY\nMYS\n23424901\n23424901\nExact WOE match as country\nMYS\nNA\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\nMYS\n-99\n-99\nAsia\nAsia\nSouth-Eastern Asia\nEast Asia & Pacific\n8\n8\n6\n-99\n1\n0\n3.0\n8.0\n113.83708\n2.528667\n1159321083\nQ833\nماليزيا\nমালয়েশিয়া\nMalaysia\nMalaysia\nMalasia\nمالزی\nMalaisie\nΜαλαισία\nמלזיה\nमलेशिया\nMalajzia\nMalaysia\nMalaysia\nマレーシア\n말레이시아\nMaleisië\nMalezja\nMalásia\nМалайзия\nMalaysia\nMalezya\nМалайзія\nملائیشیا\nMalaysia\n马来西亚\n馬來西亞\nAdmin-0 country\nNA\nAdmin-0 country\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nAdmin-0 country\n0\n2\nChile\nCHL\n0\n2\nSovereign country\n1\nChile\nCHL\n0\nChile\nCHL\n0\nChile\nCHL\n0\nChile\nChile\nCHL\nChile\nNA\nChile\nCL\nRepublic of Chile\nNA\nChile\nNA\nNA\nChile\nNA\n5\n1\n5\n9\n18952038\n14\n2019\n282318\n2019\n5. Emerging region: G20\n3. Upper middle income\nCI\nCL\nCL\nCHL\nCHL\n152\n152\n152\nCL\nCHL\n23424782\n23424782\nExact WOE match as country\nCHL\nNA\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\nCHL\n-99\n-99\nSouth America\nAmericas\nSouth America\nLatin America & Caribbean\n5\n5\n5\n-99\n1\n0\n1.7\n6.7\n-72.31887\n-38.151771\n1159320493\nQ298\nتشيلي\nচিলি\nChile\nChile\nChile\nشیلی\nChili\nΧιλή\nצ’ילה\nचिली\nChile\nChili\nCile\nチリ\n칠레\nChili\nChile\nChile\nЧили\nChile\nŞili\nЧилі\nچلی\nChile\n智利\n智利\nAdmin-0 country\nNA\nAdmin-0 country\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nAdmin-0 country\n0\n3\nBolivia\nBOL\n0\n2\nSovereign country\n1\nBolivia\nBOL\n0\nBolivia\nBOL\n0\nBolivia\nBOL\n0\nBolivia\nBolivia\nBOL\nBolivia\nNA\nBolivia\nBO\nPlurinational State of Bolivia\nNA\nBolivia\nNA\nNA\nBolivia\nNA\n1\n5\n2\n3\n11513100\n14\n2019\n40895\n2019\n5. Emerging region: G20\n4. Lower middle income\nBL\nBO\nBO\nBOL\nBOL\n068\n068\n068\nBO\nBOL\n23424762\n23424762\nExact WOE match as country\nBOL\nNA\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\nBOL\n-99\n-99\nSouth America\nAmericas\nSouth America\nLatin America & Caribbean\n7\n7\n7\n-99\n1\n0\n3.0\n7.5\n-64.59343\n-16.666015\n1159320439\nQ750\nبوليفيا\nবলিভিয়া\nBolivien\nBolivia\nBolivia\nبولیوی\nBolivie\nΒολιβία\nבוליביה\nबोलिविया\nBolívia\nBolivia\nBolivia\nボリビア\n볼리비아\nBolivia\nBoliwia\nBolívia\nБоливия\nBolivia\nBolivya\nБолівія\nبولیویا\nBolivia\n玻利维亚\n玻利維亞\nAdmin-0 country\nNA\nAdmin-0 country\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nAdmin-0 country\n0\n2\nPeru\nPER\n0\n2\nSovereign country\n1\nPeru\nPER\n0\nPeru\nPER\n0\nPeru\nPER\n0\nPeru\nPeru\nPER\nPeru\nNA\nPeru\nPE\nRepublic of Peru\nNA\nPeru\nNA\nNA\nPeru\nNA\n4\n4\n4\n11\n32510453\n15\n2019\n226848\n2019\n5. Emerging region: G20\n3. Upper middle income\nPE\nPE\nPE\nPER\nPER\n604\n604\n604\nPE\nPER\n23424919\n23424919\nExact WOE match as country\nPER\nNA\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\nPER\n-99\n-99\nSouth America\nAmericas\nSouth America\nLatin America & Caribbean\n4\n4\n4\n-99\n1\n0\n2.0\n7.0\n-72.90016\n-12.976679\n1159321163\nQ419\nبيرو\nপেরু\nPeru\nPeru\nPerú\nپرو\nPérou\nΠερού\nפרו\nपेरू\nPeru\nPeru\nPerù\nペルー\n페루\nPeru\nPeru\nPeru\nПеру\nPeru\nPeru\nПеру\nپیرو\nPeru\n秘鲁\n秘魯\nAdmin-0 country\nNA\nAdmin-0 country\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nAdmin-0 country\n0\n2\nArgentina\nARG\n0\n2\nSovereign country\n1\nArgentina\nARG\n0\nArgentina\nARG\n0\nArgentina\nARG\n0\nArgentina\nArgentina\nARG\nArgentina\nNA\nArg.\nAR\nArgentine Republic\nNA\nArgentina\nNA\nNA\nArgentina\nNA\n3\n1\n3\n13\n44938712\n15\n2019\n445445\n2019\n5. Emerging region: G20\n3. Upper middle income\nAR\nAR\nAR\nARG\nARG\n032\n032\n032\nAR\nARG\n23424747\n23424747\nExact WOE match as country\nARG\nNA\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\nARG\n-99\n-99\nSouth America\nAmericas\nSouth America\nLatin America & Caribbean\n9\n9\n4\n-99\n1\n0\n2.0\n7.0\n-64.17333\n-33.501159\n1159320331\nQ414\nالأرجنتين\nআর্জেন্টিনা\nArgentinien\nArgentina\nArgentina\nآرژانتین\nArgentine\nΑργεντινή\nארגנטינה\nअर्जेण्टीना\nArgentína\nArgentina\nArgentina\nアルゼンチン\n아르헨티나\nArgentinië\nArgentyna\nArgentina\nАргентина\nArgentina\nArjantin\nАргентина\nارجنٹائن\nArgentina\n阿根廷\n阿根廷\nAdmin-0 country\nNA\nAdmin-0 country\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nAdmin-0 country\n3\n3\nUnited Kingdom\nGB1\n1\n2\nDependency\n1\nDhekelia Sovereign Base Area\nESB\n0\nDhekelia Sovereign Base Area\nESB\n0\nDhekelia Sovereign Base Area\nESB\n0\nDhekelia\nDhekelia\nESB\nDhekelia\nNA\nDhek.\nDH\nNA\nNA\nNA\nU.K.\nU.K. Base\nDhekelia Sovereign Base Area\nNA\n6\n6\n6\n3\n7850\n5\n2013\n314\n2013\n2. Developed region: nonG7\n2. High income: nonOECD\n-99\n-99\n-99\n-99\n-99\n-99\n-99\n-099\n-99\n-99\n-99\n-99\nNo WOE equivalent.\n-99\n1\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\nESB\n-99\n-99\nAsia\nAsia\nWestern Asia\nEurope & Central Asia\n8\n8\n5\n3\n-99\n0\n6.5\n11.0\n33.79058\n35.011042\n1159320709\nQ9206745\nديكيليا كانتونمنت\nদেখেলিয়া ক্যান্টনমেন্ট\nDekelia\nDhekelia Cantonment\nDekelia\nدکلیا\nDhekelia\nΝτεκέλια Κάντονμεντ\nדקליה\nढेकेलिया छावनी\nDekélia\nDhekelia Cantonment\nBase di Dhekelia\nデケリア\n데켈리아 지역\nDhekelia Cantonment\nDhekelia\nDeceleia\nДекелия\nDhekelia\nDhekelia Kantonu\nМуніципалітет Декелія\nدحیکیلیا کانتونمینٹ\nCăn cứ quân sự Dhekelia\n泽凯利亚军营\n德凱利亞軍營\nUnrecognized\n1\nAdmin-0 dependency\nAdmin-0 dependency\nAdmin-0 dependency\nNA\nAdmin-0 dependency\nNA\nNA\nNA\nNA\nNA\nAdmin-0 dependency\nAdmin-0 dependency\nNA\nNA\nNA\nNA\nNA\nNA\nAdmin-0 dependency\nNA\nNA\nAdmin-0 dependency\nNA\nAdmin-0 dependency\nNA\nAdmin-0 dependency\nAdmin-0 dependency\nAdmin-0 dependency\nAdmin-0 dependency\nAdmin-0 dependency\nNA\nAdmin-0 dependency\n\n\nAdmin-0 country\n1\n5\nCyprus\nCYP\n0\n2\nSovereign country\n1\nCyprus\nCYP\n0\nCyprus\nCYP\n0\nCyprus\nCYP\n0\nCyprus\nCyprus\nCYP\nCyprus\nNA\nCyp.\nCY\nRepublic of Cyprus\nNA\nCyprus\nNA\nNA\nCyprus\nNA\n1\n2\n3\n7\n1198575\n12\n2019\n24948\n2019\n6. Developing region\n2. High income: nonOECD\nCY\nCY\nCY\nCYP\nCYP\n196\n196\n196\nCY\nCYP\n-90\n23424994\nWOE lists as subunit of united Cyprus\nCYP\nNA\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\nCYP\n-99\n-99\nAsia\nAsia\nWestern Asia\nEurope & Central Asia\n6\n6\n4\n-99\n1\n0\n4.5\n9.5\n33.08418\n34.913329\n1159320533\nQ229\nقبرص\nসাইপ্রাস\nRepublik Zypern\nCyprus\nChipre\nقبرس\nChypre\nΚύπρος\nקפריסין\nसाइप्रस\nCiprus\nSiprus\nCipro\nキプロス\n키프로스\nCyprus\nCypr\nChipre\nКипр\nCypern\nKıbrıs Cumhuriyeti\nКіпр\nقبرص\nCộng hòa Síp\n塞浦路斯\n賽普勒斯\nAdmin-0 country\nNA\nAdmin-0 country\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nAdmin-0 country\n0\n2\nIndia\nIND\n0\n2\nSovereign country\n1\nIndia\nIND\n0\nIndia\nIND\n0\nIndia\nIND\n0\nIndia\nIndia\nIND\nIndia\nNA\nIndia\nIND\nRepublic of India\nNA\nIndia\nNA\nNA\nIndia\nNA\n1\n3\n2\n2\n1366417754\n18\n2019\n2868929\n2019\n3. Emerging region: BRIC\n4. Lower middle income\nIN\nIN\nIN\nIND\nIND\n356\n356\n356\nIN\nIND\n23424848\n23424848\nExact WOE match as country\nIND\nNA\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\nIND\n-99\n-99\nAsia\nAsia\nSouthern Asia\nSouth Asia\n5\n5\n5\n-99\n1\n0\n1.7\n6.7\n79.35810\n22.686852\n1159320847\nQ668\nالهند\nভারত\nIndien\nIndia\nIndia\nهند\nInde\nΙνδία\nהודו\nभारत\nIndia\nIndia\nIndia\nインド\n인도\nIndia\nIndie\nÍndia\nИндия\nIndien\nHindistan\nІндія\nبھارت\nẤn Độ\n印度\n印度\nAdmin-0 country\nNA\nAdmin-0 country\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nAdmin-0 country\n0\n2\nChina\nCH1\n1\n2\nCountry\n1\nChina\nCHN\n0\nChina\nCHN\n0\nChina\nCHN\n0\nChina\nChina\nCHN\nChina\nNA\nChina\nCN\nPeople’s Republic of China\nNA\nChina\nNA\nNA\nChina\nNA\n4\n4\n4\n3\n1397715000\n18\n2019\n14342903\n2019\n3. Emerging region: BRIC\n3. Upper middle income\nCH\nCN\nCN\nCHN\nCHN\n156\n156\n156\nCN\nCHN\n23424781\n23424781\nExact WOE match as country\nCHN\nNA\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nTWN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\nCHN\n-99\n-99\nAsia\nAsia\nEastern Asia\nEast Asia & Pacific\n5\n5\n5\n-99\n1\n0\n1.7\n5.7\n106.33729\n32.498178\n1159320471\nQ148\nالصين\nগণচীন\nVolksrepublik China\nPeople’s Republic of China\nChina\nجمهوری خلق چین\nRépublique populaire de Chine\nΛαϊκή Δημοκρατία της Κίνας\nהרפובליקה העממית של סין\nचीनी जनवादी गणराज्य\nKína\nRepublik Rakyat Tiongkok\nCina\n中華人民共和国\n중화인민공화국\nVolksrepubliek China\nChińska Republika Ludowa\nChina\nКитайская Народная Республика\nKina\nÇin Halk Cumhuriyeti\nКитайська Народна Республіка\nعوامی جمہوریہ چین\nTrung Quốc\n中华人民共和国\n中華人民共和國\nAdmin-0 country\nNA\nAdmin-0 country\nNA\nNA\nNA\nNA\nNA\nUnrecognized\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\nNA\neurope_map_data &lt;- map_data %&gt;%\n    select(NAME, CONTINENT, SUBREGION, POP_EST) %&gt;%\n    filter(CONTINENT == \"Europe\")\nggplot(europe_map_data) + geom_sf() +\n    theme_minimal()\neurope_map_data &lt;- europe_map_data %&gt;%\n    st_crop(xmin=-25, xmax=55, ymin=35, ymax=71)\nggplot(europe_map_data) + geom_sf() +\n    theme_minimal()\nggplot(europe_map_data) + geom_sf(aes(fill=SUBREGION)) +\n    theme_minimal()",
-    "crumbs": [
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Human geography lab_4</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_14.html#europian-regions-with-naturalearth-data",
-    "href": "lecture_14.html#europian-regions-with-naturalearth-data",
-    "title": "14  Human geography lab_4",
-    "section": "",
-    "text": "naturalearthdata.com provides many open-source maps. I decided to select the world map with country borders on a 1:10m scale (can be found https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)\n\n\n\nThe map_data uses data.frames for its features and saves the geometric features as a list in the column geometry. We can now easily explore the data in map_data, e.g.,The map_data uses data.frames for its features and saves the geometric features as a list in the column geometry. We can now easily explore the data in map_data, e.g.,\n\n\n\nFor this tutorial we want to focus on a European countries, hence we need to filter the data to only contain the European countries’ info. Fortunately, the map_data contains a feature CONTINTENT, so we can easily filter out the unwanted countries.\n\n\n\nLets try to plot a map of European countries. New versions of ggplot2 contain a function geom_sf which supports plotting sf objects directly, so lets try it…\n\n\n\nThat does not seem to work… the reason is that, even though we removed the data of non European countries, we never changed the bbox setting of our data. The bbox object sets the longitude and latitude range for our plot, which is still for the whole Europe. To change this we can use the st_crop function as\n\n\n\n\nIf you’re familiar with the ggplot2 workflow, it is now easy to construct the aesthetic mappings like you’re used to. Our map_data contains a feature SUBREGION and Europe is divided into Northern, Eastern, Southern and Western Europe. We can easily visualize this in our European map as",
-    "crumbs": [
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Human geography lab_4</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_11.html#shapefile-and-r",
-    "href": "lecture_11.html#shapefile-and-r",
-    "title": "11  Human geography lab_1",
-    "section": "11.2 Shapefile and R",
-    "text": "11.2 Shapefile and R\nShapefile is commonly used with R, a powerful programming language and software environment for statistical computing and graphics. Here’s why shapefile is often preferred for use with R:\nNative Support: R has built-in support for reading, writing, and manipulating shapefiles. The “sf” package in R provides functions specifically designed for working with spatial data, including shapefiles. This native support simplifies the process of loading shapefiles into R and performing various spatial analyses.\nVisualization Capabilities: R offers extensive visualization capabilities for geospatial data. Packages like “ggplot2” and “leaflet” enable you to create high-quality maps and interactive visualizations using shapefiles as the data source. R’s flexibility in customizing plots allows for advanced geospatial visualizations and exploration.\n\nWhile shapefile is a common choice for working with spatial data in R, it’s important to note that R also supports other geospatial file formats, such as GeoJSON and Geopackage. These formats may offer advantages like improved data compression, support for more advanced spatial features, and better inter-operability with certain software ecosystems.\n\n\nUse pacman to manage the R packages\nUsing packman package enables us to install and load a package without typing install.packges() at Console on your RStudio\nYou need to type the following command at Console on your RStudio\n\n\ninstall.packages(\"pacman\")\n\n\nThe installation of necessary R packages:\n\n\npacman::p_load(sf, tidyverse, rnaturalearth)",
-    "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Human geography lab_1</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_11.html#using-sf-package-to-make-map",
-    "href": "lecture_11.html#using-sf-package-to-make-map",
-    "title": "11  Human geography lab_1",
-    "section": "11.3 Using sf package to make map",
-    "text": "11.3 Using sf package to make map\n\nCreate data for world\n\n\nworld &lt;- ne_countries(scale = \"small\", returnclass = \"sf\")\n\n\nFirst we use the familiar ggplot2 syntax. Like in any other ggplot, we have an x and a y axis, though in this case the correspond to longitude and latitude. Knowing this, we can use other ggplot2 commands to make our map more complex. Below we draw a horizontal line where the yintercept is at the equator.\n\n\nworld %&gt;% \n  ggplot() + \n  geom_sf() +\n  geom_hline(yintercept = 0, linetype = \"dashed\") \n\n\n\n\n\n\n\n\n\nWorld map with income groups\n\n\nworld %&gt;% \n  mutate(income_grp = factor(income_grp, ordered = T)) %&gt;% \n  ggplot() + \n  geom_sf(aes(fill = income_grp)) +\n  theme_void() +\n  theme(legend.position = \"top\") +\n  labs(fill = \"Income Group:\") +\n  guides(fill=guide_legend(nrow=2, byrow=TRUE))",
-    "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Human geography lab_1</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_11.html#using-shapefile-to-make-map",
-    "href": "lecture_11.html#using-shapefile-to-make-map",
-    "title": "11  Human geography lab_1",
-    "section": "11.4 Using Shapefile to make map",
-    "text": "11.4 Using Shapefile to make map\n\nFirst we will download the available shapefile of Japan from following website:\n\nhttps://data.humdata.org/dataset/cod-ab-jpn?\n\nSave the downloaded data into your GIS project inside a folder name data.\nWe will read the shapefile and provide a name shapefile_jpn.\nWe will plot the shapefile named shapefile_jpn.\n\n\nshapefile_jpn &lt;- read_sf(\"data/jpn_shp_adm/jpn_admbnda_adm1_2019.shp\")\nplot(shapefile_jpn)",
-    "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Human geography lab_1</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_12.html#global-gdp-map",
-    "href": "lecture_12.html#global-gdp-map",
-    "title": "12  Human geography lab_2",
-    "section": "12.1 Global GDP map",
-    "text": "12.1 Global GDP map\n\nglobal_map %&gt;% \n  ggplot() +\n  geom_sf(aes(fill = gdp_md)) +\n  scale_fill_gradient(low = \"white\", high = \"green\") +\n  labs(fill = \"GDP\") +\n  theme_minimal(base_family = \"HiraKakuProN-W3\") +\n  theme(legend.position = \"bottom\")\n\n\n\n\n\n\n\n\n\nLet’s change the color and the position of legend.\n\n\nglobal_map %&gt;% \n  ggplot() +\n  geom_sf(aes(fill = gdp_md)) +\n  scale_fill_gradient(low = \"gray\", high = \"blue\") +\n  labs(fill = \"GDP_2019\") +\n  theme_minimal(base_family = \"HiraKakuProN-W3\") +\n  theme(legend.position = \"left\")",
-    "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Human geography lab_2</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_12.html#regional-gdp-map",
-    "href": "lecture_12.html#regional-gdp-map",
-    "title": "12  Human geography lab_2",
-    "section": "12.2 Regional GDP map",
-    "text": "12.2 Regional GDP map\n\nGDP of European countries in 2019\n\n\nglobal_map %&gt;% \n  ggplot() +\n  geom_sf(aes(fill = gdp_md)) +\n  scale_fill_gradient(low = \"white\", high = \"green\") +\n  labs(fill = \"GDP_Europe\") +\n  coord_sf(xlim = c(-10, 45), ylim = c(35, 60)) +\n  theme_minimal(base_family = \"HiraKakuProN-W3\") +\n  theme(legend.position = \"left\")\n\n\n\n\n\n\n\n\n\nGDP of African countries in 2019\n\n\nglobal_map %&gt;% \n  ggplot() +\n  geom_sf(aes(fill = gdp_md)) +\n  scale_fill_gradient(low = \"white\", high = \"green\") +\n  labs(fill = \"GDP_Africa\") +\n  coord_sf(xlim = c(-30, 60), ylim = c(-40, 40)) +\n  theme_minimal(base_family = \"HiraKakuProN-W3\") +\n  theme(legend.position = \"left\")",
-    "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Human geography lab_2</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_12.html#world-and-continents-with-sf",
-    "href": "lecture_12.html#world-and-continents-with-sf",
-    "title": "12  Human geography lab_2",
-    "section": "12.3 World and continents with sf",
-    "text": "12.3 World and continents with sf\nWe need the following packages to deal with this lecture:\n\nlibrary(sf)\nlibrary(tidyverse)\nlibrary(rnaturalearth)\nlibrary(rnaturalearthdata)\n\n\nAttaching package: 'rnaturalearthdata'\n\n\nThe following object is masked from 'package:rnaturalearth':\n\n    countries110\n\n\n\nAlternatively, you can use the pacman package manager to load necessary R packages from below:\n\n\npacman::p_load(sf, tidyverse, rnaturalearth)\n\nThe above command will install all dependencies required to reproduce the entire lecture\n\nUse the package sf\nWe will use the world dataset provided by spData, to show what sf objects are and how they work. world is an ‘sf data frame’ containing spatial and attribute columns, the names of which are returned by the function names() (the last column in this example contains the geographic information):\n\n\nworld &lt;- ne_countries(scale = \"medium\", returnclass = \"sf\")\nclass(world)\n\n[1] \"sf\"         \"data.frame\"\n\nnames(world)\n\n  [1] \"featurecla\" \"scalerank\"  \"labelrank\"  \"sovereignt\" \"sov_a3\"    \n  [6] \"adm0_dif\"   \"level\"      \"type\"       \"tlc\"        \"admin\"     \n [11] \"adm0_a3\"    \"geou_dif\"   \"geounit\"    \"gu_a3\"      \"su_dif\"    \n [16] \"subunit\"    \"su_a3\"      \"brk_diff\"   \"name\"       \"name_long\" \n [21] \"brk_a3\"     \"brk_name\"   \"brk_group\"  \"abbrev\"     \"postal\"    \n [26] \"formal_en\"  \"formal_fr\"  \"name_ciawf\" \"note_adm0\"  \"note_brk\"  \n [31] \"name_sort\"  \"name_alt\"   \"mapcolor7\"  \"mapcolor8\"  \"mapcolor9\" \n [36] \"mapcolor13\" \"pop_est\"    \"pop_rank\"   \"pop_year\"   \"gdp_md\"    \n [41] \"gdp_year\"   \"economy\"    \"income_grp\" \"fips_10\"    \"iso_a2\"    \n [46] \"iso_a2_eh\"  \"iso_a3\"     \"iso_a3_eh\"  \"iso_n3\"     \"iso_n3_eh\" \n [51] \"un_a3\"      \"wb_a2\"      \"wb_a3\"      \"woe_id\"     \"woe_id_eh\" \n [56] \"woe_note\"   \"adm0_iso\"   \"adm0_diff\"  \"adm0_tlc\"   \"adm0_a3_us\"\n [61] \"adm0_a3_fr\" \"adm0_a3_ru\" \"adm0_a3_es\" \"adm0_a3_cn\" \"adm0_a3_tw\"\n [66] \"adm0_a3_in\" \"adm0_a3_np\" \"adm0_a3_pk\" \"adm0_a3_de\" \"adm0_a3_gb\"\n [71] \"adm0_a3_br\" \"adm0_a3_il\" \"adm0_a3_ps\" \"adm0_a3_sa\" \"adm0_a3_eg\"\n [76] \"adm0_a3_ma\" \"adm0_a3_pt\" \"adm0_a3_ar\" \"adm0_a3_jp\" \"adm0_a3_ko\"\n [81] \"adm0_a3_vn\" \"adm0_a3_tr\" \"adm0_a3_id\" \"adm0_a3_pl\" \"adm0_a3_gr\"\n [86] \"adm0_a3_it\" \"adm0_a3_nl\" \"adm0_a3_se\" \"adm0_a3_bd\" \"adm0_a3_ua\"\n [91] \"adm0_a3_un\" \"adm0_a3_wb\" \"continent\"  \"region_un\"  \"subregion\" \n [96] \"region_wb\"  \"name_len\"   \"long_len\"   \"abbrev_len\" \"tiny\"      \n[101] \"homepart\"   \"min_zoom\"   \"min_label\"  \"max_label\"  \"label_x\"   \n[106] \"label_y\"    \"ne_id\"      \"wikidataid\" \"name_ar\"    \"name_bn\"   \n[111] \"name_de\"    \"name_en\"    \"name_es\"    \"name_fa\"    \"name_fr\"   \n[116] \"name_el\"    \"name_he\"    \"name_hi\"    \"name_hu\"    \"name_id\"   \n[121] \"name_it\"    \"name_ja\"    \"name_ko\"    \"name_nl\"    \"name_pl\"   \n[126] \"name_pt\"    \"name_ru\"    \"name_sv\"    \"name_tr\"    \"name_uk\"   \n[131] \"name_ur\"    \"name_vi\"    \"name_zh\"    \"name_zht\"   \"fclass_iso\"\n[136] \"tlc_diff\"   \"fclass_tlc\" \"fclass_us\"  \"fclass_fr\"  \"fclass_ru\" \n[141] \"fclass_es\"  \"fclass_cn\"  \"fclass_tw\"  \"fclass_in\"  \"fclass_np\" \n[146] \"fclass_pk\"  \"fclass_de\"  \"fclass_gb\"  \"fclass_br\"  \"fclass_il\" \n[151] \"fclass_ps\"  \"fclass_sa\"  \"fclass_eg\"  \"fclass_ma\"  \"fclass_pt\" \n[156] \"fclass_ar\"  \"fclass_jp\"  \"fclass_ko\"  \"fclass_vn\"  \"fclass_tr\" \n[161] \"fclass_id\"  \"fclass_pl\"  \"fclass_gr\"  \"fclass_it\"  \"fclass_nl\" \n[166] \"fclass_se\"  \"fclass_bd\"  \"fclass_ua\"  \"geometry\"  \n\n\n\nMake sophistocated and professional looking map of World\n\n\nworld.plot = ggplot() +               \n  geom_sf(data = world)\nworld.plot \n\n\n\n\n\n\n\n\n\nWe will begin to get to know the basics of geographic data in R by using the “world” dataset in the package.\nFirst let’s see what information is in the “world” dataset. Get the names of the variables in the world dataset.\nFilter the population and GDP data from World map for better understanding the data structure.\nPlot the GDP percapita map of the world:\nPrepare Africa map by highlighting Zambia\n\n\n# Select just the continent of Africa\nafrica &lt;- world %&gt;% \n  filter(region_un %in% \"Africa\")\n\n\nCheck the type of data\n\n\nclass(africa)\n\n[1] \"sf\"         \"data.frame\"\n\nnames(africa)\n\n  [1] \"featurecla\" \"scalerank\"  \"labelrank\"  \"sovereignt\" \"sov_a3\"    \n  [6] \"adm0_dif\"   \"level\"      \"type\"       \"tlc\"        \"admin\"     \n [11] \"adm0_a3\"    \"geou_dif\"   \"geounit\"    \"gu_a3\"      \"su_dif\"    \n [16] \"subunit\"    \"su_a3\"      \"brk_diff\"   \"name\"       \"name_long\" \n [21] \"brk_a3\"     \"brk_name\"   \"brk_group\"  \"abbrev\"     \"postal\"    \n [26] \"formal_en\"  \"formal_fr\"  \"name_ciawf\" \"note_adm0\"  \"note_brk\"  \n [31] \"name_sort\"  \"name_alt\"   \"mapcolor7\"  \"mapcolor8\"  \"mapcolor9\" \n [36] \"mapcolor13\" \"pop_est\"    \"pop_rank\"   \"pop_year\"   \"gdp_md\"    \n [41] \"gdp_year\"   \"economy\"    \"income_grp\" \"fips_10\"    \"iso_a2\"    \n [46] \"iso_a2_eh\"  \"iso_a3\"     \"iso_a3_eh\"  \"iso_n3\"     \"iso_n3_eh\" \n [51] \"un_a3\"      \"wb_a2\"      \"wb_a3\"      \"woe_id\"     \"woe_id_eh\" \n [56] \"woe_note\"   \"adm0_iso\"   \"adm0_diff\"  \"adm0_tlc\"   \"adm0_a3_us\"\n [61] \"adm0_a3_fr\" \"adm0_a3_ru\" \"adm0_a3_es\" \"adm0_a3_cn\" \"adm0_a3_tw\"\n [66] \"adm0_a3_in\" \"adm0_a3_np\" \"adm0_a3_pk\" \"adm0_a3_de\" \"adm0_a3_gb\"\n [71] \"adm0_a3_br\" \"adm0_a3_il\" \"adm0_a3_ps\" \"adm0_a3_sa\" \"adm0_a3_eg\"\n [76] \"adm0_a3_ma\" \"adm0_a3_pt\" \"adm0_a3_ar\" \"adm0_a3_jp\" \"adm0_a3_ko\"\n [81] \"adm0_a3_vn\" \"adm0_a3_tr\" \"adm0_a3_id\" \"adm0_a3_pl\" \"adm0_a3_gr\"\n [86] \"adm0_a3_it\" \"adm0_a3_nl\" \"adm0_a3_se\" \"adm0_a3_bd\" \"adm0_a3_ua\"\n [91] \"adm0_a3_un\" \"adm0_a3_wb\" \"continent\"  \"region_un\"  \"subregion\" \n [96] \"region_wb\"  \"name_len\"   \"long_len\"   \"abbrev_len\" \"tiny\"      \n[101] \"homepart\"   \"min_zoom\"   \"min_label\"  \"max_label\"  \"label_x\"   \n[106] \"label_y\"    \"ne_id\"      \"wikidataid\" \"name_ar\"    \"name_bn\"   \n[111] \"name_de\"    \"name_en\"    \"name_es\"    \"name_fa\"    \"name_fr\"   \n[116] \"name_el\"    \"name_he\"    \"name_hi\"    \"name_hu\"    \"name_id\"   \n[121] \"name_it\"    \"name_ja\"    \"name_ko\"    \"name_nl\"    \"name_pl\"   \n[126] \"name_pt\"    \"name_ru\"    \"name_sv\"    \"name_tr\"    \"name_uk\"   \n[131] \"name_ur\"    \"name_vi\"    \"name_zh\"    \"name_zht\"   \"fclass_iso\"\n[136] \"tlc_diff\"   \"fclass_tlc\" \"fclass_us\"  \"fclass_fr\"  \"fclass_ru\" \n[141] \"fclass_es\"  \"fclass_cn\"  \"fclass_tw\"  \"fclass_in\"  \"fclass_np\" \n[146] \"fclass_pk\"  \"fclass_de\"  \"fclass_gb\"  \"fclass_br\"  \"fclass_il\" \n[151] \"fclass_ps\"  \"fclass_sa\"  \"fclass_eg\"  \"fclass_ma\"  \"fclass_pt\" \n[156] \"fclass_ar\"  \"fclass_jp\"  \"fclass_ko\"  \"fclass_vn\"  \"fclass_tr\" \n[161] \"fclass_id\"  \"fclass_pl\"  \"fclass_gr\"  \"fclass_it\"  \"fclass_nl\" \n[166] \"fclass_se\"  \"fclass_bd\"  \"fclass_ua\"  \"geometry\"  \n\n\n\nMake professional looking map of Asia\n\n\nasia &lt;- world[which(world$continent == \"Asia\"),]\nasia.plot = ggplot() +               \n  geom_sf(data = asia)  \nasia.plot \n\n\n\n\n\n\n\n\n\nMake professional looking map of Africa\n\n\nafrica &lt;- world[which(world$continent == \"Africa\"),]\nafrica.plot = ggplot() +               \n  geom_sf(data = africa)  \nafrica.plot \n\n\n\n\n\n\n\n\n\nMake professional looking map of Europe\n\n\neurope &lt;- world[which(world$continent == \"Europe\"),]\nggplot(europe) +\n  geom_sf() +\n  coord_sf(xlim = c(-25,50), ylim = c(35,70), expand = FALSE)\n\n\n\n\n\n\n\n\n\nMake professional looking map of Oceania\n\n\noceania &lt;- world[which(world$continent == \"Oceania\"),]\nggplot(oceania) +\n  geom_sf() +\n  coord_sf(xlim = c(105,180), ylim = c(-50,0), expand = FALSE)\n\n\n\n\n\n\n\n\n\nMake professional looking map of North America\n\n\nnorth_america &lt;- world[which(world$continent == \"North America\"),]\nggplot(north_america) +\n  geom_sf() +\n  coord_sf(xlim = c(-180,-15), ylim = c(0,90), expand = FALSE)",
-    "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Human geography lab_2</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_13.html",
-    "href": "lecture_13.html",
-    "title": "13  Human geography lab_3",
-    "section": "",
-    "text": "13.1 Administrative regions of Japan\nlibrary(tidyverse)\nlibrary(sf)\njp0_shp &lt;- st_read(\"data/shapefile/jp_adm0_shp/jpn_admbnda_adm0_2019.shp\")\njp1_shp &lt;- st_read(\"data/shapefile/jp_adm1_shp/jpn_admbnda_adm1_2019.shp\") \njp2_shp &lt;- st_read(\"data/shapefile/jp_adm2_shp/jpn_admbnda_adm2_2019.shp\")\njp0_shp # for admin level 0\njp1_shp # for admin level 1\njp2_shp # for admin level 2\nst_crs(jp0_shp) # for admin level 0\nst_crs(jp1_shp) # for admin level 1\nst_crs(jp2_shp) # for admin level 2\nggplot(jp0_shp) +\n  geom_sf()\nggplot(jp0_shp) +\n    geom_sf(color = \"blue\", fill = \"white\", lwd = 0.07)\nggplot(jp0_shp) +\n    geom_sf(aes(fill = ADM0_PCODE),  show.legend = FALSE)\nggplot(jp1_shp) +\n  geom_sf()\nggplot(jp1_shp) +\n    geom_sf(color = \"blue\",  fill = \"white\", lwd = 0.07)\nggplot(jp1_shp) +\n    geom_sf(aes(fill = ADM1_PCODE),  show.legend = FALSE)\nggplot(jp2_shp) +\n  geom_sf()\nggplot(jp2_shp) +\n    geom_sf(color = \"blue\",  fill = \"white\", lwd = 0.07)\nggplot(jp2_shp) +\n    geom_sf(aes(fill = ADM2_PCODE),  show.legend = FALSE)",
-    "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Human geography lab_3</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_13.html#administrative-regions-of-japan",
-    "href": "lecture_13.html#administrative-regions-of-japan",
-    "title": "13  Human geography lab_3",
-    "section": "",
-    "text": "Load all necessary packages\n\n\n\nLoad the shapefile of Japan’s administrative divisions\n\n\n\nObserve the data inside the shape file of adm0\n\n\n\nCheck the geographic coordinate system of your adm0 shapefile\n\n\n\nPlot the map of Japan admin 0\n\n\n\nChange the boundary color and fill it with white color.\n\n\n\nWe can try the aes() function to improve the visual of the ADM0. Aesthetics are used to bind plotting parameters to your data. The aes() function defines which variables you want to plot, and which plot parameters to map them to.\n\n\n\nPlot the map of Japan admin 1\n\n\n\nLets change the color of boundary and fill.\n\n\n\nWe can try the aes() function to improve the visual of the ADM1.\n\n\n\nPlot the map of Japan admin 2\n\n\n\nLets change the color of boundary and fill\n\n\n\n\nWe can try the aes() function to improve the visual of the ADM2.",
-    "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Human geography lab_3</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_9.html#agricultural-systems-and-land-use-patterns",
-    "href": "lecture_9.html#agricultural-systems-and-land-use-patterns",
-    "title": "9  Agricultural geography: Food production, land use, and rural development",
-    "section": "9.1 Agricultural Systems and Land Use Patterns",
-    "text": "9.1 Agricultural Systems and Land Use Patterns\n\n\n\n\n\n\n\n\nType\nCharacteristics\nExamples\n\n\n\n\nSubsistence Agriculture\nSmall-scale, for local consumption, minimal technology\nSlash-and-burn farming in Amazon, rice farming in Bangladesh\n\n\nCommercial Agriculture\nLarge-scale, profit-driven, high technology\nIndustrial grain farming in the U.S., palm oil plantations in Indonesia\n\n\nPastoralism\nHerding animals for food and trade\nNomadic herding in Mongolia, cattle ranching in Brazil\n\n\nPlantation Agriculture\nMonoculture farming, export-oriented\nTea plantations in India, coffee farms in Colombia\n\n\nUrban Agriculture\nFood production in cities\nRooftop gardens in New York, hydroponics in Singapore",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Agricultural geography: Food production, land use, and rural development</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_9.html#agricultural-revolutions-and-their-impact",
-    "href": "lecture_9.html#agricultural-revolutions-and-their-impact",
-    "title": "9  Agricultural geography: Food production, land use, and rural development",
-    "section": "9.2 Agricultural Revolutions and Their Impact",
-    "text": "9.2 Agricultural Revolutions and Their Impact\n\n9.2.1 The First Agricultural Revolution (~10,000 BCE)\n\nDomestication of plants and animals → shift from hunting-gathering to farming.\nImpact: Population growth, permanent settlements, early civilizations.\n\n\n\n9.2.2 The Second Agricultural Revolution (17th-19th Century)\n\nNew farming techniques (crop rotation, plowing).\nMechanization (seed drill, fertilizers) → higher productivity.\nImpact: Rural-urban migration, industrialization, food surplus.\n\n\n\n9.2.3 The Green Revolution (1950s-1970s)\n\nIntroduction of high-yield crops, chemical fertilizers, pesticides, and irrigation.\nLed to global increases in food production, but also environmental concerns.\nCase Study: Green Revolution in India\n\nSuccess: Increased wheat and rice production, reducing famine.\nChallenges: Soil degradation, water depletion, farmer debt.",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Agricultural geography: Food production, land use, and rural development</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_9.html#food-security-and-challenges-in-agriculture",
-    "href": "lecture_9.html#food-security-and-challenges-in-agriculture",
-    "title": "9  Agricultural geography: Food production, land use, and rural development",
-    "section": "9.3 Food Security and Challenges in Agriculture",
-    "text": "9.3 Food Security and Challenges in Agriculture\n\n9.3.1 What is Food Security?\n\nFood security = People have access to sufficient, safe, and nutritious food.\nFAO’s Four Pillars of Food Security:\n\nAvailability – Enough food supply.\nAccess – People can afford food.\nUtilization – Nutritional quality matters.\nStability – Food supply is consistent over time.\n\n\n\n\n9.3.2 Challenges to Global Food Security\n\n\n\n\n\n\n\n\nChallenge\nCauses\nExample\n\n\n\n\nClimate Change\nDroughts, floods, temperature rise\nDesertification in Sub-Saharan Africa\n\n\nSoil Degradation\nOveruse of fertilizers, deforestation\nSalinization in the Middle East\n\n\nWater Scarcity\nOver-irrigation, pollution\nWater crisis in California agriculture\n\n\nLand Use Change\nUrbanization, deforestation\nLoss of farmland in China\n\n\nFood Waste\nPoor storage, consumer habits\n30% of global food wasted annually\n\n\n\nCase Study: Famine in the Horn of Africa\n\nDrought, conflict, and poor infrastructure have led to food crises.\nSolutions: Food aid, drought-resistant crops, irrigation improvements.",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Agricultural geography: Food production, land use, and rural development</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_9.html#rural-development-and-sustainable-agriculture",
-    "href": "lecture_9.html#rural-development-and-sustainable-agriculture",
-    "title": "9  Agricultural geography: Food production, land use, and rural development",
-    "section": "9.4 Rural Development and Sustainable Agriculture",
-    "text": "9.4 Rural Development and Sustainable Agriculture\n\n9.4.1 What is Rural Development?\n\nImproving livelihoods, infrastructure, and economic opportunities in rural areas.\nFocus on education, healthcare, market access, and technology.\n\n\n\n9.4.2 Strategies for Sustainable Agriculture\n\n\n\n\n\n\n\n\nStrategy\nBenefits\nExample\n\n\n\n\nAgroforestry\nCombines trees and crops for better soil conservation\nCocoa farming in Ghana\n\n\nOrganic Farming\nNo synthetic pesticides, promotes biodiversity\nOrganic vegetable farms in France\n\n\nPermaculture\nSelf-sustaining ecosystems for food production\nRegenerative farms in Australia\n\n\nPrecision Agriculture\nUses AI, GPS, and drones for efficient farming\nSmart farming in the Netherlands\n\n\n\nCase Study: Cuba’s Urban Agriculture Model\n\nFollowing the Soviet collapse, Cuba faced food shortages.\nDeveloped urban organic farming (rooftop gardens, local markets).\nResult: Sustainable food supply in cities.",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Agricultural geography: Food production, land use, and rural development</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_9.html#agricultural-trade-and-globalization",
-    "href": "lecture_9.html#agricultural-trade-and-globalization",
-    "title": "9  Agricultural geography: Food production, land use, and rural development",
-    "section": "9.5 Agricultural Trade and Globalization",
-    "text": "9.5 Agricultural Trade and Globalization\n\nGlobal food trade connects regions but creates inequalities.\nMajor trends:\n\nExport-oriented agriculture: Latin America supplies soybeans, Africa exports cocoa.\nDependency on imports: Middle Eastern countries import grains.\nTrade policies impact farmers: Subsidies in the U.S. and EU create imbalances.\n\n\nCase Study: Fair Trade Coffee Movement\n\nGoal: Ensure small farmers receive fair prices and better working conditions.\nImpact: Improves farmer income in Latin America, Africa, and Asia.",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Agricultural geography: Food production, land use, and rural development</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_9.html#future-of-agriculture-innovations-and-policies",
-    "href": "lecture_9.html#future-of-agriculture-innovations-and-policies",
-    "title": "9  Agricultural geography: Food production, land use, and rural development",
-    "section": "9.6 Future of Agriculture – Innovations and Policies",
-    "text": "9.6 Future of Agriculture – Innovations and Policies\n\n9.6.1 Technological Innovations in Agriculture\n\nVertical farming: Hydroponic skyscrapers for urban food production.\nLab-grown meat: Reducing environmental impact of livestock farming.\nAI in farming: Drones and sensors optimize crop health and irrigation.\n\n\n\n9.6.2 Agricultural Policies and Global Governance\n\n\n\n\n\n\n\n\nPolicy\nGoal\nExample\n\n\n\n\nCommon Agricultural Policy (EU)\nSupports farmers, stabilizes prices\nEU subsidies for sustainable farming\n\n\nU.S. Farm Bill\nRegulates agriculture, provides subsidies\nCrop insurance, food aid programs\n\n\nUN Food Security Programs\nReduces hunger, promotes sustainability\nWorld Food Programme (WFP)",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Agricultural geography: Food production, land use, and rural development</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_9.html#takeaway",
-    "href": "lecture_9.html#takeaway",
-    "title": "9  Agricultural geography: Food production, land use, and rural development",
-    "section": "9.7 Takeaway",
-    "text": "9.7 Takeaway\n\nAgriculture is central to food security, economic growth, and rural life.\nChallenges include climate change, resource depletion, and market inequalities.\nSustainable solutions and technological innovations are key to future food systems",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Agricultural geography: Food production, land use, and rural development</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_9.html#quizzes",
-    "href": "lecture_9.html#quizzes",
-    "title": "9  Agricultural geography: Food production, land use, and rural development",
-    "section": "9.8 Quizzes",
-    "text": "9.8 Quizzes\n\nHow has technology transformed agriculture?\nShould governments regulate food production more strictly for sustainability?\nHow does globalization impact small farmers?\nCan organic farming feed the growing global population?",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Agricultural geography: Food production, land use, and rural development</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_10.html#the-industrial-revolution-and-its-impacts",
-    "href": "lecture_10.html#the-industrial-revolution-and-its-impacts",
-    "title": "10  Industrial geography: Industry, trade, and globalization",
-    "section": "10.1 The Industrial Revolution and Its Impacts",
-    "text": "10.1 The Industrial Revolution and Its Impacts\n\n10.1.1 The First Industrial Revolution (1750–1850)\n\nStarted in Britain with steam engines, coal mining, and textile mills.\nSpread to Europe and North America, leading to urbanization and factory-based production.\nKey Impacts:\n\nIncreased mechanization and efficiency.\nShift from agrarian to industrial economies.\nGrowth of industrial cities (e.g., Manchester, Pittsburgh).\n\n\n\n\n10.1.2 The Second Industrial Revolution (1870–1914)\n\nElectricity, steel production, and mass production.\nExpansion of railroads, telegraphs, and international trade.\nKey Centers: U.S. (Detroit, Chicago), Germany (Ruhr Valley), Japan (Tokyo).\n\n\n\n10.1.3 The Third Industrial Revolution (1950s–Present)\n\nTechnological advancements in automation, robotics, and computing.\nGlobalization and outsourcing led to industry relocation (e.g., China, India).\nKey Industries: Automotive, electronics, pharmaceuticals, digital tech.\n\n\n\n10.1.4 The Fourth Industrial Revolution (Present & Future)\n\nAI, machine learning, IoT, and renewable energy.\nSmart factories and automation replacing human labor.\nImpact on job markets and supply chains.",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Industrial geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_10.html#location-of-industries-key-theories",
-    "href": "lecture_10.html#location-of-industries-key-theories",
-    "title": "10  Industrial geography: Industry, trade, and globalization",
-    "section": "10.2 Location of Industries – Key Theories",
-    "text": "10.2 Location of Industries – Key Theories\n\n10.2.1 Alfred Weber’s Least Cost Theory (1909)\n\nIndustries locate where costs are minimized.\nFactors:\n\nTransportation Costs: Industries locate near raw materials or markets.\nLabor Costs: Availability of cheap, skilled workers influences location.\nAgglomeration: Businesses cluster for shared benefits (e.g., Silicon Valley).\n\n\n\n\n10.2.2 The Core-Periphery Model\n\nDeveloped countries (core) dominate global industry (e.g., USA, Germany, Japan).\nDeveloping countries (periphery) supply raw materials and cheap labor (e.g., Bangladesh, Vietnam).\nSemi-periphery countries are transitioning (e.g., China, Brazil, India).",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Industrial geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_10.html#global-trade-and-industrial-networks",
-    "href": "lecture_10.html#global-trade-and-industrial-networks",
-    "title": "10  Industrial geography: Industry, trade, and globalization",
-    "section": "10.3 Global Trade and Industrial Networks",
-    "text": "10.3 Global Trade and Industrial Networks\n\n10.3.1 What is Global Trade?\n\nExchange of goods and services across borders.\nDriven by comparative advantage – nations specialize in what they produce best.\n\n\n\n10.3.2 Major Trade Blocs and Agreements\n\n\n\n\n\n\n\n\nTrade Bloc\nMember Countries\nPurpose\n\n\n\n\nNAFTA/USMCA\nUSA, Canada, Mexico\nFree trade across North America\n\n\nEU (European Union)\n27 European nations\nCommon market, free movement of goods\n\n\nASEAN\n10 Southeast Asian nations\nEconomic integration in Asia\n\n\nBRICS\nBrazil, Russia, India, China, South Africa\nEmerging economies, trade cooperation\n\n\n\n\n\n10.3.3 Global Supply Chains and Outsourcing\n\nMultinational corporations (MNCs) relocate production to low-cost regions.\nOutsourcing and offshoring shift industrial jobs to developing nations.\nExamples:\n\nApple designs in the U.S., manufactures in China.\nFast fashion brands source clothing from Bangladesh.\nAutomotive factories in Mexico serve the U.S. market.",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Industrial geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_10.html#industrialization-in-developing-countries",
-    "href": "lecture_10.html#industrialization-in-developing-countries",
-    "title": "10  Industrial geography: Industry, trade, and globalization",
-    "section": "10.4 Industrialization in Developing Countries",
-    "text": "10.4 Industrialization in Developing Countries\n\n10.4.1 The Rise of Asian Manufacturing\n\nChina: The “Factory of the World” due to cheap labor, infrastructure, and government support.\nIndia: IT and service-based industrialization (e.g., Bangalore’s tech sector).\nVietnam & Bangladesh: Textile and electronics industries are growing.\n\n\n\n10.4.2 Africa’s Industrial Challenges\n\nDependence on raw material exports (e.g., oil, minerals).\nInfrastructure and political instability hinder industrial growth.\nPotential for growth in manufacturing and technology.\nCase Study: Industrial Growth in Ethiopia\n\nGovernment invested in industrial parks for textiles and manufacturing.\nAttracting foreign investment from China and the EU.\nChallenges: Political instability and infrastructure gaps.",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Industrial geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_10.html#industrialization-and-environmental-concerns",
-    "href": "lecture_10.html#industrialization-and-environmental-concerns",
-    "title": "10  Industrial geography: Industry, trade, and globalization",
-    "section": "10.5 Industrialization and Environmental Concerns",
-    "text": "10.5 Industrialization and Environmental Concerns\n\n10.5.1 Environmental Impacts of Industry\n\n\n\n\n\n\n\n\nImpact\nCause\nExample\n\n\n\n\nAir Pollution\nFactories, vehicles\nSmog in Beijing, Los Angeles\n\n\nWater Pollution\nIndustrial waste\nChemical spills in rivers\n\n\nDeforestation\nLand clearing for factories\nAmazon rainforest loss\n\n\nClimate Change\nGreenhouse gas emissions\nIndustrial carbon footprint\n\n\n\n\n\n10.5.2 Sustainable Industrial Practices\n\nGreen manufacturing: Reducing waste and energy use.\nRenewable energy in factories: Solar and wind power.\nCircular economy: Recycling and sustainable resource use.\nCase Study: Germany’s Green Industry Policy\n\nTransitioning to renewable energy (Energiewende).\nEco-friendly production policies in automotives and electronics.",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Industrial geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_10.html#future-trends-in-industrial-geography",
-    "href": "lecture_10.html#future-trends-in-industrial-geography",
-    "title": "10  Industrial geography: Industry, trade, and globalization",
-    "section": "10.6 Future Trends in Industrial Geography",
-    "text": "10.6 Future Trends in Industrial Geography\n\n10.6.1 The Role of Artificial Intelligence and Automation\n\nAI and robotics replacing factory workers.\nSelf-driving logistics and warehouse automation (e.g., Amazon).\nChallenge: Potential job losses due to automation.\n\n\n\n10.6.2 Reshoring and Nearshoring Trends\n\nSome companies moving production back to developed countries.\nReasons: Rising wages in China, supply chain disruptions (COVID-19 impact).\n\n\n\n10.6.3 Space Industry and New Frontiers\n\nGrowth of private space industries (SpaceX, Blue Origin).\nSpace mining and off-Earth industrialization in the future.",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Industrial geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_10.html#takeaway",
-    "href": "lecture_10.html#takeaway",
-    "title": "10  Industrial geography: Industry, trade, and globalization",
-    "section": "10.7 Takeaway",
-    "text": "10.7 Takeaway\n\nIndustrial geography explains the location, development, and global connections of industries.\nTrade, technology, and globalization drive industrial change.\nChallenges include environmental damage, economic inequality, and automation.",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Industrial geography: Industry, trade, and globalization</span>"
-    ]
-  },
-  {
-    "objectID": "lecture_10.html#quizzes",
-    "href": "lecture_10.html#quizzes",
-    "title": "10  Industrial geography: Industry, trade, and globalization",
-    "section": "10.8 Quizzes",
-    "text": "10.8 Quizzes\n\nWhat factors determine where industries locate?\nHow has globalization changed industrial geography?\nWhat are the pros and cons of outsourcing jobs to developing countries?\nCan industrial growth be sustainable?",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Industrial geography: Industry, trade, and globalization</span>"
+      "人文地理学"
     ]
   }
 ]
