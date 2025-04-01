@@ -74,7 +74,7 @@
     "href": "syllabus.html",
     "title": "人文地理学",
     "section": "",
-    "text": "授業の目的\n時間割番号: 1163017001",
+    "text": "授業の目的\n時間割番号: 1163017001\nThis course is designed to provide students with a foundational understanding of human geography and the skills to analyze geographic data using R. Each lesson has specific objectives that contribute to the overall learning goals.\nSection 1: Know the foundations of human geography\nSection 2: Use the elegant geographic plots in R\nNote: All lecture notes, assignments and quizzes will be available through KUTLMS Moodle.",
     "crumbs": [
       "人文地理学"
     ]
@@ -94,7 +94,7 @@
     "href": "syllabus.html#授業の概要",
     "title": "人文地理学",
     "section": "授業の概要",
-    "text": "授業の概要\n\n授業の概要の説明\nThis course provides a comprehensive introduction to human geography, focusing on key themes such as population dynamics, migration, cultural landscapes, and urban development. Additionally, students will learn fundamental techniques for processing and visualizing geographic data using R, applying these skills to real-world geographic analyses across different regions of the world.\nSection 1: Know the foundations of human geography\nThe first section establishes the core principles of human geography, exploring how human societies interact with their environments. Topics include:\n\nThe basics of human geography, including spatial patterns and human-environment interactions.\nPopulation trends, migration patterns, and their effects on societies.\nCultural geography, identity formation, and political structures.\nThe organization of cities and urban spaces, as well as environmental impacts of human activities.\n\nSection 2: Use the elegant geographic plots in R\nThis section introduces essential geographic data processing techniques, with a focus on:\n\nHandling and analyzing shapefiles using R.\nCreating basic maps to visualize geographic data effectively.\nExplore human geography case studies from Africa, Asia, Australia, Europe, and North America.\nDevelop advanced mapping techniques to represent human geographic trends in each region.",
+    "text": "授業の概要\nThis course provides a comprehensive introduction to human geography, focusing on key themes such as population dynamics, migration, cultural landscapes, and urban development. Additionally, students will learn fundamental techniques for processing and visualizing geographic data using R, applying these skills to real-world geographic analyses across different regions of the world.\nSection 1: Know the foundations of human geography\nThe first section establishes the core principles of human geography, exploring how human societies interact with their environments. Topics include:\n\nThe basics of human geography, including spatial patterns and human-environment interactions.\nPopulation trends, migration patterns, and their effects on societies.\nCultural geography, identity formation, and political structures.\nThe organization of cities and urban spaces, as well as environmental impacts of human activities.\n\nSection 2: Use the elegant geographic plots in R\nThis section introduces essential geographic data processing techniques, with a focus on:\n\nHandling and analyzing shapefiles using R.\nCreating basic maps to visualize geographic data effectively.\nExplore human geography case studies from Africa, Asia, Australia, Europe, and North America.\nDevelop advanced mapping techniques to represent human geographic trends in each region.",
     "crumbs": [
       "人文地理学"
     ]
@@ -104,7 +104,7 @@
     "href": "syllabus.html#到達目標",
     "title": "人文地理学",
     "section": "到達目標",
-    "text": "到達目標\n\n到達目標の説明\nThe primary goal of this course is to provide students with a comprehensive understanding of human geography while equipping them with practical skills in geographic data visualization using R. By integrating theoretical knowledge with hands-on data analysis, the course aims to acquire:\n\nDevelop a strong foundation in human geography: Students will be able to understand key themes such as population dynamics, migration, cultural landscapes, political geography, and urban development. Understanding these topics will help them analyze how human societies interact with their environments and shape the world.\nEnhance analytical and critical thinking skills: Through the study of real-world geographic issues, students will develop the ability to assess spatial patterns, interpret demographic trends, and evaluate the impact of human activities on different regions.\nIntroduce geographic data processing and visualization: By learning to work with spatial data in R, students will gain essential technical skills, including processing shapefiles, creating maps, and visualizing geographic trends.\nApply knowledge to regional case studies: The course will provide opportunities to apply geographic analysis techniques to different world regions, helping students understand diverse cultural, political, and environmental contexts.",
+    "text": "到達目標\nThe primary goal of this course is to provide students with a comprehensive understanding of human geography while equipping them with practical skills in geographic data visualization using R. By integrating theoretical knowledge with hands-on data analysis, the course aims to acquire:\n\nDevelop a strong foundation in human geography: Students will be able to understand key themes such as population dynamics, migration, cultural landscapes, political geography, and urban development. Understanding these topics will help them analyze how human societies interact with their environments and shape the world.\nEnhance analytical and critical thinking skills: Through the study of real-world geographic issues, students will develop the ability to assess spatial patterns, interpret demographic trends, and evaluate the impact of human activities on different regions.\nIntroduce geographic data processing and visualization: By learning to work with spatial data in R, students will gain essential technical skills, including processing shapefiles, creating maps, and visualizing geographic trends.\nApply knowledge to regional case studies: The course will provide opportunities to apply geographic analysis techniques to different world regions, helping students understand diverse cultural, political, and environmental contexts.",
     "crumbs": [
       "人文地理学"
     ]
@@ -114,7 +114,7 @@
     "href": "syllabus.html#授業の方法",
     "title": "人文地理学",
     "section": "授業の方法",
-    "text": "授業の方法\n\n授業の方法の説明\n\nLectures are organized as a combination of theories and practices to evaluate the inclusive understanding\nQuizzes and assignments are regularly assigned",
+    "text": "授業の方法\n\nLectures are organized as a combination of theories and practices to evaluate the inclusive understanding\nQuizzes and assignments are regularly assigned",
     "crumbs": [
       "人文地理学"
     ]
@@ -124,7 +124,7 @@
     "href": "syllabus.html#授業計画",
     "title": "人文地理学",
     "section": "授業計画",
-    "text": "授業計画\n\n授業計画の説明\n\n第１回 Introduction to human geography\n第２回 Population and health geography\n第３回 Global inequality and development\n第４回 Cultural geography: Language, religion, and identity\n第５回 Political geography: States and geopolitics\n第６回 Urban geography: Cities, infrastructure, and planning\n第７回 Economic geography: Trade and globalization\n第８回 Environmental geography: Resources and sustainability\n第９回 Agricultural geography: Food production and land use\n第１０回 Industrial geography: Industry and trade\n第１１回 Human geography lab 1\n第１２回 Human geography lab 2\n第１３回 Human geography lab 3\n第１４回 Human geography lab 4\n第１５回 Human geography lab 5\n第１６回 Final examination",
+    "text": "授業計画\n\n第１回 Introduction to human geography\n第２回 Population and health geography\n第３回 Global inequality and development\n第４回 Cultural geography: Language, religion, and identity\n第５回 Political geography: States and geopolitics\n第６回 Urban geography: Cities, infrastructure, and planning\n第７回 Economic geography: Trade and globalization\n第８回 Environmental geography: Resources and sustainability\n第９回 Agricultural geography: Food production and land use\n第１０回 Industrial geography: Industry and trade\n第１１回 Human geography lab 1\n第１２回 Human geography lab 2\n第１３回 Human geography lab 3\n第１４回 Human geography lab 4\n第１５回 Human geography lab 5\n第１６回 Final examination",
     "crumbs": [
       "人文地理学"
     ]
@@ -134,7 +134,7 @@
     "href": "syllabus.html#成績評価の方法基準",
     "title": "人文地理学",
     "section": "成績評価の方法・基準",
-    "text": "成績評価の方法・基準\n\n成績評価の方法・基準の説明\nAttendance, quizzes and assignments account for 50%, and the rest of 50% shall be attributed to the final exam.\nAA (Outstanding): Students can effectively operationalize the concepts of human geography, applying them in complex analyses and real-world scenarios.\nA (Excellent): Students demonstrate a strong understanding of the concepts of human geography and can draw meaningful implications and interpretations.\nB (Good): Students grasp the fundamental concepts of human geography and can apply them to some degree in analysis and interpretation.\nC (Fair): Students have a basic understanding of the concepts of human geography and can use them to draw simple conclusions.\nF (Failure): Students do not demonstrate an understanding of the fundamental concepts human geography which are necessary for drawing conclusions.",
+    "text": "成績評価の方法・基準\nAttendance, quizzes and assignments account for 50%, and the rest of 50% shall be attributed to the final exam.\nAA (Outstanding): Students can effectively operationalize the concepts of human geography, applying them in complex analyses and real-world scenarios.\nA (Excellent): Students demonstrate a strong understanding of the concepts of human geography and can draw meaningful implications and interpretations.\nB (Good): Students grasp the fundamental concepts of human geography and can apply them to some degree in analysis and interpretation.\nC (Fair): Students have a basic understanding of the concepts of human geography and can use them to draw simple conclusions.\nF (Failure): Students do not demonstrate an understanding of the fundamental concepts human geography which are necessary for drawing conclusions.",
     "crumbs": [
       "人文地理学"
     ]
@@ -144,7 +144,7 @@
     "href": "syllabus.html#授業時間外学習予習復習等",
     "title": "人文地理学",
     "section": "授業時間外学習（予習・復習等）",
-    "text": "授業時間外学習（予習・復習等）\n\n授業時間外学習（予習・復習等）の説明\nQuizzes and assignments will be assigned regularly to understand the course contents.",
+    "text": "授業時間外学習（予習・復習等）\nQuizzes and assignments will be assigned regularly to understand the course contents.",
     "crumbs": [
       "人文地理学"
     ]
@@ -154,7 +154,7 @@
     "href": "syllabus.html#キーワード",
     "title": "人文地理学",
     "section": "キーワード",
-    "text": "キーワード\n\nキーワードの説明\nHuman geography, geographic information system (GIS), R, spatial data, applications",
+    "text": "キーワード\nHuman geography, geographic information system (GIS), R, spatial data, applications",
     "crumbs": [
       "人文地理学"
     ]
@@ -164,7 +164,7 @@
     "href": "syllabus.html#他の科目との関連",
     "title": "人文地理学",
     "section": "他の科目との関連",
-    "text": "他の科目との関連\n\n他の科目との関連の説明\nR",
+    "text": "他の科目との関連\nR",
     "crumbs": [
       "人文地理学"
     ]
@@ -174,7 +174,7 @@
     "href": "syllabus.html#備考",
     "title": "人文地理学",
     "section": "備考",
-    "text": "備考\n\n備考の説明\n\nThe medium of instruction is English.",
+    "text": "備考\n\nThe medium of instruction is English.",
     "crumbs": [
       "人文地理学"
     ]
@@ -1077,6 +1077,16 @@
     "text": "Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.\nComber, L., and Brunsdon, C. (2020). Geographical Data Science and Spatial Data Analysis: An Introduction in R. Sage.\nKopczewska, K. (2020). Applied Spatial Statistics and Econometrics: Data Analysis in R. Routledge.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Human Geography",
+    "section": "",
+    "text": "Preface\nWe have entered the age of human geography. It is a dynamic and ever-evolving discipline that explores the complex relationship between people, places, and the environment. It seeks to understand how human societies develop, organize space, interact with nature, and shape the world around them. This lecture series aims to provide a comprehensive introduction to the fundamental themes of human geography, equipping students with the analytical tools needed to examine global patterns, regional differences, and the challenges of an interconnected world.\nThis course covers a broad range of topics, beginning with an introduction to the core principles of human geography before delving into key areas such as population dynamics, cultural landscapes, economic development, urbanization, political structures, and environmental sustainability. We will explore the forces driving globalization, the impacts of climate change, and the role of human decision-making in shaping landscapes and societies.\nThroughout this lecture series, students will engage with real-world case studies, interactive discussions, and critical thinking exercises to connect theory with practice. The goal is to foster a deeper understanding of the spatial organization of human activities and their consequences at local, national, and global scales.\nAs we embark on this academic journey, I encourage students to approach each topic with curiosity and a critical mindset. Human geography is not just a subject of study—it is a lens through which we can better understand the challenges and opportunities of our world today.\nThis lecture is for the readers who want to analyze, visualize and model geographic data with open source software. It is based on R that has powerful data processing, visualization and geospatial capabilities. The lecture is divided into two sections:\n\nSection 1: Foundations of human geography\nSection 2: Elegant geographic plots in R\n\nGeo-computation with R will equip you with knowledge and skills to tackle a wide range of issues, including those with scientific, societal and environmental implications, manifested in geographic data.\n\nLectures\nSection 1: Foundations of human geography\n\nLecture 1: Introduction to human geography\nLecture 2: Population and health geography\nLecture 3: Global inequality and development\nLecture 4: Cultural geography: Language, religion, and identity\nLecture 5: Political geography: States and geopolitics\nLecture 6: Urban geography: Cities, infrastructure, and planning\nLecture 7: Economic geography: Trade and globalization\nLecture 8: Environmental geography: Resources and sustainability\nLecture 9: Agricultural geography: Food production and land use\nLecture 10: Industrial geography: Industry and trade\n\nSection 2: Elegant geographic plots in R\n\nLecture 11: Human geography lab_1\nLecture 12: Human geography lab_2\nLecture 13: Human geography lab_3\nLecture 14: Human geography lab_4\nLecture 15: Human geography lab_5\n\nTextbooks:\nFor lectures 1 - 10:\n\nRubenstein, J. M. (2010). Contemporary human geography. 5th edition. Pearson\nFouberg, E., Murphy, A., and De Blij, H. (2020). Human geography: People, place, and culture. 12th edition. Wiley.\n\nFor lectures 11 - 15:\n\nLovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.\nComber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.\n\n\n\nClass schedule in the first quarter (1Q):\n\nMonday from 10:30 AM to 12:00 PM\nThursday from 10:30 AM to 12:00 PM\n\nClass room: A201 & A204 (Computer Lab), Eikokuji Campus, Kochi University of Technology\n\nLectures 1 - 10 will take place in room A201\nLectures 11 - 15 will take place in room A204\n\n\n\nGrading\nYour grade evaluation will depend on following three factors:\n\n\n\nPerformance\nWeight\n\n\n\n\na. Attendance\n10%\n\n\nb. Answering the quizzes and assignments.\n40%\n\n\nc. Final examination (TBA)\n50%\n\n\n\n\n\nQuizzes and assignment submission\nRegarding the quizzes and assignments, you have to write 10 - 200 words in English to get evaluated. Writing with logical explanation and examples are the main criteria of evaluation. If you can create exceptional arguments to support your discussion, I will provide bonus points for that assignment.\n\n\nInstructor\nMoinul Islam, Associate Professor, Research Institute for Future Design & School of Economics and Management, Kochi University of Technology, Japan.\nOffice hours: By appointment, please email:\n\ngeoinformatics.moinul@gmail.com",
+    "crumbs": [
+      "Preface"
     ]
   }
 ]
