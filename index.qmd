@@ -34,11 +34,11 @@ Section 1: Foundations of human geography
 
 Section 2: Elegant geographic plots in R
 
-  - Lecture 11: Human geography lab_1
-  - Lecture 12: Human geography lab_2
-  - Lecture 13: Human geography lab_3
-  - Lecture 14: Human geography lab_4
-  - Lecture 15: Human geography lab_5
+  - Lecture 11: Human geography lab 1
+  - Lecture 12: Human geography lab 2
+  - Lecture 13: Human geography lab 3
+  - Lecture 14: Human geography lab 4
+  - Lecture 15: Human geography lab 5
 
 Textbooks:
 
@@ -82,4 +82,3 @@ Moinul Islam, Associate Professor, Research Institute for Future Design & School
 
 Office hours: By appointment, please email:
 
-#### geoinformatics.moinul@gmail.com

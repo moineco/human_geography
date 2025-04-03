@@ -1,5 +1,7 @@
 # Introduction to human geography
 
+## Welcome to geography
+
 The word geography, invented by the ancient Greek scholar Eratosthenes, is based on two Greek words, "Geo" means “Earth,” and "Graphy" means “to write.” Geography is the study of where things are found on Earth's surface and the reasons for their locations.
 
 Human geographers ask two questions:
@@ -9,12 +11,11 @@ Human geographers ask two questions:
 
 To introduce human geography, we concentrate on two main features of society: culture and economy. The lectures explain why the most important cultural features, such as languages, religions, and ethnicities, are arranged as they are across Earth. The lecture also looks at the distribution of the most important economic activities, including agriculture, manufacturing, and services.
 
--  Why Where Matters
+-   Why Where Matters
 
 We tend to focus on two big decisions: who we choose as our life partner and what we do for work. But there is a third big decision—where you choose to live. The decision about where may be the most important, because it has a huge bearing on the others.
 
-Where you choose to live affects every aspect of your being. It influences the income you can potentially earn, and how far you can develop your skills. It has a bearing on the friends and romantic partners you can potentially meet, the networks you can build, and the options
-that will be available to your children. It shapes your values and your politics. It plays a role in how happy and healthy you are, and in your overall quality of life.
+Where you choose to live affects every aspect of your being. It influences the income you can potentially earn, and how far you can develop your skills. It has a bearing on the friends and romantic partners you can potentially meet, the networks you can build, and the options that will be available to your children. It shapes your values and your politics. It plays a role in how happy and healthy you are, and in your overall quality of life.
 
 -   Why is every place unique?
 
@@ -23,6 +24,18 @@ Humans possess a strong sense of place—that is, a feeling for the features tha
 -   Location:
 
 Geographers describe a feature’s place on Earth by identifying its location, which is the position that something occupies on Earth’s surface. In doing so, they consider three ways to identify location: place name, site, and situation. Geographers analyze where particular places are located and the combination of features that make each place on Earth distinct. Because all inhabited places on Earth’s surface—and many uninhabited places—have been named, the most straightforward way to describe a particular location is often by referring to its place name.
+
+### Comparing geography & history
+
+Human geography and history both rely on the collection of evidence about human activity. In his framework of all scientfic knowledge, the German philosopher Immanuel Kant (1724–1804) compared geography and history:
+
+| Geographers | Historians |
+|----|----|
+| identify the location of important places | identify the dates of important events |
+| explain why one human activity is found near another | explain why one human activity follows another chronologically |
+| ask where and why | ask when and why |
+| organize material spatially | organize material chronologically |
+| recognize that an action at one location on Earth can be a reaction to actions taken at another point on Earth, which can, in turn, affect conditions elsewhere | recognize that an action at one point in time can be in reaction to actions taken in the past and can, in turn, affect future actions |
 
 ## Branches of Geography
 
