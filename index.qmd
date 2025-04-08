@@ -21,60 +21,64 @@ Geo-computation with **R** will equip you with knowledge and skills to tackle a 
 
 Section 1: Foundations of human geography
 
-  - Lecture 1: Introduction to human geography
-  - Lecture 2: Population and health geography
-  - Lecture 3: Global inequality and development
-  - Lecture 4: Cultural geography: Language, religion, and identity
-  - Lecture 5: Political geography: States and geopolitics
-  - Lecture 6: Urban geography: Cities, infrastructure, and planning
-  - Lecture 7: Economic geography: Trade and globalization
-  - Lecture 8: Environmental geography: Resources and sustainability
-  - Lecture 9: Agricultural geography: Food production and land use
-  - Lecture 10: Industrial geography: Industry and trade
+-   Lecture 1: Introduction to human geography
+-   Lecture 2: Population and health geography
+-   Lecture 3: Global inequality and development
+-   Lecture 4: Cultural geography: Language, religion, and identity
+-   Lecture 5: Political geography: States and geopolitics
+-   Lecture 6: Urban geography: Cities, infrastructure, and planning
+-   Lecture 7: Economic geography: Trade and globalization
+-   Lecture 8: Environmental geography: Resources and sustainability
+-   Lecture 9: Agricultural geography: Food production and land use
+-   Lecture 10: Industrial geography: Industry and trade
 
 Section 2: Elegant geographic plots in R
 
-  - Lecture 11: Human geography lab 1
-  - Lecture 12: Human geography lab 2
-  - Lecture 13: Human geography lab 3
-  - Lecture 14: Human geography lab 4
-  - Lecture 15: Human geography lab 5
+-   Lecture 11: Human geography lab 1
+-   Lecture 12: Human geography lab 2
+-   Lecture 13: Human geography lab 3
+-   Lecture 14: Human geography lab 4
+-   Lecture 15: Human geography lab 5
 
 Textbooks:
 
 For lectures 1 - 10:
 
-  - Rubenstein, J. M. (2010). Contemporary human geography. 5th edition. Pearson 
-  - Fouberg, E., Murphy, A., and De Blij, H. (2020). Human geography: People, place, and culture. 12th edition. Wiley.
-  
+-   Rubenstein, J. M. (2010). Contemporary human geography. 5th edition. Pearson
+-   Fouberg, E., Murphy, A., and De Blij, H. (2020). Human geography: People, place, and culture. 12th edition. Wiley.
+
 For lectures 11 - 15:
 
-  - Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.
-  - Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
+-   Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.
+-   Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
 ### Class schedule in the first quarter (1Q):
 
 -   Monday from 10:30 AM to 12:00 PM
 -   Thursday from 10:30 AM to 12:00 PM
 
-Class room: A201 & A204 (Computer Lab), Eikokuji Campus, Kochi University of Technology
+Class room: A210 & A206 (Computer Lab), Eikokuji Campus, Kochi University of Technology
 
-- Lectures 1 - 10 will take place in room A201
-- Lectures 11 - 15 will take place in room A204
+-   Lectures 1 - 10 will take place in room A210
+-   Lectures 11 - 15 will take place in room A206
 
 ### Grading
 
 Your grade evaluation will depend on following three factors:
 
-| Performance                    | Weight |
-|--------------------------------|--------|
-| a\. Attendance                 | 10%    |
+| Performance                                | Weight |
+|--------------------------------------------|--------|
+| a\. Attendance                             | 10%    |
 | b\. Answering the quizzes and assignments. | 40%    |
-| c\. Final examination (TBA)    | 50%    |
+| c\. Final examination (TBA)                | 50%    |
 
 ### Quizzes and assignment submission
 
 Regarding the quizzes and assignments, you have to write 10 - 200 words in English to get evaluated. Writing with logical explanation and examples are the main criteria of evaluation. If you can create exceptional arguments to support your discussion, I will provide bonus points for that assignment.
+
+### KUTLMS Moodele Key
+
+human
 
 ### Instructor
 
@@ -82,3 +86,4 @@ Moinul Islam, Associate Professor, Research Institute for Future Design & School
 
 Office hours: By appointment, please email:
 
+geography.moinul\@gmail.com
