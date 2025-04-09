@@ -2,6 +2,8 @@
 
 Most people have an understanding of what their own lives are like and know a good deal about their own neighborhood and perhaps even something of the larger city and state in which they live. Yet, even as the countries and regions of the world become more interconnected, most of us still know very little about the lives of people on the other side of our country, or in other societies, or about the ways the lives of those people connect to our own. To change the world, to make it a better place for all people, we need to understand not just our little corner of it, but the whole of it—the broad sweep of human geography that constitutes the larger world of which our small corners are just a part.
 
+![](cover.jpg){fig-align="center" width="716"}
+
 We have entered the age of human geography. It is a dynamic and ever-evolving discipline that explores the complex relationship between people, places, and the environment. It seeks to understand how human societies develop, organize space, interact with nature, and shape the world around them. This lecture series aims to provide a comprehensive introduction to the fundamental themes of human geography, equipping students with the analytical tools needed to examine global patterns, regional differences, and the challenges of an interconnected world.
 
 This course covers a broad range of topics, beginning with an introduction to the core principles of human geography before delving into key areas such as population dynamics, cultural landscapes, economic development, urbanization, political structures, and environmental sustainability. We will explore the forces driving globalization, the impacts of climate change, and the role of human decision-making in shaping landscapes and societies.
@@ -57,7 +59,7 @@ For lectures 11 - 15:
 -   Monday from 10:30 AM to 12:00 PM
 -   Thursday from 10:30 AM to 12:00 PM
 
-Class room: A210 (Class room) & A206 (Computer lab), Eikokuji Campus, Kochi University of Technology
+Rooms: A210 (Class room) & A206 (Computer lab), Eikokuji Campus, Kochi University of Technology
 
 -   Lectures 1 - 10 will take place in room A210 (Class room)
 -   Lectures 11 - 15 will take place in room A206 (Computer lab)
@@ -72,9 +74,13 @@ Your grade evaluation will depend on following three factors:
 | b\. Answering the quizzes and assignments. | 40%    |
 | c\. Final examination (TBA)                | 50%    |
 
-### Quizzes and assignment submission
+### Assignment submission
 
-Regarding the quizzes and assignments, you have to write 10 - 200 words (in English) to get evaluated. Writing with logical explanation and examples are the main criteria of evaluation. If you can create exceptional arguments to support your discussion, I will provide bonus points for that assignment.
+Regarding the assignments, you have to write 10 - 200 words (in English) to get evaluated. Writing with logical explanation and examples are the main criteria of evaluation. If you can create exceptional arguments to support your discussion, I will provide bonus points for that assignment.
+
+### Quiz submission
+
+There is no word limit for quiz submission. Most of the quizzes are short and instantaneous.
 
 ### Instructor
 
