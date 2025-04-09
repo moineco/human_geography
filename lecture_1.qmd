@@ -30,12 +30,12 @@ Geographers describe a feature’s place on Earth by identifying its location, w
 Human geography and history both rely on the collection of evidence about human activity. In his framework of all scientific knowledge, the German philosopher Immanuel Kant (1724–1804) compared geography and history:
 
 | Geographers | Historians |
-|----|----|
-| identify the location of important places | identify the dates of important events |
-| explain why one human activity is found near another | explain why one human activity follows another chronologically |
-| ask where and why | ask when and why |
-| organize material spatially | organize material chronologically |
-| recognize that an action at one location on Earth can be a reaction to actions taken at another point on Earth, which can, in turn, affect conditions elsewhere | recognize that an action at one point in time can be in reaction to actions taken in the past and can, in turn, affect future actions |
+|------------------------------------|------------------------------------|
+| Identify the location of important places | Identify the dates of important events |
+| Explain why one human activity is found near another | Explain why one human activity follows another chronologically |
+| Ask where and why | Ask when and why |
+| Organize material spatially | Organize material chronologically |
+| Recognize that an action at one location on Earth can be a reaction to actions taken at another point on Earth, which can, in turn, affect conditions elsewhere | Recognize that an action at one point in time can be in reaction to actions taken in the past and can, in turn, affect future actions |
 
 ## Branches of Geography
 
@@ -59,7 +59,7 @@ Examines human activities, cultures, economies, and social interactions, includi
 -   Cultural landscapes
     -   Example: Analyzing the impact of globalization on local economies
 
-### Human Geography vs. Physical Geography:
+### Human Geography vs. Physical Geography
 
 -   Physical geography focuses on natural processes (e.g., how rivers form).
 -   Human geography focuses on human interactions with the environment (e.g., how cities develop near rivers).
@@ -77,7 +77,7 @@ Human geographers explore where human activities occur, why they occur there, an
 
 ### Fundamental Questions in Human Geography
 
-American geographer Charles Gritzner proposed three essential questions:
+American geographer Charles Gritzner proposed three essential questions
 
 -   What is where? – Identifies the location of people and activities.
 -   Why there? – Explains why things are located in certain places.
@@ -96,7 +96,7 @@ Example: Global Manufacturing Shift
 
 Example:
 
-California’s drought (2011-2017):
+California’s drought (2011-2017)
 
 -   Reduced water availability for farming.
 -   Increased food prices worldwide.
@@ -115,9 +115,3 @@ California’s drought (2011-2017):
 -   Human geography examines where people live, how they interact, and why spatial patterns matter.
 -   It bridges social sciences, economics, politics, and environmental studies.
 -   Geography is not just about maps—it helps us understand global challenges and shape solutions.
-
-## Quizzes
-
-1.  How does globalization influence human geography?
-2.  Why do some regions experience rapid economic development while others remain poor?
-3.  How do geography and climate affect population distribution?
