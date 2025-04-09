@@ -30,7 +30,7 @@ Geographers describe a feature’s place on Earth by identifying its location, w
 Human geography and history both rely on the collection of evidence about human activity. In his framework of all scientific knowledge, the German philosopher Immanuel Kant (1724–1804) compared geography and history:
 
 | Geographers | Historians |
-|----|----|
+|------------------------------------|------------------------------------|
 | Identify the location of important places | Identify the dates of important events |
 | Explain why one human activity is found near another | Explain why one human activity follows another chronologically |
 | Ask where and why | Ask when and why |
@@ -109,6 +109,20 @@ California’s drought (2011-2017)
 -   Remote Sensing: Satellites track deforestation, urban sprawl, and climate change.
 -   GPS (Global Positioning System): Navigation and location tracking.
 -   Fieldwork & Surveys: Collecting firsthand data through interviews, observations, and censuses.
+
+## The Geographic Grid
+
+The geographic grid is a system of arcs drawn in a pattern on a map of Earth’s surface to represent the imaginary lines of latitude and longitude. The geographic grid plays an important role in telling time.
+
+### Longitude and Latitude
+
+The location of any place on Earth’s surface can be described by these human-imagined arcs and circles, known as meridians and parallels, respectively, that form a grid pattern on Earth’s surface:
+
+-   A meridian is an arc drawn between the North and South poles. The location of each meridian is identified on Earth’s surface according to a numbering system known as longitude (経度- keido).
+
+-   A parallel is a circle drawn around the globe parallel to the equator and at right angles to the meridians. The numbering system to indicate the location of a parallel is called latitude (緯度- ido).
+
+![](figures/geographic_grid.png){fig-align="center" width="396"}
 
 ## Key Takeaway
 
