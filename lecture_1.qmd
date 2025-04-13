@@ -30,7 +30,7 @@ Geographers describe a feature’s place on Earth by identifying its location, w
 Human geography and history both rely on the collection of evidence about human activity. In his framework of all scientific knowledge, the German philosopher Immanuel Kant (1724–1804) compared geography and history:
 
 | Geographers | Historians |
-|------------------------------------|------------------------------------|
+|----|----|
 | Identify the location of important places | Identify the dates of important events |
 | Explain why one human activity is found near another | Explain why one human activity follows another chronologically |
 | Ask where and why | Ask when and why |
@@ -130,8 +130,7 @@ Humans possess a strong sense of place—that is, a feeling for the features tha
 
 ### Place Names
 
-A place may be named for a person, perhaps its founder or a famous person with no connection to the community, such as George Washington. Some settlers selected place names associated with religion, such as
-St. Louis and St. Paul, whereas other names derive from ancient history, such as Athens, Attica, and Rome, or from earlier occupants of the place.
+A place may be named for a person, perhaps its founder or a famous person with no connection to the community, such as George Washington. Some settlers selected place names associated with religion, such as St. Louis and St. Paul, whereas other names derive from ancient history, such as Athens, Attica, and Rome, or from earlier occupants of the place.
 
 ## Key Takeaway
 

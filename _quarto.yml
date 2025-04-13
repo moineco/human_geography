@@ -13,7 +13,7 @@ book:
     - index.qmd
     - syllabus.qmd
     - lecture_1.qmd
-    #- lecture_2.qmd
+    - lecture_2.qmd
     #- lecture_3.qmd
     #- lecture_4.qmd
     #- lecture_5.qmd
