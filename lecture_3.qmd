@@ -55,61 +55,63 @@ Example: Comparing HDI Levels
 
 ### Historical Factors
 
-- Colonialism: European powers exploited Africa, Asia, and Latin America, leaving economic dependency.
-- Slave Trade: Destroyed labor forces and disrupted economic growth in Africa.
-- Unequal Trade Agreements: Richer nations set rules that benefit their economies (e.g., WTO policies).
+-   Colonialism: European powers exploited Africa, Asia, and Latin America, leaving economic dependency.
+-   Slave Trade: Destroyed labor forces and disrupted economic growth in Africa.
+-   Unequal Trade Agreements: Richer nations set rules that benefit their economies (e.g., WTO policies).
 
 ### Political and Economic Factors
 
-- Corruption and Poor Governance: Weak institutions reduce foreign investment and development.
-- Debt Burden: LICs struggle to repay international loans, limiting infrastructure development.
-- Resource Curse: Countries rich in natural resources (e.g., oil in Venezuela) often suffer economic instability.
+-   Corruption and Poor Governance: Weak institutions reduce foreign investment and development.
+-   Debt Burden: LICs struggle to repay international loans, limiting infrastructure development.
+-   Resource Curse: Countries rich in natural resources (e.g., oil in Venezuela) often suffer economic instability.
 
 ### Social and Environmental Factors
 
-- Education Gap: Poor access to schools limits economic mobility.
-- Gender Inequality: Women earn 20% less than men globally.
-- Climate Change: Rising sea levels, droughts, and disasters worsen poverty (e.g., Bangladesh’s floods).
+-   Education Gap: Poor access to schools limits economic mobility.
+-   Gender Inequality: Women earn 20% less than men globally.
+-   Climate Change: Rising sea levels, droughts, and disasters worsen poverty (e.g., Bangladesh’s floods).
 
 ## Consequences of Global Inequality
+
 ### Economic Consequences
 
-- Brain Drain: Skilled workers migrate from LICs to HICs (e.g., African doctors moving to Europe).
-- Slum Growth: Rapid urbanization without infrastructure leads to informal settlements (e.g., Mumbai’s Dharavi slum).
+-   Brain Drain: Skilled workers migrate from LICs to HICs (e.g., African doctors moving to Europe).
+-   Slum Growth: Rapid urbanization without infrastructure leads to informal settlements (e.g., Mumbai’s Dharavi slum).
 
 ### Social Consequences
 
 Health Disparities:
 
-- LICs have higher infant mortality rates (Chad = 68/1,000 vs. Canada = 4/1,000).
-- Limited vaccine access leads to preventable diseases.
+-   LICs have higher infant mortality rates (Chad = 68/1,000 vs. Canada = 4/1,000).
+-   Limited vaccine access leads to preventable diseases.
 
 ### Political Consequences
 
-- Political Instability: Economic inequality fuels protests and revolutions (e.g., Arab Spring).
-- Conflict Over Resources: Nations compete for oil, water, and minerals (e.g., South China Sea disputes).
+-   Political Instability: Economic inequality fuels protests and revolutions (e.g., Arab Spring).
+-   Conflict Over Resources: Nations compete for oil, water, and minerals (e.g., South China Sea disputes).
 
 ## Solutions to Global Inequality
+
 ### Sustainable Development Goals (SDGs)
 
 UN’s 17 goals to reduce poverty and promote equality by 2030.
 
 Key targets:
 
-- No poverty: Reduce extreme poverty below 3%.
-- Quality education: Universal primary and secondary schooling.
-- Gender equality: Equal pay and leadership roles for women.
-- Climate action: Reduce carbon emissions and deforestation.
+-   No poverty: Reduce extreme poverty below 3%.
+-   Quality education: Universal primary and secondary schooling.
+-   Gender equality: Equal pay and leadership roles for women.
+-   Climate action: Reduce carbon emissions and deforestation.
 
 ### Economic and Political Solutions
 
-- Fair Trade Initiatives: Ensures farmers get fair wages for crops.
-- Debt Forgiveness: Canceling debt for LICs to allow investment in development.
-- Foreign Aid vs. Investment:
-  - Aid (short-term relief) vs. investment (long-term growth).
-  - Example: China’s Belt and Road Initiative (infrastructure investment in Africa).
+-   Fair Trade Initiatives: Ensures farmers get fair wages for crops.
+-   Debt Forgiveness: Canceling debt for LICs to allow investment in development.
+-   Foreign Aid vs. Investment:
+    -   Aid (short-term relief) vs. investment (long-term growth).
+    -   Example: China’s Belt and Road Initiative (infrastructure investment in Africa).
 
 ## Takeaway
 
-- Global inequality is shaped by history, economy, politics, and social factors.
-- Policies like SDGs, fair trade, and debt relief can reduce inequalities.
+-   Global inequality is shaped by history, economy, politics, and social factors.
+-   Policies like SDGs, fair trade, and debt relief can reduce inequalities.
