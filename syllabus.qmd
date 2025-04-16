@@ -123,6 +123,6 @@ SBN 9781138304512
 
 書名 Geocomputation with R
 
-著者名 Robin Lovelace,Lovelace, Robin,Nowosad, Jakub,Munchow, Jannes 出版社 CRC Press 出版年
+著者名 Lovelace, Robin, Jakub Nowosad, and Jannes Muenchow. 出版社 CRC Press 出版年 2019
 
 ## 参考書

@@ -1,11 +1,11 @@
 # Population and health geography
 
-Definition:
+### Definition
 
 -   Population geography studies the spatial distribution, density, and dynamics of human populations.
 -   Health geography examines the spatial patterns of health, disease, and healthcare access.
 
-Why It Matters:
+### Why it matters
 
 -   World population surpassed 8 billion in 2023 (UN estimate).
 -   Uneven distribution of population and healthcare creates social and economic challenges.

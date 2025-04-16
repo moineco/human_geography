@@ -4,14 +4,14 @@
 
 The word geography, invented by the ancient Greek scholar Eratosthenes, is based on two Greek words, "Geo" means “Earth,” and "Graphy" means “to write.” Geography is the study of where things are found on Earth's surface and the reasons for their locations.
 
-Human geographers ask two questions:
+### Human geographers ask two questions
 
 (i) Where are people and activities found on Earth?
 (ii) Why are they there?
 
 To introduce human geography, we concentrate on two main features of society: culture and economy. The lectures explain why the most important cultural features, such as languages, religions, and ethnicities, are arranged as they are across Earth. The lecture also looks at the distribution of the most important economic activities, including agriculture, manufacturing, and services.
 
--   Why Where Matters
+-   Why where matters
 
 We tend to focus on two big decisions: who we choose as our life partner and what we do for work. But there is a third big decision—where you choose to live. The decision about where may be the most important, because it has a huge bearing on the others.
 
@@ -21,7 +21,7 @@ Where you choose to live affects every aspect of your being. It influences the i
 
 Humans possess a strong sense of place—that is, a feeling for the features that contribute to the distinctiveness of a particular spot on Earth—perhaps a hometown, vacation destination, or college. Describing the features of a place is an essential building block for geographers to explain similarities, differences, and changes across Earth.
 
--   Location:
+-   Location
 
 Geographers describe a feature’s place on Earth by identifying its location, which is the position that something occupies on Earth’s surface. In doing so, they consider three ways to identify location: place name, site, and situation. Geographers analyze where particular places are located and the combination of features that make each place on Earth distinct. Because all inhabited places on Earth’s surface—and many uninhabited places—have been named, the most straightforward way to describe a particular location is often by referring to its place name.
 
@@ -30,7 +30,7 @@ Geographers describe a feature’s place on Earth by identifying its location, w
 Human geography and history both rely on the collection of evidence about human activity. In his framework of all scientific knowledge, the German philosopher Immanuel Kant (1724–1804) compared geography and history:
 
 | Geographers | Historians |
-|----|----|
+|------------------------------------|------------------------------------|
 | Identify the location of important places | Identify the dates of important events |
 | Explain why one human activity is found near another | Explain why one human activity follows another chronologically |
 | Ask where and why | Ask when and why |
@@ -44,7 +44,7 @@ Human geography and history both rely on the collection of evidence about human 
 Studies natural processes and features such as:
 
 -   Climate and weather patterns
--   Landforms (mountains, rivers, valleys)
+-   Land-forms (mountains, rivers, valleys)
 -   Natural disasters (earthquakes, tsunamis)
 -   Ecosystems and biodiversity
     -   Example: Studying how hurricanes affect coastal regions

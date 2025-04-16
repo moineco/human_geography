@@ -1,17 +1,17 @@
 # Global inequality and development
 
-Definition:
+### Definition
 
 -   Global inequality refers to the economic, social, and political disparities between countries and regions.
 -   Development is the process of improving economic conditions, health, education, and overall well-being.
 
-Why It matters:
+### Why it matters
 
 -   Over 700 million people live in extreme poverty (World Bank, 2023).
 -   Wealth concentration: The richest 1% own more wealth than the bottom 50% combined.
 -   Disparities in health, education, and access to resources shape global migration and economic policies.
 
-### Key Questions in global inequality and development
+### Key questions in global inequality and development
 
 -   Why do some countries develop faster than others?
 -   What are the causes and consequences of global economic disparities?
@@ -22,7 +22,7 @@ Why It matters:
 
 ### Measuring Economic Inequality
 
-#### Gross Domestic Product (GDP) per capita:
+#### Gross Domestic Product (GDP) per capita
 
 Measures economic output per person.
 
@@ -30,7 +30,7 @@ Measures economic output per person.
 -   Middle-income countries (MICs): Mexico, India, Brazil.
 -   Low-income countries (LICs): Chad, Afghanistan, Haiti.
 
-#### Human Development Index (HDI):
+#### Human Development Index (HDI)
 
 Measures overall well-being using:
 
@@ -38,7 +38,7 @@ Measures overall well-being using:
 -   Education (years of schooling).
 -   Income per capita (economic status).
 
-#### Gini Coefficient:
+#### Gini Coefficient
 
 Measures income inequality within a country (0 = perfect equality, 1 = extreme inequality).
 
