@@ -1,11 +1,11 @@
 # Political geography: States and geopolitics
 
-Definition:
+### Definition
 
 -   Political geography examines how geographical space influences political processes and how political decisions shape geography.
 -   Key topics include borders, states, nationalism, geopolitics, and territorial disputes.
 
-Why It Matters:
+### Why it matters:
 
 -   There are 195 recognized sovereign states today, but many territories remain disputed.
 -   Conflicts over borders, resources, and political ideologies shape global stability.
@@ -122,7 +122,7 @@ Case Study: The Cold War and Geopolitical Rivalry
 ### International Organizations
 
 | Organization | Purpose | Example |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | United Nations (UN) | Peacekeeping, diplomacy | Resolutions on Ukraine-Russia war |
 | European Union (EU) | Economic and political cooperation | Euro currency, open borders |
 | North Atlantic Treaty Organization (NATO) | Military alliance for collective defense | Support for Ukraine |
@@ -131,18 +131,11 @@ Case Study: The Cold War and Geopolitical Rivalry
 
 Case Study: Brexit and the European Union
 
-- UK left the EU in 2020 over concerns of sovereignty and immigration.
-- Economic and political impacts still ongoing.
+-   UK left the EU in 2020 over concerns of sovereignty and immigration.
+-   Economic and political impacts still ongoing.
 
 ## Takeaway
 
-- Political geography examines how borders, states, and power shape global relations.
-- Geopolitical theories explain conflicts and strategies.
-- International organizations play key roles in diplomacy and stability.
-
-## Quizzes
-
-- What makes a state legitimate? Can unrecognized states function?
-- How do political boundaries create ethnic tensions?
-- Is globalization weakening national borders?
-- Should nations intervene in conflicts beyond their borders?
+-   Political geography examines how borders, states, and power shape global relations.
+-   Geopolitical theories explain conflicts and strategies.
+-   International organizations play key roles in diplomacy and stability.
