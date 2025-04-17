@@ -15,7 +15,7 @@ book:
     - lecture_1.qmd
     - lecture_2.qmd
     - lecture_3.qmd
-    #- lecture_4.qmd
+    - lecture_4.qmd
     #- lecture_5.qmd
     #- lecture_6.qmd
     #- lecture_7.qmd
@@ -35,8 +35,8 @@ highlight-style: pygments
 format:
   html:
     theme: 
-       dark: darkly
        light: cosmo
+       dark: darkly
     prefer-html: true
   # epub:
   #  cover-image: cover.png
