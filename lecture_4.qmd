@@ -1,11 +1,11 @@
 # Cultural geography: Language, religion, and identity
 
-Definition:
+### Definition
 
 -   Cultural geography studies how culture, traditions, and social identity vary across space and interact with geography.
 -   Includes language, religion, ethnicity, customs, traditions, and symbols.
 
-Why It Matters:
+### Why It Matters
 
 -   7,000+ languages spoken globally, but many are disappearing.
 -   Religious beliefs shape societies, conflicts, and global politics.
@@ -29,7 +29,7 @@ Why It Matters:
 Major Language Families (World Distribution)
 
 | Language Family | Examples | Regions |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Indo-European | English, Spanish, Hindi, Russian | Europe, Americas, South Asia |
 | Sino-Tibetan | Mandarin, Cantonese | East Asia |
 | Afro-Asiatic | Arabic, Hebrew | Middle East, North Africa |
@@ -145,10 +145,3 @@ Case Study: Americanization vs. Cultural Resistance
 -   Language, religion, and identity are central to cultural geography.
 -   Globalization is reshaping cultural landscapes, but local traditions persist.
 -   Conflicts arise when cultural identities clash over land, politics, and beliefs.
-
-## Quizzes
-
--   Should governments protect endangered languages, or is language change inevitable?
--   How does religion shape political conflicts? Provide examples.
--   Does globalization strengthen or weaken cultural diversity?
--   How can multicultural societies balance diversity and national unity?
