@@ -24,7 +24,7 @@
 
 #### Gross Domestic Product (GDP) per capita
 
-Gross domestic product (GDP) per capita is an economic metric that breaks down a country’s economic output to a per-person allocation. Economists use GDP per capita to determine the prosperity of countries based on their economic growth. 
+Gross domestic product (GDP) per capita is an economic metric that breaks down a country’s economic output to a per-person allocation. Economists use GDP per capita to determine the prosperity of countries based on their economic growth.
 
 Measures economic output per person.
 
@@ -35,6 +35,8 @@ Measures economic output per person.
 #### Human Development Index (HDI)
 
 ![](figures/hdi.png){fig-align="center"}
+
+Source: <https://hdr.undp.org/data-center/human-development-index#/indicies/HDI>
 
 Measures overall well-being using:
 
@@ -51,6 +53,8 @@ It measures inequality on a scale from 0 to 1, where higher values indicate high
 Measures income inequality within a country (0 = perfect equality, 1 = extreme inequality).
 
 ![](figures/gini_coefficient.png){fig-align="center"}
+
+Source: <https://ourworldindata.org/what-is-the-gini-coefficient>
 
 Example: Comparing HDI Levels
 
