@@ -1,10 +1,10 @@
 # Economic geography: Trade and globalization
 
-Definition:
+### Definition
 
 -   Economic geography examines how economic activities are distributed across space, including industries, trade, and globalization.
 
-Why It Matters:
+### Why it matters
 
 -   Economic geography helps explain why some regions are wealthy while others remain poor.
 -   Globalization has reshaped trade, labor markets, and industry locations.
@@ -80,6 +80,7 @@ Case Study: China’s Role in Global Trade
 ### What is Globalization?
 
 -   Globalization is the increasing interconnectedness of economies, cultures, and politics worldwide.
+
 -   Driven by:
 
     -   Technology advancements (Internet, digital banking).
@@ -115,7 +116,7 @@ Case Study: Outsourcing and Job Shifts
 ### Measuring Economic Development
 
 | Indicator | Description | Example |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | GDP per capita | Total economic output per person | USA: \$75,000 vs. India: \$6,000 |
 | Human Development Index (HDI) | Combines income, education, life expectancy | Norway: 0.957 vs. Chad: 0.394 |
 | Gini Coefficient | Measures income inequality (0 = equal, 1 = extreme inequality) | South Africa: 0.63 vs. Sweden: 0.25 |
@@ -124,37 +125,33 @@ Case Study: Outsourcing and Job Shifts
 
 Global North (Developed Nations)
 
-- High incomes, industrialized economies (USA, Germany, Japan).
+-   High incomes, industrialized economies (USA, Germany, Japan).
 
 Global South (Developing Nations)
 
-- Lower incomes, reliance on agriculture (Bangladesh, Nigeria).
+-   Lower incomes, reliance on agriculture (Bangladesh, Nigeria).
 
 Efforts to bridge the gap: UN Sustainable Development Goals (SDGs), microfinance, fair trade.
 
 ## Sustainable Economic Growth and the Future
+
 ### Sustainable Development Strategies
 
-- Renewable Energy Investment: Solar, wind power to reduce carbon footprint.
-- Fair Trade Policies: Ensuring workers receive fair wages.
-- Green Supply Chains: Reducing pollution in global manufacturing.
-- Circular Economy: Recycling and waste reduction.
+-   Renewable Energy Investment: Solar, wind power to reduce carbon footprint.
+-   Fair Trade Policies: Ensuring workers receive fair wages.
+-   Green Supply Chains: Reducing pollution in global manufacturing.
+-   Circular Economy: Recycling and waste reduction.
 
 Case Study: Green Economy in Germany
 
-- Germany leads in renewable energy (solar, wind).
-- Government incentives for sustainable industries.
+-   Germany leads in renewable energy (solar, wind).
+-   Government incentives for sustainable industries.
 
 ## Takeaway
 
-- Economic geography helps explain how industries, trade, and globalization shape economies.
-- Industries are strategically located based on resources, labor, and markets.
-- Globalization has benefits but also challenges (inequality, job shifts).
-- Sustainable economic strategies are crucial for future growth.
+-   Economic geography helps explain how industries, trade, and globalization shape economies.
+-   Industries are strategically located based on resources, labor, and markets.
+-   Globalization has benefits but also challenges (inequality, job shifts).
+-   Sustainable economic strategies are crucial for future growth.
 
-## Quizzes
 
-- Why are certain industries located in specific regions?
-- How does globalization impact local economies and labor markets?
-- Should governments regulate multinational corporations for ethical practices?
-- Can economic growth and environmental sustainability coexist?

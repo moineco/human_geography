@@ -162,5 +162,3 @@ Example: Healthcare Disparities in the USA
 -   Global population is unevenly distributed.
 -   Fertility and mortality rates shape population trends.
 -   Health geography is critical for disease control and healthcare policy.
-
-

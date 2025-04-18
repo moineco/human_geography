@@ -1,10 +1,10 @@
 # Urban geography: Cities, infrastructure, and planning
 
-Definition:
+### Definition
 
 -   Urban geography studies the spatial organization of cities, urbanization processes, infrastructure development, and urban planning.
 
-Why It Matters:
+### Why it matters
 
 -   More than 55% of the global population lives in cities (expected to reach 70% by 2050).
 -   Urbanization shapes economic, environmental, and social structures.
@@ -34,7 +34,7 @@ Causes of Urbanization:
 ### Urbanization Trends
 
 | Region | Urban Population (%) 1990 | Urban Population (%) 2022 | Projected (%) 2050 |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
 | North America | 75% | 82% | 89% |
 | Europe | 70% | 74% | 83% |
 | Latin America | 65% | 79% | 86% |
@@ -43,116 +43,115 @@ Causes of Urbanization:
 
 Case Study: China's Rapid Urbanization
 
-- More than 300 million rural people migrated to cities in 30 years.
-- Growth of megacities like Shanghai, Beijing, and Shenzhen.
-- Impact: Increased economic growth but also environmental pollution and housing crises.
+-   More than 300 million rural people migrated to cities in 30 years.
+-   Growth of megacities like Shanghai, Beijing, and Shenzhen.
+-   Impact: Increased economic growth but also environmental pollution and housing crises.
 
 ## The Structure of Cities
+
 ### Urban Models: How Cities Are Organized
 
 Concentric Zone Model (Burgess, 1925)
 
-- City grows outward in rings.
-- CBD (Central Business District) at the core.
-- Example: Chicago, USA.
+-   City grows outward in rings.
+-   CBD (Central Business District) at the core.
+-   Example: Chicago, USA.
 
 Sector Model (Hoyt, 1939)
 
-- Cities develop in wedges based on transportation and industry.
-- Example: Calgary, Canada (wealthier neighborhoods along transit lines).
+-   Cities develop in wedges based on transportation and industry.
+-   Example: Calgary, Canada (wealthier neighborhoods along transit lines).
 
 Multiple Nuclei Model (Harris & Ullman, 1945)
 
-- Cities have multiple centers for different activities.
-- Example: Los Angeles, USA (downtown, industrial zones, suburban malls).
+-   Cities have multiple centers for different activities.
+-   Example: Los Angeles, USA (downtown, industrial zones, suburban malls).
 
 Latin American City Model
 
-- Wealthy live near the central business district.
-- Poorer populations in peripheral slums (favelas, barrios).
-- Example: São Paulo, Brazil.
+-   Wealthy live near the central business district.
+-   Poorer populations in peripheral slums (favelas, barrios).
+-   Example: São Paulo, Brazil.
 
 ## Infrastructure and Urban Services
+
 ### Essential Urban Infrastructure
 
-- Transportation: Roads, public transit, airports.
-- Utilities: Water, electricity, sewage, internet.
-- Housing: Affordable housing, high-rise apartments, suburban homes.
-- Public Spaces: Parks, libraries, cultural centers.
+-   Transportation: Roads, public transit, airports.
+-   Utilities: Water, electricity, sewage, internet.
+-   Housing: Affordable housing, high-rise apartments, suburban homes.
+-   Public Spaces: Parks, libraries, cultural centers.
 
 Case Study: Smart Cities in Singapore
 
-- Singapore uses AI, sensors, and automation to improve traffic, energy use, and waste management.
-- Goal: Reduce pollution and create an efficient, livable city.
+-   Singapore uses AI, sensors, and automation to improve traffic, energy use, and waste management.
+-   Goal: Reduce pollution and create an efficient, livable city.
 
 ### Transportation and Urban Mobility
 
 Public Transport vs. Private Vehicles
 
-- Efficient metro and bus systems reduce congestion.
-- Example: Tokyo’s extensive subway system reduces car dependence.
+-   Efficient metro and bus systems reduce congestion.
+-   Example: Tokyo’s extensive subway system reduces car dependence.
 
 Urban Sprawl:
 
-- Low-density suburbs lead to increased car usage and long commutes.
-- Example: Los Angeles, USA suffers from extreme traffic congestion.
+-   Low-density suburbs lead to increased car usage and long commutes.
+-   Example: Los Angeles, USA suffers from extreme traffic congestion.
 
 ## Urban Challenges and Solutions
+
 ### Challenges of Rapid Urbanization
 
 Overcrowding and Housing Shortages
 
-- Slums and informal settlements (e.g., Dharavi in Mumbai).
-- Rising property prices force people out of city centers.
-- Traffic Congestion and Pollution
-   - Air pollution from vehicles and industries.
-   - Example: New Delhi’s air pollution crisis.
+-   Slums and informal settlements (e.g., Dharavi in Mumbai).
+-   Rising property prices force people out of city centers.
+-   Traffic Congestion and Pollution
+    -   Air pollution from vehicles and industries.
+    -   Example: New Delhi’s air pollution crisis.
 
 Urban Inequality and Poverty
 
-- Gentrification displaces low-income residents.
-- Example: San Francisco’s rising housing costs due to tech industry growth.
+-   Gentrification displaces low-income residents.
+-   Example: San Francisco’s rising housing costs due to tech industry growth.
 
 Waste Management and Sanitation
 
-- Cities generate massive waste, overwhelming landfill capacity.
-- Example: Jakarta, Indonesia struggles with flooding due to plastic waste clogging drainage.
+-   Cities generate massive waste, overwhelming landfill capacity.
+-   Example: Jakarta, Indonesia struggles with flooding due to plastic waste clogging drainage.
 
 ## Urban Planning and Sustainable Cities
+
 ### What is Urban Planning?
 
-- Urban planning designs cities to be more efficient, sustainable, and livable.
-- Goals: Reduce congestion, improve green spaces, manage growth.
+-   Urban planning designs cities to be more efficient, sustainable, and livable.
+-   Goals: Reduce congestion, improve green spaces, manage growth.
 
 ### Smart Growth Strategies
 
-- Mixed-Use Development: Combines housing, business, and recreation in the same area.
-- Public Transport Investment: Expanding metros, buses, bike lanes.
-- Green Spaces: More parks and trees for better air quality.
-- Renewable Energy Use: Solar, wind power to reduce carbon footprint.
+-   Mixed-Use Development: Combines housing, business, and recreation in the same area.
+-   Public Transport Investment: Expanding metros, buses, bike lanes.
+-   Green Spaces: More parks and trees for better air quality.
+-   Renewable Energy Use: Solar, wind power to reduce carbon footprint.
 
 Case Study: Curitiba, Brazil – A Model Sustainable City
 
-- Implemented Bus Rapid Transit (BRT) system to reduce car dependency.
-- Green spaces and flood management to improve urban resilience.
+-   Implemented Bus Rapid Transit (BRT) system to reduce car dependency.
+-   Green spaces and flood management to improve urban resilience.
 
 ## The Future of Cities
+
 ### Trends in Urban Development
 
-- Rise of Megacities: More cities with 10+ million people (e.g., Lagos, Dhaka).
-- Technology-Driven Cities: Smart grids, automated traffic control, AI-based services.
-- Climate-Resilient Cities: Managing floods, heat waves, and sea-level rise.
-- Decentralization: Smaller cities growing to balance development (e.g., China's secondary cities).
+-   Rise of Megacities: More cities with 10+ million people (e.g., Lagos, Dhaka).
+-   Technology-Driven Cities: Smart grids, automated traffic control, AI-based services.
+-   Climate-Resilient Cities: Managing floods, heat waves, and sea-level rise.
+-   Decentralization: Smaller cities growing to balance development (e.g., China's secondary cities).
 
 ## Takeaway
 
-- Urban geography helps us understand how cities grow and function.
-- Infrastructure and planning shape livability and sustainability.
-- Smart growth strategies and sustainable planning are key for the future.
+-   Urban geography helps us understand how cities grow and function.
+-   Infrastructure and planning shape livability and sustainability.
+-   Smart growth strategies and sustainable planning are key for the future.
 
-## Quizzes
-
-- What are the advantages and disadvantages of urbanization?
-- How does urban planning affect social and economic inequality?
-- Should cities prioritize public transportation over car-friendly policies?
-- Can slums be upgraded, or should governments relocate informal settlers?
