@@ -284,7 +284,7 @@
     "href": "lecture_3.html#understanding-global-inequality",
     "title": "3  Global inequality and development",
     "section": "3.1 Understanding Global Inequality",
-    "text": "3.1 Understanding Global Inequality\n\n3.1.1 Measuring Economic Inequality\n\n3.1.1.1 Gross Domestic Product (GDP) per capita\nMeasures economic output per person.\n\nHigh-income countries (HICs): USA, Germany, Japan.\nMiddle-income countries (MICs): Mexico, India, Brazil.\nLow-income countries (LICs): Chad, Afghanistan, Haiti.\n\n\n\n3.1.1.2 Human Development Index (HDI)\nMeasures overall well-being using:\n\nLife expectancy (health).\nEducation (years of schooling).\nIncome per capita (economic status).\n\n\n\n3.1.1.3 Gini Coefficient\nMeasures income inequality within a country (0 = perfect equality, 1 = extreme inequality).\nExample: Comparing HDI Levels\n\n\n\n\n\n\n\n\n\n\nCountry\nHDI (2022)\nLife Expectancy\nEducation (Years)\nIncome (USD)\n\n\n\n\nNorway\n0.957\n83 years\n13.5 years\n89,000\n\n\nUSA\n0.921\n79 years\n13.3 years\n75,000\n\n\nIndia\n0.633\n69 years\n6.7 years\n6,000\n\n\nChad\n0.394\n54 years\n3.5 years\n2,000",
+    "text": "3.1 Understanding Global Inequality\n\n3.1.1 Measuring Economic Inequality\n\n3.1.1.1 Gross Domestic Product (GDP) per capita\nGross domestic product (GDP) per capita is an economic metric that breaks down a country’s economic output to a per-person allocation. Economists use GDP per capita to determine the prosperity of countries based on their economic growth.\nMeasures economic output per person.\n\nHigh-income countries (HICs): USA, Germany, Japan.\nMiddle-income countries (MICs): Mexico, India, Brazil.\nLow-income countries (LICs): Chad, Afghanistan, Haiti.\n\n\n\n3.1.1.2 Human Development Index (HDI)\n\n\n\n\n\nMeasures overall well-being using:\n\nLife expectancy (health).\nEducation (years of schooling).\nIncome per capita (economic status).\n\n\n\n3.1.1.3 Gini Coefficient\nThe Gini coefficient, or Gini index, is the most commonly used measure of inequality. It was developed by Italian statistician Corrado Gini (1884–1965) and is named after him.\nIt measures inequality on a scale from 0 to 1, where higher values indicate higher inequality. This can sometimes be shown as a percentage from 0 to 100%, called the “Gini Index”.\nMeasures income inequality within a country (0 = perfect equality, 1 = extreme inequality).\n\n\n\n\n\nExample: Comparing HDI Levels\n\n\n\n\n\n\n\n\n\n\nCountry\nHDI (2022)\nLife Expectancy\nEducation (Years)\nIncome (USD)\n\n\n\n\nNorway\n0.957\n83 years\n13.5 years\n89,000\n\n\nUSA\n0.921\n79 years\n13.3 years\n75,000\n\n\nIndia\n0.633\n69 years\n6.7 years\n6,000\n\n\nChad\n0.394\n54 years\n3.5 years\n2,000",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Global inequality and development</span>"
     ]
@@ -484,7 +484,7 @@
     "href": "lecture_6.html",
     "title": "6  Urban geography: Cities, infrastructure, and planning",
     "section": "",
-    "text": "6.0.1 Key Questions in Urban Geography\nDefinition:\nWhy It Matters:",
+    "text": "6.0.1 Definition",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
     ]

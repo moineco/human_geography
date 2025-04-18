@@ -24,6 +24,8 @@
 
 #### Gross Domestic Product (GDP) per capita
 
+Gross domestic product (GDP) per capita is an economic metric that breaks down a country’s economic output to a per-person allocation. Economists use GDP per capita to determine the prosperity of countries based on their economic growth. 
+
 Measures economic output per person.
 
 -   High-income countries (HICs): USA, Germany, Japan.
@@ -31,6 +33,8 @@ Measures economic output per person.
 -   Low-income countries (LICs): Chad, Afghanistan, Haiti.
 
 #### Human Development Index (HDI)
+
+![](figures/hdi.png){fig-align="center"}
 
 Measures overall well-being using:
 
@@ -40,7 +44,13 @@ Measures overall well-being using:
 
 #### Gini Coefficient
 
+The Gini coefficient, or Gini index, is the most commonly used measure of inequality. It was developed by Italian statistician Corrado Gini (1884–1965) and is named after him.
+
+It measures inequality on a scale from 0 to 1, where higher values indicate higher inequality. This can sometimes be shown as a percentage from 0 to 100%, called the “Gini Index”.
+
 Measures income inequality within a country (0 = perfect equality, 1 = extreme inequality).
+
+![](figures/gini_coefficient.png){fig-align="center"}
 
 Example: Comparing HDI Levels
 
