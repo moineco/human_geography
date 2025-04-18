@@ -114,6 +114,10 @@ California’s drought (2011-2017)
 
 The geographic grid is a system of arcs drawn in a pattern on a map of Earth’s surface to represent the imaginary lines of latitude and longitude. The geographic grid plays an important role in telling time.
 
+![](figures/latitude_longitude.jpg){fig-align="center"}
+
+Source: <https://keydifferences.com/wp-content/uploads/2017/02/latitude-vs-longitude2.jpg>
+
 ### Longitude and Latitude
 
 The location of any place on Earth’s surface can be described by these human-imagined arcs and circles, known as meridians and parallels, respectively, that form a grid pattern on Earth’s surface:
@@ -121,8 +125,6 @@ The location of any place on Earth’s surface can be described by these human-i
 -   A meridian is an arc drawn between the North and South poles. The location of each meridian is identified on Earth’s surface according to a numbering system known as longitude (経度- keido).
 
 -   A parallel is a circle drawn around the globe parallel to the equator and at right angles to the meridians. The numbering system to indicate the location of a parallel is called latitude (緯度- ido).
-
-![](figures/geographic_grid.png){fig-align="center" width="396"}
 
 ## Place: A Unique Location
 
