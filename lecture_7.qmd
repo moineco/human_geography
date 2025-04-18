@@ -91,19 +91,15 @@ Case Study: China’s Role in Global Trade
 
 Positive Effects:
 
-✅ Increased global trade and economic growth.
-
-✅ Access to new markets and job opportunities.
-
-✅ Faster technology diffusion.
+-   Increased global trade and economic growth.
+-   Access to new markets and job opportunities.
+-   Faster technology diffusion.
 
 Negative Effects:
 
-❌ Job losses in some industries due to outsourcing.
-
-❌ Exploitation of workers in developing nations.
-
-❌ Environmental damage (deforestation, pollution).
+-   Job losses in some industries due to outsourcing.
+-   Exploitation of workers in developing nations.
+-   Environmental damage (deforestation, pollution).
 
 Case Study: Outsourcing and Job Shifts
 
@@ -153,5 +149,3 @@ Case Study: Green Economy in Germany
 -   Industries are strategically located based on resources, labor, and markets.
 -   Globalization has benefits but also challenges (inequality, job shifts).
 -   Sustainable economic strategies are crucial for future growth.
-
-
