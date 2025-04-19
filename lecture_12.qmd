@@ -50,7 +50,6 @@ world_map %>%
   geom_polygon(fill = "lightgray", colour = "black", size = 0.1)
 ```
 
-
 -   We use free data on world map: Natural Earth
 
 -   Using `rnaturalearth` package, we get the data necessary to draw a world map
@@ -156,7 +155,6 @@ global_map %>%
   theme_minimal(base_family = "HiraKakuProN-W3") +
   theme(legend.position = "left")
 ```
-
 
 ## World and continents with `sf`
 
