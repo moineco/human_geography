@@ -1,10 +1,10 @@
 # Environmental geography: Resources and sustainability
 
-Definition:
+### Definition
 
 -   Environmental geography studies the interactions between humans and their natural environment, including resource use, sustainability, and climate change.
 
-Why It Matters:
+### Why it matters
 
 -   Human activities have altered the Earth’s ecosystems.
 -   Natural resource depletion threatens global stability.
@@ -115,39 +115,39 @@ Case Study: China’s Air Pollution Crisis
 ### Global Environmental Policies and Agreements
 
 | Agreement | Purpose | Example of Action |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Kyoto Protocol (1997) | Reduce greenhouse gas emissions | First international climate treaty |
 | Paris Agreement (2015) | Limit global warming to below 2°C | Countries set emission reduction goals |
 | Montreal Protocol (1987) | Protect ozone layer | Banned CFCs in aerosol sprays |
 
 ## Solutions for a Sustainable Future
+
 ### Renewable Energy Transition
 
-- Solar, wind, hydro, and geothermal energy replacing fossil fuels.
-- Example: Germany’s “Energiewende” policy promotes renewable electricity.
+-   Solar, wind, hydro, and geothermal energy replacing fossil fuels.
+-   Example: Germany’s “Energiewende” policy promotes renewable electricity.
 
 ### Circular Economy and Waste Management
 
-- Recycling and reusing materials to minimize waste.
-- Plastic bans and biodegradable packaging.
-- Example: Sweden recycles 99% of household waste.
+-   Recycling and reusing materials to minimize waste.
+-   Plastic bans and biodegradable packaging.
+-   Example: Sweden recycles 99% of household waste.
 
 ### Green Urban Planning
 
-- Sustainable cities with efficient public transport and green spaces.
-- Vertical farming and smart water management.
-- Example: Singapore’s eco-friendly city design.**
+-   Sustainable cities with efficient public transport and green spaces.
+-   Vertical farming and smart water management.
+-   Example: Singapore’s eco-friendly city design.\*\*
 
 ## Takeaway
 
-- Environmental geography helps us understand human impact on natural systems.
-- Sustainability requires balancing environmental, economic, and social goals.
-- Climate change is a major challenge, requiring global cooperation.
+-   Environmental geography helps us understand human impact on natural systems.
+-   Sustainability requires balancing environmental, economic, and social goals.
+-   Climate change is a major challenge, requiring global cooperation.
 
 ## Quizzes
 
-- What are the biggest environmental challenges facing the world today?
-- How can economic growth and sustainability coexist?
-- Should governments enforce stricter environmental policies?
-- What role do individuals play in combating climate change?
-
+-   What are the biggest environmental challenges facing the world today?
+-   How can economic growth and sustainability coexist?
+-   Should governments enforce stricter environmental policies?
+-   What role do individuals play in combating climate change?

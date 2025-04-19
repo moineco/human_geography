@@ -1,11 +1,11 @@
 # Agricultural geography: Food production and land use
 
-Definition:
+### Definition
 
 -   Agricultural geography examines the spatial patterns of agriculture, food production, land use, and rural development.
 -   It explores how, where, and why agriculture takes place, and its role in shaping economies and societies.
 
-Why It Matters:
+### Why it matters
 
 -   Agriculture feeds the world’s population and drives economies.
 -   Climate change, resource depletion, and land use changes impact food security.
@@ -128,20 +128,20 @@ Case Study: Fair Trade Coffee Movement
 ### Agricultural Policies and Global Governance
 
 | Policy | Goal | Example |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Common Agricultural Policy (EU) | Supports farmers, stabilizes prices | EU subsidies for sustainable farming |
 | U.S. Farm Bill | Regulates agriculture, provides subsidies | Crop insurance, food aid programs |
 | UN Food Security Programs | Reduces hunger, promotes sustainability | World Food Programme (WFP) |
 
 ## Takeaway
 
-- Agriculture is central to food security, economic growth, and rural life.
-- Challenges include climate change, resource depletion, and market inequalities.
-- Sustainable solutions and technological innovations are key to future food systems
+-   Agriculture is central to food security, economic growth, and rural life.
+-   Challenges include climate change, resource depletion, and market inequalities.
+-   Sustainable solutions and technological innovations are key to future food systems
 
 ## Quizzes
 
-- How has technology transformed agriculture?
-- Should governments regulate food production more strictly for sustainability?
-- How does globalization impact small farmers?
-- Can organic farming feed the growing global population?
+-   How has technology transformed agriculture?
+-   Should governments regulate food production more strictly for sustainability?
+-   How does globalization impact small farmers?
+-   Can organic farming feed the growing global population?

@@ -3,9 +3,10 @@
 ### What is Industrial Geography?
 
 -   Definition: Industrial geography examines the location, distribution, and spatial organization of industries.
+
 -   Focus Areas:
-    -   Why industries develop in certain regions.
-    -   How trade and globalization shape industrial patterns.
+    -   Why industries develop in certain regions?
+    -   How trade and globalization shape industrial patterns?
     -   The impact of industrialization on societies and environments.
 
 ### Why is Industrial Geography Important?
@@ -127,7 +128,7 @@
 ### Environmental Impacts of Industry
 
 | Impact          | Cause                       | Example                      |
-|-----------------|-----------------------------|------------------------------|
+|------------------|---------------------------|----------------------------|
 | Air Pollution   | Factories, vehicles         | Smog in Beijing, Los Angeles |
 | Water Pollution | Industrial waste            | Chemical spills in rivers    |
 | Deforestation   | Land clearing for factories | Amazon rainforest loss       |
@@ -135,41 +136,44 @@
 
 ### Sustainable Industrial Practices
 
-- Green manufacturing: Reducing waste and energy use.
-- Renewable energy in factories: Solar and wind power.
-- Circular economy: Recycling and sustainable resource use.
+-   Green manufacturing: Reducing waste and energy use.
 
-- Case Study: Germany’s Green Industry Policy
+-   Renewable energy in factories: Solar and wind power.
 
-  - Transitioning to renewable energy (Energiewende).
-  - Eco-friendly production policies in automotives and electronics.
-  
+-   Circular economy: Recycling and sustainable resource use.
+
+-   Case Study: Germany’s Green Industry Policy
+
+    -   Transitioning to renewable energy (Energiewende).
+    -   Eco-friendly production policies in automotives and electronics.
+
 ## Future Trends in Industrial Geography
+
 ### The Role of Artificial Intelligence and Automation
 
-- AI and robotics replacing factory workers.
-- Self-driving logistics and warehouse automation (e.g., Amazon).
-- Challenge: Potential job losses due to automation.
+-   AI and robotics replacing factory workers.
+-   Self-driving logistics and warehouse automation (e.g., Amazon).
+-   Challenge: Potential job losses due to automation.
 
 ### Reshoring and Nearshoring Trends
 
-- Some companies moving production back to developed countries.
-- Reasons: Rising wages in China, supply chain disruptions (COVID-19 impact).
+-   Some companies moving production back to developed countries.
+-   Reasons: Rising wages in China, supply chain disruptions (COVID-19 impact).
 
 ### Space Industry and New Frontiers
 
-- Growth of private space industries (SpaceX, Blue Origin).
-- Space mining and off-Earth industrialization in the future.
+-   Growth of private space industries (SpaceX, Blue Origin).
+-   Space mining and off-Earth industrialization in the future.
 
 ## Takeaway
 
-- Industrial geography explains the location, development, and global connections of industries.
-- Trade, technology, and globalization drive industrial change.
-- Challenges include environmental damage, economic inequality, and automation.
+-   Industrial geography explains the location, development, and global connections of industries.
+-   Trade, technology, and globalization drive industrial change.
+-   Challenges include environmental damage, economic inequality, and automation.
 
 ## Quizzes
 
-- What factors determine where industries locate?
-- How has globalization changed industrial geography?
-- What are the pros and cons of outsourcing jobs to developing countries?
-- Can industrial growth be sustainable?
+-   What factors determine where industries locate?
+-   How has globalization changed industrial geography?
+-   What are the pros and cons of outsourcing jobs to developing countries?
+-   Can industrial growth be sustainable?
