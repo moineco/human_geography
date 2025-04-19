@@ -1,2 +1,2 @@
-# Lecture Notes on Human Geography
+# Lecture notes on human geography
 
