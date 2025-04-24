@@ -1,290 +1,147 @@
-# Human geography lab_2
+# Agricultural geography: Food production and land use
 
-The following packages will be required for this chapter:
+### Definition
 
-```{r}
-#| warning: false
-#| message: false
-#| code-fold: false
-pacman::p_load(tidyverse, maps, countrycode, rnaturalearth, sf)
-```
+-   Agricultural geography examines the spatial patterns of agriculture, food production, land use, and rural development.
+-   It explores how, where, and why agriculture takes place, and its role in shaping economies and societies.
 
-### World map
+### Why it matters
 
--   The `maps` package contains data for the world, USA, France, Italy and New Zealand. It contains information such as latitude, longitude, group, region, etc. like this.
+-   Agriculture feeds the world’s population and drives economies.
+-   Climate change, resource depletion, and land use changes impact food security.
+-   Rural development influences migration, urbanization, and sustainability.
 
--   First call the world map data
+### Key Questions in Agricultural Geography
 
--   You can see the data structure by using `head` command.
+-   What are the major agricultural systems and their distribution?
+-   How has agriculture changed over time with technology and globalization?
+-   What are the impacts of land use changes on food production and the environment?
+-   How can rural areas develop sustainably while maintaining agricultural production?
 
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-world_map <- map_data("world")
-head(world_map)
-```
+## Agricultural Systems and Land Use Patterns
 
--   By using the `ggplot2` boundaries can be drawn with `geom_polygon()` with latitude and longitude as shown in @fig-mymap-12.1
+| Type | Characteristics | Examples |
+|----|----|----|
+| Subsistence Agriculture | Small-scale, for local consumption, minimal technology | Slash-and-burn farming in Amazon, rice farming in Bangladesh |
+| Commercial Agriculture | Large-scale, profit-driven, high technology | Industrial grain farming in the U.S., palm oil plantations in Indonesia |
+| Pastoralism | Herding animals for food and trade | Nomadic herding in Mongolia, cattle ranching in Brazil |
+| Plantation Agriculture | Monoculture farming, export-oriented | Tea plantations in India, coffee farms in Colombia |
+| Urban Agriculture | Food production in cities | Rooftop gardens in New York, hydroponics in Singapore |
 
-```{r fig-mymap-12.1, message=FALSE, warning=FALSE}
-#| code-fold: false
-#| fig.cap: "World countries"
-#| fig.height: 4
-world_map %>% 
-  ggplot(aes(x = long, y = lat, group = group)) +
-  geom_polygon(fill = "lightgray", colour = "black", size = 0.1) 
-```
+## Agricultural Revolutions and Their Impact
 
-### Japan map
+### The First Agricultural Revolution (\~10,000 BCE)
 
--   If we limit the data with `filter()`, we can also draw a map of specific countries.
+-   Domestication of plants and animals → shift from hunting-gathering to farming.
+-   Impact: Population growth, permanent settlements, early civilizations.
 
--   For instance, we will filter the data for Japan and draw a map as shown in @fig-mymap-12.2
+### The Second Agricultural Revolution (17th-19th Century)
 
-```{r fig-mymap-12.2, message=FALSE, warning=FALSE}
-#| code-fold: false
-#| fig.cap: "Japan"
-#| fig.height: 4
-world_map %>% 
-  filter(region == "Japan") %>% 
-  ggplot(aes(x = long, y = lat, group = group)) +
-  geom_polygon(fill = "lightgray", colour = "black", size = 0.1)
-```
+-   New farming techniques (crop rotation, plowing).
+-   Mechanization (seed drill, fertilizers) → higher productivity.
+-   Impact: Rural-urban migration, industrialization, food surplus.
 
--   We use free data on world map: Natural Earth
+### The Green Revolution (1950s-1970s)
 
--   Using `rnaturalearth` package, we get the data necessary to draw a world map
+-   Introduction of high-yield crops, chemical fertilizers, pesticides, and irrigation.
 
--   Name the data world_map
-
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-global_map <- ne_countries(scale = "small", returnclass = "sf")
-```
+-   Led to global increases in food production, but also environmental concerns.
 
--   Show the list of variables included global_map
+    Case Study: Green Revolution in India
 
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-names(global_map)
-```
-
--   We see 169 variables
--   Check the class of global_map
--   If you want to see the data of GDP for each country, use following code:
+    -   Success: Increased wheat and rice production, reducing famine.
+    -   Challenges: Soil degradation, water depletion, farmer debt.
 
-```{r}
-#| code-fold: false
-global_map %>% 
-select(sovereignt, gdp_md, gdp_year) %>% 
-DT::datatable()
-```
+## Food Security and Challenges in Agriculture
 
--   World is a GeoDataFrame with the following columns:
+### What is Food Security?
 
-`pop_est`: Contains a population estimate for the country
+-   Food security = People have access to sufficient, safe, and nutritious food.
 
-`continent`: The country's continent
+-   FAO’s Four Pillars of Food Security:
 
-`name_en`: The country's name in English
+    -   Availability – Enough food supply.
+    -   Access – People can afford food.
+    -   Utilization – Nutritional quality matters.
+    -   Stability – Food supply is consistent over time.
 
-`iso_a3`: The country's 3 letter abbreviation (we made this the index)
+### Challenges to Global Food Security
 
-`gdp_md`: A country's GDP in million dollar
+| Challenge | Causes | Example |
+|----|----|----|
+| Climate Change | Droughts, floods, temperature rise | Desertification in Sub-Saharan Africa |
+| Soil Degradation | Overuse of fertilizers, deforestation | Salinization in the Middle East |
+| Water Scarcity | Over-irrigation, pollution | Water crisis in California agriculture |
+| Land Use Change | Urbanization, deforestation | Loss of farmland in China |
+| Food Waste | Poor storage, consumer habits | 30% of global food wasted annually |
 
-`geometry`: A POLYGON for each country (we will learn more about these soon)
+Case Study: Famine in the Horn of Africa
 
-```{r}
-#| code-fold: false
-class(global_map)
-```
+-   Drought, conflict, and poor infrastructure have led to food crises.
+-   Solutions: Food aid, drought-resistant crops, irrigation improvements.
 
--   global_map has two classes: sf & data.frame
-
-## Global GDP map
-
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-global_map %>% 
-  ggplot() +
-  geom_sf(aes(fill = gdp_md)) +
-  scale_fill_gradient(low = "white", high = "green") +
-  labs(fill = "GDP") +
-  theme_minimal(base_family = "HiraKakuProN-W3") +
-  theme(legend.position = "bottom")
-```
-
--   Let's change the color and the position of legend.
-
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-global_map %>% 
-  ggplot() +
-  geom_sf(aes(fill = gdp_md)) +
-  scale_fill_gradient(low = "gray", high = "blue") +
-  labs(fill = "GDP_2019") +
-  theme_minimal(base_family = "HiraKakuProN-W3") +
-  theme(legend.position = "left")
-```
-
-## Regional GDP map
-
--   GDP of European countries in 2019
-
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-global_map %>% 
-  ggplot() +
-  geom_sf(aes(fill = gdp_md)) +
-  scale_fill_gradient(low = "white", high = "green") +
-  labs(fill = "GDP_Europe") +
-  coord_sf(xlim = c(-10, 45), ylim = c(35, 60)) +
-  theme_minimal(base_family = "HiraKakuProN-W3") +
-  theme(legend.position = "left")
-```
-
--   GDP of African countries in 2019
-
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-global_map %>% 
-  ggplot() +
-  geom_sf(aes(fill = gdp_md)) +
-  scale_fill_gradient(low = "white", high = "green") +
-  labs(fill = "GDP_Africa") +
-  coord_sf(xlim = c(-30, 60), ylim = c(-40, 40)) +
-  theme_minimal(base_family = "HiraKakuProN-W3") +
-  theme(legend.position = "left")
-```
-
-## World and continents with `sf`
-
-We need the following packages to deal with this lecture:
-
-```{r}
-#| code-fold: false
-library(sf)
-library(tidyverse)
-library(rnaturalearth)
-library(rnaturalearthdata)
-```
-
--   Alternatively, you can use the `pacman` package manager to load necessary R packages from below:
-
-```{txt}
-pacman::p_load(sf, tidyverse, rnaturalearth)
-```
-
-The above command will install all dependencies required to reproduce the entire lecture
-
--   Use the package `sf`
-
--   We will use the world dataset provided by `spData`, to show what sf objects are and how they work. `world` is an 'sf data frame' containing spatial and attribute columns, the names of which are returned by the function names() (the last column in this example contains the geographic information):
-
-```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-world <- ne_countries(scale = "medium", returnclass = "sf")
-class(world)
-names(world)
-```
-
--   Make sophistocated and professional looking map of World
-
-```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-world.plot = ggplot() +               
-  geom_sf(data = world)
-world.plot 
-```
-
--   We will begin to get to know the basics of geographic data in R by using the "world" dataset in the package.
-
--   First let's see what information is in the "world" dataset. Get the names of the variables in the world dataset.
-
--   Filter the population and GDP data from World map for better understanding the data structure.
-
--   Plot the GDP percapita map of the world:
-
--   Prepare Africa map by highlighting Zambia
-
-```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-# Select just the continent of Africa
-africa <- world %>% 
-  filter(region_un %in% "Africa")
-```
-
--   Check the type of data
-
-```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-class(africa)
-names(africa)
-```
-
--   Make professional looking map of `Asia`
-
-```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-asia <- world[which(world$continent == "Asia"),]
-asia.plot = ggplot() +               
-  geom_sf(data = asia)  
-asia.plot 
-```
-
--   Make professional looking map of `Africa`
-
-```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-africa <- world[which(world$continent == "Africa"),]
-africa.plot = ggplot() +               
-  geom_sf(data = africa)  
-africa.plot 
-```
-
--   Make professional looking map of `Europe`
-
-```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-europe <- world[which(world$continent == "Europe"),]
-ggplot(europe) +
-  geom_sf() +
-  coord_sf(xlim = c(-25,50), ylim = c(35,70), expand = FALSE)
-```
-
--   Make professional looking map of `Oceania`
-
-```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-oceania <- world[which(world$continent == "Oceania"),]
-ggplot(oceania) +
-  geom_sf() +
-  coord_sf(xlim = c(105,180), ylim = c(-50,0), expand = FALSE)
-```
-
--   Make professional looking map of `North America`
-
-```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-north_america <- world[which(world$continent == "North America"),]
-ggplot(north_america) +
-  geom_sf() +
-  coord_sf(xlim = c(-180,-15), ylim = c(0,90), expand = FALSE)
-```
+## Rural Development and Sustainable Agriculture
+
+### What is Rural Development?
+
+-   Improving livelihoods, infrastructure, and economic opportunities in rural areas.
+-   Focus on education, healthcare, market access, and technology.
+
+### Strategies for Sustainable Agriculture
+
+| Strategy | Benefits | Example |
+|----|----|----|
+| Agroforestry | Combines trees and crops for better soil conservation | Cocoa farming in Ghana |
+| Organic Farming | No synthetic pesticides, promotes biodiversity | Organic vegetable farms in France |
+| Permaculture | Self-sustaining ecosystems for food production | Regenerative farms in Australia |
+| Precision Agriculture | Uses AI, GPS, and drones for efficient farming | Smart farming in the Netherlands |
+
+Case Study: Cuba’s Urban Agriculture Model
+
+-   Following the Soviet collapse, Cuba faced food shortages.
+-   Developed urban organic farming (rooftop gardens, local markets).
+-   Result: Sustainable food supply in cities.
+
+## Agricultural Trade and Globalization
+
+-   Global food trade connects regions but creates inequalities.
+
+-   Major trends:
+
+    -   Export-oriented agriculture: Latin America supplies soybeans, Africa exports cocoa.
+    -   Dependency on imports: Middle Eastern countries import grains.
+    -   Trade policies impact farmers: Subsidies in the U.S. and EU create imbalances.
+
+Case Study: Fair Trade Coffee Movement
+
+-   Goal: Ensure small farmers receive fair prices and better working conditions.
+-   Impact: Improves farmer income in Latin America, Africa, and Asia.
+
+## Future of Agriculture – Innovations and Policies
+
+### Technological Innovations in Agriculture
+
+-   Vertical farming: Hydroponic skyscrapers for urban food production.
+-   Lab-grown meat: Reducing environmental impact of livestock farming.
+-   AI in farming: Drones and sensors optimize crop health and irrigation.
+
+### Agricultural Policies and Global Governance
+
+| Policy | Goal | Example |
+|----|----|----|
+| Common Agricultural Policy (EU) | Supports farmers, stabilizes prices | EU subsidies for sustainable farming |
+| U.S. Farm Bill | Regulates agriculture, provides subsidies | Crop insurance, food aid programs |
+| UN Food Security Programs | Reduces hunger, promotes sustainability | World Food Programme (WFP) |
+
+## Takeaway
+
+-   Agriculture is central to food security, economic growth, and rural life.
+-   Challenges include climate change, resource depletion, and market inequalities.
+-   Sustainable solutions and technological innovations are key to future food systems
+
+## Quizzes
+
+-   How has technology transformed agriculture?
+-   Should governments regulate food production more strictly for sustainability?
+-   How does globalization impact small farmers?
+-   Can organic farming feed the growing global population?

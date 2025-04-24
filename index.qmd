@@ -21,36 +21,26 @@ Geo-computation with **R** will equip you with knowledge and skills to tackle a 
 
 ### Lectures
 
-Section 1: Foundations of human geography
-
 -   Lecture 1: Introduction to human geography
 -   Lecture 2: Population and health geography
 -   Lecture 3: Global inequality and development
 -   Lecture 4: Cultural geography: Language, religion and identity
 -   Lecture 5: Political geography: States and geopolitics
 -   Lecture 6: Urban geography: Cities, infrastructure and planning
--   Lecture 7: Economic geography: Trade and globalization
--   Lecture 8: Environmental geography: Resources and sustainability
--   Lecture 9: Agricultural geography: Food production and land use
--   Lecture 10: Industrial geography: Industry and trade
-
-Section 2: Elegant geographic plots in R
-
--   Lecture 11: Human geography lab 1
--   Lecture 12: Human geography lab 2
--   Lecture 13: Human geography lab 3
--   Lecture 14: Human geography lab 4
+-   Lecture 7: Human geography lab 1
+-   Lecture 8: Economic geography: Trade and globalization
+-   Lecture 9: Human geography lab 2
+-   Lecture 10: Environmental geography: Resources and sustainability
+-   Lecture 11: Human geography lab 3
+-   Lecture 12: Agricultural geography: Food production and land use
+-   Lecture 13: Human geography lab 4
+-   Lecture 14: Industrial geography: Industry and trade
 -   Lecture 15: Human geography lab 5
 
 Textbooks:
 
-For lectures 1 - 10:
-
 -   Rubenstein, J. M. (2010). Contemporary human geography. 5th edition. Pearson.
 -   Fouberg, E., Murphy, A., and De Blij, H. (2020). Human geography: People, place and culture. 12th edition. Wiley.
-
-For lectures 11 - 15:
-
 -   Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.
 -   Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 

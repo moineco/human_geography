@@ -66,14 +66,14 @@ The primary goal of this course is to provide students with a comprehensive unde
 -   第４回 Cultural geography: Language, religion, and identity
 -   第５回 Political geography: States and geopolitics
 -   第６回 Urban geography: Cities, infrastructure, and planning
--   第７回 Economic geography: Trade and globalization
--   第８回 Environmental geography: Resources and sustainability
--   第９回 Agricultural geography: Food production and land use
--   第１０回 Industrial geography: Industry and trade
--   第１１回 Human geography lab 1
--   第１２回 Human geography lab 2
--   第１３回 Human geography lab 3
--   第１４回 Human geography lab 4
+-   第７回 Human geography lab 1
+-   第８回 Economic geography: Trade and globalization
+-   第９回 Human geography lab 2
+-   第１０回 Environmental geography: Resources and sustainability
+-   第１１回 Human geography lab 3
+-   第１２回 Agricultural geography: Food production and land use
+-   第１３回 Human geography lab 4
+-   第１４回 Industrial geography: Industry and trade
 -   第１５回 Human geography lab 5
 -   第１６回 Final examination
 

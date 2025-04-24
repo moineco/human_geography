@@ -1,64 +1,180 @@
-# Human geography lab_4
+# Industrial geography: Industry and trade
 
-## Europian regions with `naturalearth` data
+### What is Industrial Geography?
 
-```{r}
-#| message: false
-library(tidyverse)
-library(sf)
-library(knitr)
-```
+-   Definition: Industrial geography examines the location, distribution, and spatial organization of industries.
 
--   naturalearthdata.com provides many open-source maps. I decided to select the world map with country borders on a 1:10m scale (can be found <https://www.naturalearthdata.com/downloads/10m-cultural-vectors/>)
+-   Focus Areas:
 
-```{r, results='hide'}
-#| message: false
-map_data <- st_read("data/shapefile/ne_10m_admin_0_countries")
-```
+    -   Why industries develop in certain regions?
+    -   How trade and globalization shape industrial patterns?
+    -   The impact of industrialization on societies and environments.
 
--   The map_data uses data.frames for its features and saves the geometric features as a list in the column geometry. We can now easily explore the data in map_data, e.g.,The map_data uses data.frames for its features and saves the geometric features as a list in the column geometry. We can now easily explore the data in map_data, e.g.,
+### Why is Industrial Geography Important?
 
-```{r}
-features_map_data <- map_data %>%
-    as_tibble() %>%
-    select(-geometry) %>%
-    head(10)
+-   Industries drive economic growth and employment.
+-   Industrialization transforms cities and rural areas.
+-   Global trade networks shape national economies.
+-   Environmental concerns arise from industrial production.
 
-kable(features_map_data)
-```
+### Key Questions in Industrial Geography
 
--   For this tutorial we want to focus on a European countries, hence we need to filter the data to only contain the European countries’ info. Fortunately, the map_data contains a feature CONTINTENT, so we can easily filter out the unwanted countries.
+-   Why do industries locate in specific areas?
+-   How has industrialization changed over time?
+-   What is the role of globalization in shaping industries?
+-   How do trade policies and multinational corporations (MNCs) influence industrial geography?
 
-```{r}
-#| warning: false
-europe_map_data <- map_data %>%
-    select(NAME, CONTINENT, SUBREGION, POP_EST) %>%
-    filter(CONTINENT == "Europe")
-```
+## The Industrial Revolution and Its Impacts
 
--   Lets try to plot a map of European countries. New versions of ggplot2 contain a function geom_sf which supports plotting sf objects directly, so lets try it…
+### The First Industrial Revolution (1750–1850)
 
-```{r}
-ggplot(europe_map_data) + geom_sf() +
-    theme_minimal()
-```
+-   Started in Britain with steam engines, coal mining, and textile mills.
 
--   That does not seem to work… the reason is that, even though we removed the data of non European countries, we never changed the bbox setting of our data. The bbox object sets the longitude and latitude range for our plot, which is still for the whole Europe. To change this we can use the st_crop function as
+-   Spread to Europe and North America, leading to urbanization and factory-based production.
 
-```{r}
-#| warning: false
-europe_map_data <- europe_map_data %>%
-    st_crop(xmin=-25, xmax=55, ymin=35, ymax=71)
-```
+-   Key Impacts:
 
-```{r}
-ggplot(europe_map_data) + geom_sf() +
-    theme_minimal()
-```
+    -   Increased mechanization and efficiency.
+    -   Shift from agrarian to industrial economies.
+    -   Growth of industrial cities (e.g., Manchester, Pittsburgh).
 
--   If you’re familiar with the ggplot2 workflow, it is now easy to construct the aesthetic mappings like you’re used to. Our map_data contains a feature SUBREGION and Europe is divided into Northern, Eastern, Southern and Western Europe. We can easily visualize this in our European map as
+### The Second Industrial Revolution (1870–1914)
 
-```{r}
-ggplot(europe_map_data) + geom_sf(aes(fill=SUBREGION)) +
-    theme_minimal()
-```
+-   Electricity, steel production, and mass production.
+-   Expansion of railroads, telegraphs, and international trade.
+-   Key Centers: U.S. (Detroit, Chicago), Germany (Ruhr Valley), Japan (Tokyo).
+
+### The Third Industrial Revolution (1950s–Present)
+
+-   Technological advancements in automation, robotics, and computing.
+-   Globalization and outsourcing led to industry relocation (e.g., China, India).
+-   Key Industries: Automotive, electronics, pharmaceuticals, digital tech.
+
+### The Fourth Industrial Revolution (Present & Future)
+
+-   AI, machine learning, IoT, and renewable energy.
+-   Smart factories and automation replacing human labor.
+-   Impact on job markets and supply chains.
+
+## Location of Industries – Key Theories
+
+### Alfred Weber’s Least Cost Theory (1909)
+
+-   Industries locate where costs are minimized.
+
+-   Factors:
+
+    -   Transportation Costs: Industries locate near raw materials or markets.
+    -   Labor Costs: Availability of cheap, skilled workers influences location.
+    -   Agglomeration: Businesses cluster for shared benefits (e.g., Silicon Valley).
+
+### The Core-Periphery Model
+
+-   Developed countries (core) dominate global industry (e.g., USA, Germany, Japan).
+-   Developing countries (periphery) supply raw materials and cheap labor (e.g., Bangladesh, Vietnam).
+-   Semi-periphery countries are transitioning (e.g., China, Brazil, India).
+
+## Global Trade and Industrial Networks
+
+### What is Global Trade?
+
+-   Exchange of goods and services across borders.
+-   Driven by comparative advantage – nations specialize in what they produce best.
+
+### Major Trade Blocs and Agreements
+
+| Trade Bloc | Member Countries | Purpose |
+|----|----|----|
+| NAFTA/USMCA | USA, Canada, Mexico | Free trade across North America |
+| EU (European Union) | 27 European nations | Common market, free movement of goods |
+| ASEAN | 10 Southeast Asian nations | Economic integration in Asia |
+| BRICS | Brazil, Russia, India, China, South Africa | Emerging economies, trade cooperation |
+
+### Global Supply Chains and Outsourcing
+
+-   Multinational corporations (MNCs) relocate production to low-cost regions.
+
+-   Outsourcing and offshoring shift industrial jobs to developing nations.
+
+-   Examples:
+
+    -   Apple designs in the U.S., manufactures in China.
+    -   Fast fashion brands source clothing from Bangladesh.
+    -   Automotive factories in Mexico serve the U.S. market.
+
+## Industrialization in Developing Countries
+
+### The Rise of Asian Manufacturing
+
+-   China: The "Factory of the World" due to cheap labor, infrastructure, and government support.
+-   India: IT and service-based industrialization (e.g., Bangalore’s tech sector).
+-   Vietnam & Bangladesh: Textile and electronics industries are growing.
+
+### Africa’s Industrial Challenges
+
+-   Dependence on raw material exports (e.g., oil, minerals).
+
+-   Infrastructure and political instability hinder industrial growth.
+
+-   Potential for growth in manufacturing and technology.
+
+-   Case Study: Industrial Growth in Ethiopia
+
+    -   Government invested in industrial parks for textiles and manufacturing.
+    -   Attracting foreign investment from China and the EU.
+    -   Challenges: Political instability and infrastructure gaps.
+
+## Industrialization and Environmental Concerns
+
+### Environmental Impacts of Industry
+
+| Impact          | Cause                       | Example                      |
+|-----------------|-----------------------------|------------------------------|
+| Air Pollution   | Factories, vehicles         | Smog in Beijing, Los Angeles |
+| Water Pollution | Industrial waste            | Chemical spills in rivers    |
+| Deforestation   | Land clearing for factories | Amazon rainforest loss       |
+| Climate Change  | Greenhouse gas emissions    | Industrial carbon footprint  |
+
+### Sustainable Industrial Practices
+
+-   Green manufacturing: Reducing waste and energy use.
+
+-   Renewable energy in factories: Solar and wind power.
+
+-   Circular economy: Recycling and sustainable resource use.
+
+-   Case Study: Germany’s Green Industry Policy
+
+    -   Transitioning to renewable energy (Energiewende).
+    -   Eco-friendly production policies in automotives and electronics.
+
+## Future Trends in Industrial Geography
+
+### The Role of Artificial Intelligence and Automation
+
+-   AI and robotics replacing factory workers.
+-   Self-driving logistics and warehouse automation (e.g., Amazon).
+-   Challenge: Potential job losses due to automation.
+
+### Reshoring and Nearshoring Trends
+
+-   Some companies moving production back to developed countries.
+-   Reasons: Rising wages in China, supply chain disruptions (COVID-19 impact).
+
+### Space Industry and New Frontiers
+
+-   Growth of private space industries (SpaceX, Blue Origin).
+-   Space mining and off-Earth industrialization in the future.
+
+## Takeaway
+
+-   Industrial geography explains the location, development, and global connections of industries.
+-   Trade, technology, and globalization drive industrial change.
+-   Challenges include environmental damage, economic inequality, and automation.
+
+## Quizzes
+
+-   What factors determine where industries locate?
+-   How has globalization changed industrial geography?
+-   What are the pros and cons of outsourcing jobs to developing countries?
+-   Can industrial growth be sustainable?

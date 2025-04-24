@@ -1,179 +1,153 @@
-# Industrial geography: Industry and trade
+# Environmental geography: Resources and sustainability
 
-### What is Industrial Geography?
+### Definition
 
--   Definition: Industrial geography examines the location, distribution, and spatial organization of industries.
+-   Environmental geography studies the interactions between humans and their natural environment, including resource use, sustainability, and climate change.
 
--   Focus Areas:
-    -   Why industries develop in certain regions?
-    -   How trade and globalization shape industrial patterns?
-    -   The impact of industrialization on societies and environments.
+### Why it matters
 
-### Why is Industrial Geography Important?
+-   Human activities have altered the Earth’s ecosystems.
+-   Natural resource depletion threatens global stability.
+-   Climate change is reshaping societies, economies, and politics.
 
--   Industries drive economic growth and employment.
--   Industrialization transforms cities and rural areas.
--   Global trade networks shape national economies.
--   Environmental concerns arise from industrial production.
+### Key Questions in Environmental Geography
 
-### Key Questions in Industrial Geography
+-   How do human activities impact the environment?
+-   What are the challenges of managing natural resources?
+-   How can sustainability balance economic growth and environmental protection?
+-   What are the causes and consequences of climate change?
 
--   Why do industries locate in specific areas?
--   How has industrialization changed over time?
--   What is the role of globalization in shaping industries?
--   How do trade policies and multinational corporations (MNCs) influence industrial geography?
+## Natural Resources and Their Management
 
-## The Industrial Revolution and Its Impacts
+### Types of Natural Resources
 
-### The First Industrial Revolution (1750–1850)
+| Type | Description | Examples |
+|----|----|----|
+| Renewable Resources | Can be replenished naturally over time | Solar, wind, forests, water |
+| Non-Renewable Resources | Finite supply, takes millions of years to form | Coal, oil, natural gas, minerals |
+| Perpetual Resources | Always available, not affected by human use | Sunlight, wind, ocean waves |
 
--   Started in Britain with steam engines, coal mining, and textile mills.
+Case Study: The Amazon Rainforest and Resource Exploitation
 
--   Spread to Europe and North America, leading to urbanization and factory-based production.
+-   Deforestation for agriculture (soy, cattle ranching) and logging.
+-   Loss of biodiversity and carbon storage capacity.
+-   Efforts to manage: Brazil’s reforestation programs, Indigenous land rights.
 
--   Key Impacts:
+### The Tragedy of the Commons (Garrett Hardin, 1968)
 
-    -   Increased mechanization and efficiency.
-    -   Shift from agrarian to industrial economies.
-    -   Growth of industrial cities (e.g., Manchester, Pittsburgh).
+-   Shared resources (oceans, forests, atmosphere) are often overused and degraded.
+-   Example: Over-fishing in international waters leads to fish population collapse.
+-   Solutions: Regulation, conservation policies, sustainable resource management.
 
-### The Second Industrial Revolution (1870–1914)
+## Sustainability and Development
 
--   Electricity, steel production, and mass production.
--   Expansion of railroads, telegraphs, and international trade.
--   Key Centers: U.S. (Detroit, Chicago), Germany (Ruhr Valley), Japan (Tokyo).
+### What is Sustainability?
 
-### The Third Industrial Revolution (1950s–Present)
+-   Sustainability means meeting current needs without compromising future generations.
 
--   Technological advancements in automation, robotics, and computing.
--   Globalization and outsourcing led to industry relocation (e.g., China, India).
--   Key Industries: Automotive, electronics, pharmaceuticals, digital tech.
+-   The Three Pillars of Sustainability:
 
-### The Fourth Industrial Revolution (Present & Future)
+    -   Environmental: Protecting ecosystems and biodiversity.
+    -   Economic: Sustainable business practices and green technologies.
+    -   Social: Reducing inequality and improving living standards.
 
--   AI, machine learning, IoT, and renewable energy.
--   Smart factories and automation replacing human labor.
--   Impact on job markets and supply chains.
+### Sustainable Development Goals (SDGs)
 
-## Location of Industries – Key Theories
+-   The UN’s 17 SDGs aim to balance economic growth with environmental protection.
 
-### Alfred Weber’s Least Cost Theory (1909)
+-   Key SDGs related to environmental geography:
 
--   Industries locate where costs are minimized.
+    -   Goal 7: Affordable and clean energy.
+    -   Goal 12: Responsible consumption and production.
+    -   Goal 13: Climate action.
 
--   Factors:
+Case Study: Denmark – A Leader in Renewable Energy
 
-    -   Transportation Costs: Industries locate near raw materials or markets.
-    -   Labor Costs: Availability of cheap, skilled workers influences location.
-    -   Agglomeration: Businesses cluster for shared benefits (e.g., Silicon Valley).
+-   Invested heavily in wind energy, now generating 50% of electricity from renewables.
+-   Green building designs and sustainable urban planning.
 
-### The Core-Periphery Model
+## Climate Change and Its Impact
 
--   Developed countries (core) dominate global industry (e.g., USA, Germany, Japan).
--   Developing countries (periphery) supply raw materials and cheap labor (e.g., Bangladesh, Vietnam).
--   Semi-periphery countries are transitioning (e.g., China, Brazil, India).
+### What is Climate Change?
 
-## Global Trade and Industrial Networks
+-   Long-term shifts in temperature, precipitation, and extreme weather patterns.
 
-### What is Global Trade?
+-   Causes:
 
--   Exchange of goods and services across borders.
--   Driven by comparative advantage – nations specialize in what they produce best.
+    -   Natural Factors (volcanic eruptions, solar radiation).
+    -   Human Activities (burning fossil fuels, deforestation).
 
-### Major Trade Blocs and Agreements
+### Greenhouse Effect and Global Warming
 
-| Trade Bloc | Member Countries | Purpose |
-|------------------------|------------------------|------------------------|
-| NAFTA/USMCA | USA, Canada, Mexico | Free trade across North America |
-| EU (European Union) | 27 European nations | Common market, free movement of goods |
-| ASEAN | 10 Southeast Asian nations | Economic integration in Asia |
-| BRICS | Brazil, Russia, India, China, South Africa | Emerging economies, trade cooperation |
+-   Greenhouse gases (GHGs) trap heat in Earth’s atmosphere.
 
-### Global Supply Chains and Outsourcing
+-   Main GHGs:
 
--   Multinational corporations (MNCs) relocate production to low-cost regions.
+    -   Carbon dioxide (CO₂) – Burning fossil fuels.
+    -   Methane (CH₄) – Agriculture, livestock.
+    -   Nitrous oxide (N₂O) – Fertilizers, industrial processes.
 
--   Outsourcing and offshoring shift industrial jobs to developing nations.
+-   Global temperature has risen by \~1.2°C since pre-industrial times (IPCC, 2023).
 
--   Examples:
+Case Study: Rising Sea Levels and Coastal Cities
 
-    -   Apple designs in the U.S., manufactures in China.
-    -   Fast fashion brands source clothing from Bangladesh.
-    -   Automotive factories in Mexico serve the U.S. market.
+-   Maldives, Bangladesh, and Florida face flooding due to rising oceans.
+-   Solutions: Sea walls, climate migration planning, carbon reduction.
 
-## Industrialization in Developing Countries
+## Environmental Challenges and Policies
 
-### The Rise of Asian Manufacturing
+### Deforestation and Land Degradation
 
--   China: The "Factory of the World" due to cheap labor, infrastructure, and government support.
--   India: IT and service-based industrialization (e.g., Bangalore’s tech sector).
--   Vietnam & Bangladesh: Textile and electronics industries are growing.
+-   Causes: Agriculture, logging, infrastructure expansion.
+-   Impacts: Loss of biodiversity, increased CO₂ emissions.
+-   Solution: Reforestation, agroforestry, sustainable land management.
 
-### Africa’s Industrial Challenges
+### Air and Water Pollution
 
--   Dependence on raw material exports (e.g., oil, minerals).
+-   Causes: Industrial waste, vehicle emissions, plastics in oceans.
+-   Impacts: Health issues (lung diseases, waterborne illnesses). = Solution: Green technology, emissions regulations, waste recycling.
 
--   Infrastructure and political instability hinder industrial growth.
+Case Study: China’s Air Pollution Crisis
 
--   Potential for growth in manufacturing and technology.
+-   Rapid industrialization led to smog-filled cities.
+-   Government action: Air quality monitoring, coal reduction, electric vehicles.
 
--   Case Study: Industrial Growth in Ethiopia
+### Global Environmental Policies and Agreements
 
-    -   Government invested in industrial parks for textiles and manufacturing.
-    -   Attracting foreign investment from China and the EU.
-    -   Challenges: Political instability and infrastructure gaps.
+| Agreement | Purpose | Example of Action |
+|----|----|----|
+| Kyoto Protocol (1997) | Reduce greenhouse gas emissions | First international climate treaty |
+| Paris Agreement (2015) | Limit global warming to below 2°C | Countries set emission reduction goals |
+| Montreal Protocol (1987) | Protect ozone layer | Banned CFCs in aerosol sprays |
 
-## Industrialization and Environmental Concerns
+## Solutions for a Sustainable Future
 
-### Environmental Impacts of Industry
+### Renewable Energy Transition
 
-| Impact          | Cause                       | Example                      |
-|------------------|---------------------------|----------------------------|
-| Air Pollution   | Factories, vehicles         | Smog in Beijing, Los Angeles |
-| Water Pollution | Industrial waste            | Chemical spills in rivers    |
-| Deforestation   | Land clearing for factories | Amazon rainforest loss       |
-| Climate Change  | Greenhouse gas emissions    | Industrial carbon footprint  |
+-   Solar, wind, hydro, and geothermal energy replacing fossil fuels.
+-   Example: Germany’s “Energiewende” policy promotes renewable electricity.
 
-### Sustainable Industrial Practices
+### Circular Economy and Waste Management
 
--   Green manufacturing: Reducing waste and energy use.
+-   Recycling and reusing materials to minimize waste.
+-   Plastic bans and biodegradable packaging.
+-   Example: Sweden recycles 99% of household waste.
 
--   Renewable energy in factories: Solar and wind power.
+### Green Urban Planning
 
--   Circular economy: Recycling and sustainable resource use.
-
--   Case Study: Germany’s Green Industry Policy
-
-    -   Transitioning to renewable energy (Energiewende).
-    -   Eco-friendly production policies in automotives and electronics.
-
-## Future Trends in Industrial Geography
-
-### The Role of Artificial Intelligence and Automation
-
--   AI and robotics replacing factory workers.
--   Self-driving logistics and warehouse automation (e.g., Amazon).
--   Challenge: Potential job losses due to automation.
-
-### Reshoring and Nearshoring Trends
-
--   Some companies moving production back to developed countries.
--   Reasons: Rising wages in China, supply chain disruptions (COVID-19 impact).
-
-### Space Industry and New Frontiers
-
--   Growth of private space industries (SpaceX, Blue Origin).
--   Space mining and off-Earth industrialization in the future.
+-   Sustainable cities with efficient public transport and green spaces.
+-   Vertical farming and smart water management.
+-   Example: Singapore’s eco-friendly city design.\*\*
 
 ## Takeaway
 
--   Industrial geography explains the location, development, and global connections of industries.
--   Trade, technology, and globalization drive industrial change.
--   Challenges include environmental damage, economic inequality, and automation.
+-   Environmental geography helps us understand human impact on natural systems.
+-   Sustainability requires balancing environmental, economic, and social goals.
+-   Climate change is a major challenge, requiring global cooperation.
 
 ## Quizzes
 
--   What factors determine where industries locate?
--   How has globalization changed industrial geography?
--   What are the pros and cons of outsourcing jobs to developing countries?
--   Can industrial growth be sustainable?
+-   What are the biggest environmental challenges facing the world today?
+-   How can economic growth and sustainability coexist?
+-   Should governments enforce stricter environmental policies?
+-   What role do individuals play in combating climate change?

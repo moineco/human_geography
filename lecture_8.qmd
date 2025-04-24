@@ -1,153 +1,151 @@
-# Environmental geography: Resources and sustainability
+# Economic geography: Trade and globalization
 
 ### Definition
 
--   Environmental geography studies the interactions between humans and their natural environment, including resource use, sustainability, and climate change.
+-   Economic geography examines how economic activities are distributed across space, including industries, trade, and globalization.
 
 ### Why it matters
 
--   Human activities have altered the Earth’s ecosystems.
--   Natural resource depletion threatens global stability.
--   Climate change is reshaping societies, economies, and politics.
+-   Economic geography helps explain why some regions are wealthy while others remain poor.
+-   Globalization has reshaped trade, labor markets, and industry locations.
+-   Technology and transportation advancements have changed the economic landscape.
 
-### Key Questions in Environmental Geography
+### Key Questions in Economic Geography
 
--   How do human activities impact the environment?
--   What are the challenges of managing natural resources?
--   How can sustainability balance economic growth and environmental protection?
--   What are the causes and consequences of climate change?
+-   Why are industries and businesses located in certain places?
+-   How do global trade and economic policies shape economies?
+-   What are the impacts of globalization on industry, labor, and development?
+-   How do economic activities affect environmental sustainability?
 
-## Natural Resources and Their Management
+## Industrial Geography: The Location of Industries
 
-### Types of Natural Resources
+### Industrial Revolution and Economic Development
 
-| Type | Description | Examples |
-|------------------------|------------------------|------------------------|
-| Renewable Resources | Can be replenished naturally over time | Solar, wind, forests, water |
-| Non-Renewable Resources | Finite supply, takes millions of years to form | Coal, oil, natural gas, minerals |
-| Perpetual Resources | Always available, not affected by human use | Sunlight, wind, ocean waves |
+-   The Industrial Revolution (1750–1850) transformed economies from agriculture to industry.
+-   Factories and mass production replaced manual labor → rapid urbanization.
+-   New transportation networks (railways, ships) boosted trade.
 
-Case Study: The Amazon Rainforest and Resource Exploitation
+### Factors Influencing Industrial Location
 
--   Deforestation for agriculture (soy, cattle ranching) and logging.
--   Loss of biodiversity and carbon storage capacity.
--   Efforts to manage: Brazil’s reforestation programs, Indigenous land rights.
+Alfred Weber’s Least Cost Theory (1909):
 
-### The Tragedy of the Commons (Garrett Hardin, 1968)
+-   Industries locate based on minimizing transportation, labor, and agglomeration costs.
+-   Example: Car manufacturing in Detroit due to skilled labor and access to steel.
 
--   Shared resources (oceans, forests, atmosphere) are often overused and degraded.
--   Example: Over-fishing in international waters leads to fish population collapse.
--   Solutions: Regulation, conservation policies, sustainable resource management.
+| Factor | Description | Example |
+|----|----|----|
+| Raw Materials | Proximity to resources reduces transport costs | Coal mines in Pennsylvania |
+| Labor Supply | Skilled/unskilled workers influence location | Tech companies in Silicon Valley |
+| Market Access | Industries locate near customers | Fashion industry in Paris |
+| Infrastructure | Roads, ports, airports affect distribution | Singapore as a global shipping hub |
+| Government Policies | Tax incentives, trade zones attract businesses | Special Economic Zones in China |
 
-## Sustainability and Development
+#### Case Study: Silicon Valley – A Global Tech Hub
 
-### What is Sustainability?
+Why in California?
 
--   Sustainability means meeting current needs without compromising future generations.
+-   Proximity to universities (Stanford, Berkeley).
+-   Investment from venture capitalists.
+-   Climate and lifestyle attract talent.
 
--   The Three Pillars of Sustainability:
+## Global Trade and Economic Systems
 
-    -   Environmental: Protecting ecosystems and biodiversity.
-    -   Economic: Sustainable business practices and green technologies.
-    -   Social: Reducing inequality and improving living standards.
+### Types of Economic Systems
 
-### Sustainable Development Goals (SDGs)
+| Economic System | Characteristics | Example Countries |
+|----|----|----|
+| Capitalist (Market Economy) | Private ownership, free trade | USA, UK, Canada |
+| Socialist (Planned Economy) | Government controls resources, limited private ownership | China, Cuba |
+| Mixed Economy | Combination of private and public sectors | Germany, Sweden |
 
--   The UN’s 17 SDGs aim to balance economic growth with environmental protection.
+### Global Trade Networks
 
--   Key SDGs related to environmental geography:
+-   International trade connects producers and consumers across countries.
 
-    -   Goal 7: Affordable and clean energy.
-    -   Goal 12: Responsible consumption and production.
-    -   Goal 13: Climate action.
+-   Key Trade Agreements and Organizations:
 
-Case Study: Denmark – A Leader in Renewable Energy
+    -   World Trade Organization (WTO): Regulates global trade.
+    -   North American Free Trade Agreement (NAFTA → USMCA): Trade between USA, Canada, Mexico.
+    -   European Union (EU): Economic and trade integration among member states.
+    -   Belt and Road Initiative (China): Massive infrastructure and trade project.
 
--   Invested heavily in wind energy, now generating 50% of electricity from renewables.
--   Green building designs and sustainable urban planning.
+Case Study: China’s Role in Global Trade
 
-## Climate Change and Its Impact
+-   "The World’s Factory": Largest exporter of goods.
+-   Relies on cheap labor, strong infrastructure, and manufacturing expertise.
+-   US-China trade tensions impact global markets.
 
-### What is Climate Change?
+## Globalization and Economic Change
 
--   Long-term shifts in temperature, precipitation, and extreme weather patterns.
+### What is Globalization?
 
--   Causes:
+-   Globalization is the increasing interconnectedness of economies, cultures, and politics worldwide.
 
-    -   Natural Factors (volcanic eruptions, solar radiation).
-    -   Human Activities (burning fossil fuels, deforestation).
+-   Driven by:
 
-### Greenhouse Effect and Global Warming
+    -   Technology advancements (Internet, digital banking).
+    -   Trade liberalization (lower tariffs, free trade).
+    -   Multinational corporations (MNCs) (e.g., Apple, Amazon).
 
--   Greenhouse gases (GHGs) trap heat in Earth’s atmosphere.
+### Impacts of Globalization
 
--   Main GHGs:
+Positive Effects:
 
-    -   Carbon dioxide (CO₂) – Burning fossil fuels.
-    -   Methane (CH₄) – Agriculture, livestock.
-    -   Nitrous oxide (N₂O) – Fertilizers, industrial processes.
+-   Increased global trade and economic growth.
+-   Access to new markets and job opportunities.
+-   Faster technology diffusion.
 
--   Global temperature has risen by \~1.2°C since pre-industrial times (IPCC, 2023).
+Negative Effects:
 
-Case Study: Rising Sea Levels and Coastal Cities
+-   Job losses in some industries due to outsourcing.
+-   Exploitation of workers in developing nations.
+-   Environmental damage (deforestation, pollution).
 
--   Maldives, Bangladesh, and Florida face flooding due to rising oceans.
--   Solutions: Sea walls, climate migration planning, carbon reduction.
+Case Study: Outsourcing and Job Shifts
 
-## Environmental Challenges and Policies
+-   Nike and Apple manufacture in Asia due to low labor costs.
+-   Pros: Low-cost products for consumers.
+-   Cons: Worker exploitation (low wages, poor conditions).
 
-### Deforestation and Land Degradation
+## Economic Development and Inequality
 
--   Causes: Agriculture, logging, infrastructure expansion.
--   Impacts: Loss of biodiversity, increased CO₂ emissions.
--   Solution: Reforestation, agroforestry, sustainable land management.
+### Measuring Economic Development
 
-### Air and Water Pollution
+| Indicator | Description | Example |
+|----|----|----|
+| GDP per capita | Total economic output per person | USA: \$75,000 vs. India: \$6,000 |
+| Human Development Index (HDI) | Combines income, education, life expectancy | Norway: 0.957 vs. Chad: 0.394 |
+| Gini Coefficient | Measures income inequality (0 = equal, 1 = extreme inequality) | South Africa: 0.63 vs. Sweden: 0.25 |
 
--   Causes: Industrial waste, vehicle emissions, plastics in oceans.
--   Impacts: Health issues (lung diseases, waterborne illnesses). = Solution: Green technology, emissions regulations, waste recycling.
+#### Case Study: The Global North vs. Global South Divide
 
-Case Study: China’s Air Pollution Crisis
+Global North (Developed Nations)
 
--   Rapid industrialization led to smog-filled cities.
--   Government action: Air quality monitoring, coal reduction, electric vehicles.
+-   High incomes, industrialized economies (USA, Germany, Japan).
 
-### Global Environmental Policies and Agreements
+Global South (Developing Nations)
 
-| Agreement | Purpose | Example of Action |
-|------------------------|------------------------|------------------------|
-| Kyoto Protocol (1997) | Reduce greenhouse gas emissions | First international climate treaty |
-| Paris Agreement (2015) | Limit global warming to below 2°C | Countries set emission reduction goals |
-| Montreal Protocol (1987) | Protect ozone layer | Banned CFCs in aerosol sprays |
+-   Lower incomes, reliance on agriculture (Bangladesh, Nigeria).
 
-## Solutions for a Sustainable Future
+Efforts to bridge the gap: UN Sustainable Development Goals (SDGs), microfinance, fair trade.
 
-### Renewable Energy Transition
+## Sustainable Economic Growth and the Future
 
--   Solar, wind, hydro, and geothermal energy replacing fossil fuels.
--   Example: Germany’s “Energiewende” policy promotes renewable electricity.
+### Sustainable Development Strategies
 
-### Circular Economy and Waste Management
+-   Renewable Energy Investment: Solar, wind power to reduce carbon footprint.
+-   Fair Trade Policies: Ensuring workers receive fair wages.
+-   Green Supply Chains: Reducing pollution in global manufacturing.
+-   Circular Economy: Recycling and waste reduction.
 
--   Recycling and reusing materials to minimize waste.
--   Plastic bans and biodegradable packaging.
--   Example: Sweden recycles 99% of household waste.
+Case Study: Green Economy in Germany
 
-### Green Urban Planning
-
--   Sustainable cities with efficient public transport and green spaces.
--   Vertical farming and smart water management.
--   Example: Singapore’s eco-friendly city design.\*\*
+-   Germany leads in renewable energy (solar, wind).
+-   Government incentives for sustainable industries.
 
 ## Takeaway
 
--   Environmental geography helps us understand human impact on natural systems.
--   Sustainability requires balancing environmental, economic, and social goals.
--   Climate change is a major challenge, requiring global cooperation.
-
-## Quizzes
-
--   What are the biggest environmental challenges facing the world today?
--   How can economic growth and sustainability coexist?
--   Should governments enforce stricter environmental policies?
--   What role do individuals play in combating climate change?
+-   Economic geography helps explain how industries, trade, and globalization shape economies.
+-   Industries are strategically located based on resources, labor, and markets.
+-   Globalization has benefits but also challenges (inequality, job shifts).
+-   Sustainable economic strategies are crucial for future growth.

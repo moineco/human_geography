@@ -1,151 +1,93 @@
-# Economic geography: Trade and globalization
+# Human geography lab_1
 
-### Definition
+## Shapefile in GIS
 
--   Economic geography examines how economic activities are distributed across space, including industries, trade, and globalization.
+Shapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications. Here are a few key reasons:
 
-### Why it matters
+**Data Representation:** Shapefile is a popular file format for storing and sharing geospatial data. It allows the representation of complex geographic features such as points, lines, and polygons, along with their attributes.
 
--   Economic geography helps explain why some regions are wealthy while others remain poor.
--   Globalization has reshaped trade, labor markets, and industry locations.
--   Technology and transportation advancements have changed the economic landscape.
+**Interoperability:** Shapefile is supported by a wide range of GIS software, making it highly inter-operable. It enables data exchange between different systems and facilitates collaboration among users who may be using different GIS platforms.
 
-### Key Questions in Economic Geography
+**Attribute Management:** Shapefile supports the storage of attribute data associated with geographic features. This allows for the integration of non-spatial information, such as population, land use, or temperature, with spatial data, enabling comprehensive analysis and visualization.
 
--   Why are industries and businesses located in certain places?
--   How do global trade and economic policies shape economies?
--   What are the impacts of globalization on industry, labor, and development?
--   How do economic activities affect environmental sustainability?
+**Compact and Efficient:** Shapefiles are relatively small in size compared to other data formats, making them efficient for storing and transferring geospatial data. They are also capable of handling large data-sets without compromising performance.
 
-## Industrial Geography: The Location of Industries
+**Historical Significance:** Shapefile has been in use for several decades and has become a standard in the GIS community. Many legacy datasets and applications are based on shapefiles, making them crucial for historical data preservation and compatibility.
 
-### Industrial Revolution and Economic Development
+## Shapefile and R
 
--   The Industrial Revolution (1750–1850) transformed economies from agriculture to industry.
--   Factories and mass production replaced manual labor → rapid urbanization.
--   New transportation networks (railways, ships) boosted trade.
+Shapefile is commonly used with R, a powerful programming language and software environment for statistical computing and graphics. Here's why shapefile is often preferred for use with R:
 
-### Factors Influencing Industrial Location
+**Native Support:** R has built-in support for reading, writing, and manipulating shapefiles. The "sf" package in R provides functions specifically designed for working with spatial data, including shapefiles. This native support simplifies the process of loading shapefiles into R and performing various spatial analyses.
 
-Alfred Weber’s Least Cost Theory (1909):
+**Visualization Capabilities:** R offers extensive visualization capabilities for geospatial data. Packages like "ggplot2" and "leaflet" enable you to create high-quality maps and interactive visualizations using shapefiles as the data source. R's flexibility in customizing plots allows for advanced geospatial visualizations and exploration.
 
--   Industries locate based on minimizing transportation, labor, and agglomeration costs.
--   Example: Car manufacturing in Detroit due to skilled labor and access to steel.
+> While shapefile is a common choice for working with spatial data in R, it's important to note that R also supports other geospatial file formats, such as GeoJSON and Geopackage. These formats may offer advantages like improved data compression, support for more advanced spatial features, and better inter-operability with certain software ecosystems.
 
-| Factor | Description | Example |
-|------------------------|------------------------|------------------------|
-| Raw Materials | Proximity to resources reduces transport costs | Coal mines in Pennsylvania |
-| Labor Supply | Skilled/unskilled workers influence location | Tech companies in Silicon Valley |
-| Market Access | Industries locate near customers | Fashion industry in Paris |
-| Infrastructure | Roads, ports, airports affect distribution | Singapore as a global shipping hub |
-| Government Policies | Tax incentives, trade zones attract businesses | Special Economic Zones in China |
+-   Use `pacman` to manage the R packages
 
-#### Case Study: Silicon Valley – A Global Tech Hub
+-   Using `packman` package enables us to install and load a package without typing `install.packges()` at Console on your RStudio
 
-Why in California?
+-   You need to type the following command at Console on your RStudio
 
--   Proximity to universities (Stanford, Berkeley).
--   Investment from venture capitalists.
--   Climate and lifestyle attract talent.
+```{txt}
+install.packages("pacman")
+```
 
-## Global Trade and Economic Systems
+-   The installation of necessary R packages:
 
-### Types of Economic Systems
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+pacman::p_load(sf, tidyverse, rnaturalearth)
+```
 
-| Economic System | Characteristics | Example Countries |
-|------------------------|------------------------|------------------------|
-| Capitalist (Market Economy) | Private ownership, free trade | USA, UK, Canada |
-| Socialist (Planned Economy) | Government controls resources, limited private ownership | China, Cuba |
-| Mixed Economy | Combination of private and public sectors | Germany, Sweden |
+## Using `sf` package to make map
 
-### Global Trade Networks
+-   Create data for world
 
--   International trade connects producers and consumers across countries.
+```{r}
+#| code-fold: false
+world <- ne_countries(scale = "small", returnclass = "sf")
+```
 
--   Key Trade Agreements and Organizations:
+-   First we use the familiar ggplot2 syntax. Like in any other ggplot, we have an x and a y axis, though in this case the correspond to longitude and latitude. Knowing this, we can use other ggplot2 commands to make our map more complex. Below we draw a horizontal line where the `yintercept` is at the equator.
 
-    -   World Trade Organization (WTO): Regulates global trade.
-    -   North American Free Trade Agreement (NAFTA → USMCA): Trade between USA, Canada, Mexico.
-    -   European Union (EU): Economic and trade integration among member states.
-    -   Belt and Road Initiative (China): Massive infrastructure and trade project.
+```{r}
+#| code-fold: false
+world %>% 
+  ggplot() + 
+  geom_sf() +
+  geom_hline(yintercept = 0, linetype = "dashed") 
+```
 
-Case Study: China’s Role in Global Trade
+-   World map with income groups
 
--   "The World’s Factory": Largest exporter of goods.
--   Relies on cheap labor, strong infrastructure, and manufacturing expertise.
--   US-China trade tensions impact global markets.
+```{r}
+#| code-fold: false
+world %>% 
+  mutate(income_grp = factor(income_grp, ordered = T)) %>% 
+  ggplot() + 
+  geom_sf(aes(fill = income_grp)) +
+  theme_void() +
+  theme(legend.position = "top") +
+  labs(fill = "Income Group:") +
+  guides(fill=guide_legend(nrow=2, byrow=TRUE))
+```
 
-## Globalization and Economic Change
+## Using `Shapefile` to make map
 
-### What is Globalization?
+-   First we will download the available shapefile of Japan from following website:
 
--   Globalization is the increasing interconnectedness of economies, cultures, and politics worldwide.
+https://data.humdata.org/dataset/cod-ab-jpn?
 
--   Driven by:
+-   Save the downloaded data into your GIS project inside a folder name `data`.
 
-    -   Technology advancements (Internet, digital banking).
-    -   Trade liberalization (lower tariffs, free trade).
-    -   Multinational corporations (MNCs) (e.g., Apple, Amazon).
+-   We will read the shapefile and provide a name `shapefile_jpn`.
 
-### Impacts of Globalization
+-   We will plot the shapefile named `shapefile_jpn`.
 
-Positive Effects:
-
--   Increased global trade and economic growth.
--   Access to new markets and job opportunities.
--   Faster technology diffusion.
-
-Negative Effects:
-
--   Job losses in some industries due to outsourcing.
--   Exploitation of workers in developing nations.
--   Environmental damage (deforestation, pollution).
-
-Case Study: Outsourcing and Job Shifts
-
--   Nike and Apple manufacture in Asia due to low labor costs.
--   Pros: Low-cost products for consumers.
--   Cons: Worker exploitation (low wages, poor conditions).
-
-## Economic Development and Inequality
-
-### Measuring Economic Development
-
-| Indicator | Description | Example |
-|------------------------|------------------------|------------------------|
-| GDP per capita | Total economic output per person | USA: \$75,000 vs. India: \$6,000 |
-| Human Development Index (HDI) | Combines income, education, life expectancy | Norway: 0.957 vs. Chad: 0.394 |
-| Gini Coefficient | Measures income inequality (0 = equal, 1 = extreme inequality) | South Africa: 0.63 vs. Sweden: 0.25 |
-
-#### Case Study: The Global North vs. Global South Divide
-
-Global North (Developed Nations)
-
--   High incomes, industrialized economies (USA, Germany, Japan).
-
-Global South (Developing Nations)
-
--   Lower incomes, reliance on agriculture (Bangladesh, Nigeria).
-
-Efforts to bridge the gap: UN Sustainable Development Goals (SDGs), microfinance, fair trade.
-
-## Sustainable Economic Growth and the Future
-
-### Sustainable Development Strategies
-
--   Renewable Energy Investment: Solar, wind power to reduce carbon footprint.
--   Fair Trade Policies: Ensuring workers receive fair wages.
--   Green Supply Chains: Reducing pollution in global manufacturing.
--   Circular Economy: Recycling and waste reduction.
-
-Case Study: Green Economy in Germany
-
--   Germany leads in renewable energy (solar, wind).
--   Government incentives for sustainable industries.
-
-## Takeaway
-
--   Economic geography helps explain how industries, trade, and globalization shape economies.
--   Industries are strategically located based on resources, labor, and markets.
--   Globalization has benefits but also challenges (inequality, job shifts).
--   Sustainable economic strategies are crucial for future growth.
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+shapefile_jpn <- read_sf("data/jpn_shp_adm/jpn_admbnda_adm1_2019.shp")
+plot(shapefile_jpn)
+```
