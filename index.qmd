@@ -51,9 +51,6 @@ Textbooks:
 
 Rooms: A210 (Class room) & A206 (Computer lab), Eikokuji Campus, Kochi University of Technology
 
--   Lectures 1 - 10 will take place in room A210 (Class room)
--   Lectures 11 - 15 will take place in room A206 (Computer lab)
-
 ### Grading
 
 Your grade evaluation will depend on following three factors:
