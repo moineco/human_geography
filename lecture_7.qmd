@@ -2,17 +2,11 @@
 
 ## Shapefile in GIS
 
-Shapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications. Here are a few key reasons:
+Shapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications. 
 
-**Data Representation:** Shapefile is a popular file format for storing and sharing geospatial data. It allows the representation of complex geographic features such as points, lines, and polygons, along with their attributes.
+A shapefile is a vector data format for storing geometric location and attribute information of geographic features. It's a set of related files, including .shp, .shx, and .dbf, which together define the shape and attributes of features like points, lines, and polygons. Shapefiles are commonly used in GIS software for data interoperability and analysis. 
 
-**Interoperability:** Shapefile is supported by a wide range of GIS software, making it highly inter-operable. It enables data exchange between different systems and facilitates collaboration among users who may be using different GIS platforms.
-
-**Attribute Management:** Shapefile supports the storage of attribute data associated with geographic features. This allows for the integration of non-spatial information, such as population, land use, or temperature, with spatial data, enabling comprehensive analysis and visualization.
-
-**Compact and Efficient:** Shapefiles are relatively small in size compared to other data formats, making them efficient for storing and transferring geospatial data. They are also capable of handling large data-sets without compromising performance.
-
-**Historical Significance:** Shapefile has been in use for several decades and has become a standard in the GIS community. Many legacy datasets and applications are based on shapefiles, making them crucial for historical data preservation and compatibility.
+Shapefiles are created by Environmental Systems Research Institute (ESRI) and are used for storing spatial data.
 
 ## Shapefile and R
 
@@ -74,20 +68,4 @@ world %>%
   guides(fill=guide_legend(nrow=2, byrow=TRUE))
 ```
 
-## Using `Shapefile` to make map
 
--   First we will download the available shapefile of Japan from following website:
-
-https://data.humdata.org/dataset/cod-ab-jpn?
-
--   Save the downloaded data into your GIS project inside a folder name `data`.
-
--   We will read the shapefile and provide a name `shapefile_jpn`.
-
--   We will plot the shapefile named `shapefile_jpn`.
-
-```{r message=FALSE, warning=FALSE}
-#| code-fold: false
-shapefile_jpn <- read_sf("data/jpn_shp_adm/jpn_admbnda_adm1_2019.shp")
-plot(shapefile_jpn)
-```

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -71,8 +71,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-1092c56c6cadf2eb47b1bc8063ab382a.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-1092c56c6cadf2eb47b1bc8063ab382a.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-6312b7a0dd1da570a6ee9537839adad1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -266,7 +266,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#shapefile-in-gis" id="toc-shapefile-in-gis" class="nav-link active" data-scroll-target="#shapefile-in-gis"><span class="header-section-number">7.1</span> Shapefile in GIS</a></li>
   <li><a href="#shapefile-and-r" id="toc-shapefile-and-r" class="nav-link" data-scroll-target="#shapefile-and-r"><span class="header-section-number">7.2</span> Shapefile and R</a></li>
   <li><a href="#using-sf-package-to-make-map" id="toc-using-sf-package-to-make-map" class="nav-link" data-scroll-target="#using-sf-package-to-make-map"><span class="header-section-number">7.3</span> Using <code>sf</code> package to make map</a></li>
-  <li><a href="#using-shapefile-to-make-map" id="toc-using-shapefile-to-make-map" class="nav-link" data-scroll-target="#using-shapefile-to-make-map"><span class="header-section-number">7.4</span> Using <code>Shapefile</code> to make map</a></li>
   </ul>
 </nav>
     </div>
@@ -294,12 +293,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="shapefile-in-gis" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="shapefile-in-gis"><span class="header-section-number">7.1</span> Shapefile in GIS</h2>
-<p>Shapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications. Here are a few key reasons:</p>
-<p><strong>Data Representation:</strong> Shapefile is a popular file format for storing and sharing geospatial data. It allows the representation of complex geographic features such as points, lines, and polygons, along with their attributes.</p>
-<p><strong>Interoperability:</strong> Shapefile is supported by a wide range of GIS software, making it highly inter-operable. It enables data exchange between different systems and facilitates collaboration among users who may be using different GIS platforms.</p>
-<p><strong>Attribute Management:</strong> Shapefile supports the storage of attribute data associated with geographic features. This allows for the integration of non-spatial information, such as population, land use, or temperature, with spatial data, enabling comprehensive analysis and visualization.</p>
-<p><strong>Compact and Efficient:</strong> Shapefiles are relatively small in size compared to other data formats, making them efficient for storing and transferring geospatial data. They are also capable of handling large data-sets without compromising performance.</p>
-<p><strong>Historical Significance:</strong> Shapefile has been in use for several decades and has become a standard in the GIS community. Many legacy datasets and applications are based on shapefiles, making them crucial for historical data preservation and compatibility.</p>
+<p>Shapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications.</p>
+<p>A shapefile is a vector data format for storing geometric location and attribute information of geographic features. It’s a set of related files, including .shp, .shx, and .dbf, which together define the shape and attributes of features like points, lines, and polygons. Shapefiles are commonly used in GIS software for data interoperability and analysis.</p>
+<p>Shapefiles are created by Environmental Systems Research Institute (ESRI) and are used for storing spatial data.</p>
 </section>
 <section id="shapefile-and-r" class="level2" data-number="7.2">
 <h2 data-number="7.2" class="anchored" data-anchor-id="shapefile-and-r"><span class="header-section-number">7.2</span> Shapefile and R</h2>
@@ -364,29 +360,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div>
 <figure class="figure">
 <p><img src="lecture_7_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="using-shapefile-to-make-map" class="level2" data-number="7.4">
-<h2 data-number="7.4" class="anchored" data-anchor-id="using-shapefile-to-make-map"><span class="header-section-number">7.4</span> Using <code>Shapefile</code> to make map</h2>
-<ul>
-<li>First we will download the available shapefile of Japan from following website:</li>
-</ul>
-<p>https://data.humdata.org/dataset/cod-ab-jpn?</p>
-<ul>
-<li><p>Save the downloaded data into your GIS project inside a folder name <code>data</code>.</p></li>
-<li><p>We will read the shapefile and provide a name <code>shapefile_jpn</code>.</p></li>
-<li><p>We will plot the shapefile named <code>shapefile_jpn</code>.</p></li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>shapefile_jpn <span class="ot">&lt;-</span> <span class="fu">read_sf</span>(<span class="st">"data/jpn_shp_adm/jpn_admbnda_adm1_2019.shp"</span>)</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(shapefile_jpn)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="lecture_7_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
