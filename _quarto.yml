@@ -39,6 +39,6 @@ format:
        dark: darkly
     prefer-html: true
   # epub:
-  #  cover-image: cover.png
+  # cover-image: cover.png
 editor: visual
 
