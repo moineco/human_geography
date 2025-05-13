@@ -29,6 +29,7 @@ book:
     - lecture_15.qmd
     - annex_1.qmd
     - annex_2.qmd
+    - annex_3.qmd
     - references.qmd
 
 bibliography: human_geography.bib

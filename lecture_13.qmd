@@ -1,64 +1,116 @@
 # Human geography lab_4
 
-## European regions with `naturalearth` data
-
-```{r}
-#| message: false
-library(tidyverse)
-library(sf)
-library(knitr)
-```
-
--   naturalearthdata.com provides many open-source maps. I decided to select the world map with country borders on a 1:10m scale (can be found <https://www.naturalearthdata.com/downloads/10m-cultural-vectors/>)
-
-```{r, results='hide'}
-#| message: false
-map_data <- st_read("data/shapefile/ne_10m_admin_0_countries")
-```
-
--   The map_data uses data.frames for its features and saves the geometric features as a list in the column geometry. We can now easily explore the data in map_data, e.g.,The map_data uses data.frames for its features and saves the geometric features as a list in the column geometry. We can now easily explore the data in map_data, e.g.,
-
-```{r}
-features_map_data <- map_data %>%
-    as_tibble() %>%
-    select(-geometry) %>%
-    head(10)
-
-kable(features_map_data)
-```
-
--   For this tutorial we want to focus on a European countries, hence we need to filter the data to only contain the European countries’ info. Fortunately, the map_data contains a feature CONTINTENT, so we can easily filter out the unwanted countries.
+-   Load all necessary packages
 
 ```{r}
 #| warning: false
-europe_map_data <- map_data %>%
-    select(NAME, CONTINENT, SUBREGION, POP_EST) %>%
-    filter(CONTINENT == "Europe")
+#| message: false
+#| code-fold: false
+pacman::p_load(tidyverse, maps, countrycode, rnaturalearth, sf)
 ```
 
--   Lets try to plot a map of European countries. New versions of ggplot2 contain a function geom_sf which supports plotting sf objects directly, so lets try it…
+-   We use free data on world map: Natural Earth
 
-```{r}
-ggplot(europe_map_data) + geom_sf() +
-    theme_minimal()
+-   Using `rnaturalearth` package, we get the data necessary to draw a world map
+
+-   Name the data world_map
+
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+global_map <- ne_countries(scale = "small", returnclass = "sf")
 ```
 
--   That does not seem to work… the reason is that, even though we removed the data of non European countries, we never changed the bbox setting of our data. The bbox object sets the longitude and latitude range for our plot, which is still for the whole Europe. To change this we can use the st_crop function as
+-   Show the list of variables included global_map
 
-```{r}
-#| warning: false
-europe_map_data <- europe_map_data %>%
-    st_crop(xmin=-25, xmax=55, ymin=35, ymax=71)
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+names(global_map)
 ```
 
+-   We see 169 variables
+-   Check the class of global_map
+-   If you want to see the data of GDP for each country, use following code:
+
 ```{r}
-ggplot(europe_map_data) + geom_sf() +
-    theme_minimal()
+#| code-fold: false
+global_map %>% 
+select(sovereignt, gdp_md, gdp_year) %>% 
+DT::datatable()
 ```
 
--   If you’re familiar with the ggplot2 workflow, it is now easy to construct the aesthetic mappings like you’re used to. Our map_data contains a feature SUBREGION and Europe is divided into Northern, Eastern, Southern and Western Europe. We can easily visualize this in our European map as
+-   World is a GeoDataFrame with the following columns:
+
+`pop_est`: Contains a population estimate for the country
+
+`continent`: The country's continent
+
+`name_en`: The country's name in English
+
+`iso_a3`: The country's 3 letter abbreviation (we made this the index)
+
+`gdp_md`: A country's GDP in million dollar
+
+`geometry`: A POLYGON for each country (we will learn more about these soon)
 
 ```{r}
-ggplot(europe_map_data) + geom_sf(aes(fill=SUBREGION)) +
-    theme_minimal()
+#| code-fold: false
+class(global_map)
+```
+
+-   global_map has two classes: sf & data.frame
+
+## Global GDP map
+
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+global_map %>% 
+  ggplot() +
+  geom_sf(aes(fill = gdp_md)) +
+  scale_fill_gradient(low = "white", high = "green") +
+  labs(fill = "GDP") +
+  theme_minimal(base_family = "HiraKakuProN-W3") +
+  theme(legend.position = "bottom")
+```
+
+-   Let's change the color and the position of legend.
+
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+global_map %>% 
+  ggplot() +
+  geom_sf(aes(fill = gdp_md)) +
+  scale_fill_gradient(low = "gray", high = "blue") +
+  labs(fill = "GDP_2019") +
+  theme_minimal(base_family = "HiraKakuProN-W3") +
+  theme(legend.position = "left")
+```
+
+## Regional GDP map
+
+-   GDP of European countries in 2019
+
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+global_map %>% 
+  ggplot() +
+  geom_sf(aes(fill = gdp_md)) +
+  scale_fill_gradient(low = "white", high = "green") +
+  labs(fill = "GDP_Europe") +
+  coord_sf(xlim = c(-10, 45), ylim = c(35, 60)) +
+  theme_minimal(base_family = "HiraKakuProN-W3") +
+  theme(legend.position = "left")
+```
+
+-   GDP of African countries in 2019
+
+```{r message=FALSE, warning=FALSE}
+#| code-fold: false
+global_map %>% 
+  ggplot() +
+  geom_sf(aes(fill = gdp_md)) +
+  scale_fill_gradient(low = "white", high = "green") +
+  labs(fill = "GDP_Africa") +
+  coord_sf(xlim = c(-30, 60), ylim = c(-40, 40)) +
+  theme_minimal(base_family = "HiraKakuProN-W3") +
+  theme(legend.position = "left")
 ```
