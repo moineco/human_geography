@@ -1102,21 +1102,21 @@
   {
     "objectID": "annex_1.html",
     "href": "annex_1.html",
-    "title": "16  Appendix 1",
+    "title": "16  Human geography lab_Appendix 1",
     "section": "",
     "text": "16.1 Administrative regions of Japan\npacman::p_load(tidyverse, maps, countrycode, rnaturalearth, sf)\nhttps://data.humdata.org/dataset/cod-ab-jpn?\nshapefile_jpn &lt;- read_sf(\"data/jpn_shp_adm/jpn_admbnda_adm1_2019.shp\")\nplot(shapefile_jpn)",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix 1</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Human geography lab_Appendix 1</span>"
     ]
   },
   {
     "objectID": "annex_1.html#administrative-regions-of-japan",
     "href": "annex_1.html#administrative-regions-of-japan",
-    "title": "16  Appendix 1",
+    "title": "16  Human geography lab_Appendix 1",
     "section": "",
     "text": "Load all necessary packages\n\n\n\nFirst we will download the available shapefile of Japan from following website:\n\n\n\nSave the downloaded data into your GIS project inside a folder name data.\nWe will read the shapefile and provide a name shapefile_jpn.\nWe will plot the shapefile named shapefile_jpn.",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Appendix 1</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Human geography lab_Appendix 1</span>"
     ]
   },
   {
