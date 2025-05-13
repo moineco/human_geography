@@ -37,7 +37,7 @@ Examples:
 ### Nation vs. State vs. Nation-State
 
 | Term | Definition | Example |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Nation | A group of people with shared culture, language, history, and identity | Kurds, Basques, Palestinians |
 | State | A politically defined territory with sovereignty | USA, Brazil, Germany |
 | Nation-State | A country where the population is culturally homogeneous | Japan, Iceland, Denmark |
@@ -122,7 +122,7 @@ Case Study: The Cold War and Geopolitical Rivalry
 ### International Organizations
 
 | Organization | Purpose | Example |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | United Nations (UN) | Peacekeeping, diplomacy | Resolutions on Ukraine-Russia war |
 | European Union (EU) | Economic and political cooperation | Euro currency, open borders |
 | North Atlantic Treaty Organization (NATO) | Military alliance for collective defense | Support for Ukraine |

@@ -29,7 +29,7 @@
 Major Language Families (World Distribution)
 
 | Language Family | Examples | Regions |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Indo-European | English, Spanish, Hindi, Russian | Europe, Americas, South Asia |
 | Sino-Tibetan | Mandarin, Cantonese | East Asia |
 | Afro-Asiatic | Arabic, Hebrew | Middle East, North Africa |

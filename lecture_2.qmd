@@ -68,7 +68,7 @@ Natural Increase Rate (NIR):
 A model explaining how populations change over time in response to economic and social progress.
 
 | Stage | Characteristics | Example Countries |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | 1: Pre-Industrial | High birth & death rates, slow growth | Isolated tribes (Amazon, Congo) |
 | 2: Early Industrial | Declining death rate, high birth rate, rapid growth | Nigeria, Afghanistan |
 | 3: Late Industrial | Declining birth rate, slower growth | Mexico, India |

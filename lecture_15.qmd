@@ -5,9 +5,7 @@
 I will explore different packages that could help with mapping geographical data, specifically for the USA. At first we need to load necessary packages to execute the maps for this lecture.
 
 ```{r}
-#| message: false
-library(usmap)
-library(tidyverse)
+pacman::p_load(usmap, tidyverse)
 ```
 
 -   Alternatively you can use the pacman package manager for loading the necessary packages for this lecture.

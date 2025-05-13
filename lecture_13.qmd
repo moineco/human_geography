@@ -1,6 +1,6 @@
 # Human geography lab_4
 
-## Europian regions with `naturalearth` data
+## European regions with `naturalearth` data
 
 ```{r}
 #| message: false

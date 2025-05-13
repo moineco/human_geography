@@ -34,7 +34,7 @@ Causes of Urbanization:
 ### Urbanization Trends
 
 | Region | Urban Population (%) 1990 | Urban Population (%) 2022 | Projected (%) 2050 |
-|------------------|------------------|------------------|------------------|
+|----|----|----|----|
 | North America | 75% | 82% | 89% |
 | Europe | 70% | 74% | 83% |
 | Latin America | 65% | 79% | 86% |
@@ -154,4 +154,3 @@ Case Study: Curitiba, Brazil – A Model Sustainable City
 -   Urban geography helps us understand how cities grow and function.
 -   Infrastructure and planning shape livability and sustainability.
 -   Smart growth strategies and sustainable planning are key for the future.
-
