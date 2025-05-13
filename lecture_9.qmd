@@ -1,4 +1,4 @@
-# Human geography lab_2
+# Human geography lab 2
 
 The following packages will be required for this chapter:
 

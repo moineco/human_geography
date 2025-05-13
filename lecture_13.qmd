@@ -1,4 +1,4 @@
-# Human geography lab_4
+# Human geography lab 4
 
 -   Load all necessary packages
 

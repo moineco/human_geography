@@ -1,4 +1,4 @@
-# Human geography lab_1
+# Human geography lab 1
 
 ## Shapefile in GIS
 

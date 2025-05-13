@@ -1,4 +1,4 @@
-# Human geography lab_Annex 5
+# Human geography lab: Annex 5
 
 ```{r}
 pacman::p_load(usmap, tidyverse)

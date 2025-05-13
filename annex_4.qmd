@@ -1,4 +1,4 @@
-# Human geography lab_Annex 4
+# Human geography lab: Annex 4
 
 ## US states and regions
 
@@ -71,4 +71,3 @@ plot_usmap(include = c("CT", "ME", "MA", "NH", "VT")) +
   labs(title = "New England Region") +
   theme(panel.background = element_rect(color = "black"))
 ```
-
