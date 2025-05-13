@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>7&nbsp; Human geography lab_1 – Human Geography</title>
+<title>17&nbsp; Appendix 2 – Human Geography</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,8 +64,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./lecture_8.html" rel="next">
-<link href="./lecture_6.html" rel="prev">
+<link href="./references.html" rel="next">
+<link href="./annex_1.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -117,7 +117,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./lecture_7.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Human geography lab_1</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./annex_2.html"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Appendix 2</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -195,7 +195,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lecture_7.html" class="sidebar-item-text sidebar-link active">
+  <a href="./lecture_7.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Human geography lab_1</span></span></a>
   </div>
 </li>
@@ -255,7 +255,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annex_2.html" class="sidebar-item-text sidebar-link">
+  <a href="./annex_2.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Appendix 2</span></span></a>
   </div>
 </li>
@@ -275,9 +275,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#shapefile-in-gis" id="toc-shapefile-in-gis" class="nav-link active" data-scroll-target="#shapefile-in-gis"><span class="header-section-number">7.1</span> Shapefile in GIS</a></li>
-  <li><a href="#shapefile-and-r" id="toc-shapefile-and-r" class="nav-link" data-scroll-target="#shapefile-and-r"><span class="header-section-number">7.2</span> Shapefile and R</a></li>
-  <li><a href="#using-sf-package-to-make-map" id="toc-using-sf-package-to-make-map" class="nav-link" data-scroll-target="#using-sf-package-to-make-map"><span class="header-section-number">7.3</span> Using <code>sf</code> package to make map</a></li>
+  <li><a href="#world-and-continents-with-sf" id="toc-world-and-continents-with-sf" class="nav-link active" data-scroll-target="#world-and-continents-with-sf"><span class="header-section-number">17.1</span> World and continents with <code>sf</code></a></li>
   </ul>
 </nav>
     </div>
@@ -286,7 +284,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Human geography lab_1</span></h1>
+<h1 class="title"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Appendix 2</span></h1>
 </div>
 
 
@@ -303,75 +301,212 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="shapefile-in-gis" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="shapefile-in-gis"><span class="header-section-number">7.1</span> Shapefile in GIS</h2>
-<p>Shapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications.</p>
-<p>A shapefile is a vector data format for storing geometric location and attribute information of geographic features. It’s a set of related files, including .shp, .shx, and .dbf, which together define the shape and attributes of features like points, lines, and polygons. Shapefiles are commonly used in GIS software for data interoperability and analysis.</p>
-<p>Shapefiles are created by Environmental Systems Research Institute (ESRI) and are used for storing spatial data.</p>
-</section>
-<section id="shapefile-and-r" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="shapefile-and-r"><span class="header-section-number">7.2</span> Shapefile and R</h2>
-<p>Shapefile is commonly used with R, a powerful programming language and software environment for statistical computing and graphics. Here’s why shapefile is often preferred for use with R:</p>
-<p><strong>Native Support:</strong> R has built-in support for reading, writing, and manipulating shapefiles. The “sf” package in R provides functions specifically designed for working with spatial data, including shapefiles. This native support simplifies the process of loading shapefiles into R and performing various spatial analyses.</p>
-<p><strong>Visualization Capabilities:</strong> R offers extensive visualization capabilities for geospatial data. Packages like “ggplot2” and “leaflet” enable you to create high-quality maps and interactive visualizations using shapefiles as the data source. R’s flexibility in customizing plots allows for advanced geospatial visualizations and exploration.</p>
-<blockquote class="blockquote">
-<p>While shapefile is a common choice for working with spatial data in R, it’s important to note that R also supports other geospatial file formats, such as GeoJSON and Geopackage. These formats may offer advantages like improved data compression, support for more advanced spatial features, and better inter-operability with certain software ecosystems.</p>
-</blockquote>
 <ul>
-<li><p>Use <code>pacman</code> to manage the R packages</p></li>
-<li><p>Using <code>packman</code> package enables us to install and load a package without typing <code>install.packges()</code> at Console on your RStudio</p></li>
-<li><p>You need to type the following command at Console on your RStudio</p></li>
+<li>Load all necessary packages</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>install.packages("pacman")</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(tidyverse, rnaturalearth, rnaturalearthdata, sf)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="world-and-continents-with-sf" class="level2" data-number="17.1">
+<h2 data-number="17.1" class="anchored" data-anchor-id="world-and-continents-with-sf"><span class="header-section-number">17.1</span> World and continents with <code>sf</code></h2>
+<p>The above command will install all dependencies required to reproduce the entire lecture</p>
+<ul>
+<li><p>Use the package <code>sf</code></p></li>
+<li><p>We will use the world dataset provided by <code>spData</code>, to show what sf objects are and how they work. <code>world</code> is an ‘sf data frame’ containing spatial and attribute columns, the names of which are returned by the function names() (the last column in this example contains the geographic information):</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>world <span class="ot">&lt;-</span> <span class="fu">ne_countries</span>(<span class="at">scale =</span> <span class="st">"medium"</span>, <span class="at">returnclass =</span> <span class="st">"sf"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(world)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "sf"         "data.frame"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(world)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  [1] "featurecla" "scalerank"  "labelrank"  "sovereignt" "sov_a3"    
+  [6] "adm0_dif"   "level"      "type"       "tlc"        "admin"     
+ [11] "adm0_a3"    "geou_dif"   "geounit"    "gu_a3"      "su_dif"    
+ [16] "subunit"    "su_a3"      "brk_diff"   "name"       "name_long" 
+ [21] "brk_a3"     "brk_name"   "brk_group"  "abbrev"     "postal"    
+ [26] "formal_en"  "formal_fr"  "name_ciawf" "note_adm0"  "note_brk"  
+ [31] "name_sort"  "name_alt"   "mapcolor7"  "mapcolor8"  "mapcolor9" 
+ [36] "mapcolor13" "pop_est"    "pop_rank"   "pop_year"   "gdp_md"    
+ [41] "gdp_year"   "economy"    "income_grp" "fips_10"    "iso_a2"    
+ [46] "iso_a2_eh"  "iso_a3"     "iso_a3_eh"  "iso_n3"     "iso_n3_eh" 
+ [51] "un_a3"      "wb_a2"      "wb_a3"      "woe_id"     "woe_id_eh" 
+ [56] "woe_note"   "adm0_iso"   "adm0_diff"  "adm0_tlc"   "adm0_a3_us"
+ [61] "adm0_a3_fr" "adm0_a3_ru" "adm0_a3_es" "adm0_a3_cn" "adm0_a3_tw"
+ [66] "adm0_a3_in" "adm0_a3_np" "adm0_a3_pk" "adm0_a3_de" "adm0_a3_gb"
+ [71] "adm0_a3_br" "adm0_a3_il" "adm0_a3_ps" "adm0_a3_sa" "adm0_a3_eg"
+ [76] "adm0_a3_ma" "adm0_a3_pt" "adm0_a3_ar" "adm0_a3_jp" "adm0_a3_ko"
+ [81] "adm0_a3_vn" "adm0_a3_tr" "adm0_a3_id" "adm0_a3_pl" "adm0_a3_gr"
+ [86] "adm0_a3_it" "adm0_a3_nl" "adm0_a3_se" "adm0_a3_bd" "adm0_a3_ua"
+ [91] "adm0_a3_un" "adm0_a3_wb" "continent"  "region_un"  "subregion" 
+ [96] "region_wb"  "name_len"   "long_len"   "abbrev_len" "tiny"      
+[101] "homepart"   "min_zoom"   "min_label"  "max_label"  "label_x"   
+[106] "label_y"    "ne_id"      "wikidataid" "name_ar"    "name_bn"   
+[111] "name_de"    "name_en"    "name_es"    "name_fa"    "name_fr"   
+[116] "name_el"    "name_he"    "name_hi"    "name_hu"    "name_id"   
+[121] "name_it"    "name_ja"    "name_ko"    "name_nl"    "name_pl"   
+[126] "name_pt"    "name_ru"    "name_sv"    "name_tr"    "name_uk"   
+[131] "name_ur"    "name_vi"    "name_zh"    "name_zht"   "fclass_iso"
+[136] "tlc_diff"   "fclass_tlc" "fclass_us"  "fclass_fr"  "fclass_ru" 
+[141] "fclass_es"  "fclass_cn"  "fclass_tw"  "fclass_in"  "fclass_np" 
+[146] "fclass_pk"  "fclass_de"  "fclass_gb"  "fclass_br"  "fclass_il" 
+[151] "fclass_ps"  "fclass_sa"  "fclass_eg"  "fclass_ma"  "fclass_pt" 
+[156] "fclass_ar"  "fclass_jp"  "fclass_ko"  "fclass_vn"  "fclass_tr" 
+[161] "fclass_id"  "fclass_pl"  "fclass_gr"  "fclass_it"  "fclass_nl" 
+[166] "fclass_se"  "fclass_bd"  "fclass_ua"  "geometry"  </code></pre>
+</div>
 </div>
 <ul>
-<li>The installation of necessary R packages:</li>
+<li>Make sophistocated and professional looking map of World</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(sf, tidyverse, rnaturalearth)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="using-sf-package-to-make-map" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="using-sf-package-to-make-map"><span class="header-section-number">7.3</span> Using <code>sf</code> package to make map</h2>
-<ul>
-<li>Create data for world</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>world <span class="ot">&lt;-</span> <span class="fu">ne_countries</span>(<span class="at">scale =</span> <span class="st">"small"</span>, <span class="at">returnclass =</span> <span class="st">"sf"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ul>
-<li>First we use the familiar ggplot2 syntax. Like in any other ggplot, we have an x and a y axis, though in this case the correspond to longitude and latitude. Knowing this, we can use other ggplot2 commands to make our map more complex. Below we draw a horizontal line where the <code>yintercept</code> is at the equator.</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>world <span class="sc">%&gt;%</span> </span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>() <span class="sc">+</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>world.plot <span class="ot">=</span> <span class="fu">ggplot</span>() <span class="sc">+</span>               </span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="at">data =</span> world)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>world.plot </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="lecture_7_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="annex_2_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
 <ul>
-<li>World map with income groups</li>
+<li><p>We will begin to get to know the basics of geographic data in R by using the “world” dataset in the package.</p></li>
+<li><p>First let’s see what information is in the “world” dataset. Get the names of the variables in the world dataset.</p></li>
+<li><p>Filter the population and GDP data from World map for better understanding the data structure.</p></li>
+<li><p>Plot the GDP percapita map of the world:</p></li>
+<li><p>Prepare Africa map by highlighting Zambia</p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>world <span class="sc">%&gt;%</span> </span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">income_grp =</span> <span class="fu">factor</span>(income_grp, <span class="at">ordered =</span> T)) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="fu">aes</span>(<span class="at">fill =</span> income_grp)) <span class="sc">+</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_void</span>() <span class="sc">+</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"top"</span>) <span class="sc">+</span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">fill =</span> <span class="st">"Income Group:"</span>) <span class="sc">+</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(<span class="at">fill=</span><span class="fu">guide_legend</span>(<span class="at">nrow=</span><span class="dv">2</span>, <span class="at">byrow=</span><span class="cn">TRUE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Select just the continent of Africa</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>africa <span class="ot">&lt;-</span> world <span class="sc">%&gt;%</span> </span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(region_un <span class="sc">%in%</span> <span class="st">"Africa"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li>Check the type of data</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(africa)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "sf"         "data.frame"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(africa)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  [1] "featurecla" "scalerank"  "labelrank"  "sovereignt" "sov_a3"    
+  [6] "adm0_dif"   "level"      "type"       "tlc"        "admin"     
+ [11] "adm0_a3"    "geou_dif"   "geounit"    "gu_a3"      "su_dif"    
+ [16] "subunit"    "su_a3"      "brk_diff"   "name"       "name_long" 
+ [21] "brk_a3"     "brk_name"   "brk_group"  "abbrev"     "postal"    
+ [26] "formal_en"  "formal_fr"  "name_ciawf" "note_adm0"  "note_brk"  
+ [31] "name_sort"  "name_alt"   "mapcolor7"  "mapcolor8"  "mapcolor9" 
+ [36] "mapcolor13" "pop_est"    "pop_rank"   "pop_year"   "gdp_md"    
+ [41] "gdp_year"   "economy"    "income_grp" "fips_10"    "iso_a2"    
+ [46] "iso_a2_eh"  "iso_a3"     "iso_a3_eh"  "iso_n3"     "iso_n3_eh" 
+ [51] "un_a3"      "wb_a2"      "wb_a3"      "woe_id"     "woe_id_eh" 
+ [56] "woe_note"   "adm0_iso"   "adm0_diff"  "adm0_tlc"   "adm0_a3_us"
+ [61] "adm0_a3_fr" "adm0_a3_ru" "adm0_a3_es" "adm0_a3_cn" "adm0_a3_tw"
+ [66] "adm0_a3_in" "adm0_a3_np" "adm0_a3_pk" "adm0_a3_de" "adm0_a3_gb"
+ [71] "adm0_a3_br" "adm0_a3_il" "adm0_a3_ps" "adm0_a3_sa" "adm0_a3_eg"
+ [76] "adm0_a3_ma" "adm0_a3_pt" "adm0_a3_ar" "adm0_a3_jp" "adm0_a3_ko"
+ [81] "adm0_a3_vn" "adm0_a3_tr" "adm0_a3_id" "adm0_a3_pl" "adm0_a3_gr"
+ [86] "adm0_a3_it" "adm0_a3_nl" "adm0_a3_se" "adm0_a3_bd" "adm0_a3_ua"
+ [91] "adm0_a3_un" "adm0_a3_wb" "continent"  "region_un"  "subregion" 
+ [96] "region_wb"  "name_len"   "long_len"   "abbrev_len" "tiny"      
+[101] "homepart"   "min_zoom"   "min_label"  "max_label"  "label_x"   
+[106] "label_y"    "ne_id"      "wikidataid" "name_ar"    "name_bn"   
+[111] "name_de"    "name_en"    "name_es"    "name_fa"    "name_fr"   
+[116] "name_el"    "name_he"    "name_hi"    "name_hu"    "name_id"   
+[121] "name_it"    "name_ja"    "name_ko"    "name_nl"    "name_pl"   
+[126] "name_pt"    "name_ru"    "name_sv"    "name_tr"    "name_uk"   
+[131] "name_ur"    "name_vi"    "name_zh"    "name_zht"   "fclass_iso"
+[136] "tlc_diff"   "fclass_tlc" "fclass_us"  "fclass_fr"  "fclass_ru" 
+[141] "fclass_es"  "fclass_cn"  "fclass_tw"  "fclass_in"  "fclass_np" 
+[146] "fclass_pk"  "fclass_de"  "fclass_gb"  "fclass_br"  "fclass_il" 
+[151] "fclass_ps"  "fclass_sa"  "fclass_eg"  "fclass_ma"  "fclass_pt" 
+[156] "fclass_ar"  "fclass_jp"  "fclass_ko"  "fclass_vn"  "fclass_tr" 
+[161] "fclass_id"  "fclass_pl"  "fclass_gr"  "fclass_it"  "fclass_nl" 
+[166] "fclass_se"  "fclass_bd"  "fclass_ua"  "geometry"  </code></pre>
+</div>
+</div>
+<ul>
+<li>Make professional looking map of <code>Asia</code></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>asia <span class="ot">&lt;-</span> world[<span class="fu">which</span>(world<span class="sc">$</span>continent <span class="sc">==</span> <span class="st">"Asia"</span>),]</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>asia.plot <span class="ot">=</span> <span class="fu">ggplot</span>() <span class="sc">+</span>               </span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="at">data =</span> asia)  </span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>asia.plot </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="lecture_7_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="annex_2_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li>Make professional looking map of <code>Africa</code></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>africa <span class="ot">&lt;-</span> world[<span class="fu">which</span>(world<span class="sc">$</span>continent <span class="sc">==</span> <span class="st">"Africa"</span>),]</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>africa.plot <span class="ot">=</span> <span class="fu">ggplot</span>() <span class="sc">+</span>               </span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="at">data =</span> africa)  </span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>africa.plot </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="annex_2_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li>Make professional looking map of <code>Europe</code></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>europe <span class="ot">&lt;-</span> world[<span class="fu">which</span>(world<span class="sc">$</span>continent <span class="sc">==</span> <span class="st">"Europe"</span>),]</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(europe) <span class="sc">+</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>() <span class="sc">+</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_sf</span>(<span class="at">xlim =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">25</span>,<span class="dv">50</span>), <span class="at">ylim =</span> <span class="fu">c</span>(<span class="dv">35</span>,<span class="dv">70</span>), <span class="at">expand =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="annex_2_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li>Make professional looking map of <code>Oceania</code></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>oceania <span class="ot">&lt;-</span> world[<span class="fu">which</span>(world<span class="sc">$</span>continent <span class="sc">==</span> <span class="st">"Oceania"</span>),]</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(oceania) <span class="sc">+</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>() <span class="sc">+</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_sf</span>(<span class="at">xlim =</span> <span class="fu">c</span>(<span class="dv">105</span>,<span class="dv">180</span>), <span class="at">ylim =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">50</span>,<span class="dv">0</span>), <span class="at">expand =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="annex_2_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<ul>
+<li>Make professional looking map of <code>North America</code></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>north_america <span class="ot">&lt;-</span> world[<span class="fu">which</span>(world<span class="sc">$</span>continent <span class="sc">==</span> <span class="st">"North America"</span>),]</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(north_america) <span class="sc">+</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>() <span class="sc">+</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_sf</span>(<span class="at">xlim =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">180</span>,<span class="sc">-</span><span class="dv">15</span>), <span class="at">ylim =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">90</span>), <span class="at">expand =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="annex_2_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -944,13 +1079,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./lecture_6.html" class="pagination-link" aria-label="Urban geography: Cities, infrastructure, and planning">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Urban geography: Cities, infrastructure, and planning</span></span>
+      <a href="./annex_1.html" class="pagination-link" aria-label="Appendix 1">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Appendix 1</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./lecture_8.html" class="pagination-link" aria-label="Economic geography: Trade and globalization">
-        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Economic geography: Trade and globalization</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
