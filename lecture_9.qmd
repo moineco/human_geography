@@ -74,3 +74,15 @@ world_map %>%
   geom_polygon(fill = "red", colour = "black", size = 0.1)
 ```
 
+-   We will filter the data for Brazil and draw a map as shown in @fig-mymap-12.5
+
+```{r fig-mymap-12.5, message=FALSE, warning=FALSE}
+#| code-fold: false
+#| fig.cap: "Brazil"
+#| fig.height: 4
+world_map %>% 
+  filter(region == "Brazil") %>% 
+  ggplot(aes(x = long, y = lat, group = group)) +
+  geom_polygon(fill = "green", colour = "black", size = 0.1)
+```
+
