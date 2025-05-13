@@ -1,4 +1,4 @@
-# Human geography lab_Appendix 2
+# Human geography lab_Annex 2
 
 -   Load all necessary packages
 

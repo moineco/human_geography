@@ -1,4 +1,4 @@
-# Human geography lab_Appendix 3
+# Human geography lab_Annex 3
 
 ## European regions with `naturalearth` data
 
