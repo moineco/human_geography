@@ -6,7 +6,7 @@
 #| warning: false
 #| message: false
 #| code-fold: false
-pacman::p_load(tidyverse, maps, countrycode, rnaturalearth, sf)
+pacman::p_load(tidyverse, sf)
 ```
 
 ## Using `Shapefile` to make map
