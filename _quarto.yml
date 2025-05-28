@@ -32,6 +32,7 @@ book:
     - annex_3.qmd
     - annex_4.qmd
     - annex_5.qmd
+    #- annex_6.qmd
     - references.qmd
 
 bibliography: human_geography.bib
