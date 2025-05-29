@@ -85,4 +85,3 @@ world_map %>%
   ggplot(aes(x = long, y = lat, group = group)) +
   geom_polygon(fill = "green", colour = "black", size = 0.1)
 ```
-
