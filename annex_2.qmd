@@ -1,127 +1,80 @@
 # Human geography lab: Annex 2
 
--   Load all necessary packages
+I will explore different packages that could help with mapping geographical data, specifically for the USA. At first we need to load necessary packages to execute the maps for this lecture.
 
 ```{r}
-#| warning: false
-#| message: false
-#| code-fold: false
-pacman::p_load(tidyverse, rnaturalearth, rnaturalearthdata, sf)
+pacman::p_load(maps, usmap, tidyverse, DT)
 ```
 
-## World and continents with `sf`
+### EXPANSION OF WALMART
 
-The above command will install all dependencies required to reproduce the entire lecture
-
--   Use the package `sf`
-
--   We will use the world dataset provided by `spData`, to show what sf objects are and how they work. `world` is an 'sf data frame' containing spatial and attribute columns, the names of which are returned by the function names() (the last column in this example contains the geographic information):
+Walmart has become one of the largest retail multinational companies in the world. Table shows the names and descriptions of variables in the Walmart store opening data, `walmart.csv`.
 
 ```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-world <- ne_countries(scale = "medium", returnclass = "sf")
-class(world)
-names(world)
+walmart <- read.csv("data/csv/walmart.csv")
+## red = Wal-MartStore, green = SuperCenter, blue = DistributionCenter
+walmart$storecolors <- NA # create an empty vector
+walmart$storecolors[walmart$type == "Wal-MartStore"] <-
+    rgb(red = 1, green = 0, blue = 0, alpha = 1/3)
 ```
 
--   Make sophistocated and professional looking map of World
+The DT package (an interface to the DataTables JavaScript library) can display R matrices or data frames as interactive HTML tables that support filtering, pagination, and sorting.
 
 ```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-world.plot = ggplot() +               
-  geom_sf(data = world)
-world.plot 
+library(DT)
+datatable(walmart)
 ```
 
--   We will begin to get to know the basics of geographic data in R by using the "world" dataset in the package.
-
--   First let's see what information is in the "world" dataset. Get the names of the variables in the world dataset.
-
--   Filter the population and GDP data from World map for better understanding the data structure.
-
--   Plot the GDP percapita map of the world:
-
--   Prepare Africa map by highlighting Zambia
+The data set contains three different types of stores, represented by the variable type. Wal-MartStore represents a standard Walmart store, whereas SuperCenter is a standard Walmart store as well as a full supermarket. Walmart Supercenters often include pharma- cies, garden shops, car service centers, and other specialty centers. We also plot DistributionCenter data, representing stores that distribute food and goods to standard Walmart stores and Supercenters.
 
 ```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-# Select just the continent of Africa
-africa <- world %>% 
-  filter(region_un %in% "Africa")
+walmart$storecolors[walmart$type == "SuperCenter"] <-
+    rgb(red = 0, green = 1, blue = 0, alpha = 1/3)
+walmart$storecolors[walmart$type == "DistributionCenter"] <-
+    rgb(red = 0, green = 0, blue = 1, alpha = 1/3)
+## larger circles for DistributionCenter
+walmart$storesize <- ifelse(walmart$type == "DistributionCenter", 1, 0.5)
 ```
 
--   Check the type of data
+Finally, we create a map and add Walmart store locations to it. We also include a legend using the legend() function. To use this function, we specify the location of the legend by setting the x and y coordinates and provide a vector of legend texts as the legend argument.
 
 ```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-class(africa)
-names(africa)
+## map with legend
+maps::map(database = "state")
+points(walmart$long, walmart$lat, col = walmart$storecolors,
+       pch = 19, cex = walmart$storesize)
+legend(x = -120, y = 32, bty = "n",
+       legend = c("Walmart", "Supercenter", "Distribution center"),
+       col = c("red", "green", "blue"), pch = 19, # solid circles
+       pt.cex = c(0.5, 0.5, 1)) # size of circles
 ```
 
--   Make professional looking map of `Asia`
-
 ```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-asia <- world[which(world$continent == "Asia"),]
-asia.plot = ggplot() +               
-  geom_sf(data = asia)  
-asia.plot 
+walmart.map <- function(data, date) {
+    walmart <- subset(data, subset = (opendate <= date))
+    maps::map(database = "state")
+    points(walmart$long, walmart$lat, col = walmart$storecolors,
+pch = 19, cex = walmart$storesize)
+}
 ```
 
--   Make professional looking map of `Africa`
-
 ```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-africa <- world[which(world$continent == "Africa"),]
-africa.plot = ggplot() +               
-  geom_sf(data = africa)  
-africa.plot 
+walmart$opendate <- as.Date(walmart$opendate)
+walmart.map(walmart, as.Date("1974-12-31"))
+title("1975")
 ```
 
--   Make professional looking map of `Europe`
-
 ```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-europe <- world[which(world$continent == "Europe"),]
-ggplot(europe) +
-  geom_sf() +
-  coord_sf(xlim = c(-25,50), ylim = c(35,70), expand = FALSE)
+walmart.map(walmart, as.Date("1984-12-31"))
+title("1985")
 ```
 
--   Make professional looking map of `Oceania`
-
 ```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-oceania <- world[which(world$continent == "Oceania"),]
-ggplot(oceania) +
-  geom_sf() +
-  coord_sf(xlim = c(105,180), ylim = c(-50,0), expand = FALSE)
+walmart.map(walmart, as.Date("1994-12-31"))
+title("1995")
 ```
 
--   Make professional looking map of `North America`
-
 ```{r}
-#| code-fold: false
-#| warning: false
-#| message: false
-north_america <- world[which(world$continent == "North America"),]
-ggplot(north_america) +
-  geom_sf() +
-  coord_sf(xlim = c(-180,-15), ylim = c(0,90), expand = FALSE)
+walmart.map(walmart, as.Date("2004-12-31"))
+title("2005")
 ```
