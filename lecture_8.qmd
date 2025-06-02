@@ -33,7 +33,7 @@ Alfred Weber’s Least Cost Theory (1909):
 -   Example: Car manufacturing in Detroit due to skilled labor and access to steel.
 
 | Factor | Description | Example |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Raw Materials | Proximity to resources reduces transport costs | Coal mines in Pennsylvania |
 | Labor Supply | Skilled/unskilled workers influence location | Tech companies in Silicon Valley |
 | Market Access | Industries locate near customers | Fashion industry in Paris |
@@ -53,7 +53,7 @@ Why in California?
 ### Types of Economic Systems
 
 | Economic System | Characteristics | Example Countries |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Capitalist (Market Economy) | Private ownership, free trade | USA, UK, Canada |
 | Socialist (Planned Economy) | Government controls resources, limited private ownership | China, Cuba |
 | Mixed Economy | Combination of private and public sectors | Germany, Sweden |
@@ -112,7 +112,7 @@ Case Study: Outsourcing and Job Shifts
 ### Measuring Economic Development
 
 | Indicator | Description | Example |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | GDP per capita | Total economic output per person | USA: \$75,000 vs. India: \$6,000 |
 | Human Development Index (HDI) | Combines income, education, life expectancy | Norway: 0.957 vs. Chad: 0.394 |
 | Gini Coefficient | Measures income inequality (0 = equal, 1 = extreme inequality) | South Africa: 0.63 vs. Sweden: 0.25 |

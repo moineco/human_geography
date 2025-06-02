@@ -84,7 +84,7 @@
 ### Major Trade Blocs and Agreements
 
 | Trade Bloc | Member Countries | Purpose |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | NAFTA/USMCA | USA, Canada, Mexico | Free trade across North America |
 | EU (European Union) | 27 European nations | Common market, free movement of goods |
 | ASEAN | 10 Southeast Asian nations | Economic integration in Asia |
@@ -129,7 +129,7 @@
 ### Environmental Impacts of Industry
 
 | Impact          | Cause                       | Example                      |
-|------------------|---------------------------|----------------------------|
+|-----------------|-----------------------------|------------------------------|
 | Air Pollution   | Factories, vehicles         | Smog in Beijing, Los Angeles |
 | Water Pollution | Industrial waste            | Chemical spills in rivers    |
 | Deforestation   | Land clearing for factories | Amazon rainforest loss       |
@@ -172,7 +172,7 @@
 -   Trade, technology, and globalization drive industrial change.
 -   Challenges include environmental damage, economic inequality, and automation.
 
-## Brainstorming 
+## Brainstorming
 
 -   What factors determine where industries locate?
 -   How has globalization changed industrial geography?

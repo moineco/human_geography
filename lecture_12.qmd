@@ -21,7 +21,7 @@
 ## Agricultural Systems and Land Use Patterns
 
 | Type | Characteristics | Examples |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Subsistence Agriculture | Small-scale, for local consumption, minimal technology | Slash-and-burn farming in Amazon, rice farming in Bangladesh |
 | Commercial Agriculture | Large-scale, profit-driven, high technology | Industrial grain farming in the U.S., palm oil plantations in Indonesia |
 | Pastoralism | Herding animals for food and trade | Nomadic herding in Mongolia, cattle ranching in Brazil |
@@ -68,7 +68,7 @@
 ### Challenges to Global Food Security
 
 | Challenge | Causes | Example |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Climate Change | Droughts, floods, temperature rise | Desertification in Sub-Saharan Africa |
 | Soil Degradation | Overuse of fertilizers, deforestation | Salinization in the Middle East |
 | Water Scarcity | Over-irrigation, pollution | Water crisis in California agriculture |
@@ -90,7 +90,7 @@ Case Study: Famine in the Horn of Africa
 ### Strategies for Sustainable Agriculture
 
 | Strategy | Benefits | Example |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Agroforestry | Combines trees and crops for better soil conservation | Cocoa farming in Ghana |
 | Organic Farming | No synthetic pesticides, promotes biodiversity | Organic vegetable farms in France |
 | Permaculture | Self-sustaining ecosystems for food production | Regenerative farms in Australia |
@@ -128,7 +128,7 @@ Case Study: Fair Trade Coffee Movement
 ### Agricultural Policies and Global Governance
 
 | Policy | Goal | Example |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Common Agricultural Policy (EU) | Supports farmers, stabilizes prices | EU subsidies for sustainable farming |
 | U.S. Farm Bill | Regulates agriculture, provides subsidies | Crop insurance, food aid programs |
 | UN Food Security Programs | Reduces hunger, promotes sustainability | World Food Programme (WFP) |
@@ -139,7 +139,7 @@ Case Study: Fair Trade Coffee Movement
 -   Challenges include climate change, resource depletion, and market inequalities.
 -   Sustainable solutions and technological innovations are key to future food systems
 
-## Brainstorming 
+## Brainstorming
 
 -   How has technology transformed agriculture?
 -   Should governments regulate food production more strictly for sustainability?

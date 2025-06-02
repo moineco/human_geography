@@ -22,7 +22,7 @@
 ### Types of Natural Resources
 
 | Type | Description | Examples |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Renewable Resources | Can be replenished naturally over time | Solar, wind, forests, water |
 | Non-Renewable Resources | Finite supply, takes millions of years to form | Coal, oil, natural gas, minerals |
 | Perpetual Resources | Always available, not affected by human use | Sunlight, wind, ocean waves |
@@ -115,7 +115,7 @@ Case Study: China’s Air Pollution Crisis
 ### Global Environmental Policies and Agreements
 
 | Agreement | Purpose | Example of Action |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Kyoto Protocol (1997) | Reduce greenhouse gas emissions | First international climate treaty |
 | Paris Agreement (2015) | Limit global warming to below 2°C | Countries set emission reduction goals |
 | Montreal Protocol (1987) | Protect ozone layer | Banned CFCs in aerosol sprays |
@@ -145,7 +145,7 @@ Case Study: China’s Air Pollution Crisis
 -   Sustainability requires balancing environmental, economic, and social goals.
 -   Climate change is a major challenge, requiring global cooperation.
 
-## Brainstorming 
+## Brainstorming
 
 -   What are the biggest environmental challenges facing the world today?
 -   How can economic growth and sustainability coexist?

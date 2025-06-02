@@ -6,7 +6,7 @@
 #| warning: false
 #| message: false
 #| code-fold: false
-pacman::p_load(tidyverse, rnaturalearth, sf)
+pacman::p_load(tidyverse, rnaturalearth, sf, DT)
 ```
 
 ## World and continents with `sf`
@@ -24,6 +24,14 @@ The above command will install all dependencies required to reproduce the entire
 world <- ne_countries(scale = "medium", returnclass = "sf")
 class(world)
 names(world)
+```
+
+- Check the data of World
+
+```{r}
+world %>% 
+select(sovereignt, gdp_md, gdp_year) %>% 
+DT::datatable()
 ```
 
 -   Make sophistocated and professional looking map of World
@@ -65,6 +73,14 @@ africa <- world %>%
 class(africa)
 names(africa)
 ```
+- Check the data of Africa
+
+```{r}
+africa %>% 
+select(sovereignt, gdp_md, gdp_year) %>% 
+DT::datatable()
+```
+
 
 -   Make professional looking map of `Asia`
 

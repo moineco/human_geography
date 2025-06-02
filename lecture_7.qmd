@@ -2,9 +2,9 @@
 
 ## Shapefile in GIS
 
-Shapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications. 
+Shapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications.
 
-A shapefile is a vector data format for storing geometric location and attribute information of geographic features. It's a set of related files, including .shp, .shx, and .dbf, which together define the shape and attributes of features like points, lines, and polygons. Shapefiles are commonly used in GIS software for data interoperability and analysis. 
+A shapefile is a vector data format for storing geometric location and attribute information of geographic features. It's a set of related files, including .shp, .shx, and .dbf, which together define the shape and attributes of features like points, lines, and polygons. Shapefiles are commonly used in GIS software for data interoperability and analysis.
 
 Shapefiles are created by Environmental Systems Research Institute (ESRI) and are used for storing spatial data.
 
@@ -67,5 +67,3 @@ world %>%
   labs(fill = "Income Group:") +
   guides(fill=guide_legend(nrow=2, byrow=TRUE))
 ```
-
-
