@@ -21,7 +21,7 @@ The above command will install all dependencies required to reproduce the entire
 #| code-fold: false
 #| warning: false
 #| message: false
-world <- ne_countries(scale = "medium", returnclass = "sf")
+world <- ne_countries(scale = "small", returnclass = "sf")
 class(world)
 names(world)
 ```
