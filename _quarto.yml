@@ -11,7 +11,7 @@ book:
   date: today
   chapters:
     - index.qmd
-    - syllabus.qmd
+    #- syllabus.qmd
     - lecture_1.qmd
     - lecture_2.qmd
     - lecture_3.qmd
