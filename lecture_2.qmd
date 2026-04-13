@@ -16,8 +16,15 @@
 ### Fundamental Questions in Population Geography
 
 -   Where do people live? (Population distribution & density)
+
+-   Population clusters Each of the seven clusters in this figure contains approximately 1 billion inhabitants.
+
+    ![Seven population clusters](figures/seven_population_clusters.png)
+
 -   How is the population changing? (Growth, decline, migration)
+
 -   Why do these changes happen? (Fertility, mortality, economic & social factors)
+
 -   How do population changes affect resources and policies?
 
 ## Understanding Population Distribution
