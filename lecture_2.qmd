@@ -8,6 +8,8 @@
 ### Why it matters
 
 -   World population surpassed 8 billion in 2023 (UN estimate).
+-   **Which is the most populated country in the World?**
+-   World population now: <https://www.worldometers.info/world-population/>
 -   Uneven distribution of population and healthcare creates social and economic challenges.
 -   Population change influences urbanization, economic growth, and environmental sustainability.
 
@@ -68,7 +70,7 @@ Natural Increase Rate (NIR):
 A model explaining how populations change over time in response to economic and social progress.
 
 | Stage | Characteristics | Example Countries |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | 1: Pre-Industrial | High birth & death rates, slow growth | Isolated tribes (Amazon, Congo) |
 | 2: Early Industrial | Declining death rate, high birth rate, rapid growth | Nigeria, Afghanistan |
 | 3: Late Industrial | Declining birth rate, slower growth | Mexico, India |
@@ -80,6 +82,8 @@ Example: Japan’s Aging Population (Stage 5)
 -   Population shrinking due to low fertility rate (1.3 children per woman).
 -   Impacts: Labor shortages, rising healthcare costs, increased retirement age.
 -   Government response: Encouraging immigration and family-friendly policies.
+
+### Quiz: What factors contribute to low fertility rates in Japan?
 
 ## Fertility, Mortality, and Migration
 
