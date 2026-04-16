@@ -1,9 +1,16 @@
 # Global inequality and development
 
-### Definition
+### Global inequality
 
--   Global inequality refers to the economic, social, and political disparities between countries and regions.
--   Development is the process of improving economic conditions, health, education, and overall well-being.
+Global inequality refers to the economic, social, and political disparities between countries and regions.
+
+![](figures/inequality.png){fig-align="center"}
+
+### Development
+
+Development is the process of improving economic conditions, health, education, and overall well-being.
+
+![](figures/development.jpg){fig-align="center"}
 
 ### Why it matters
 
@@ -53,7 +60,6 @@ Example: Comparing HDI Levels
 | India   | 0.633      | 69 years        | 6.7 years         | 6,000        |
 | Chad    | 0.394      | 54 years        | 3.5 years         | 2,000        |
 
-
 #### Gini Coefficient
 
 The Gini coefficient, or Gini index, is the most commonly used measure of inequality. It was developed by Italian statistician Corrado Gini (1884–1965) and is named after him.
@@ -65,7 +71,6 @@ Measures income inequality within a country (0 = perfect equality, 1 = extreme i
 ![](figures/gini_coefficient.png){fig-align="center"}
 
 Source: <https://ourworldindata.org/what-is-the-gini-coefficient>
-
 
 ## Causes of Global Economic Disparities
 
