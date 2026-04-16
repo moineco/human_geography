@@ -16,15 +16,12 @@
 ### Fundamental Questions in Population Geography
 
 -   Where do people live? (Population distribution & density)
-
 -   Population clusters Each of the seven clusters in this figure contains approximately 1 billion inhabitants.
 
     ![Seven population clusters](figures/seven_population_clusters.png)
 
 -   How is the population changing? (Growth, decline, migration)
-
 -   Why do these changes happen? (Fertility, mortality, economic & social factors)
-
 -   How do population changes affect resources and policies?
 
 ## Understanding Population Distribution
@@ -89,8 +86,6 @@ Example: Japan’s Aging Population (Stage 5)
 -   Population shrinking due to low fertility rate (1.3 children per woman).
 -   Impacts: Labor shortages, rising healthcare costs, increased retirement age.
 -   Government response: Encouraging immigration and family-friendly policies.
-
-### Quiz: What factors contribute to low fertility rates in Japan?
 
 ## Fertility, Mortality, and Migration
 

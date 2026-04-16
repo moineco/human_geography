@@ -44,6 +44,16 @@ Measures overall well-being using:
 -   Education (years of schooling).
 -   Income per capita (economic status).
 
+Example: Comparing HDI Levels
+
+| Country | HDI (2022) | Life Expectancy | Education (Years) | Income (USD) |
+|---------|------------|-----------------|-------------------|--------------|
+| Norway  | 0.957      | 83 years        | 13.5 years        | 89,000       |
+| USA     | 0.921      | 79 years        | 13.3 years        | 75,000       |
+| India   | 0.633      | 69 years        | 6.7 years         | 6,000        |
+| Chad    | 0.394      | 54 years        | 3.5 years         | 2,000        |
+
+
 #### Gini Coefficient
 
 The Gini coefficient, or Gini index, is the most commonly used measure of inequality. It was developed by Italian statistician Corrado Gini (1884–1965) and is named after him.
@@ -56,21 +66,17 @@ Measures income inequality within a country (0 = perfect equality, 1 = extreme i
 
 Source: <https://ourworldindata.org/what-is-the-gini-coefficient>
 
-Example: Comparing HDI Levels
-
-| Country | HDI (2022) | Life Expectancy | Education (Years) | Income (USD) |
-|---------|------------|-----------------|-------------------|--------------|
-| Norway  | 0.957      | 83 years        | 13.5 years        | 89,000       |
-| USA     | 0.921      | 79 years        | 13.3 years        | 75,000       |
-| India   | 0.633      | 69 years        | 6.7 years         | 6,000        |
-| Chad    | 0.394      | 54 years        | 3.5 years         | 2,000        |
 
 ## Causes of Global Economic Disparities
 
 ### Historical Factors
 
 -   Colonialism: European powers exploited Africa, Asia, and Latin America, leaving economic dependency.
+
+Colonization: <https://ourworldindata.org/grapher/european-overseas-colonies-and-their-colonizers?time=latest>
+
 -   Slave Trade: Destroyed labor forces and disrupted economic growth in Africa.
+
 -   Unequal Trade Agreements: Richer nations set rules that benefit their economies (e.g., WTO policies).
 
 ### Political and Economic Factors
