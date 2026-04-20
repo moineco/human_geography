@@ -29,7 +29,7 @@
 Major Language Families (World Distribution)
 
 | Language Family | Examples | Regions |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Indo-European | English, Spanish, Hindi, Russian | Europe, Americas, South Asia |
 | Sino-Tibetan | Mandarin, Cantonese | East Asia |
 | Afro-Asiatic | Arabic, Hebrew | Middle East, North Africa |
@@ -47,18 +47,28 @@ Language Spread:
 Endangered Languages:
 
 -   Half of world languages may disappear by 2100 (UNESCO).
+
+    ![](figures/map-endangered-languages.jpeg)
+
 -   Causes: Urbanization, globalization, national language policies.
+
 -   Example: Welsh and Māori being revived through education and policy.
 
 Case Study: The Decline of Indigenous Languages in Canada
 
 -   Over 70 Indigenous languages exist in Canada, but most are endangered.
+
 -   Policies like Indian Residential Schools suppressed Indigenous languages.
+
 -   Government-funded language programs aim for revitalization.
+
+    ![](figures/hotspots-for-endangered-languages.webp)
 
 ## Religion and Geography
 
 ### The Spatial Distribution of Religions
+
+![](figures/prevailing_religious.png){fig-align="center"}
 
 Religion influences settlement patterns, traditions, and political systems.
 
