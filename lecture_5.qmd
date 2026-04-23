@@ -37,7 +37,7 @@ Examples:
 ### Nation vs. State vs. Nation-State
 
 | Term | Definition | Example |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Nation | A group of people with shared culture, language, history, and identity | Kurds, Basques, Palestinians |
 | State | A politically defined territory with sovereignty | USA, Brazil, Germany |
 | Nation-State | A country where the population is culturally homogeneous | Japan, Iceland, Denmark |
@@ -48,6 +48,9 @@ Case Study: The Kurdish Stateless Nation
 
 -   30 million Kurds live across Turkey, Iraq, Iran, and Syria.
 -   Seeking independence but face resistance from existing states.
+-    **[Kurd-majority areas in Turkey, Syria, Iraq, and Iran](https://scn.wikipedia.org/wiki/Kurdistan#/media/File:Kurdish-inhabited_areas_of_the_Middle_East_and_the_Soviet_Union_in_1986.jpg)**
+
+![](figures/kurds.jpg){fig-align="center"}
 
 ## Borders and Boundaries
 
@@ -122,7 +125,7 @@ Case Study: The Cold War and Geopolitical Rivalry
 ### International Organizations
 
 | Organization | Purpose | Example |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | United Nations (UN) | Peacekeeping, diplomacy | Resolutions on Ukraine-Russia war |
 | European Union (EU) | Economic and political cooperation | Euro currency, open borders |
 | North Atlantic Treaty Organization (NATO) | Military alliance for collective defense | Support for Ukraine |
