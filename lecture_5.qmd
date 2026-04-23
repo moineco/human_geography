@@ -48,7 +48,7 @@ Case Study: The Kurdish Stateless Nation
 
 -   30 million Kurds live across Turkey, Iraq, Iran, and Syria.
 -   Seeking independence but face resistance from existing states.
--    **[Kurd-majority areas in Turkey, Syria, Iraq, and Iran](https://scn.wikipedia.org/wiki/Kurdistan#/media/File:Kurdish-inhabited_areas_of_the_Middle_East_and_the_Soviet_Union_in_1986.jpg)**
+-   Kurd-majority areas in Turkey, Syria, Iraq, and Iran
 
 ![](figures/kurds.jpg){fig-align="center"}
 
@@ -66,13 +66,21 @@ Geometric Boundaries – Straight-line borders often drawn by colonial powers.
 
 -   Example: Borders of African nations (e.g., Algeria-Libya-Niger).
 
+    ![](figures/africa.webp)
+
 Cultural Boundaries – Based on language, religion, or ethnicity.
 
 -   Example: India-Pakistan border (Hindu-Muslim divide).
 
+    ![](figures/borderlines-punjab-blog427.jpg)
+
 Superimposed Boundaries – Imposed by external forces, often without regard for cultural divisions.
 
 -   Example: Berlin Conference (1884) divided Africa among European powers.
+
+The **Berlin Conference** of 1884–1885 was a meeting of colonial powers that concluded with the signing of the **General Act of Berlin**, an agreement regulating European colonisation and trade in Africa during the New Imperialism period.
+
+![](figures/Scramble-for-Africa-1880-1913-v2.png){fig-align="center"}
 
 Case Study: The Partition of India (1947)
 
