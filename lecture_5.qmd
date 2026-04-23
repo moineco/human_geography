@@ -60,6 +60,8 @@ Natural Boundaries – Based on physical features (rivers, mountains).
 
 -   Example: The Rio Grande River separates the USA and Mexico.
 
+    ![](figures/rio-grand.jpg)
+
 Geometric Boundaries – Straight-line borders often drawn by colonial powers.
 
 -   Example: Borders of African nations (e.g., Algeria-Libya-Niger).
