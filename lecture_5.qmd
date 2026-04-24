@@ -2,21 +2,21 @@
 
 ### Definition
 
--   Political geography examines how geographical space influences political processes and how political decisions shape geography.
--   Key topics include borders, states, nationalism, geopolitics, and territorial disputes.
+- Political geography examines how geographical space influences political processes and how political decisions shape geography.
+- Key topics include borders, states, nationalism, geopolitics, and territorial disputes.
 
 ### Why it matters
 
--   There are 195 recognized sovereign states today, but many territories remain disputed.
--   Conflicts over borders, resources, and political ideologies shape global stability.
--   Geopolitical strategies influence economic policies, military conflicts, and international relations.
+- There are 195 recognized sovereign states today, but many territories remain disputed.
+- Conflicts over borders, resources, and political ideologies shape global stability.
+- Geopolitical strategies influence economic policies, military conflicts, and international relations.
 
 ### Key Questions in Political Geography
 
--   What defines a state, nation, and nation-state?
--   How are borders created, and why do disputes arise?
--   How does geography influence global politics and power struggles?
--   What is the role of international organizations in maintaining peace?
+- What defines a state, nation, and nation-state?
+- How are borders created, and why do disputes arise?
+- How does geography influence global politics and power struggles?
+- What is the role of international organizations in maintaining peace?
 
 ## The Concept of the State and Sovereignty
 
@@ -24,20 +24,20 @@
 
 A state (country) is a politically organized territory with:
 
--   Defined boundaries.
--   Permanent population.
--   A government with sovereignty (full control over internal/external affairs).
--   Recognition by other states.
+- Defined boundaries.
+- Permanent population.
+- A government with sovereignty (full control over internal/external affairs).
+- Recognition by other states.
 
 Examples:
 
--   Sovereign States: France, Japan, Canada.
--   Disputed Territories: Palestine, Taiwan, Western Sahara (partially recognized).
+- Sovereign States: France, Japan, Canada.
+- Disputed Territories: Palestine, Taiwan, Western Sahara (partially recognized).
 
 ### Nation vs. State vs. Nation-State
 
 | Term | Definition | Example |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Nation | A group of people with shared culture, language, history, and identity | Kurds, Basques, Palestinians |
 | State | A politically defined territory with sovereignty | USA, Brazil, Germany |
 | Nation-State | A country where the population is culturally homogeneous | Japan, Iceland, Denmark |
@@ -46,9 +46,9 @@ Examples:
 
 Case Study: The Kurdish Stateless Nation
 
--   30 million Kurds live across Turkey, Iraq, Iran, and Syria.
--   Seeking independence but face resistance from existing states.
--   Kurd-majority areas in Turkey, Syria, Iraq, and Iran
+- 30 million Kurds live across Turkey, Iraq, Iran, and Syria.
+- Seeking independence but face resistance from existing states.
+- Kurd-majority areas in Turkey, Syria, Iraq, and Iran
 
 ![](figures/kurds.jpg){fig-align="center"}
 
@@ -58,25 +58,25 @@ Case Study: The Kurdish Stateless Nation
 
 Natural Boundaries – Based on physical features (rivers, mountains).
 
--   Example: The Rio Grande River separates the USA and Mexico.
+- Example: The Rio Grande River separates the USA and Mexico.
 
-    ![](figures/rio-grand.jpg)
+  ![](figures/rio-grand.jpg)
 
 Geometric Boundaries – Straight-line borders often drawn by colonial powers.
 
--   Example: Borders of African nations (e.g., Algeria-Libya-Niger).
+- Example: Borders of African nations (e.g., Algeria-Libya-Niger).
 
-    ![](figures/africa.webp)
+  ![](figures/africa.webp)
 
 Cultural Boundaries – Based on language, religion, or ethnicity.
 
--   Example: India-Pakistan border (Hindu-Muslim divide).
+- Example: India-Pakistan border (Hindu-Muslim divide).
 
-    ![](figures/borderlines-punjab-blog427.jpg)
+  ![](figures/borderlines-punjab-blog427.jpg)
 
 Superimposed Boundaries – Imposed by external forces, often without regard for cultural divisions.
 
--   Example: Berlin Conference (1884) divided Africa among European powers.
+- Example: Berlin Conference (1884) divided Africa among European powers.
 
 The **Berlin Conference** of 1884–1885 was a meeting of colonial powers that concluded with the signing of the **General Act of Berlin**, an agreement regulating European colonization and trade in Africa during the New Imperialism period.
 
@@ -84,22 +84,22 @@ The **Berlin Conference** of 1884–1885 was a meeting of colonial powers that c
 
 Case Study: The Partition of India (1947)
 
--   British-drawn borders split India and Pakistan, leading to mass migration and violence.
--   Over 15 million people displaced due to religious divisions.
+- British-drawn borders split India and Pakistan, leading to mass migration and violence.
+- Over 15 million people displaced due to religious divisions.
 
 ### Border Disputes
 
 Territorial Disputes – Conflicts over land ownership.
 
--   Example: Israel-Palestine conflict over West Bank and Gaza.
+- Example: Israel-Palestine conflict over West Bank and Gaza.
 
 Resource Disputes – Conflicts over natural resources.
 
--   Example: South China Sea (oil, fisheries).
+- Example: South China Sea (oil, fisheries).
 
 Functional Disputes – Disagreements over border management.
 
--   Example: USA-Mexico border (immigration, security).
+- Example: USA-Mexico border (immigration, security).
 
 ## Geopolitics and Power Struggles
 
@@ -107,9 +107,9 @@ Functional Disputes – Disagreements over border management.
 
 Heartland Theory (Mackinder, 1904)
 
--   "Who controls Eastern Europe controls the world."
--   Suggested Russia’s dominance due to its central location and land power.
--   Influence: Soviet Union’s Cold War strategy.
+- "Who controls Eastern Europe controls the world."
+- Suggested Russia’s dominance due to its central location and land power.
+- Influence: Soviet Union’s Cold War strategy.
 
 ![](figures/Heartland-and-Rimland-1024x683.jpg){fig-align="center"}
 
@@ -117,8 +117,8 @@ Heartland Theory (Mackinder, 1904)
 
 Rimland Theory (Spykman, 1942)
 
--   "Control of coastal areas is key to global power."
--   Justified USA’s military presence in Asia and the Middle East.
+- "Control of coastal areas is key to global power."
+- Justified USA’s military presence in Asia and the Middle East.
 
 ![](figures/Rimland.jpg){fig-align="center"}
 
@@ -126,22 +126,22 @@ World-Systems Theory (Wallerstein, 1970s)
 
 Core-Periphery Model:
 
--   Core nations (USA, UK, Japan) dominate trade and industry.
--   Periphery nations (Africa, Latin America) supply raw materials.
--   Semi-periphery nations (China, India, Brazil) industrializing but still dependent.
+- Core nations (USA, UK, Japan) dominate trade and industry.
+- Periphery nations (Africa, Latin America) supply raw materials.
+- Semi-periphery nations (China, India, Brazil) industrializing but still dependent.
 
 Case Study: The Cold War and Geopolitical Rivalry
 
--   USA (capitalism) vs. USSR (communism).
--   Proxy wars in Korea, Vietnam, Afghanistan.
--   Formation of military alliances: NATO vs. Warsaw Pact.
+- USA (capitalism) vs. USSR (communism).
+- Proxy wars in Korea, Vietnam, Afghanistan.
+- Formation of military alliances: NATO vs. Warsaw Pact.
 
 ## Political Organizations and International Relations
 
 ### International Organizations
 
 | Organization | Purpose | Example |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | United Nations (UN) | Peacekeeping, diplomacy | Resolutions on Ukraine-Russia war |
 | European Union (EU) | Economic and political cooperation | Euro currency, open borders |
 | North Atlantic Treaty Organization (NATO) | Military alliance for collective defense | Support for Ukraine |
@@ -150,11 +150,11 @@ Case Study: The Cold War and Geopolitical Rivalry
 
 Case Study: Brexit and the European Union
 
--   UK left the EU in 2020 over concerns of sovereignty and immigration.
--   Economic and political impacts still ongoing.
+- UK left the EU in 2020 over concerns of sovereignty and immigration.
+- Economic and political impacts still ongoing.
 
 ## Takeaway
 
--   Political geography examines how borders, states, and power shape global relations.
--   Geopolitical theories explain conflicts and strategies.
--   International organizations play key roles in diplomacy and stability.
+- Political geography examines how borders, states, and power shape global relations.
+- Geopolitical theories explain conflicts and strategies.
+- International organizations play key roles in diplomacy and stability.
