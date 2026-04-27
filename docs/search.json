@@ -383,8 +383,8 @@
     "objectID": "lecture_6.html#infrastructure-and-urban-services",
     "href": "lecture_6.html#infrastructure-and-urban-services",
     "title": "6  Urban geography: Cities, infrastructure, and planning",
-    "section": "6.3 Infrastructure and Urban Services",
-    "text": "6.3 Infrastructure and Urban Services\n\n6.3.1 Essential Urban Infrastructure\n\nTransportation: Roads, public transit, airports.\nUtilities: Water, electricity, sewage, internet.\nHousing: Affordable housing, high-rise apartments, suburban homes.\nPublic Spaces: Parks, libraries, cultural centers.\n\nCase Study: Smart Cities in Singapore\n\nSingapore uses AI, sensors, and automation to improve traffic, energy use, and waste management.\nGoal: Reduce pollution and create an efficient, livable city.\n\n\n\n6.3.2 Transportation and Urban Mobility\nPublic Transport vs. Private Vehicles\n\nEfficient metro and bus systems reduce congestion.\nExample: Tokyo’s extensive subway system reduces car dependence.\n\nUrban Sprawl:\n\nLow-density suburbs lead to increased car usage and long commutes.\nExample: Los Angeles, USA suffers from extreme traffic congestion.",
+    "section": "6.2 Infrastructure and Urban Services",
+    "text": "6.2 Infrastructure and Urban Services\n\n6.2.1 Essential Urban Infrastructure\n\nTransportation: Roads, public transit, airports.\nUtilities: Water, electricity, sewage, internet.\nHousing: Affordable housing, high-rise apartments, suburban homes.\nPublic Spaces: Parks, libraries, cultural centers.\n\nCase Study: Smart Cities in Singapore\n\nSingapore uses AI, sensors, and automation to improve traffic, energy use, and waste management.\nGoal: Reduce pollution and create an efficient, livable city.\n\n\n\n6.2.2 Transportation and Urban Mobility\nPublic Transport vs. Private Vehicles\n\nEfficient metro and bus systems reduce congestion.\nExample: Tokyo’s extensive subway system reduces car dependence.\n\nUrban Sprawl:\n\nLow-density suburbs lead to increased car usage and long commutes.\nExample: Los Angeles, USA suffers from extreme traffic congestion.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
     ]
@@ -393,8 +393,8 @@
     "objectID": "lecture_6.html#urban-challenges-and-solutions",
     "href": "lecture_6.html#urban-challenges-and-solutions",
     "title": "6  Urban geography: Cities, infrastructure, and planning",
-    "section": "6.4 Urban Challenges and Solutions",
-    "text": "6.4 Urban Challenges and Solutions\n\n6.4.1 Challenges of Rapid Urbanization\nOvercrowding and Housing Shortages\n\nSlums and informal settlements (e.g., Dharavi in Mumbai).\nRising property prices force people out of city centers.\nTraffic Congestion and Pollution\n\nAir pollution from vehicles and industries.\nExample: New Delhi’s air pollution crisis.\n\n\nUrban Inequality and Poverty\n\nGentrification displaces low-income residents.\nExample: San Francisco’s rising housing costs due to tech industry growth.\n\nWaste Management and Sanitation\n\nCities generate massive waste, overwhelming landfill capacity.\nExample: Jakarta, Indonesia struggles with flooding due to plastic waste clogging drainage.",
+    "section": "6.3 Urban Challenges and Solutions",
+    "text": "6.3 Urban Challenges and Solutions\n\n6.3.1 Challenges of Rapid Urbanization\nOvercrowding and Housing Shortages\n\nSlums and informal settlements (e.g., Dharavi in Mumbai).\nRising property prices force people out of city centers.\nTraffic Congestion and Pollution\n\nAir pollution from vehicles and industries.\nExample: New Delhi’s air pollution crisis.\n\n\nUrban Inequality and Poverty\n\nGentrification displaces low-income residents.\nExample: San Francisco’s rising housing costs due to tech industry growth.\n\nWaste Management and Sanitation\n\nCities generate massive waste, overwhelming landfill capacity.\nExample: Jakarta, Indonesia struggles with flooding due to plastic waste clogging drainage.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
     ]
@@ -977,6 +977,16 @@
     "text": "Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.\nComber, L., and Brunsdon, C. (2020). Geographical Data Science and Spatial Data Analysis: An Introduction in R. Sage.\nKopczewska, K. (2020). Applied Spatial Statistics and Econometrics: Data Analysis in R. Routledge.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "lecture_6.html#urban-planning-and-economic-inequality",
+    "href": "lecture_6.html#urban-planning-and-economic-inequality",
+    "title": "6  Urban geography: Cities, infrastructure, and planning",
+    "section": "6.4 Urban Planning and Economic Inequality",
+    "text": "6.4 Urban Planning and Economic Inequality",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
     ]
   }
 ]

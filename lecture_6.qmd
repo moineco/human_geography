@@ -49,31 +49,31 @@ Case Study: China's Rapid Urbanization
 - Growth of megacities like Shanghai, Beijing, and Shenzhen.
 - Impact: Increased economic growth but also environmental pollution and housing crises.
 
-## The Structure of Cities
+<!-- ## The Structure of Cities -->
 
-### Urban Models: How Cities Are Organized
+<!-- ### Urban Models: How Cities Are Organized -->
 
-Concentric Zone Model (Burgess, 1925)
+<!-- Concentric Zone Model (Burgess, 1925) -->
 
-- City grows outward in rings.
-- CBD (Central Business District) at the core.
-- Example: Chicago, USA.
+<!-- - City grows outward in rings. -->
+<!-- - CBD (Central Business District) at the core. -->
+<!-- - Example: Chicago, USA. -->
 
-Sector Model (Hoyt, 1939)
+<!-- Sector Model (Hoyt, 1939) -->
 
-- Cities develop in wedges based on transportation and industry.
-- Example: Calgary, Canada (wealthier neighborhoods along transit lines).
+<!-- - Cities develop in wedges based on transportation and industry. -->
+<!-- - Example: Calgary, Canada (wealthier neighborhoods along transit lines). -->
 
-Multiple Nuclei Model (Harris & Ullman, 1945)
+<!-- Multiple Nuclei Model (Harris & Ullman, 1945) -->
 
-- Cities have multiple centers for different activities.
-- Example: Los Angeles, USA (downtown, industrial zones, suburban malls).
+<!-- - Cities have multiple centers for different activities. -->
+<!-- - Example: Los Angeles, USA (downtown, industrial zones, suburban malls). -->
 
-Latin American City Model
+<!-- Latin American City Model -->
 
-- Wealthy live near the central business district.
-- Poorer populations in peripheral slums (favelas, barrios).
-- Example: São Paulo, Brazil.
+<!-- - Wealthy live near the central business district. -->
+<!-- - Poorer populations in peripheral slums (favelas, barrios). -->
+<!-- - Example: São Paulo, Brazil. -->
 
 ## Infrastructure and Urban Services
 
@@ -122,6 +122,9 @@ Waste Management and Sanitation
 
 - Cities generate massive waste, overwhelming landfill capacity.
 - Example: Jakarta, Indonesia struggles with flooding due to plastic waste clogging drainage.
+
+## Urban Planning and Economic Inequality
+
 
 ## Urban Planning and Sustainable Cities
 
