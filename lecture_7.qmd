@@ -1,5 +1,13 @@
 # Human geography lab 1
 
+## Installation of R and R-studio
+
+Follow the instructions to appropriately install R and R-studio in your MacOS or Windows OS computer.
+
+Mac Computer: <https://yukiyanai.github.io/jp/resources/docs/install-R_macOS_2026.pdf>
+
+Windows Computer: <https://yukiyanai.github.io/jp/resources/docs/install-R_windows_2026.pdf>
+
 ## Shapefile in GIS
 
 Shapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications.

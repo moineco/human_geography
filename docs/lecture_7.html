@@ -287,9 +287,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#shapefile-in-gis" id="toc-shapefile-in-gis" class="nav-link active" data-scroll-target="#shapefile-in-gis"><span class="header-section-number">7.1</span> Shapefile in GIS</a></li>
-  <li><a href="#shapefile-and-r" id="toc-shapefile-and-r" class="nav-link" data-scroll-target="#shapefile-and-r"><span class="header-section-number">7.2</span> Shapefile and R</a></li>
-  <li><a href="#using-sf-package-to-make-map" id="toc-using-sf-package-to-make-map" class="nav-link" data-scroll-target="#using-sf-package-to-make-map"><span class="header-section-number">7.3</span> Using <code>sf</code> package to make map</a></li>
+  <li><a href="#installation-of-r-and-r-studio" id="toc-installation-of-r-and-r-studio" class="nav-link active" data-scroll-target="#installation-of-r-and-r-studio"><span class="header-section-number">7.1</span> Installation of R and R-studio</a></li>
+  <li><a href="#shapefile-in-gis" id="toc-shapefile-in-gis" class="nav-link" data-scroll-target="#shapefile-in-gis"><span class="header-section-number">7.2</span> Shapefile in GIS</a></li>
+  <li><a href="#shapefile-and-r" id="toc-shapefile-and-r" class="nav-link" data-scroll-target="#shapefile-and-r"><span class="header-section-number">7.3</span> Shapefile and R</a></li>
+  <li><a href="#using-sf-package-to-make-map" id="toc-using-sf-package-to-make-map" class="nav-link" data-scroll-target="#using-sf-package-to-make-map"><span class="header-section-number">7.4</span> Using <code>sf</code> package to make map</a></li>
   </ul>
 </nav>
     </div>
@@ -315,14 +316,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="shapefile-in-gis" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="shapefile-in-gis"><span class="header-section-number">7.1</span> Shapefile in GIS</h2>
+<section id="installation-of-r-and-r-studio" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="installation-of-r-and-r-studio"><span class="header-section-number">7.1</span> Installation of R and R-studio</h2>
+<p>Follow the instructions to appropriately install R and R-studio in your MacOS or Windows OS computer.</p>
+<p>Mac Computer: <a href="https://yukiyanai.github.io/jp/resources/docs/install-R_macOS_2026.pdf" class="uri">https://yukiyanai.github.io/jp/resources/docs/install-R_macOS_2026.pdf</a></p>
+<p>Windows Computer: <a href="https://yukiyanai.github.io/jp/resources/docs/install-R_windows_2026.pdf" class="uri">https://yukiyanai.github.io/jp/resources/docs/install-R_windows_2026.pdf</a></p>
+</section>
+<section id="shapefile-in-gis" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="shapefile-in-gis"><span class="header-section-number">7.2</span> Shapefile in GIS</h2>
 <p>Shapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications.</p>
 <p>A shapefile is a vector data format for storing geometric location and attribute information of geographic features. It’s a set of related files, including .shp, .shx, and .dbf, which together define the shape and attributes of features like points, lines, and polygons. Shapefiles are commonly used in GIS software for data interoperability and analysis.</p>
 <p>Shapefiles are created by Environmental Systems Research Institute (ESRI) and are used for storing spatial data.</p>
 </section>
-<section id="shapefile-and-r" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="shapefile-and-r"><span class="header-section-number">7.2</span> Shapefile and R</h2>
+<section id="shapefile-and-r" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="shapefile-and-r"><span class="header-section-number">7.3</span> Shapefile and R</h2>
 <p>Shapefile is commonly used with R, a powerful programming language and software environment for statistical computing and graphics. Here’s why shapefile is often preferred for use with R:</p>
 <p><strong>Native Support:</strong> R has built-in support for reading, writing, and manipulating shapefiles. The “sf” package in R provides functions specifically designed for working with spatial data, including shapefiles. This native support simplifies the process of loading shapefiles into R and performing various spatial analyses.</p>
 <p><strong>Visualization Capabilities:</strong> R offers extensive visualization capabilities for geospatial data. Packages like “ggplot2” and “leaflet” enable you to create high-quality maps and interactive visualizations using shapefiles as the data source. R’s flexibility in customizing plots allows for advanced geospatial visualizations and exploration.</p>
@@ -344,8 +351,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(sf, tidyverse, rnaturalearth)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="using-sf-package-to-make-map" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="using-sf-package-to-make-map"><span class="header-section-number">7.3</span> Using <code>sf</code> package to make map</h2>
+<section id="using-sf-package-to-make-map" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="using-sf-package-to-make-map"><span class="header-section-number">7.4</span> Using <code>sf</code> package to make map</h2>
 <ul>
 <li>Create data for world</li>
 </ul>

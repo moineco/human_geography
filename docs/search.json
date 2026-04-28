@@ -434,7 +434,7 @@
     "href": "lecture_7.html",
     "title": "7  Human geography lab 1",
     "section": "",
-    "text": "7.1 Shapefile in GIS\nShapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications.\nA shapefile is a vector data format for storing geometric location and attribute information of geographic features. It’s a set of related files, including .shp, .shx, and .dbf, which together define the shape and attributes of features like points, lines, and polygons. Shapefiles are commonly used in GIS software for data interoperability and analysis.\nShapefiles are created by Environmental Systems Research Institute (ESRI) and are used for storing spatial data.",
+    "text": "7.1 Installation of R and R-studio\nFollow the instructions to appropriately install R and R-studio in your MacOS or Windows OS computer.\nMac Computer: https://yukiyanai.github.io/jp/resources/docs/install-R_macOS_2026.pdf\nWindows Computer: https://yukiyanai.github.io/jp/resources/docs/install-R_windows_2026.pdf",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Human geography lab 1</span>"
     ]
@@ -443,8 +443,8 @@
     "objectID": "lecture_7.html#shapefile-and-r",
     "href": "lecture_7.html#shapefile-and-r",
     "title": "7  Human geography lab 1",
-    "section": "7.2 Shapefile and R",
-    "text": "7.2 Shapefile and R\nShapefile is commonly used with R, a powerful programming language and software environment for statistical computing and graphics. Here’s why shapefile is often preferred for use with R:\nNative Support: R has built-in support for reading, writing, and manipulating shapefiles. The “sf” package in R provides functions specifically designed for working with spatial data, including shapefiles. This native support simplifies the process of loading shapefiles into R and performing various spatial analyses.\nVisualization Capabilities: R offers extensive visualization capabilities for geospatial data. Packages like “ggplot2” and “leaflet” enable you to create high-quality maps and interactive visualizations using shapefiles as the data source. R’s flexibility in customizing plots allows for advanced geospatial visualizations and exploration.\n\nWhile shapefile is a common choice for working with spatial data in R, it’s important to note that R also supports other geospatial file formats, such as GeoJSON and Geopackage. These formats may offer advantages like improved data compression, support for more advanced spatial features, and better inter-operability with certain software ecosystems.\n\n\nUse pacman to manage the R packages\nUsing packman package enables us to install and load a package without typing install.packges() at Console on your RStudio\nYou need to type the following command at Console on your RStudio\n\n\ninstall.packages(\"pacman\")\n\n\nThe installation of necessary R packages:\n\n\npacman::p_load(sf, tidyverse, rnaturalearth)",
+    "section": "7.3 Shapefile and R",
+    "text": "7.3 Shapefile and R\nShapefile is commonly used with R, a powerful programming language and software environment for statistical computing and graphics. Here’s why shapefile is often preferred for use with R:\nNative Support: R has built-in support for reading, writing, and manipulating shapefiles. The “sf” package in R provides functions specifically designed for working with spatial data, including shapefiles. This native support simplifies the process of loading shapefiles into R and performing various spatial analyses.\nVisualization Capabilities: R offers extensive visualization capabilities for geospatial data. Packages like “ggplot2” and “leaflet” enable you to create high-quality maps and interactive visualizations using shapefiles as the data source. R’s flexibility in customizing plots allows for advanced geospatial visualizations and exploration.\n\nWhile shapefile is a common choice for working with spatial data in R, it’s important to note that R also supports other geospatial file formats, such as GeoJSON and Geopackage. These formats may offer advantages like improved data compression, support for more advanced spatial features, and better inter-operability with certain software ecosystems.\n\n\nUse pacman to manage the R packages\nUsing packman package enables us to install and load a package without typing install.packges() at Console on your RStudio\nYou need to type the following command at Console on your RStudio\n\n\ninstall.packages(\"pacman\")\n\n\nThe installation of necessary R packages:\n\n\npacman::p_load(sf, tidyverse, rnaturalearth)",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Human geography lab 1</span>"
     ]
@@ -453,8 +453,8 @@
     "objectID": "lecture_7.html#using-sf-package-to-make-map",
     "href": "lecture_7.html#using-sf-package-to-make-map",
     "title": "7  Human geography lab 1",
-    "section": "7.3 Using sf package to make map",
-    "text": "7.3 Using sf package to make map\n\nCreate data for world\n\n\nworld &lt;- ne_countries(scale = \"small\", returnclass = \"sf\")\n\n\nFirst we use the familiar ggplot2 syntax. Like in any other ggplot, we have an x and a y axis, though in this case the correspond to longitude and latitude. Knowing this, we can use other ggplot2 commands to make our map more complex. Below we draw a horizontal line where the yintercept is at the equator.\n\n\nworld %&gt;% \n  ggplot() + \n  geom_sf() +\n  geom_hline(yintercept = 0, linetype = \"dashed\") \n\n\n\n\n\n\n\n\n\nWorld map with income groups\n\n\nworld %&gt;% \n  mutate(income_grp = factor(income_grp, ordered = T)) %&gt;% \n  ggplot() + \n  geom_sf(aes(fill = income_grp)) +\n  theme_void() +\n  theme(legend.position = \"top\") +\n  labs(fill = \"Income Group:\") +\n  guides(fill=guide_legend(nrow=2, byrow=TRUE))",
+    "section": "7.4 Using sf package to make map",
+    "text": "7.4 Using sf package to make map\n\nCreate data for world\n\n\nworld &lt;- ne_countries(scale = \"small\", returnclass = \"sf\")\n\n\nFirst we use the familiar ggplot2 syntax. Like in any other ggplot, we have an x and a y axis, though in this case the correspond to longitude and latitude. Knowing this, we can use other ggplot2 commands to make our map more complex. Below we draw a horizontal line where the yintercept is at the equator.\n\n\nworld %&gt;% \n  ggplot() + \n  geom_sf() +\n  geom_hline(yintercept = 0, linetype = \"dashed\") \n\n\n\n\n\n\n\n\n\nWorld map with income groups\n\n\nworld %&gt;% \n  mutate(income_grp = factor(income_grp, ordered = T)) %&gt;% \n  ggplot() + \n  geom_sf(aes(fill = income_grp)) +\n  theme_void() +\n  theme(legend.position = \"top\") +\n  labs(fill = \"Income Group:\") +\n  guides(fill=guide_legend(nrow=2, byrow=TRUE))",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Human geography lab 1</span>"
     ]
@@ -987,6 +987,16 @@
     "text": "6.4 Urban Planning and Economic Inequality\nCan we design the fair or “decent” city? This question has taken on urgency in recent years as income inequality has risen sharply.\nUrbanization can help reduce income inequality: https://www.nature.com/articles/s42949-021-00040-y",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Urban geography: Cities, infrastructure, and planning</span>"
+    ]
+  },
+  {
+    "objectID": "lecture_7.html#shapefile-in-gis",
+    "href": "lecture_7.html#shapefile-in-gis",
+    "title": "7  Human geography lab 1",
+    "section": "7.2 Shapefile in GIS",
+    "text": "7.2 Shapefile in GIS\nShapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications.\nA shapefile is a vector data format for storing geometric location and attribute information of geographic features. It’s a set of related files, including .shp, .shx, and .dbf, which together define the shape and attributes of features like points, lines, and polygons. Shapefiles are commonly used in GIS software for data interoperability and analysis.\nShapefiles are created by Environmental Systems Research Institute (ESRI) and are used for storing spatial data.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Human geography lab 1</span>"
     ]
   }
 ]
