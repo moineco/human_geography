@@ -11,17 +11,17 @@ The word geography, invented by the ancient Greek scholar Eratosthenes, is based
 
 To introduce human geography, we concentrate on two main features of society: culture and economy. The lectures explain why the most important cultural features, such as languages, religions, and ethnicities, are arranged as they are across Earth. The lecture also looks at the distribution of the most important economic activities, including agriculture, manufacturing, and services.
 
--   Why where matters
+- Why where matters
 
 We tend to focus on two big decisions: who we choose as our life partner and what we do for work. But there is a third big decision—where you choose to live. The decision about where may be the most important, because it has a huge bearing on the others.
 
 Where you choose to live affects every aspect of your being. It influences the income you can potentially earn, and how far you can develop your skills. It has a bearing on the friends and romantic partners you can potentially meet, the networks you can build, and the options that will be available to your children. It shapes your values and your politics. It plays a role in how happy and healthy you are, and in your overall quality of life.
 
--   Why is every place unique?
+- Why is every place unique?
 
 Humans possess a strong sense of place—that is, a feeling for the features that contribute to the distinctiveness of a particular spot on Earth—perhaps a hometown, vacation destination, or college. Describing the features of a place is an essential building block for geographers to explain similarities, differences, and changes across Earth.
 
--   Location
+- Location
 
 Geographers describe a feature’s place on Earth by identifying its location, which is the position that something occupies on Earth’s surface. In doing so, they consider three ways to identify location: place name, site, and situation. Geographers analyze where particular places are located and the combination of features that make each place on Earth distinct. Because all inhabited places on Earth’s surface—and many uninhabited places—have been named, the most straightforward way to describe a particular location is often by referring to its place name.
 
@@ -43,72 +43,72 @@ Human geography and history both rely on the collection of evidence about human 
 
 Studies natural processes and features such as:
 
--   Climate and weather patterns
--   Land-forms (mountains, rivers, valleys)
--   Natural disasters (earthquakes, tsunamis)
--   Ecosystems and biodiversity
-    -   Example: Studying how hurricanes affect coastal regions
+- Climate and weather patterns
+- Land-forms (mountains, rivers, valleys)
+- Natural disasters (earthquakes, tsunamis)
+- Ecosystems and biodiversity
+  - Example: Studying how hurricanes affect coastal regions
 
 ### Human Geography
 
 Examines human activities, cultures, economies, and social interactions, including:
 
--   Population growth and migration
--   Urbanization and development
--   Economic and political systems
--   Cultural landscapes
-    -   Example: Analyzing the impact of globalization on local economies
+- Population growth and migration
+- Urbanization and development
+- Economic and political systems
+- Cultural landscapes
+  - Example: Analyzing the impact of globalization on local economies
 
 ### Human Geography vs. Physical Geography
 
--   Physical geography focuses on natural processes (e.g., how rivers form).
--   Human geography focuses on human interactions with the environment (e.g., how cities develop near rivers).
+- Physical geography focuses on natural processes (e.g., how rivers form).
+- Human geography focuses on human interactions with the environment (e.g., how cities develop near rivers).
 
 ## The Scope of Human Geography
 
 Human geographers explore where human activities occur, why they occur there, and their impacts. The field covers:
 
--   Population and Health Geography: Studies birth rates, migration patterns, and public health issues.
--   Cultural Geography: Examines language, religion, and ethnicity.
--   Political Geography: Investigates state boundaries, conflicts, and international relations.
--   Economic Geography: Analyzes industries, trade, and globalization.
--   Urban Geography: Studies city growth, transportation, and infrastructure.
--   Environmental Geography: Explores human impacts on ecosystems, sustainability, and climate change.
+- Population and Health Geography: Studies birth rates, migration patterns, and public health issues.
+- Cultural Geography: Examines language, religion, and ethnicity.
+- Political Geography: Investigates state boundaries, conflicts, and international relations.
+- Economic Geography: Analyzes industries, trade, and globalization.
+- Urban Geography: Studies city growth, transportation, and infrastructure.
+- Environmental Geography: Explores human impacts on ecosystems, sustainability, and climate change.
 
 ### Fundamental Questions in Human Geography
 
 American geographer Charles Gritzner proposed three essential questions
 
--   What is where? – Identifies the location of people and activities.
--   Why there? – Explains why things are located in certain places.
--   Why care? – Examines the impact and significance of spatial patterns.
+- What is where? – Identifies the location of people and activities.
+- Why there? – Explains why things are located in certain places.
+- Why care? – Examines the impact and significance of spatial patterns.
 
 Example: Global Manufacturing Shift
 
--   What is where? – Clothing manufacturing has moved from North America and Europe to Asia.
--   Why there? – Labor is cheaper, trade policies favor outsourcing, and there is industrial infrastructure.
--   Why care? – Loss of jobs in developed countries, worker exploitation in developing countries, and environmental concerns.
+- What is where? – Clothing manufacturing has moved from North America and Europe to Asia.
+- Why there? – Labor is cheaper, trade policies favor outsourcing, and there is industrial infrastructure.
+- Why care? – Loss of jobs in developed countries, worker exploitation in developing countries, and environmental concerns.
 
 ## The Importance of Human Geography
 
--   Helps explain urbanization, migration, globalization, and climate change.
--   Provides insights into economic development, cultural diversity, and political conflicts.
+- Helps explain urbanization, migration, globalization, and climate change.
+- Provides insights into economic development, cultural diversity, and political conflicts.
 
 Example:
 
 California’s drought (2011-2017)
 
--   Reduced water availability for farming.
--   Increased food prices worldwide.
--   Global impact on agriculture and trade.
+- Reduced water availability for farming.
+- Increased food prices worldwide.
+- Global impact on agriculture and trade.
 
 ## Geographic Tools
 
--   Maps: Thematic, political, and topographic maps help visualize spatial relationships.
--   GIS (Geographic Information Systems): Computer-based mapping for analysis.
--   Remote Sensing: Satellites track deforestation, urban sprawl, and climate change.
--   GPS (Global Positioning System): Navigation and location tracking.
--   Fieldwork & Surveys: Collecting firsthand data through interviews, observations, and censuses.
+- Maps: Thematic, political, and topographic maps help visualize spatial relationships.
+- GIS (Geographic Information Systems): Computer-based mapping for analysis.
+- Remote Sensing: Satellites track deforestation, urban sprawl, and climate change.
+- GPS (Global Positioning System): Navigation and location tracking.
+- Fieldwork & Surveys: Collecting firsthand data through interviews, observations, and censuses.
 
 ## The Geographic Grid
 
@@ -122,9 +122,9 @@ Source: <https://keydifferences.com/wp-content/uploads/2017/02/latitude-vs-longi
 
 The location of any place on Earth’s surface can be described by these human-imagined arcs and circles, known as meridians and parallels, respectively, that form a grid pattern on Earth’s surface:
 
--   A meridian is an arc drawn between the North and South poles. The location of each meridian is identified on Earth’s surface according to a numbering system known as longitude (経度- keido).
+- A meridian is an arc drawn between the North and South poles. The location of each meridian is identified on Earth’s surface according to a numbering system known as longitude (経度- keido).
 
--   A parallel is a circle drawn around the globe parallel to the equator and at right angles to the meridians. The numbering system to indicate the location of a parallel is called latitude (緯度- ido).
+- A parallel is a circle drawn around the globe parallel to the equator and at right angles to the meridians. The numbering system to indicate the location of a parallel is called latitude (緯度- ido).
 
 ## Place: A Unique Location
 
@@ -136,6 +136,6 @@ A place may be named for a person, perhaps its founder or a famous person with n
 
 ## Key Takeaway
 
--   Human geography examines where people live, how they interact, and why spatial patterns matter.
--   It bridges social sciences, economics, politics, and environmental studies.
--   Geography is not just about maps—it helps us understand global challenges and shape solutions.
+- Human geography examines where people live, how they interact, and why spatial patterns matter.
+- It bridges social sciences, economics, politics, and environmental studies.
+- Geography is not just about maps—it helps us understand global challenges and shape solutions.

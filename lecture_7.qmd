@@ -18,17 +18,17 @@ Shapefile is commonly used with R, a powerful programming language and software 
 
 > While shapefile is a common choice for working with spatial data in R, it's important to note that R also supports other geospatial file formats, such as GeoJSON and Geopackage. These formats may offer advantages like improved data compression, support for more advanced spatial features, and better inter-operability with certain software ecosystems.
 
--   Use `pacman` to manage the R packages
+- Use `pacman` to manage the R packages
 
--   Using `packman` package enables us to install and load a package without typing `install.packges()` at Console on your RStudio
+- Using `packman` package enables us to install and load a package without typing `install.packges()` at Console on your RStudio
 
--   You need to type the following command at Console on your RStudio
+- You need to type the following command at Console on your RStudio
 
 ```{txt}
 install.packages("pacman")
 ```
 
--   The installation of necessary R packages:
+- The installation of necessary R packages:
 
 ```{r message=FALSE, warning=FALSE}
 #| code-fold: false
@@ -37,16 +37,16 @@ pacman::p_load(sf, tidyverse, rnaturalearth)
 
 ## Using `sf` package to make map
 
--   Create data for world
+- Create data for world
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 #| code-fold: false
 world <- ne_countries(scale = "small", returnclass = "sf")
 ```
 
--   First we use the familiar ggplot2 syntax. Like in any other ggplot, we have an x and a y axis, though in this case the correspond to longitude and latitude. Knowing this, we can use other ggplot2 commands to make our map more complex. Below we draw a horizontal line where the `yintercept` is at the equator.
+- First we use the familiar ggplot2 syntax. Like in any other ggplot, we have an x and a y axis, though in this case the correspond to longitude and latitude. Knowing this, we can use other ggplot2 commands to make our map more complex. Below we draw a horizontal line where the `yintercept` is at the equator.
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 #| code-fold: false
 world %>% 
   ggplot() + 
@@ -54,9 +54,9 @@ world %>%
   geom_hline(yintercept = 0, linetype = "dashed") 
 ```
 
--   World map with income groups
+- World map with income groups
 
-```{r}
+```{r message=FALSE, warning=FALSE}
 #| code-fold: false
 world %>% 
   mutate(income_grp = factor(income_grp, ordered = T)) %>% 
