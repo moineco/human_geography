@@ -1,87 +1,69 @@
 # Human geography lab 2
 
-The following packages will be required for this chapter:
+## Shapefile in GIS
 
-```{r}
-#| warning: false
-#| message: false
-#| code-fold: false
-pacman::p_load(tidyverse, maps)
+Shapefile is important for GIS (Geographic Information System) due to its widespread use and compatibility with various software applications.
+
+A shapefile is a vector data format for storing geometric location and attribute information of geographic features. It's a set of related files, including .shp, .shx, and .dbf, which together define the shape and attributes of features like points, lines, and polygons. Shapefiles are commonly used in GIS software for data interoperability and analysis.
+
+Shapefiles are created by Environmental Systems Research Institute (ESRI) and are used for storing spatial data.
+
+## Shapefile and R
+
+Shapefile is commonly used with R, a powerful programming language and software environment for statistical computing and graphics. Here's why shapefile is often preferred for use with R:
+
+**Native Support:** R has built-in support for reading, writing, and manipulating shapefiles. The "sf" package in R provides functions specifically designed for working with spatial data, including shapefiles. This native support simplifies the process of loading shapefiles into R and performing various spatial analyses.
+
+**Visualization Capabilities:** R offers extensive visualization capabilities for geospatial data. Packages like "ggplot2" and "leaflet" enable you to create high-quality maps and interactive visualizations using shapefiles as the data source. R's flexibility in customizing plots allows for advanced geospatial visualizations and exploration.
+
+> While shapefile is a common choice for working with spatial data in R, it's important to note that R also supports other geospatial file formats, such as GeoJSON and Geopackage. These formats may offer advantages like improved data compression, support for more advanced spatial features, and better inter-operability with certain software ecosystems.
+
+- Use `pacman` to manage the R packages
+
+- Using `packman` package enables us to install and load a package without typing `install.packges()` at Console on your RStudio
+
+- You need to type the following command at Console on your RStudio
+
+```{txt}
+install.packages("pacman")
 ```
 
-### World map
-
--   The `maps` package contains data for the world, USA, France, Italy and New Zealand. It contains information such as latitude, longitude, group, region, etc. like this.
-
--   First call the world map data
-
--   You can see the data structure by using `head` command.
+- The installation of necessary R packages:
 
 ```{r message=FALSE, warning=FALSE}
 #| code-fold: false
-world_map <- map_data("world")
-head(world_map)
+pacman::p_load(sf, tidyverse, rnaturalearth)
 ```
 
--   By using the `ggplot2` boundaries can be drawn with `geom_polygon()` with latitude and longitude as shown in @fig-mymap-12.1
+## Using `sf` package to make map
 
-```{r fig-mymap-12.1, message=FALSE, warning=FALSE}
+- Create data for world
+
+```{r message=FALSE, warning=FALSE}
 #| code-fold: false
-#| fig.cap: "World countries"
-#| fig.height: 4
-world_map %>% 
-  ggplot(aes(x = long, y = lat, group = group)) +
-  geom_polygon(fill = "lightgray", colour = "black", size = 0.1) 
+world <- ne_countries(scale = "small", returnclass = "sf")
 ```
 
-### Japan map
+- First we use the familiar ggplot2 syntax. Like in any other ggplot, we have an x and a y axis, though in this case the correspond to longitude and latitude. Knowing this, we can use other ggplot2 commands to make our map more complex. Below we draw a horizontal line where the `yintercept` is at the equator.
 
--   If we limit the data with `filter()`, we can also draw a map of specific countries.
-
--   For instance, we will filter the data for Japan and draw a map as shown in @fig-mymap-12.2
-
-```{r fig-mymap-12.2, message=FALSE, warning=FALSE}
+```{r message=FALSE, warning=FALSE}
 #| code-fold: false
-#| fig.cap: "Japan"
-#| fig.height: 4
-world_map %>% 
-  filter(region == "Japan") %>% 
-  ggplot(aes(x = long, y = lat, group = group)) +
-  geom_polygon(fill = "lightgray", colour = "black", size = 0.1)
+world %>% 
+  ggplot() + 
+  geom_sf() +
+  geom_hline(yintercept = 0, linetype = "dashed") 
 ```
 
--   We will change the color of Japan map and draw a map as shown in @fig-mymap-12.3
+- World map with income groups
 
-```{r fig-mymap-12.3, message=FALSE, warning=FALSE}
+```{r message=FALSE, warning=FALSE}
 #| code-fold: false
-#| fig.cap: "Japan"
-#| fig.height: 4
-world_map %>% 
-  filter(region == "Japan") %>% 
-  ggplot(aes(x = long, y = lat, group = group)) +
-  geom_polygon(fill = "blue", colour = "black", size = 0.1)
-```
-
--   We will filter the data for China and draw a map as shown in @fig-mymap-12.4
-
-```{r fig-mymap-12.4, message=FALSE, warning=FALSE}
-#| code-fold: false
-#| fig.cap: "China"
-#| fig.height: 4
-world_map %>% 
-  filter(region == "China") %>% 
-  ggplot(aes(x = long, y = lat, group = group)) +
-  geom_polygon(fill = "red", colour = "black", size = 0.1)
-```
-
--   We will filter the data for Brazil and draw a map as shown in @fig-mymap-12.5
-
-```{r fig-mymap-12.5, message=FALSE, warning=FALSE}
-#| code-fold: false
-#| fig.cap: "Brazil"
-#| fig.height: 4
-world_map %>% 
-  filter(region == "Brazil") %>% 
-  ggplot(aes(x = long, y = lat, group = group)) +
-  geom_polygon(fill = "green", colour = "black", size = 0.1)
+world %>% 
+  mutate(income_grp = factor(income_grp, ordered = T)) %>% 
+  ggplot() + 
+  geom_sf(aes(fill = income_grp)) +
+  theme_void() +
+  theme(legend.position = "top") +
+  labs(fill = "Income Group:") +
+  guides(fill=guide_legend(nrow=2, byrow=TRUE))
 ```
