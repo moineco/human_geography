@@ -8,8 +8,19 @@ Mac Computer: <https://yukiyanai.github.io/jp/resources/docs/install-R_macOS_202
 
 Windows Computer: <https://yukiyanai.github.io/jp/resources/docs/install-R_windows_2026.pdf>
 
+## Use a package manager to install and load necessary R packages
 
-## The following packages will be required for this chapter:
+- Use `pacman` to manage the R packages
+
+- Using `packman` package enables us to install and load a package without typing `install.packges()` at Console on your RStudio
+
+- You need to type the following command at Console on your RStudio
+
+```{txt}
+install.packages("pacman")
+```
+
+- The installation of necessary R packages and load them in your working environment:
 
 ```{r}
 #| warning: false

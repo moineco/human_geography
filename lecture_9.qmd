@@ -18,16 +18,6 @@ Shapefile is commonly used with R, a powerful programming language and software 
 
 > While shapefile is a common choice for working with spatial data in R, it's important to note that R also supports other geospatial file formats, such as GeoJSON and Geopackage. These formats may offer advantages like improved data compression, support for more advanced spatial features, and better inter-operability with certain software ecosystems.
 
-- Use `pacman` to manage the R packages
-
-- Using `packman` package enables us to install and load a package without typing `install.packges()` at Console on your RStudio
-
-- You need to type the following command at Console on your RStudio
-
-```{txt}
-install.packages("pacman")
-```
-
 - The installation of necessary R packages:
 
 ```{r message=FALSE, warning=FALSE}
