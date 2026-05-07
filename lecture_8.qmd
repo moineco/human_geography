@@ -1,39 +1,39 @@
-# Economic geography: Trade and globalization
+# Economic geography: AI, Trade and globalization
 
 ### Definition
 
--   Economic geography examines how economic activities are distributed across space, including industries, trade, and globalization.
+- Economic geography examines how economic activities are distributed across space, including industries, trade, and globalization.
 
 ### Why it matters
 
--   Economic geography helps explain why some regions are wealthy while others remain poor.
--   Globalization has reshaped trade, labor markets, and industry locations.
--   Technology and transportation advancements have changed the economic landscape.
+- Economic geography helps explain why some regions are wealthy while others remain poor.
+- Globalization has reshaped trade, labor markets, and industry locations.
+- Technology and transportation advancements have changed the economic landscape.
 
 ### Key Questions in Economic Geography
 
--   Why are industries and businesses located in certain places?
--   How do global trade and economic policies shape economies?
--   What are the impacts of globalization on industry, labor, and development?
--   How do economic activities affect environmental sustainability?
+- Why are industries and businesses located in certain places?
+- How do global trade and economic policies shape economies?
+- What are the impacts of globalization on industry, labor, and development?
+- How do economic activities affect environmental sustainability?
 
 ## Industrial Geography: The Location of Industries
 
 ### Industrial Revolution and Economic Development
 
--   The Industrial Revolution (1750–1850) transformed economies from agriculture to industry.
--   Factories and mass production replaced manual labor → rapid urbanization.
--   New transportation networks (railways, ships) boosted trade.
+- The Industrial Revolution (1750–1850) transformed economies from agriculture to industry.
+- Factories and mass production replaced manual labor → rapid urbanization.
+- New transportation networks (railways, ships) boosted trade.
 
 ### Factors Influencing Industrial Location
 
 Alfred Weber’s Least Cost Theory (1909):
 
--   Industries locate based on minimizing transportation, labor, and agglomeration costs.
--   Example: Car manufacturing in Detroit due to skilled labor and access to steel.
+- Industries locate based on minimizing transportation, labor, and agglomeration costs.
+- Example: Car manufacturing in Detroit due to skilled labor and access to steel.
 
 | Factor | Description | Example |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Raw Materials | Proximity to resources reduces transport costs | Coal mines in Pennsylvania |
 | Labor Supply | Skilled/unskilled workers influence location | Tech companies in Silicon Valley |
 | Market Access | Industries locate near customers | Fashion industry in Paris |
@@ -44,75 +44,109 @@ Alfred Weber’s Least Cost Theory (1909):
 
 Why in California?
 
--   Proximity to universities (Stanford, Berkeley).
--   Investment from venture capitalists.
--   Climate and lifestyle attract talent.
+- Proximity to universities (Stanford, Berkeley).
+- Investment from venture capitalists.
+- Climate and lifestyle attract talent.
 
 ## Global Trade and Economic Systems
 
 ### Types of Economic Systems
 
 | Economic System | Characteristics | Example Countries |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Capitalist (Market Economy) | Private ownership, free trade | USA, UK, Canada |
 | Socialist (Planned Economy) | Government controls resources, limited private ownership | China, Cuba |
 | Mixed Economy | Combination of private and public sectors | Germany, Sweden |
 
 ### Global Trade Networks
 
--   International trade connects producers and consumers across countries.
+- International trade connects producers and consumers across countries.
 
--   Key Trade Agreements and Organizations:
+- Key Trade Agreements and Organizations:
 
-    -   World Trade Organization (WTO): Regulates global trade.
-    -   North American Free Trade Agreement (NAFTA → USMCA): Trade between USA, Canada, Mexico.
-    -   European Union (EU): Economic and trade integration among member states.
-    -   Belt and Road Initiative (China): Massive infrastructure and trade project.
+  - World Trade Organization (WTO): Regulates global trade.
+  - North American Free Trade Agreement (NAFTA → USMCA): Trade between USA, Canada, Mexico.
+  - European Union (EU): Economic and trade integration among member states.
+  - Belt and Road Initiative (China): Massive infrastructure and trade project.
 
 Case Study: China’s Role in Global Trade
 
--   "The World’s Factory": Largest exporter of goods.
--   Relies on cheap labor, strong infrastructure, and manufacturing expertise.
--   US-China trade tensions impact global markets.
+- "The World’s Factory": Largest exporter of goods.
+- Relies on cheap labor, strong infrastructure, and manufacturing expertise.
+- US-China trade tensions impact global markets.
 
 ## Globalization and Economic Change
 
 ### What is Globalization?
 
--   Globalization is the increasing interconnectedness of economies, cultures, and politics worldwide.
+- Globalization is the increasing interconnectedness of economies, cultures, and politics worldwide.
 
--   Driven by:
+- Driven by:
 
-    -   Technology advancements (Internet, digital banking).
-    -   Trade liberalization (lower tariffs, free trade).
-    -   Multinational corporations (MNCs) (e.g., Apple, Amazon).
+  - Technology advancements (Internet, digital banking).
+  - Trade liberalization (lower tariffs, free trade).
+  - Multinational corporations (MNCs) (e.g., Apple, Amazon).
 
 ### Impacts of Globalization
 
 Positive Effects:
 
--   Increased global trade and economic growth.
--   Access to new markets and job opportunities.
--   Faster technology diffusion.
+- Increased global trade and economic growth.
+- Access to new markets and job opportunities.
+- Faster technology diffusion.
 
 Negative Effects:
 
--   Job losses in some industries due to outsourcing.
--   Exploitation of workers in developing nations.
--   Environmental damage (deforestation, pollution).
+- Job losses in some industries due to outsourcing.
+- Exploitation of workers in developing nations.
+- Environmental damage (deforestation, pollution).
 
 Case Study: Outsourcing and Job Shifts
 
--   Nike and Apple manufacture in Asia due to low labor costs.
--   Pros: Low-cost products for consumers.
--   Cons: Worker exploitation (low wages, poor conditions).
+- Nike and Apple manufacture in Asia due to low labor costs.
+- Pros: Low-cost products for consumers.
+- Cons: Worker exploitation (low wages, poor conditions).
+
+## Economic geographies of AI
+
+We are currently confronting the latest digital technology that is potentially reshaping Economic Geography—the so-called Artificial Intelligence (AI) revolution. AI has revolutionized the way industries function and has brought about a
+significant transformation in the technological world. AI has gained attention as a critical driving
+force in the 21st century with the potential to impact almost every sector drastically. As an artificial
+intelligence-based system, it has become essential to explore its significance in various businesses,
+such as international trade. The application of AI use in trade has become a subject of increasing
+concern in the global business arena. 
+
+### Pros of AI in International Trade 
+
+- Improved efficiency in supply chain management 
+- Enhanced decision-making through data analysis
+- Increased productivity and competitiveness 
+- Reduction in labor costs 
+
+### Cons of AI in International Trade
+
+- Job displacement due to automation
+- Dependence on technology 
+- Data privacy and security concerns 
+- Potential for monopolies and unfair competition 
+
+The impact of artificial intelligence on the future of international trade is both promising and
+daunting. While AI has the potential to enhance efficiency, speed, accuracy, and innovation in trade,
+it also poses some unprecedented challenges to labor, security, ethics, and governance. The
+benefits and risks of AI in trade depend on how it is developed, deployed, regulated, and used by
+different actors, including businesses, governments, workers, consumers, and civil society. Thus,
+it is crucial to strike a balance between the opportunities and risks of AI in shaping a more
+equitable, sustainable, and human-centric international trade system. This requires a collaborative
+and inclusive approach among stakeholders across sectors and borders, as well as a sound legal
+and ethical framework that ensures accountability, transparency, and participation. The future of
+AI in trade is not predetermined, but rather shaped by our collective choices and actions today. 
 
 ## Economic Development and Inequality
 
 ### Measuring Economic Development
 
 | Indicator | Description | Example |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | GDP per capita | Total economic output per person | USA: \$75,000 vs. India: \$6,000 |
 | Human Development Index (HDI) | Combines income, education, life expectancy | Norway: 0.957 vs. Chad: 0.394 |
 | Gini Coefficient | Measures income inequality (0 = equal, 1 = extreme inequality) | South Africa: 0.63 vs. Sweden: 0.25 |
@@ -121,11 +155,11 @@ Case Study: Outsourcing and Job Shifts
 
 Global North (Developed Nations)
 
--   High incomes, industrialized economies (USA, Germany, Japan).
+- High incomes, industrialized economies (USA, Germany, Japan).
 
 Global South (Developing Nations)
 
--   Lower incomes, reliance on agriculture (Bangladesh, Nigeria).
+- Lower incomes, reliance on agriculture (Bangladesh, Nigeria).
 
 Efforts to bridge the gap: UN Sustainable Development Goals (SDGs), microfinance, fair trade.
 
@@ -133,19 +167,19 @@ Efforts to bridge the gap: UN Sustainable Development Goals (SDGs), microfinance
 
 ### Sustainable Development Strategies
 
--   Renewable Energy Investment: Solar, wind power to reduce carbon footprint.
--   Fair Trade Policies: Ensuring workers receive fair wages.
--   Green Supply Chains: Reducing pollution in global manufacturing.
--   Circular Economy: Recycling and waste reduction.
+- Renewable Energy Investment: Solar, wind power to reduce carbon footprint.
+- Fair Trade Policies: Ensuring workers receive fair wages.
+- Green Supply Chains: Reducing pollution in global manufacturing.
+- Circular Economy: Recycling and waste reduction.
 
 Case Study: Green Economy in Germany
 
--   Germany leads in renewable energy (solar, wind).
--   Government incentives for sustainable industries.
+- Germany leads in renewable energy (solar, wind).
+- Government incentives for sustainable industries.
 
 ## Takeaway
 
--   Economic geography helps explain how industries, trade, and globalization shape economies.
--   Industries are strategically located based on resources, labor, and markets.
--   Globalization has benefits but also challenges (inequality, job shifts).
--   Sustainable economic strategies are crucial for future growth.
+- Economic geography helps explain how industries, trade, and globalization shape economies.
+- Industries are strategically located based on resources, labor, and markets.
+- Globalization has benefits but also challenges (inequality, job shifts).
+- Sustainable economic strategies are crucial for future growth.
