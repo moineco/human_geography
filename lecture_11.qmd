@@ -17,12 +17,13 @@ pacman::p_load(tidyverse, sf)
 
 - Load the `shapefile` of Japan's administrative divisions
 
+
 ```{r, results='hide'}
 #| code-fold: false
 #| message: false
-jp0_shp <- st_read("data/shapefile/jp_adm0_shp/jpn_admbnda_adm0_2019.shp")
-jp1_shp <- st_read("data/shapefile/jp_adm1_shp/jpn_admbnda_adm1_2019.shp") 
-jp2_shp <- st_read("data/shapefile/jp_adm2_shp/jpn_admbnda_adm2_2019.shp") 
+jp0_shp <- st_read("data/jpn_adm_2019_shp/jpn_admbnda_adm0_2019.shp")
+jp1_shp <- st_read("data/jpn_adm_2019_shp/jpn_admbnda_adm1_2019.shp") 
+jp2_shp <- st_read("data/jpn_adm_2019_shp/jpn_admbnda_adm2_2019.shp") 
 ```
 
 - Observe the data inside the shape file of `adm0`

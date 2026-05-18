@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -71,8 +71,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-1092c56c6cadf2eb47b1bc8063ab382a.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-1092c56c6cadf2eb47b1bc8063ab382a.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-a185852c63625fd9ffbdc57047c9a77e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-a185852c63625fd9ffbdc57047c9a77e.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-6312b7a0dd1da570a6ee9537839adad1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -329,9 +329,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Load the <code>shapefile</code> of Japan’s administrative divisions</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>jp0_shp <span class="ot">&lt;-</span> <span class="fu">st_read</span>(<span class="st">"data/shapefile/jp_adm0_shp/jpn_admbnda_adm0_2019.shp"</span>)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>jp1_shp <span class="ot">&lt;-</span> <span class="fu">st_read</span>(<span class="st">"data/shapefile/jp_adm1_shp/jpn_admbnda_adm1_2019.shp"</span>) </span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>jp2_shp <span class="ot">&lt;-</span> <span class="fu">st_read</span>(<span class="st">"data/shapefile/jp_adm2_shp/jpn_admbnda_adm2_2019.shp"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>jp0_shp <span class="ot">&lt;-</span> <span class="fu">st_read</span>(<span class="st">"data/jpn_adm_2019_shp/jpn_admbnda_adm0_2019.shp"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>jp1_shp <span class="ot">&lt;-</span> <span class="fu">st_read</span>(<span class="st">"data/jpn_adm_2019_shp/jpn_admbnda_adm1_2019.shp"</span>) </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>jp2_shp <span class="ot">&lt;-</span> <span class="fu">st_read</span>(<span class="st">"data/jpn_adm_2019_shp/jpn_admbnda_adm2_2019.shp"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>Observe the data inside the shape file of <code>adm0</code></li>
